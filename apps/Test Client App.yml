@@ -514,10 +514,12 @@ appTemplate:
                 - playgroundQuerySaveId: 0
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: true
-                - query: >-
-                    select AVG(clients.estimated_household_net_worth), count(*)
-                    as number_of_clients as avg_net_worth from clients where id
-                    =ANY({{ query1.data.id }})
+                - query: |-
+                    select
+                      AVG(clients.estimated_household_net_worth) as avg_net_worth,
+                      count(*) as number_of_clientsfrom clients
+                    where
+                      id = ANY({{ query1.data.id }})
                 - playgroundQueryId: 0
                 - privateParams: []
                 - triggersOnSuccess: []
@@ -556,7 +558,7 @@ appTemplate:
                 - databaseUsernameOverride: ''
                 - queryThrottleTime: '750'
             createdAt: 2019-09-11T20:20:20.266Z
-            updatedAt: 2019-09-11T20:22:06.671Z
+            updatedAt: 2019-09-11T20:22:19.272Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
