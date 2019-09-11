@@ -225,9 +225,9 @@ appTemplate:
                 width: 4
             createdAt: 2019-09-11T16:54:35.134Z
             updatedAt: 2019-09-11T20:11:26.362Z
-      - query2:
+      - numberOfPendingKYCs:
           pluginTemplate:
-            id: query2
+            id: numberOfPendingKYCs
             type: datasource
             subtype: SqlQuery
             resourceName: testdb (read)
