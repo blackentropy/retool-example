@@ -287,7 +287,7 @@ appTemplate:
             subtype: StatisticWidget
             template:
               ordered:
-                - title: Current Price
+                - title: Pending
                 - value: 1234.5678
                 - prefix: $
                 - suffix: / lb.
@@ -303,7 +303,7 @@ appTemplate:
                 height: 2
                 width: 2
             createdAt: 2019-09-11T20:12:24.894Z
-            updatedAt: 2019-09-11T20:12:24.894Z
+            updatedAt: 2019-09-11T20:12:56.593Z
       - statistic2:
           pluginTemplate:
             id: statistic2
