@@ -336,7 +336,7 @@ appTemplate:
             subtype: StatisticWidget
             template:
               ordered:
-                - title: Current Price
+                - title: Current PriceRejected
                 - value: 1234.5678
                 - prefix: $
                 - suffix: / lb.
@@ -353,7 +353,7 @@ appTemplate:
                 height: 2
                 width: 2
             createdAt: 2019-09-11T20:12:45.377Z
-            updatedAt: 2019-09-11T20:12:45.377Z
+            updatedAt: 2019-09-11T20:13:15.859Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
