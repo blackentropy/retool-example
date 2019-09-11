@@ -429,7 +429,9 @@ appTemplate:
                 - playgroundQuerySaveId: 0
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: true
-                - query: 'select count(*) from clients where clients.status is null '
+                - query: >-
+                    select count(*) from clients where clients.status =
+                    'rejected' 
                 - playgroundQueryId: 0
                 - privateParams: []
                 - triggersOnSuccess: []
@@ -468,7 +470,7 @@ appTemplate:
                 - databaseUsernameOverride: ''
                 - queryThrottleTime: '750'
             createdAt: 2019-09-11T20:15:52.148Z
-            updatedAt: 2019-09-11T20:15:52.148Z
+            updatedAt: 2019-09-11T20:16:21.740Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
