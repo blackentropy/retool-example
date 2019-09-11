@@ -481,7 +481,7 @@ appTemplate:
                 - title: Avg Net Worth
                 - value: '{{ query5.data.avg_net_worth}}'
                 - prefix: $
-                - suffix: / lb.
+                - suffix: ''
                 - precision: 2
                 - round: true
             position2:
@@ -497,7 +497,7 @@ appTemplate:
                 height: 2
                 width: 2
             createdAt: 2019-09-11T20:20:10.180Z
-            updatedAt: 2019-09-11T20:22:46.100Z
+            updatedAt: 2019-09-11T20:22:51.749Z
       - query5:
           pluginTemplate:
             id: query5
