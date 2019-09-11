@@ -194,9 +194,9 @@ appTemplate:
                 width: 8
             createdAt: 2019-09-11T16:54:28.420Z
             updatedAt: 2019-09-11T20:23:54.452Z
-      - textinput1:
+      - client_name_search:
           pluginTemplate:
-            id: textinput1
+            id: client_name_search
             type: widget
             subtype: TextInputWidget
             template:
