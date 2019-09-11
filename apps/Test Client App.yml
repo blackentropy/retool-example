@@ -22,7 +22,7 @@ appTemplate:
                 - runWhenModelUpdates: true
                 - query: >-
                     select * from clients where full_name ilike {{ '%' +
-                    textinput1.value + '%" '}}
+                    textinput1.value + '%'}}
                 - playgroundQueryId: 0
                 - privateParams: []
                 - triggersOnSuccess: []
@@ -61,7 +61,7 @@ appTemplate:
                 - databaseUsernameOverride: ''
                 - queryThrottleTime: '750'
             createdAt: 2019-09-11T16:54:21.715Z
-            updatedAt: 2019-09-11T16:54:49.343Z
+            updatedAt: 2019-09-11T16:54:54.122Z
       - table1:
           pluginTemplate:
             id: table1
