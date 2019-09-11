@@ -78,6 +78,9 @@ appTemplate:
                     - object:
                         id: household_history
                         value: 190.15625
+                    - object:
+                        id: full_name
+                        value: 163
                 - columnWidthsMobile: []
                 - columnHeaderNames:
                     ordered: []
@@ -193,7 +196,7 @@ appTemplate:
                 height: 8
                 width: 8
             createdAt: 2019-09-11T16:54:28.420Z
-            updatedAt: 2019-09-11T20:25:35.928Z
+            updatedAt: 2019-09-11T20:30:16.103Z
       - client_name_search:
           pluginTemplate:
             id: client_name_search
