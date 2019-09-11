@@ -311,7 +311,7 @@ appTemplate:
             subtype: StatisticWidget
             template:
               ordered:
-                - title: Current Price
+                - title: Approved
                 - value: 1234.5678
                 - prefix: $
                 - suffix: / lb.
@@ -328,7 +328,7 @@ appTemplate:
                 height: 2
                 width: 2
             createdAt: 2019-09-11T20:12:32.492Z
-            updatedAt: 2019-09-11T20:12:32.492Z
+            updatedAt: 2019-09-11T20:13:12.348Z
       - statistic3:
           pluginTemplate:
             id: statistic3
