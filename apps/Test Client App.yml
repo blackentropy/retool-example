@@ -478,7 +478,7 @@ appTemplate:
             subtype: StatisticWidget
             template:
               ordered:
-                - title: Current Price
+                - title: Avg Net Worth
                 - value: 1234.5678
                 - prefix: $
                 - suffix: / lb.
@@ -497,7 +497,7 @@ appTemplate:
                 height: 2
                 width: 2
             createdAt: 2019-09-11T20:20:10.180Z
-            updatedAt: 2019-09-11T20:20:10.180Z
+            updatedAt: 2019-09-11T20:22:40.013Z
       - query5:
           pluginTemplate:
             id: query5
