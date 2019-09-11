@@ -339,7 +339,7 @@ appTemplate:
                 - title: Current PriceRejected
                 - value: 1234.5678
                 - prefix: $
-                - suffix: / lb.
+                - suffix: number of applications
                 - precision: 2
                 - round: true
             position2:
@@ -353,7 +353,7 @@ appTemplate:
                 height: 2
                 width: 2
             createdAt: 2019-09-11T20:12:45.377Z
-            updatedAt: 2019-09-11T20:13:15.859Z
+            updatedAt: 2019-09-11T20:13:21.355Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
