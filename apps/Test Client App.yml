@@ -289,8 +289,8 @@ appTemplate:
               ordered:
                 - title: Pending
                 - value: 1234.5678
-                - prefix: $
-                - suffix: / lb.
+                - prefix: '#'
+                - suffix: applications
                 - precision: '0'
                 - round: true
             position2:
@@ -303,7 +303,7 @@ appTemplate:
                 height: 2
                 width: 2
             createdAt: 2019-09-11T20:12:24.894Z
-            updatedAt: 2019-09-11T20:13:54.163Z
+            updatedAt: 2019-09-11T20:13:59.928Z
       - statistic2:
           pluginTemplate:
             id: statistic2
