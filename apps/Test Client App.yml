@@ -119,7 +119,7 @@ appTemplate:
                 - sortedDesc: false
                 - columnMappersRenderAsHTML:
                     ordered: []
-                - pageSize: 6
+                - pageSize: 8
                 - selectedColumn: null
                 - actionButtonPosition: left
                 - bulkUpdateAction: ''
@@ -171,9 +171,8 @@ appTemplate:
             position2:
               position2:
                 row: 2
-                col: 1
-                height: 8
-                width: 8
+                height: 10
+                width: 12
             mobilePosition2:
               position2:
                 row: 2
@@ -181,7 +180,46 @@ appTemplate:
                 height: 8
                 width: 8
             createdAt: 2019-09-11T16:54:28.420Z
-            updatedAt: 2019-09-11T16:54:28.677Z
+            updatedAt: 2019-09-11T16:54:31.175Z
+      - textinput1:
+          pluginTemplate:
+            id: textinput1
+            type: widget
+            subtype: TextInputWidget
+            template:
+              ordered:
+                - readonly: ''
+                - disabledKeyCodes: ''
+                - onBlur: ''
+                - docsSlug: textinput
+                - currencyType: USD
+                - leftIconName: search
+                - initialValue: ''
+                - tooltipText: ''
+                - value: ''
+                - placeholder: Search here...
+                - label: Name
+                - formattedValue: ''
+                - labelMaxWidth: ''
+                - labelPlacedOnLeft: ''
+                - onSubmit: ''
+                - type: text
+                - allowedRegex: .*
+                - required: false
+            position2:
+              position2:
+                row: 1
+                col: 8
+                height: 1
+                width: 4
+            mobilePosition2:
+              position2:
+                row: 1
+                col: 8
+                height: 1
+                width: 4
+            createdAt: 2019-09-11T16:54:35.134Z
+            updatedAt: 2019-09-11T16:54:35.134Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
