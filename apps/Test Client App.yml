@@ -122,7 +122,7 @@ appTemplate:
                 - selectedPageIndex: '0'
                 - actionButtonColumnName: Actions
                 - serverPaginated: false
-                - data: '{{ query1.data }}'
+                - data: '{{ filtered_clients.data }}'
                 - actionButtons: []
                 - actionButtonSelectsRow: true
                 - selectRowByDefault: true
@@ -193,7 +193,7 @@ appTemplate:
                 height: 8
                 width: 8
             createdAt: 2019-09-11T16:54:28.420Z
-            updatedAt: 2019-09-11T20:23:54.452Z
+            updatedAt: 2019-09-11T20:25:35.928Z
       - client_name_search:
           pluginTemplate:
             id: client_name_search
@@ -529,7 +529,7 @@ appTemplate:
                     from
                       clients
                     where
-                      id = ANY({{ query1.data.id }})
+                      id = ANY({{ filtered_clients.data.id }})
                 - playgroundQueryId: 0
                 - privateParams: []
                 - triggersOnSuccess: []
@@ -568,7 +568,7 @@ appTemplate:
                 - databaseUsernameOverride: ''
                 - queryThrottleTime: '750'
             createdAt: 2019-09-11T20:20:20.266Z
-            updatedAt: 2019-09-11T20:22:27.536Z
+            updatedAt: 2019-09-11T20:25:35.986Z
       - statistic5:
           pluginTemplate:
             id: statistic5
