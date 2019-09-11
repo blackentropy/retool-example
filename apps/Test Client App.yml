@@ -61,7 +61,7 @@ appTemplate:
                 - databaseUsernameOverride: ''
                 - queryThrottleTime: '750'
             createdAt: 2019-09-11T16:54:21.715Z
-            updatedAt: 2019-09-11T16:54:54.122Z
+            updatedAt: 2019-09-11T20:11:26.360Z
       - table1:
           pluginTemplate:
             id: table1
@@ -82,6 +82,7 @@ appTemplate:
                       - new_client: ''
                       - rtam: ''
                       - banker_first_name: ''
+                      - status: ''
                       - household_history: ''
                       - srf_client_account_number: ''
                       - first_name: ''
@@ -101,6 +102,7 @@ appTemplate:
                       - Sales: true
                       - rtam: true
                       - banker_first_name: true
+                      - status: true
                       - household_history: true
                       - srf_client_account_number: true
                       - Title: true
@@ -161,6 +163,7 @@ appTemplate:
                     - estimated_household_net_worth
                     - household_history
                     - houshold_risk
+                    - status
                 - sort: null
                 - calculatedColumns: []
                 - selectedRow:
@@ -182,7 +185,7 @@ appTemplate:
                 height: 8
                 width: 8
             createdAt: 2019-09-11T16:54:28.420Z
-            updatedAt: 2019-09-11T16:54:31.175Z
+            updatedAt: 2019-09-11T20:11:27.677Z
       - textinput1:
           pluginTemplate:
             id: textinput1
@@ -221,7 +224,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-11T16:54:35.134Z
-            updatedAt: 2019-09-11T16:54:35.134Z
+            updatedAt: 2019-09-11T20:11:26.362Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
