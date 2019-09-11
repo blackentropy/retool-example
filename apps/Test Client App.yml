@@ -289,7 +289,7 @@ appTemplate:
             template:
               ordered:
                 - title: Pending
-                - value: 1234.5678
+                - value: '{{ numberOfPendingKYCs.data.count}}'
                 - prefix: ''
                 - suffix: applications
                 - precision: ''
@@ -304,7 +304,7 @@ appTemplate:
                 height: 2
                 width: 2
             createdAt: 2019-09-11T20:12:24.894Z
-            updatedAt: 2019-09-11T20:14:21.013Z
+            updatedAt: 2019-09-11T20:15:34.591Z
       - statistic2:
           pluginTemplate:
             id: statistic2
