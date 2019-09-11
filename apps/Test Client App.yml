@@ -570,9 +570,9 @@ appTemplate:
               ordered:
                 - title: Number of clients
                 - value: '{{ query5.data.number_of_clients}}'
-                - prefix: $
+                - prefix: ''
                 - suffix: ''
-                - precision: 2
+                - precision: '0'
                 - round: true
             position2:
               position2:
@@ -587,7 +587,7 @@ appTemplate:
                 height: 2
                 width: 2
             createdAt: 2019-09-11T20:23:02.778Z
-            updatedAt: 2019-09-11T20:23:13.635Z
+            updatedAt: 2019-09-11T20:23:19.149Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
