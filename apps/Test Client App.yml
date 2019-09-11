@@ -576,8 +576,8 @@ appTemplate:
                 - round: true
             position2:
               position2:
-                row: 17
-                col: 7
+                row: 15
+                col: 9
                 height: 2
                 width: 2
             mobilePosition2:
