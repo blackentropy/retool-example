@@ -61,7 +61,7 @@ appTemplate:
                 - databaseUsernameOverride: ''
                 - queryThrottleTime: '750'
             createdAt: 2019-09-11T16:54:21.715Z
-            updatedAt: 2019-09-11T20:11:26.360Z
+            updatedAt: 2019-09-11T20:19:29.759Z
       - table1:
           pluginTemplate:
             id: table1
@@ -185,7 +185,7 @@ appTemplate:
                 height: 8
                 width: 8
             createdAt: 2019-09-11T16:54:28.420Z
-            updatedAt: 2019-09-11T20:11:27.677Z
+            updatedAt: 2019-09-11T20:19:29.760Z
       - textinput1:
           pluginTemplate:
             id: textinput1
@@ -213,7 +213,7 @@ appTemplate:
                 - required: false
             position2:
               position2:
-                row: 4
+                row: 3
                 col: 8
                 height: 1
                 width: 4
@@ -224,7 +224,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-11T16:54:35.134Z
-            updatedAt: 2019-09-11T20:11:26.362Z
+            updatedAt: 2019-09-11T20:19:29.760Z
       - numberOfPendingKYCs:
           pluginTemplate:
             id: numberOfPendingKYCs
@@ -280,7 +280,7 @@ appTemplate:
                 - databaseUsernameOverride: ''
                 - queryThrottleTime: '750'
             createdAt: 2019-09-11T20:11:50.515Z
-            updatedAt: 2019-09-11T20:15:18.400Z
+            updatedAt: 2019-09-11T20:19:29.761Z
       - statistic1:
           pluginTemplate:
             id: statistic1
@@ -304,7 +304,7 @@ appTemplate:
                 height: 2
                 width: 2
             createdAt: 2019-09-11T20:12:24.894Z
-            updatedAt: 2019-09-11T20:15:34.591Z
+            updatedAt: 2019-09-11T20:19:29.761Z
       - statistic2:
           pluginTemplate:
             id: statistic2
@@ -329,7 +329,7 @@ appTemplate:
                 height: 2
                 width: 2
             createdAt: 2019-09-11T20:12:32.492Z
-            updatedAt: 2019-09-11T20:16:30.333Z
+            updatedAt: 2019-09-11T20:19:29.761Z
       - statistic3:
           pluginTemplate:
             id: statistic3
@@ -354,7 +354,7 @@ appTemplate:
                 height: 2
                 width: 2
             createdAt: 2019-09-11T20:12:45.377Z
-            updatedAt: 2019-09-11T20:16:36.972Z
+            updatedAt: 2019-09-11T20:19:29.761Z
       - query3:
           pluginTemplate:
             id: query3
@@ -412,7 +412,7 @@ appTemplate:
                 - databaseUsernameOverride: ''
                 - queryThrottleTime: '750'
             createdAt: 2019-09-11T20:15:51.230Z
-            updatedAt: 2019-09-11T20:16:15.578Z
+            updatedAt: 2019-09-11T20:19:29.761Z
       - query4:
           pluginTemplate:
             id: query4
@@ -470,7 +470,7 @@ appTemplate:
                 - databaseUsernameOverride: ''
                 - queryThrottleTime: '750'
             createdAt: 2019-09-11T20:15:52.148Z
-            updatedAt: 2019-09-11T20:16:21.740Z
+            updatedAt: 2019-09-11T20:19:29.761Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
