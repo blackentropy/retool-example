@@ -241,11 +241,12 @@ appTemplate:
                 - playgroundQuerySaveId: 0
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: true
-                - query: ''
+                - query: 'select count(*) from clients where clients.status is null '
                 - playgroundQueryId: 0
                 - privateParams: []
                 - triggersOnSuccess: []
                 - runWhenPageLoadsDelay: ''
+                - warningCodes: []
                 - data: null
                 - importedQueryInputs:
                     ordered: []
@@ -279,7 +280,7 @@ appTemplate:
                 - databaseUsernameOverride: ''
                 - queryThrottleTime: '750'
             createdAt: 2019-09-11T20:11:50.515Z
-            updatedAt: 2019-09-11T20:11:50.515Z
+            updatedAt: 2019-09-11T20:15:18.400Z
       - statistic1:
           pluginTemplate:
             id: statistic1
