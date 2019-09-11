@@ -371,7 +371,9 @@ appTemplate:
                 - playgroundQuerySaveId: 0
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: true
-                - query: 'select count(*) from clients where clients.status is null '
+                - query: >-
+                    select count(*) from clients where clients.status =
+                    'approved' 
                 - playgroundQueryId: 0
                 - privateParams: []
                 - triggersOnSuccess: []
@@ -410,7 +412,7 @@ appTemplate:
                 - databaseUsernameOverride: ''
                 - queryThrottleTime: '750'
             createdAt: 2019-09-11T20:15:51.230Z
-            updatedAt: 2019-09-11T20:15:51.230Z
+            updatedAt: 2019-09-11T20:16:15.578Z
       - query4:
           pluginTemplate:
             id: query4
