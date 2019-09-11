@@ -66,7 +66,7 @@ appTemplate:
                 - databaseUsernameOverride: ''
                 - queryThrottleTime: '750'
             createdAt: 2019-09-11T16:54:21.715Z
-            updatedAt: 2019-09-11T20:25:30.115Z
+            updatedAt: 2019-09-11T20:37:16.090Z
       - table1:
           pluginTemplate:
             id: table1
@@ -196,7 +196,7 @@ appTemplate:
                 height: 8
                 width: 8
             createdAt: 2019-09-11T16:54:28.420Z
-            updatedAt: 2019-09-11T20:30:16.103Z
+            updatedAt: 2019-09-11T20:37:16.090Z
       - client_name_search:
           pluginTemplate:
             id: client_name_search
@@ -235,7 +235,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-11T16:54:35.134Z
-            updatedAt: 2019-09-11T20:19:29.760Z
+            updatedAt: 2019-09-11T20:37:16.091Z
       - numberOfPendingKYCs:
           pluginTemplate:
             id: numberOfPendingKYCs
@@ -291,7 +291,7 @@ appTemplate:
                 - databaseUsernameOverride: ''
                 - queryThrottleTime: '750'
             createdAt: 2019-09-11T20:11:50.515Z
-            updatedAt: 2019-09-11T20:19:29.761Z
+            updatedAt: 2019-09-11T20:37:16.091Z
       - statistic1:
           pluginTemplate:
             id: statistic1
@@ -315,7 +315,7 @@ appTemplate:
                 height: 2
                 width: 2
             createdAt: 2019-09-11T20:12:24.894Z
-            updatedAt: 2019-09-11T20:19:29.761Z
+            updatedAt: 2019-09-11T20:37:16.091Z
       - statistic2:
           pluginTemplate:
             id: statistic2
@@ -340,7 +340,7 @@ appTemplate:
                 height: 2
                 width: 2
             createdAt: 2019-09-11T20:12:32.492Z
-            updatedAt: 2019-09-11T20:19:29.761Z
+            updatedAt: 2019-09-11T20:37:16.091Z
       - statistic3:
           pluginTemplate:
             id: statistic3
@@ -365,7 +365,7 @@ appTemplate:
                 height: 2
                 width: 2
             createdAt: 2019-09-11T20:12:45.377Z
-            updatedAt: 2019-09-11T20:19:29.761Z
+            updatedAt: 2019-09-11T20:37:16.091Z
       - query3:
           pluginTemplate:
             id: query3
@@ -423,7 +423,7 @@ appTemplate:
                 - databaseUsernameOverride: ''
                 - queryThrottleTime: '750'
             createdAt: 2019-09-11T20:15:51.230Z
-            updatedAt: 2019-09-11T20:19:29.761Z
+            updatedAt: 2019-09-11T20:37:16.092Z
       - query4:
           pluginTemplate:
             id: query4
@@ -481,7 +481,7 @@ appTemplate:
                 - databaseUsernameOverride: ''
                 - queryThrottleTime: '750'
             createdAt: 2019-09-11T20:15:52.148Z
-            updatedAt: 2019-09-11T20:19:29.761Z
+            updatedAt: 2019-09-11T20:37:16.092Z
       - statistic4:
           pluginTemplate:
             id: statistic4
@@ -507,7 +507,7 @@ appTemplate:
                 height: 2
                 width: 2
             createdAt: 2019-09-11T20:20:10.180Z
-            updatedAt: 2019-09-11T20:22:51.749Z
+            updatedAt: 2019-09-11T20:37:16.092Z
       - query5:
           pluginTemplate:
             id: query5
@@ -570,7 +570,7 @@ appTemplate:
                 - databaseUsernameOverride: ''
                 - queryThrottleTime: '750'
             createdAt: 2019-09-11T20:20:20.266Z
-            updatedAt: 2019-09-11T20:25:35.986Z
+            updatedAt: 2019-09-11T20:37:16.092Z
       - statistic5:
           pluginTemplate:
             id: statistic5
@@ -597,7 +597,7 @@ appTemplate:
                 height: 2
                 width: 2
             createdAt: 2019-09-11T20:23:02.778Z
-            updatedAt: 2019-09-11T20:23:19.149Z
+            updatedAt: 2019-09-11T20:37:16.092Z
       - history_search_input:
           pluginTemplate:
             id: history_search_input
@@ -636,7 +636,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-11T20:24:06.732Z
-            updatedAt: 2019-09-11T20:24:21.075Z
+            updatedAt: 2019-09-11T20:37:16.092Z
       - button1:
           pluginTemplate:
             id: button1
@@ -673,7 +673,7 @@ appTemplate:
                 height: 1
                 width: 2
             createdAt: 2019-09-11T20:29:33.102Z
-            updatedAt: 2019-09-11T20:29:38.570Z
+            updatedAt: 2019-09-11T20:37:16.092Z
       - button2:
           pluginTemplate:
             id: button2
@@ -710,7 +710,62 @@ appTemplate:
                 height: 1
                 width: 2
             createdAt: 2019-09-11T20:29:53.635Z
-            updatedAt: 2019-09-11T20:30:21.635Z
+            updatedAt: 2019-09-11T20:37:16.092Z
+      - query6:
+          pluginTemplate:
+            id: query6
+            type: datasource
+            subtype: SqlQuery
+            resourceName: testdb (read)
+            template:
+              ordered:
+                - queryRefreshTime: ''
+                - databasePasswordOverride: ''
+                - queryDisabledMessage: ''
+                - successMessage: ''
+                - queryDisabled: ''
+                - playgroundQuerySaveId: 0
+                - resourceNameOverride: ''
+                - runWhenModelUpdates: true
+                - query: ''
+                - playgroundQueryId: 0
+                - privateParams: []
+                - triggersOnSuccess: []
+                - runWhenPageLoadsDelay: ''
+                - data: null
+                - importedQueryInputs:
+                    ordered: []
+                - showSuccessConfetti: false
+                - isImported: false
+                - showSuccessToaster: true
+                - dataArray: []
+                - cacheKeyTtl: ''
+                - triggersOnFailure: []
+                - databaseNameOverride: ''
+                - confirmationMessage: null
+                - isFetching: false
+                - rawData: null
+                - queryTriggerDelay: '0'
+                - watchedParams: []
+                - timestamp: 0
+                - importedQueryDefaults:
+                    ordered: []
+                - enableTransformer: false
+                - runWhenPageLoads: false
+                - transformer: >-
+                    // type your code here
+
+                    // example: return formatDataAsArray(data).filter(row =>
+                    row.quantity > 20)
+
+                    return data
+                - queryTimeout: '10000'
+                - requireConfirmation: false
+                - enableCaching: false
+                - databaseUsernameOverride: ''
+                - queryThrottleTime: '750'
+            createdAt: 2019-09-11T20:37:19.154Z
+            updatedAt: 2019-09-11T20:37:19.154Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
