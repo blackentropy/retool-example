@@ -26,7 +26,7 @@ appTemplate:
                     from
                       clients
                     where
-                      full_name ilike {{ '%' + textinput1.value + '%' }}
+                      full_name ilike {{ '%' + client_name_search.value + '%' }}
                       AND household_history ilike {{ '%' + history_search_input.value + '%' }}
                 - playgroundQueryId: 0
                 - privateParams: []
@@ -66,7 +66,7 @@ appTemplate:
                 - databaseUsernameOverride: ''
                 - queryThrottleTime: '750'
             createdAt: 2019-09-11T16:54:21.715Z
-            updatedAt: 2019-09-11T20:25:22.806Z
+            updatedAt: 2019-09-11T20:25:30.115Z
       - table1:
           pluginTemplate:
             id: table1
