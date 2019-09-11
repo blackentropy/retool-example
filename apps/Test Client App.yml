@@ -338,7 +338,7 @@ appTemplate:
               ordered:
                 - title: Rejected
                 - value: 1234.5678
-                - prefix: $
+                - prefix: ''
                 - suffix: applications
                 - precision: '0'
                 - round: true
@@ -353,7 +353,7 @@ appTemplate:
                 height: 2
                 width: 2
             createdAt: 2019-09-11T20:12:45.377Z
-            updatedAt: 2019-09-11T20:14:09.668Z
+            updatedAt: 2019-09-11T20:14:18.388Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
