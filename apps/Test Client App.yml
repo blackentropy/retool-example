@@ -313,7 +313,7 @@ appTemplate:
               ordered:
                 - title: Approved
                 - value: 1234.5678
-                - prefix: $
+                - prefix: ''
                 - suffix: applications
                 - precision: '0'
                 - round: true
@@ -328,7 +328,7 @@ appTemplate:
                 height: 2
                 width: 2
             createdAt: 2019-09-11T20:12:32.492Z
-            updatedAt: 2019-09-11T20:14:07.382Z
+            updatedAt: 2019-09-11T20:14:15.866Z
       - statistic3:
           pluginTemplate:
             id: statistic3
