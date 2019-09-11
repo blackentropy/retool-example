@@ -295,7 +295,6 @@ appTemplate:
                 - round: true
             position2:
               position2:
-                row: 1
                 height: 2
                 width: 2
             mobilePosition2:
