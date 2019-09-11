@@ -69,7 +69,10 @@ appTemplate:
             subtype: TableWidget
             template:
               ordered:
-                - columnWidths: []
+                - columnWidths:
+                    - object:
+                        id: household_history
+                        value: 190.15625
                 - columnWidthsMobile: []
                 - columnHeaderNames:
                     ordered: []
@@ -185,7 +188,7 @@ appTemplate:
                 height: 8
                 width: 8
             createdAt: 2019-09-11T16:54:28.420Z
-            updatedAt: 2019-09-11T20:19:29.760Z
+            updatedAt: 2019-09-11T20:23:54.452Z
       - textinput1:
           pluginTemplate:
             id: textinput1
