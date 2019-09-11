@@ -73,16 +73,40 @@ appTemplate:
                     ordered: []
                 - alwaysShowPaginator: false
                 - columnColors:
-                    ordered: []
+                    ordered:
+                      - banker_full_name: ''
+                      - estimated_household_net_worth: ''
+                      - houshold_risk: ''
+                      - new_client: ''
+                      - rtam: ''
+                      - banker_first_name: ''
+                      - household_history: ''
+                      - srf_client_account_number: ''
+                      - first_name: ''
+                      - id: ''
+                      - referrer_full_name: ''
+                      - full_name: ''
                 - allowMultiRowSelect: false
                 - columnFormats:
                     ordered: []
                 - nextBeforeCursor: ''
                 - columnVisibility:
                     ordered:
-                      - Title: true
-                      - Description: true
+                      - banker_full_name: true
+                      - estimated_household_net_worth: true
+                      - houshold_risk: true
+                      - new_client: true
                       - Sales: true
+                      - rtam: true
+                      - banker_first_name: true
+                      - household_history: true
+                      - srf_client_account_number: true
+                      - Title: true
+                      - first_name: true
+                      - id: true
+                      - referrer_full_name: true
+                      - full_name: true
+                      - Description: true
                 - selectedPageIndex: '0'
                 - actionButtonColumnName: Actions
                 - serverPaginated: false
@@ -95,7 +119,7 @@ appTemplate:
                 - sortedDesc: false
                 - columnMappersRenderAsHTML:
                     ordered: []
-                - pageSize: '10'
+                - pageSize: 6
                 - selectedColumn: null
                 - actionButtonPosition: left
                 - bulkUpdateAction: ''
@@ -123,6 +147,18 @@ appTemplate:
                     - Title
                     - Description
                     - Sales
+                    - id
+                    - full_name
+                    - first_name
+                    - banker_full_name
+                    - banker_first_name
+                    - rtam
+                    - new_client
+                    - referrer_full_name
+                    - srf_client_account_number
+                    - estimated_household_net_worth
+                    - household_history
+                    - houshold_risk
                 - sort: null
                 - calculatedColumns: []
                 - selectedRow:
@@ -145,7 +181,7 @@ appTemplate:
                 height: 8
                 width: 8
             createdAt: 2019-09-11T16:54:28.420Z
-            updatedAt: 2019-09-11T16:54:28.420Z
+            updatedAt: 2019-09-11T16:54:28.677Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
