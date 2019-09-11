@@ -291,7 +291,7 @@ appTemplate:
                 - value: 1234.5678
                 - prefix: '#'
                 - suffix: applications
-                - precision: '0'
+                - precision: ''
                 - round: true
             position2:
               position2:
@@ -303,7 +303,7 @@ appTemplate:
                 height: 2
                 width: 2
             createdAt: 2019-09-11T20:12:24.894Z
-            updatedAt: 2019-09-11T20:13:59.928Z
+            updatedAt: 2019-09-11T20:14:02.667Z
       - statistic2:
           pluginTemplate:
             id: statistic2
