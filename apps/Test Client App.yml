@@ -338,7 +338,7 @@ appTemplate:
             template:
               ordered:
                 - title: Rejected
-                - value: 1234.5678
+                - value: '{{ query4.data.count}}'
                 - prefix: ''
                 - suffix: applications
                 - precision: '0'
@@ -354,7 +354,7 @@ appTemplate:
                 height: 2
                 width: 2
             createdAt: 2019-09-11T20:12:45.377Z
-            updatedAt: 2019-09-11T20:14:18.388Z
+            updatedAt: 2019-09-11T20:16:36.972Z
       - query3:
           pluginTemplate:
             id: query3
