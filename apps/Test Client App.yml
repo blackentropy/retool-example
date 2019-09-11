@@ -596,9 +596,9 @@ appTemplate:
                 width: 2
             createdAt: 2019-09-11T20:23:02.778Z
             updatedAt: 2019-09-11T20:23:19.149Z
-      - textinput2:
+      - history_search_input:
           pluginTemplate:
-            id: textinput2
+            id: history_search_input
             type: widget
             subtype: TextInputWidget
             template:
