@@ -291,7 +291,7 @@ appTemplate:
                 - value: 1234.5678
                 - prefix: $
                 - suffix: / lb.
-                - precision: 2
+                - precision: '0'
                 - round: true
             position2:
               position2:
@@ -303,7 +303,7 @@ appTemplate:
                 height: 2
                 width: 2
             createdAt: 2019-09-11T20:12:24.894Z
-            updatedAt: 2019-09-11T20:12:56.593Z
+            updatedAt: 2019-09-11T20:13:54.163Z
       - statistic2:
           pluginTemplate:
             id: statistic2
