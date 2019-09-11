@@ -642,14 +642,14 @@ appTemplate:
             template:
               ordered:
                 - valueToCopy: ''
-                - color: ''
+                - color: '#37d67a'
                 - internalUrlHashParams: ''
                 - exportFileType: csv
                 - buttonType: action
                 - exportTemplate: null
                 - url: ''
                 - newWindow: false
-                - value: Submit
+                - value: Approve
                 - exportQuery: ''
                 - action: ''
                 - internalUrlQuery: ''
@@ -670,7 +670,7 @@ appTemplate:
                 height: 1
                 width: 2
             createdAt: 2019-09-11T20:29:33.102Z
-            updatedAt: 2019-09-11T20:29:33.102Z
+            updatedAt: 2019-09-11T20:29:38.570Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
