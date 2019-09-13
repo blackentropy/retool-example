@@ -373,7 +373,9 @@ appTemplate:
             subtype: SelectWidget
             template:
               ordered:
-                - values: '["N/A - Adding client to existing Household",",3]'
+                - values: >-
+                    ["N/A - Adding client to existing Household","COI - Centre
+                    of Influence",3]
                 - allowOutOfRangeValues: false
                 - enableFuzzyMatching: true
                 - searchValue: ''
@@ -405,7 +407,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-13T18:48:07.272Z
-            updatedAt: 2019-09-13T18:51:10.229Z
+            updatedAt: 2019-09-13T18:51:16.412Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
