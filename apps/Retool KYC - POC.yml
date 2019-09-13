@@ -267,7 +267,7 @@ appTemplate:
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
                 - onSubmit: ''
-                - type: text
+                - type: color
                 - allowedRegex: .*
                 - required: false
             position2:
@@ -283,7 +283,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-13T18:25:40.193Z
-            updatedAt: 2019-09-13T18:25:40.193Z
+            updatedAt: 2019-09-13T18:25:51.582Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
