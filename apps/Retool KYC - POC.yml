@@ -196,7 +196,7 @@ appTemplate:
             subtype: CheckboxWidget
             template:
               ordered:
-                - label: Existing RBc Client
+                - label: Existing RBC Client
                 - value: false
                 - disabled: ''
                 - onCheckQuery: ''
@@ -216,7 +216,7 @@ appTemplate:
                 height: 1
                 width: 2
             createdAt: 2019-09-13T18:24:35.784Z
-            updatedAt: 2019-09-13T18:24:46.635Z
+            updatedAt: 2019-09-13T18:24:49.903Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
