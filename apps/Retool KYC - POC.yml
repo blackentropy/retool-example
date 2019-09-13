@@ -101,50 +101,6 @@ appTemplate:
                 width: 3
             createdAt: 2019-04-20T04:49:50.631Z
             updatedAt: 2019-09-13T18:02:16.489Z
-      - container2:
-          pluginTemplate:
-            id: container2
-            type: widget
-            subtype: ContainerWidget
-            template:
-              ordered:
-                - disabled: ''
-                - spinWhenChildrenAreFetching: true
-            position2:
-              position2:
-                row: 5
-                height: 14
-                width: 4
-            mobilePosition2:
-              position2:
-                row: 5
-                height: 8
-                width: 6
-            createdAt: 2019-04-20T04:50:14.592Z
-            updatedAt: 2019-09-13T17:38:08.837Z
-      - text3:
-          pluginTemplate:
-            id: text3
-            type: widget
-            subtype: TextWidget
-            template:
-              ordered:
-                - value: '##### Subcontent'
-                - html: false
-                - scrollOverflow: false
-                - truncateOverflow: false
-            position2:
-              position2:
-                container: container2
-                height: 1
-                width: 11
-            mobilePosition2:
-              position2:
-                container: container2
-                height: 1
-                width: 3
-            createdAt: 2019-04-20T04:50:42.211Z
-            updatedAt: 2019-09-13T17:38:08.838Z
       - text4:
           pluginTemplate:
             id: text4
@@ -174,68 +130,6 @@ appTemplate:
                 width: 3
             createdAt: 2019-04-20T04:51:13.674Z
             updatedAt: 2019-09-13T17:38:08.838Z
-      - image1:
-          pluginTemplate:
-            id: image1
-            type: widget
-            subtype: ImageWidget
-            template:
-              ordered:
-                - valueToCopy: ''
-                - internalUrlHashParams: ''
-                - exportFileType: csv
-                - buttonType: action
-                - exportTemplate: null
-                - url: ''
-                - newWindow: false
-                - exportQuery: ''
-                - imageUrl: >-
-                    https://www.thehappycatsite.com/wp-content/uploads/2017/12/grow.jpg
-                - action: ''
-                - internalUrlQuery: ''
-                - internalUrlPath: ''
-                - exportFileName: ''
-                - loading: ''
-                - disabled: ''
-            position2:
-              position2:
-                container: container2
-                row: 4
-                height: 6
-                width: 11
-            mobilePosition2:
-              position2:
-                container: container2
-                row: 2
-                height: 3
-                width: 2
-            createdAt: 2019-04-22T05:13:23.055Z
-            updatedAt: 2019-09-13T17:38:08.839Z
-      - text5:
-          pluginTemplate:
-            id: text5
-            type: widget
-            subtype: TextWidget
-            template:
-              ordered:
-                - value: '### Display an image'
-                - html: false
-                - scrollOverflow: false
-                - truncateOverflow: false
-            position2:
-              position2:
-                container: container2
-                row: 3
-                height: 1
-                width: 11
-            mobilePosition2:
-              position2:
-                container: container2
-                row: 8
-                height: 1
-                width: 3
-            createdAt: 2019-04-22T05:13:30.027Z
-            updatedAt: 2019-09-13T17:38:08.839Z
       - form1:
           pluginTemplate:
             id: form1
