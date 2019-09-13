@@ -150,7 +150,7 @@ appTemplate:
                 - disabled: ''
             position2:
               position2:
-                row: 14
+                row: 5
                 height: 6
                 width: 6
             mobilePosition2:
