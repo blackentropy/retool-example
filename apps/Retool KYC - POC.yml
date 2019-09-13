@@ -1,0 +1,411 @@
+version: 43.0.9
+pageUuid: 3f9c4a52-d64d-11e9-962d-17fef13b4b65
+appTemplate:
+  isFetching: false
+  plugins:
+    ordered:
+      - query1:
+          pluginTemplate:
+            id: query1
+            type: datasource
+            subtype: SqlQuery
+            resourceName: onboarding_db (readonly)
+            template:
+              ordered:
+                - queryRefreshTime: ''
+                - queryDisabledMessage: ''
+                - successMessage: ''
+                - queryDisabled: ''
+                - resourceNameOverride: ''
+                - runWhenModelUpdates: true
+                - query: select * from products;
+                - privateParams: []
+                - triggersOnSuccess: []
+                - runWhenPageLoadsDelay: ''
+                - data: null
+                - showSuccessConfetti: false
+                - showSuccessToaster: true
+                - dataArray: []
+                - triggersOnFailure: []
+                - databaseNameOverride: ''
+                - confirmationMessage: null
+                - isFetching: false
+                - queryTriggerDelay: '0'
+                - watchedParams: []
+                - timestamp: 0
+                - runWhenPageLoads: false
+                - queryTimeout: '10001'
+                - requireConfirmation: false
+                - queryThrottleTime: '750'
+            createdAt: 2019-04-20T04:49:38.684Z
+            updatedAt: 2019-04-22T05:13:08.956Z
+      - container1:
+          pluginTemplate:
+            id: container1
+            type: widget
+            subtype: ContainerWidget
+            template:
+              ordered:
+                - disabled: ''
+                - spinWhenChildrenAreFetching: true
+            position2:
+              position2:
+                height: 5
+                width: 12
+            mobilePosition2:
+              position2:
+                height: 8
+                width: 6
+            createdAt: 2019-04-20T04:49:44.975Z
+            updatedAt: 2019-04-22T05:13:08.956Z
+      - text1:
+          pluginTemplate:
+            id: text1
+            type: widget
+            subtype: TextWidget
+            template:
+              ordered:
+                - value: '# Welcome to Retool!'
+                - html: false
+                - scrollOverflow: false
+                - truncateOverflow: false
+            position2:
+              position2:
+                container: container1
+                height: 1
+                width: 12
+            mobilePosition2:
+              position2:
+                container: container1
+                height: 1
+                width: 3
+            createdAt: 2019-04-20T04:49:50.631Z
+            updatedAt: 2019-04-22T05:13:08.956Z
+      - container2:
+          pluginTemplate:
+            id: container2
+            type: widget
+            subtype: ContainerWidget
+            template:
+              ordered:
+                - disabled: ''
+                - spinWhenChildrenAreFetching: true
+            position2:
+              position2:
+                row: 5
+                height: 14
+                width: 4
+            mobilePosition2:
+              position2:
+                row: 5
+                height: 8
+                width: 6
+            createdAt: 2019-04-20T04:50:14.592Z
+            updatedAt: 2019-04-22T05:13:08.956Z
+      - container3:
+          pluginTemplate:
+            id: container3
+            type: widget
+            subtype: ContainerWidget
+            template:
+              ordered:
+                - disabled: ''
+                - spinWhenChildrenAreFetching: true
+            position2:
+              position2:
+                row: 5
+                col: 4
+                height: 14
+                width: 8
+            mobilePosition2:
+              position2:
+                row: 5
+                col: 4
+                height: 8
+                width: 6
+            createdAt: 2019-04-20T04:50:24.760Z
+            updatedAt: 2019-04-22T05:13:08.956Z
+      - text2:
+          pluginTemplate:
+            id: text2
+            type: widget
+            subtype: TextWidget
+            template:
+              ordered:
+                - value: '##### Main Content Here'
+                - html: false
+                - scrollOverflow: false
+                - truncateOverflow: false
+            position2:
+              position2:
+                container: container3
+                height: 1
+                width: 12
+            mobilePosition2:
+              position2:
+                container: container3
+                height: 1
+                width: 3
+            createdAt: 2019-04-20T04:50:34.226Z
+            updatedAt: 2019-04-22T05:13:08.957Z
+      - text3:
+          pluginTemplate:
+            id: text3
+            type: widget
+            subtype: TextWidget
+            template:
+              ordered:
+                - value: '##### Subcontent'
+                - html: false
+                - scrollOverflow: false
+                - truncateOverflow: false
+            position2:
+              position2:
+                container: container2
+                height: 1
+                width: 11
+            mobilePosition2:
+              position2:
+                container: container2
+                height: 1
+                width: 3
+            createdAt: 2019-04-20T04:50:42.211Z
+            updatedAt: 2019-04-22T05:13:08.957Z
+      - text4:
+          pluginTemplate:
+            id: text4
+            type: widget
+            subtype: TextWidget
+            template:
+              ordered:
+                - value: |-
+                    *Starter ideas*!!
+
+                    * Write documentation about this app here
+                    * This is how the app works
+                - html: false
+                - scrollOverflow: false
+                - truncateOverflow: false
+            position2:
+              position2:
+                container: container1
+                row: 1
+                height: 3
+                width: 7
+            mobilePosition2:
+              position2:
+                container: container1
+                row: 1
+                height: 1
+                width: 3
+            createdAt: 2019-04-20T04:51:13.674Z
+            updatedAt: 2019-04-22T05:13:08.957Z
+      - image1:
+          pluginTemplate:
+            id: image1
+            type: widget
+            subtype: ImageWidget
+            template:
+              ordered:
+                - valueToCopy: ''
+                - internalUrlHashParams: ''
+                - exportFileType: csv
+                - buttonType: action
+                - exportTemplate: null
+                - url: ''
+                - newWindow: false
+                - exportQuery: ''
+                - imageUrl: >-
+                    https://www.thehappycatsite.com/wp-content/uploads/2017/12/grow.jpg
+                - action: ''
+                - internalUrlQuery: ''
+                - internalUrlPath: ''
+                - exportFileName: ''
+                - loading: ''
+                - disabled: ''
+            position2:
+              position2:
+                container: container2
+                row: 4
+                height: 6
+                width: 11
+            mobilePosition2:
+              position2:
+                container: container2
+                row: 2
+                height: 3
+                width: 2
+            createdAt: 2019-04-22T05:13:23.055Z
+            updatedAt: 2019-04-22T05:13:23.055Z
+      - text5:
+          pluginTemplate:
+            id: text5
+            type: widget
+            subtype: TextWidget
+            template:
+              ordered:
+                - value: '### Display an image'
+                - html: false
+                - scrollOverflow: false
+                - truncateOverflow: false
+            position2:
+              position2:
+                container: container2
+                row: 3
+                height: 1
+                width: 11
+            mobilePosition2:
+              position2:
+                container: container2
+                row: 8
+                height: 1
+                width: 3
+            createdAt: 2019-04-22T05:13:30.027Z
+            updatedAt: 2019-04-22T05:13:50.759Z
+      - table1:
+          pluginTemplate:
+            id: table1
+            type: widget
+            subtype: TableWidget
+            template:
+              ordered:
+                - columnWidths: []
+                - columnWidthsMobile: []
+                - columnHeaderNames:
+                    ordered: []
+                - alwaysShowPaginator: false
+                - columnColors:
+                    ordered:
+                      - id: ''
+                      - name: ''
+                      - email: ''
+                      - sales: ''
+                - allowMultiRowSelect: false
+                - columnFormats:
+                    ordered: []
+                - nextBeforeCursor: ''
+                - columnVisibility:
+                    ordered:
+                      - id: true
+                      - name: true
+                      - email: true
+                      - sales: true
+                - selectedPageIndex: '0'
+                - actionButtonColumnName: Actions
+                - serverPaginated: false
+                - data: |-
+                    [{
+                      "id": 1,
+                      "name": "Hanson Deck",
+                      "email": "hanson@deck.com",
+                      "sales": 37
+                    }, {
+                      "id": 2,
+                      "name": "Max Conversation",
+                      "email": "Max@conversation.com",
+                      "sales": 424
+                    }, {
+                      "id": 3,
+                      "name": "Jason Response",
+                      "email": "jason@response.com",
+                      "sales": 55
+                    }, {
+                      "id": 4,
+                      "name": "Sue Shei",
+                      "email": "sueshei@example.com",
+                      "sales": 550
+                    }, {
+                      "id": 5,
+                      "name": "Eric Widget",
+                      "email": "eric@widget.org",
+                      "sales": 243
+                    }]
+                - actionButtons: []
+                - actionButtonSelectsRow: false
+                - selectRowByDefault: true
+                - defaultSortByColumn: ''
+                - paginationOffset: 0
+                - sortedDesc: false
+                - columnMappersRenderAsHTML:
+                    ordered: []
+                - pageSize: 6
+                - selectedColumn: null
+                - actionButtonPosition: left
+                - bulkUpdateAction: ''
+                - afterCursor: ''
+                - changeSet:
+                    object: {}
+                - sortedColumn: ''
+                - columnAllowOverflow:
+                    ordered: []
+                - beforeCursor: ''
+                - serverPaginationType: limitOffsetBased
+                - onRowSelect: ''
+                - showDownloadButton: true
+                - selectedIndex: ''
+                - defaultSortDescending: false
+                - totalRowCount: ''
+                - recordUpdates:
+                    array: []
+                - columnEditable:
+                    ordered: []
+                - columnMappers:
+                    ordered: []
+                - showClearSelection: false
+                - columns:
+                    - id
+                    - name
+                    - email
+                    - sales
+                - sort: null
+                - selectedRow:
+                    object:
+                      index: null
+                      data: null
+                - showPaginationOnTop: false
+                - nextAfterCursor: ''
+                - useCompactMode: false
+            position2:
+              position2:
+                container: container3
+                row: 4
+                height: 8
+                width: 12
+            mobilePosition2:
+              position2:
+                container: container3
+                row: 4
+                height: 8
+                width: 8
+            createdAt: 2019-04-22T05:13:57.500Z
+            updatedAt: 2019-04-22T05:13:58.044Z
+      - text6:
+          pluginTemplate:
+            id: text6
+            type: widget
+            subtype: TextWidget
+            template:
+              ordered:
+                - value: '### Display a table'
+                - html: false
+                - scrollOverflow: false
+                - truncateOverflow: false
+            position2:
+              position2:
+                container: container3
+                row: 3
+                height: 1
+                width: 11
+            mobilePosition2:
+              position2:
+                container: container2
+                row: 3
+                height: 1
+                width: 11
+            createdAt: 2019-04-22T05:14:02.203Z
+            updatedAt: 2019-04-22T05:14:28.616Z
+  createdAt: null
+  version: 2.38.69
+  responsiveLayoutDisabled: false
+  urlFragmentDefinitions: []
+  pageLoadValueOverrides: []
