@@ -85,7 +85,7 @@ appTemplate:
             subtype: TextWidget
             template:
               ordered:
-                - value: KYC Private B
+                - value: KYC Private Banking
                 - html: false
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -100,7 +100,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-04-20T04:49:50.631Z
-            updatedAt: 2019-09-13T18:01:49.797Z
+            updatedAt: 2019-09-13T18:02:16.489Z
       - container2:
           pluginTemplate:
             id: container2
