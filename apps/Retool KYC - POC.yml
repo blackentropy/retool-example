@@ -262,7 +262,7 @@ appTemplate:
                 - tooltipText: ''
                 - value: ''
                 - placeholder: Search here...
-                - label: Private Banker
+                - label: RTAM
                 - formattedValue: ''
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
@@ -283,7 +283,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-13T18:25:40.193Z
-            updatedAt: 2019-09-13T18:28:22.063Z
+            updatedAt: 2019-09-13T18:28:25.990Z
       - textinput2:
           pluginTemplate:
             id: textinput2
