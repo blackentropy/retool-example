@@ -316,7 +316,7 @@ appTemplate:
                 - columnMappersRenderAsHTML:
                     ordered: []
                 - actionButtonInternalUrlPath: ''
-                - pageSize: 5
+                - pageSize: 6
                 - selectedColumn: null
                 - actionButtonPosition: left
                 - bulkUpdateAction: ''
@@ -372,7 +372,7 @@ appTemplate:
                 width: 12
             tabIndex: 13
             createdAt: 2019-09-13T17:31:46.989Z
-            updatedAt: 2019-09-13T17:31:46.989Z
+            updatedAt: 2019-09-13T17:31:47.879Z
       - text5:
           pluginTemplate:
             id: text5
@@ -696,7 +696,7 @@ appTemplate:
                 - columnMappersRenderAsHTML:
                     ordered: []
                 - actionButtonInternalUrlPath: ''
-                - pageSize: 12
+                - pageSize: 11
                 - selectedColumn: null
                 - actionButtonPosition: left
                 - bulkUpdateAction: ''
@@ -746,7 +746,7 @@ appTemplate:
                 width: 7
             tabIndex: 27
             createdAt: 2019-09-13T17:31:46.993Z
-            updatedAt: 2019-09-13T17:31:46.993Z
+            updatedAt: 2019-09-13T17:31:47.935Z
       - text10:
           pluginTemplate:
             id: text10
@@ -1038,7 +1038,7 @@ appTemplate:
                 - columnMappersRenderAsHTML:
                     ordered: []
                 - actionButtonInternalUrlPath: ''
-                - pageSize: 11
+                - pageSize: 10
                 - selectedColumn: null
                 - actionButtonPosition: left
                 - bulkUpdateAction: ''
@@ -1089,7 +1089,7 @@ appTemplate:
                 width: 12
             tabIndex: 33
             createdAt: 2019-09-13T17:31:46.995Z
-            updatedAt: 2019-09-13T17:31:46.995Z
+            updatedAt: 2019-09-13T17:31:47.912Z
       - user_posts:
           pluginTemplate:
             id: user_posts
