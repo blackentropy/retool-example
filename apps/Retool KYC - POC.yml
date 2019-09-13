@@ -347,7 +347,7 @@ appTemplate:
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
                 - onSubmit: ''
-                - type: text
+                - type: date
                 - allowedRegex: .*
                 - required: false
             position2:
@@ -365,7 +365,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-13T18:29:00.895Z
-            updatedAt: 2019-09-13T18:29:25.998Z
+            updatedAt: 2019-09-13T18:29:33.915Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
