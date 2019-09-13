@@ -532,7 +532,7 @@ appTemplate:
                 width: 12
             tabIndex: 21
             createdAt: 2019-09-13T17:31:46.991Z
-            updatedAt: 2019-09-13T17:31:46.991Z
+            updatedAt: 2019-09-13T17:31:51.120Z
       - keyvaluemap2:
           pluginTemplate:
             id: keyvaluemap2
@@ -578,7 +578,7 @@ appTemplate:
                 width: 12
             tabIndex: 22
             createdAt: 2019-09-13T17:31:46.991Z
-            updatedAt: 2019-09-13T17:31:46.991Z
+            updatedAt: 2019-09-13T17:31:51.535Z
       - text9:
           pluginTemplate:
             id: text9
