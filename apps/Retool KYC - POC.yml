@@ -168,7 +168,7 @@ appTemplate:
             subtype: CheckboxWidget
             template:
               ordered:
-                - label: Ne
+                - label: New Client to RBC
                 - value: false
                 - disabled: ''
                 - onCheckQuery: ''
@@ -188,7 +188,7 @@ appTemplate:
                 height: 1
                 width: 2
             createdAt: 2019-09-13T18:21:23.423Z
-            updatedAt: 2019-09-13T18:21:48.446Z
+            updatedAt: 2019-09-13T18:21:52.527Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
