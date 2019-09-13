@@ -224,7 +224,7 @@ appTemplate:
             subtype: CheckboxWidget
             template:
               ordered:
-                - label: Client A
+                - label: Client added to existing HH
                 - value: false
                 - disabled: ''
                 - onCheckQuery: ''
@@ -244,7 +244,7 @@ appTemplate:
                 height: 1
                 width: 2
             createdAt: 2019-09-13T18:24:55.426Z
-            updatedAt: 2019-09-13T18:25:10.457Z
+            updatedAt: 2019-09-13T18:25:14.857Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
