@@ -996,6 +996,7 @@ appTemplate:
                       - Last: ''
                       - Last Name/: ''
                       - id: ''
+                      - First Name: ''
                       - email: ''
                       - Last Na: ''
                 - allowMultiRowSelect: false
@@ -1018,6 +1019,7 @@ appTemplate:
                       - Title: true
                       - Last Name/: true
                       - id: true
+                      - First Name: true
                       - email: true
                       - Description: true
                       - Last Na: true
@@ -1027,7 +1029,7 @@ appTemplate:
                 - data: |-
                     [{
                       "Last Name/Name of non-personal entity": 1,
-                      "First Name": 
+                      "First Name": "Lia"
                     }]
                 - actionButtons: []
                 - actionButtonSelectsRow: true
@@ -1079,6 +1081,7 @@ appTemplate:
                     - Last Name/Name of non-
                     - Last Name/Name of non-personal entity
                     - L
+                    - First Name
                 - sort: null
                 - calculatedColumns: []
                 - selectedRow:
@@ -1103,7 +1106,7 @@ appTemplate:
                 height: 8
                 width: 8
             createdAt: 2019-09-16T13:29:56.144Z
-            updatedAt: 2019-09-16T13:33:17.683Z
+            updatedAt: 2019-09-16T13:33:26.458Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
