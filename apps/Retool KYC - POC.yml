@@ -844,7 +844,7 @@ appTemplate:
                 - value: ''
                 - maxResults: 50
                 - placeholder: ''
-                - label: 'Will Household Meet the Minimum $10M '
+                - label: Will Household Meet the Minimum $10M Revenue?
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
                 - onSelect: ''
@@ -866,7 +866,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-16T13:21:27.184Z
-            updatedAt: 2019-09-16T13:25:00.211Z
+            updatedAt: 2019-09-16T13:25:02.368Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
