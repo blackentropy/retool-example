@@ -1877,7 +1877,7 @@ appTemplate:
 
                     "Non-retail arms dealer/manufacturer","Casino/gambling
                     establishments","Clients with Iranian Connections","Complex
-                    Corporate Structures",""]
+                    Corporate Structures","Non-retail dealer in gems"]
                 - verticalAligned: false
                 - onChange: ''
                 - tooltipText: ''
@@ -1901,7 +1901,7 @@ appTemplate:
                 height: 2
                 width: 2
             createdAt: 2019-09-16T14:30:09.872Z
-            updatedAt: 2019-09-16T14:37:13.194Z
+            updatedAt: 2019-09-16T14:37:20.959Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
