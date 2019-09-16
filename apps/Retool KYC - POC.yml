@@ -1145,7 +1145,7 @@ appTemplate:
                 - placeholder: Search here...
                 - label: >-
                     Provide a detailed story for the Head of Household and EACH
-                    member. [Including]
+                    member. [Including History of Occup]
                 - formattedValue: ''
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
@@ -1166,7 +1166,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-16T13:39:36.413Z
-            updatedAt: 2019-09-16T13:40:32.122Z
+            updatedAt: 2019-09-16T13:40:37.151Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
