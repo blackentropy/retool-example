@@ -1949,8 +1949,8 @@ appTemplate:
                 - values: >-
                     [ 
 
-                    "Correspondent Bank", "Entity that can issue bearer shares",
-                    "Money service business"]
+                    "C", "Entity that can issue bearer shares", "Money service
+                    business"]
                 - verticalAligned: false
                 - onChange: ''
                 - tooltipText: ''
@@ -1973,7 +1973,7 @@ appTemplate:
                 height: 2
                 width: 12
             createdAt: 2019-09-16T14:40:02.271Z
-            updatedAt: 2019-09-16T14:40:17.150Z
+            updatedAt: 2019-09-16T14:40:29.208Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
