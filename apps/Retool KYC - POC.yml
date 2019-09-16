@@ -795,7 +795,7 @@ appTemplate:
             subtype: SelectWidget
             template:
               ordered:
-                - values: '["Bronze","Silver","Gold"'
+                - values: '["Bronze","Silver","Gold","Platinum"]'
                 - allowOutOfRangeValues: false
                 - enableFuzzyMatching: true
                 - searchValue: ''
@@ -827,7 +827,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-16T13:18:46.454Z
-            updatedAt: 2019-09-16T13:20:51.356Z
+            updatedAt: 2019-09-16T13:21:03.532Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
