@@ -375,7 +375,8 @@ appTemplate:
               ordered:
                 - values: >-
                     ["N/A - Adding client to existing Household","COI - Centre
-                    of Influence","Existing Private Banking Client","RB]
+                    of Influence","Existing Private Banking Client","RBC Private
+                    Banker (self)","RBC]
                 - allowOutOfRangeValues: false
                 - enableFuzzyMatching: true
                 - searchValue: ''
@@ -407,7 +408,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-13T18:48:07.272Z
-            updatedAt: 2019-09-16T12:55:20.986Z
+            updatedAt: 2019-09-16T12:55:30.211Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
