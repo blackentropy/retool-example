@@ -985,9 +985,12 @@ appTemplate:
                 - columnColors:
                     ordered:
                       - '': ''
+                      - Last Name/Name of N: ''
                       - name: ''
                       - sales: ''
                       - Last Nasme: ''
+                      - Last Name/Name of non-: ''
+                      - Last Name/Name o: ''
                       - Last: ''
                       - Last Name/: ''
                       - id: ''
@@ -1000,10 +1003,13 @@ appTemplate:
                 - columnVisibility:
                     ordered:
                       - '': true
+                      - Last Name/Name of N: true
                       - name: true
                       - Sales: true
                       - sales: true
                       - Last Nasme: true
+                      - Last Name/Name of non-: true
+                      - Last Name/Name o: true
                       - Last: true
                       - Title: true
                       - Last Name/: true
@@ -1016,7 +1022,7 @@ appTemplate:
                 - serverPaginated: false
                 - data: |-
                     [{
-                      "Last Name/": 1,
+                      "Last Name/Name of non-": 1,
                       "name": "Hanson Deck",
                       "email": "hanson@deck.com",
                       "sales": 37
@@ -1071,6 +1077,9 @@ appTemplate:
                     - Last Nasme
                     - Last Na
                     - Last Name/
+                    - Last Name/Name o
+                    - Last Name/Name of N
+                    - Last Name/Name of non-
                 - sort: null
                 - calculatedColumns: []
                 - selectedRow:
@@ -1095,7 +1104,7 @@ appTemplate:
                 height: 8
                 width: 8
             createdAt: 2019-09-16T13:29:56.144Z
-            updatedAt: 2019-09-16T13:32:10.685Z
+            updatedAt: 2019-09-16T13:32:16.084Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
