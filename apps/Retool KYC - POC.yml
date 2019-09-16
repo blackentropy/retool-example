@@ -1643,55 +1643,6 @@ appTemplate:
                 width: 4
             createdAt: 2019-09-16T14:13:38.396Z
             updatedAt: 2019-09-16T14:15:44.498Z
-      - select8:
-          pluginTemplate:
-            id: select8
-            type: widget
-            subtype: SelectWidget
-            template:
-              ordered:
-                - values: '[1,2,3]'
-                - allowOutOfRangeValues: false
-                - enableFuzzyMatching: true
-                - searchValue: ''
-                - displayValue: ''
-                - tooltipText: ''
-                - value: ''
-                - maxResults: 50
-                - placeholder: ''
-                - label: >-
-                    Are any members of this household:
-
-
-                    • non-resident(s)
-
-                    • Senior Foreign Politically Exposed Person(s)
-
-                    • Domestic Politically Exposed Person(a) within the last 5
-                    years
-
-                    • Head of an International Organization
-                - labelMaxWidth: ''
-                - labelPlacedOnLeft: ''
-                - onSelect: ''
-                - disabled: ''
-                - hideClearButton: false
-                - required: false
-                - labels: ''
-            position2:
-              position2:
-                container: form1
-                row: 57
-                height: 2
-                width: 6
-            mobilePosition2:
-              position2:
-                container: form1
-                row: 53
-                height: 1
-                width: 4
-            createdAt: 2019-09-16T14:17:26.564Z
-            updatedAt: 2019-09-16T14:20:12.057Z
       - text10:
           pluginTemplate:
             id: text10
