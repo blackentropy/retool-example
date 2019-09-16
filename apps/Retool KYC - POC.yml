@@ -79,7 +79,6 @@ appTemplate:
                 - disabled: ''
             position2:
               position2:
-                row: 5
                 height: 45
                 width: 12
             mobilePosition2:
