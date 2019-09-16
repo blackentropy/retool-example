@@ -952,7 +952,7 @@ appTemplate:
             subtype: TextWidget
             template:
               ordered:
-                - value: "**Hello** <b>friend!</b> \U0001F603"
+                - value: Household Background In
                 - html: false
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -969,7 +969,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-16T13:29:07.769Z
-            updatedAt: 2019-09-16T13:29:07.769Z
+            updatedAt: 2019-09-16T13:29:18.364Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
