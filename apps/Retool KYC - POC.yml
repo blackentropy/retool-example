@@ -1913,7 +1913,7 @@ appTemplate:
               ordered:
                 - values: |-
                     [ 
-                    ""]
+                    "Correspondent Bank"]
                 - verticalAligned: false
                 - onChange: ''
                 - tooltipText: ''
@@ -1936,7 +1936,7 @@ appTemplate:
                 height: 2
                 width: 12
             createdAt: 2019-09-16T14:38:39.554Z
-            updatedAt: 2019-09-16T14:39:04.080Z
+            updatedAt: 2019-09-16T14:39:08.429Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
