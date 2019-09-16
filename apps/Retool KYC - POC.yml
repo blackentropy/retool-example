@@ -991,6 +991,7 @@ appTemplate:
                       - Last Nasme: ''
                       - Last Name/Name of non-: ''
                       - Last Name/Name o: ''
+                      - Last Name/Name of non-personal entity: ''
                       - Last: ''
                       - Last Name/: ''
                       - id: ''
@@ -1010,6 +1011,7 @@ appTemplate:
                       - Last Nasme: true
                       - Last Name/Name of non-: true
                       - Last Name/Name o: true
+                      - Last Name/Name of non-personal entity: true
                       - Last: true
                       - Title: true
                       - Last Name/: true
@@ -1022,7 +1024,7 @@ appTemplate:
                 - serverPaginated: false
                 - data: |-
                     [{
-                      "Last Name/Name of non-": 1,
+                      "Last Name/Name of non-personal entity": 1,
                       "name": "Hanson Deck",
                       "email": "hanson@deck.com",
                       "sales": 37
@@ -1080,6 +1082,7 @@ appTemplate:
                     - Last Name/Name o
                     - Last Name/Name of N
                     - Last Name/Name of non-
+                    - Last Name/Name of non-personal entity
                 - sort: null
                 - calculatedColumns: []
                 - selectedRow:
@@ -1104,7 +1107,7 @@ appTemplate:
                 height: 8
                 width: 8
             createdAt: 2019-09-16T13:29:56.144Z
-            updatedAt: 2019-09-16T13:32:16.084Z
+            updatedAt: 2019-09-16T13:32:18.936Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
