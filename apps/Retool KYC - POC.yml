@@ -1820,9 +1820,9 @@ appTemplate:
               position2:
                 container: form1
                 row: 53
-                col: 9
+                col: 10
                 height: 1
-                width: 3
+                width: 2
             mobilePosition2:
               position2:
                 container: form1
