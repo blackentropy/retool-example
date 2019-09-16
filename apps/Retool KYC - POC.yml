@@ -1911,14 +1911,9 @@ appTemplate:
             subtype: CheckboxGroupWidget
             template:
               ordered:
-                - values: >-
+                - values: |-
                     [ 
-
-                    "Non-retail arms dealer/manufacturer","Casino/gambling
-                    establishments","Clients with Iranian Connections","Complex
-                    Corporate Structures","Non-retail dealer in precious
-                    metals/gems","Entity HQ or incorporated in country
-                    classified as high risk by RBC"]
+                    ""]
                 - verticalAligned: false
                 - onChange: ''
                 - tooltipText: ''
@@ -1941,7 +1936,7 @@ appTemplate:
                 height: 2
                 width: 12
             createdAt: 2019-09-16T14:38:39.554Z
-            updatedAt: 2019-09-16T14:38:49.143Z
+            updatedAt: 2019-09-16T14:39:04.080Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
