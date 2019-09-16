@@ -1051,7 +1051,7 @@ appTemplate:
                 - sortedDesc: false
                 - columnMappersRenderAsHTML:
                     ordered: []
-                - pageSize: 3
+                - pageSize: 2
                 - selectedColumn: null
                 - actionButtonPosition: left
                 - bulkUpdateAction: ''
@@ -1112,7 +1112,7 @@ appTemplate:
                 container: form1
                 row: 26
                 col: 3
-                height: 5
+                height: 4
                 width: 8
             mobilePosition2:
               position2:
@@ -1122,7 +1122,7 @@ appTemplate:
                 height: 8
                 width: 8
             createdAt: 2019-09-16T13:29:56.144Z
-            updatedAt: 2019-09-16T13:35:29.558Z
+            updatedAt: 2019-09-16T13:35:33.276Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
