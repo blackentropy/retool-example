@@ -1699,7 +1699,7 @@ appTemplate:
             subtype: TextWidget
             template:
               ordered:
-                - value: "**Hello** <b>friend!</b> \U0001F603"
+                - value: 'Are any members of this household:'
                 - html: false
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -1718,7 +1718,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-16T14:20:40.971Z
-            updatedAt: 2019-09-16T14:20:40.971Z
+            updatedAt: 2019-09-16T14:20:49.810Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
