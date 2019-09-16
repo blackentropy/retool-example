@@ -1373,7 +1373,7 @@ appTemplate:
                 - placeholder: Search here...
                 - label: >-
                     Both searches (OLWI & Internet Search) were completed by
-                    (name of employee)
+                    (name of employee):
                 - formattedValue: ''
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
@@ -1394,7 +1394,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-16T14:00:52.003Z
-            updatedAt: 2019-09-16T14:01:40.660Z
+            updatedAt: 2019-09-16T14:01:42.956Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
