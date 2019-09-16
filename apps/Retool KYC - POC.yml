@@ -1904,6 +1904,44 @@ appTemplate:
                 width: 2
             createdAt: 2019-09-16T14:30:09.872Z
             updatedAt: 2019-09-16T14:38:24.884Z
+      - checkboxgroup2:
+          pluginTemplate:
+            id: checkboxgroup2
+            type: widget
+            subtype: CheckboxGroupWidget
+            template:
+              ordered:
+                - values: >-
+                    [ 
+
+                    "Non-retail arms dealer/manufacturer","Casino/gambling
+                    establishments","Clients with Iranian Connections","Complex
+                    Corporate Structures","Non-retail dealer in precious
+                    metals/gems","Entity HQ or incorporated in country
+                    classified as high risk by RBC"]
+                - verticalAligned: false
+                - onChange: ''
+                - tooltipText: ''
+                - value: ''
+                - label: 'H1: Check all which apply to HH members'
+                - labelMaxWidth: ''
+                - labelPlacedOnLeft: ''
+                - disabled: ''
+                - labels: ''
+            position2:
+              position2:
+                container: form1
+                row: 59
+                height: 2
+                width: 12
+            mobilePosition2:
+              position2:
+                container: form1
+                row: 59
+                height: 2
+                width: 12
+            createdAt: 2019-09-16T14:38:39.554Z
+            updatedAt: 2019-09-16T14:38:39.554Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
