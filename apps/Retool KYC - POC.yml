@@ -1500,7 +1500,7 @@ appTemplate:
             subtype: CheckboxWidget
             template:
               ordered:
-                - label: 'Yes'
+                - label: 'No'
                 - value: false
                 - disabled: ''
                 - onCheckQuery: ''
@@ -1520,7 +1520,7 @@ appTemplate:
                 height: 1
                 width: 1
             createdAt: 2019-09-16T14:10:36.741Z
-            updatedAt: 2019-09-16T14:10:36.741Z
+            updatedAt: 2019-09-16T14:10:44.881Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
