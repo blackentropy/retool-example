@@ -1946,9 +1946,11 @@ appTemplate:
             subtype: CheckboxGroupWidget
             template:
               ordered:
-                - values: |-
+                - values: >-
                     [ 
-                    "Clients approved by RROC", "Client upon whom 3+ STR", ""]
+
+                    "Clients approved by RROC", "Client upon whom 3+ STR",
+                    "Restricted client"]
                 - verticalAligned: false
                 - onChange: ''
                 - tooltipText: ''
@@ -1971,7 +1973,7 @@ appTemplate:
                 height: 2
                 width: 12
             createdAt: 2019-09-16T14:40:02.271Z
-            updatedAt: 2019-09-16T14:41:28.116Z
+            updatedAt: 2019-09-16T14:41:30.941Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
