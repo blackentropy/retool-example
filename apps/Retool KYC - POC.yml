@@ -1412,7 +1412,7 @@ appTemplate:
                 - tooltipText: ''
                 - value: ''
                 - placeholder: Search here...
-                - label: Date
+                - label: 'On'
                 - formattedValue: ''
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
@@ -1435,7 +1435,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-16T14:02:24.061Z
-            updatedAt: 2019-09-16T14:02:50.129Z
+            updatedAt: 2019-09-16T14:02:56.198Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
