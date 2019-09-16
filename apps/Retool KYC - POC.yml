@@ -1143,7 +1143,9 @@ appTemplate:
                 - tooltipText: ''
                 - value: ''
                 - placeholder: Search here...
-                - label: 'Provide a detailed story for the Head of '
+                - label: >-
+                    Provide a detailed story for the Head of Household and EACH
+                    mem
                 - formattedValue: ''
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
@@ -1164,7 +1166,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-16T13:39:36.413Z
-            updatedAt: 2019-09-16T13:40:06.044Z
+            updatedAt: 2019-09-16T13:40:16.404Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
