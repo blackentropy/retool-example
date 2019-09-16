@@ -1781,7 +1781,9 @@ appTemplate:
             subtype: CheckboxWidget
             template:
               ordered:
-                - label: Domestic Politically Exposed Person(s) with
+                - label: >-
+                    Domestic Politically Exposed Person(s) within the last 5
+                    years
                 - value: false
                 - disabled: ''
                 - onCheckQuery: ''
@@ -1801,7 +1803,7 @@ appTemplate:
                 height: 1
                 width: 2
             createdAt: 2019-09-16T14:23:02.896Z
-            updatedAt: 2019-09-16T14:23:27.897Z
+            updatedAt: 2019-09-16T14:23:30.848Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
