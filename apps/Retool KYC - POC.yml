@@ -984,12 +984,15 @@ appTemplate:
                 - alwaysShowPaginator: false
                 - columnColors:
                     ordered:
-                      - Last: ''
-                      - name: ''
-                      - email: ''
-                      - sales: ''
-                      - id: ''
                       - '': ''
+                      - name: ''
+                      - sales: ''
+                      - Last Nasme: ''
+                      - Last: ''
+                      - Last Name/: ''
+                      - id: ''
+                      - email: ''
+                      - Last Na: ''
                 - allowMultiRowSelect: false
                 - columnFormats:
                     ordered: []
@@ -1000,17 +1003,20 @@ appTemplate:
                       - name: true
                       - Sales: true
                       - sales: true
+                      - Last Nasme: true
                       - Last: true
                       - Title: true
+                      - Last Name/: true
                       - id: true
                       - email: true
                       - Description: true
+                      - Last Na: true
                 - selectedPageIndex: '0'
                 - actionButtonColumnName: Actions
                 - serverPaginated: false
                 - data: |-
                     [{
-                      "Last": 1,
+                      "Last Name/": 1,
                       "name": "Hanson Deck",
                       "email": "hanson@deck.com",
                       "sales": 37
@@ -1062,6 +1068,9 @@ appTemplate:
                     - sales
                     - ''
                     - Last
+                    - Last Nasme
+                    - Last Na
+                    - Last Name/
                 - sort: null
                 - calculatedColumns: []
                 - selectedRow:
@@ -1086,7 +1095,7 @@ appTemplate:
                 height: 8
                 width: 8
             createdAt: 2019-09-16T13:29:56.144Z
-            updatedAt: 2019-09-16T13:32:05.582Z
+            updatedAt: 2019-09-16T13:32:10.685Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
