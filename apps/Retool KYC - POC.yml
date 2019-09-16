@@ -58,7 +58,7 @@ appTemplate:
                 - databaseUsernameOverride: ''
                 - queryThrottleTime: '750'
             createdAt: 2019-04-20T04:49:38.684Z
-            updatedAt: 2019-09-13T17:38:08.836Z
+            updatedAt: 2019-09-16T12:54:47.611Z
       - container1:
           pluginTemplate:
             id: container1
@@ -77,7 +77,7 @@ appTemplate:
                 height: 8
                 width: 6
             createdAt: 2019-04-20T04:49:44.975Z
-            updatedAt: 2019-09-13T17:38:08.837Z
+            updatedAt: 2019-09-16T12:54:47.612Z
       - text1:
           pluginTemplate:
             id: text1
@@ -100,7 +100,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-04-20T04:49:50.631Z
-            updatedAt: 2019-09-13T18:02:16.489Z
+            updatedAt: 2019-09-16T12:54:47.612Z
       - text4:
           pluginTemplate:
             id: text4
@@ -129,7 +129,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-04-20T04:51:13.674Z
-            updatedAt: 2019-09-13T17:38:08.838Z
+            updatedAt: 2019-09-16T12:54:47.612Z
       - form1:
           pluginTemplate:
             id: form1
@@ -160,7 +160,7 @@ appTemplate:
                 height: 6
                 width: 6
             createdAt: 2019-09-13T18:07:30.423Z
-            updatedAt: 2019-09-13T18:07:30.423Z
+            updatedAt: 2019-09-16T12:54:47.613Z
       - checkbox1:
           pluginTemplate:
             id: checkbox1
@@ -188,7 +188,7 @@ appTemplate:
                 height: 1
                 width: 2
             createdAt: 2019-09-13T18:21:23.423Z
-            updatedAt: 2019-09-13T18:21:52.527Z
+            updatedAt: 2019-09-16T12:54:47.613Z
       - checkbox2:
           pluginTemplate:
             id: checkbox2
@@ -216,7 +216,7 @@ appTemplate:
                 height: 1
                 width: 2
             createdAt: 2019-09-13T18:24:35.784Z
-            updatedAt: 2019-09-13T18:24:49.903Z
+            updatedAt: 2019-09-16T12:54:47.613Z
       - checkbox3:
           pluginTemplate:
             id: checkbox3
@@ -244,7 +244,7 @@ appTemplate:
                 height: 1
                 width: 2
             createdAt: 2019-09-13T18:24:55.426Z
-            updatedAt: 2019-09-13T18:25:14.857Z
+            updatedAt: 2019-09-16T12:54:47.613Z
       - textinput1:
           pluginTemplate:
             id: textinput1
@@ -284,7 +284,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-13T18:25:40.193Z
-            updatedAt: 2019-09-13T18:28:25.990Z
+            updatedAt: 2019-09-16T12:54:47.614Z
       - textinput2:
           pluginTemplate:
             id: textinput2
@@ -324,7 +324,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-13T18:27:49.973Z
-            updatedAt: 2019-09-13T18:28:56.606Z
+            updatedAt: 2019-09-16T12:54:47.614Z
       - textinput3:
           pluginTemplate:
             id: textinput3
@@ -365,7 +365,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-13T18:29:00.895Z
-            updatedAt: 2019-09-13T18:29:33.915Z
+            updatedAt: 2019-09-16T12:54:47.615Z
       - select1:
           pluginTemplate:
             id: select1
@@ -375,7 +375,7 @@ appTemplate:
               ordered:
                 - values: >-
                     ["N/A - Adding client to existing Household","COI - Centre
-                    of Influence","Existing Private Banking Client"]
+                    of Influence","Existing Private Banking Client","]
                 - allowOutOfRangeValues: false
                 - enableFuzzyMatching: true
                 - searchValue: ''
@@ -407,7 +407,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-13T18:48:07.272Z
-            updatedAt: 2019-09-13T18:51:45.571Z
+            updatedAt: 2019-09-16T12:55:17.674Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
