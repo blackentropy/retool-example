@@ -750,33 +750,6 @@ appTemplate:
                 width: 3
             createdAt: 2019-09-16T13:13:13.690Z
             updatedAt: 2019-09-16T13:13:37.169Z
-      - text6:
-          pluginTemplate:
-            id: text6
-            type: widget
-            subtype: TextWidget
-            template:
-              ordered:
-                - value: Client Information - Head of Household
-                - html: false
-                - scrollOverflow: false
-                - truncateOverflow: false
-            position2:
-              position2:
-                container: form1
-                row: 15
-                col: 3
-                height: 1
-                width: 3
-            mobilePosition2:
-              position2:
-                container: form1
-                row: 9
-                col: 3
-                height: 1
-                width: 3
-            createdAt: 2019-09-16T13:13:59.503Z
-            updatedAt: 2019-09-16T13:13:59.503Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
