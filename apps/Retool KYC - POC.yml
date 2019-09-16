@@ -1799,7 +1799,7 @@ appTemplate:
                 - value: ''
                 - maxResults: 50
                 - placeholder: ''
-                - label: Was any of the wealth household members
+                - label: Was any of the wealth of the household members
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
                 - onSelect: ''
@@ -1820,7 +1820,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-16T14:27:07.940Z
-            updatedAt: 2019-09-16T14:27:37.096Z
+            updatedAt: 2019-09-16T14:27:43.753Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
