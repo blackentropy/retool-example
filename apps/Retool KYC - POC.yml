@@ -867,6 +867,44 @@ appTemplate:
                 width: 4
             createdAt: 2019-09-16T13:21:27.184Z
             updatedAt: 2019-09-16T13:25:02.368Z
+      - select5:
+          pluginTemplate:
+            id: select5
+            type: widget
+            subtype: SelectWidget
+            template:
+              ordered:
+                - values: '[1,2,3]'
+                - allowOutOfRangeValues: false
+                - enableFuzzyMatching: true
+                - searchValue: ''
+                - displayValue: ''
+                - tooltipText: ''
+                - value: ''
+                - maxResults: 50
+                - placeholder: ''
+                - label: Numbers
+                - labelMaxWidth: ''
+                - labelPlacedOnLeft: ''
+                - onSelect: ''
+                - disabled: ''
+                - hideClearButton: false
+                - required: false
+                - labels: ''
+            position2:
+              position2:
+                container: form1
+                row: 17
+                height: 1
+                width: 4
+            mobilePosition2:
+              position2:
+                container: form1
+                row: 17
+                height: 1
+                width: 4
+            createdAt: 2019-09-16T13:26:18.135Z
+            updatedAt: 2019-09-16T13:26:18.135Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
