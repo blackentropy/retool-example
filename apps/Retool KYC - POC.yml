@@ -1801,7 +1801,7 @@ appTemplate:
                 - placeholder: ''
                 - label: >-
                     Was any of the wealth of the household members created
-                    outside Canada
+                    outside Canada?
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
                 - onSelect: ''
@@ -1822,7 +1822,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-16T14:27:07.940Z
-            updatedAt: 2019-09-16T14:27:52.065Z
+            updatedAt: 2019-09-16T14:27:54.892Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
