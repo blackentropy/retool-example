@@ -1508,8 +1508,8 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 49
-                col: 4
+                row: 48
+                col: 5
                 height: 1
                 width: 1
             mobilePosition2:
