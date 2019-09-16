@@ -376,7 +376,7 @@ appTemplate:
                 - values: >-
                     ["N/A - Adding client to existing Household","COI - Centre
                     of Influence","Existing Private Banking Client","RBC Private
-                    Banker (self)","RBC Bank GA"]
+                    Banker (self)","RBC Bank GA",]
                 - allowOutOfRangeValues: false
                 - enableFuzzyMatching: true
                 - searchValue: ''
@@ -408,7 +408,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-13T18:48:07.272Z
-            updatedAt: 2019-09-16T12:55:33.600Z
+            updatedAt: 2019-09-16T12:55:49.808Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
