@@ -1197,7 +1197,7 @@ appTemplate:
                 - tooltipText: ''
                 - value: ''
                 - placeholder: Search here...
-                - label: 'Other '
+                - label: Other Details - Purpose of Accounts(s)
                 - formattedValue: ''
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
@@ -1218,7 +1218,7 @@ appTemplate:
                 height: 4
                 width: 12
             createdAt: 2019-09-16T13:51:53.253Z
-            updatedAt: 2019-09-16T13:52:41.309Z
+            updatedAt: 2019-09-16T13:52:48.005Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
