@@ -1949,8 +1949,8 @@ appTemplate:
                 - values: >-
                     [ 
 
-                    "Clients approved by RROC", "Client upon whom 3+", "Money
-                    service business"]
+                    "Clients approved by RROC", "Client upon whom 3+ STR",
+                    "Money service business"]
                 - verticalAligned: false
                 - onChange: ''
                 - tooltipText: ''
@@ -1973,7 +1973,7 @@ appTemplate:
                 height: 2
                 width: 12
             createdAt: 2019-09-16T14:40:02.271Z
-            updatedAt: 2019-09-16T14:41:09.511Z
+            updatedAt: 2019-09-16T14:41:13.365Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
