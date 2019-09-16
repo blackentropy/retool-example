@@ -1839,9 +1839,7 @@ appTemplate:
                 - value: ''
                 - maxResults: 50
                 - placeholder: ''
-                - label: >-
-                    Was any of the wealth of the household members created
-                    outside Canada?
+                - label: Does any
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
                 - onSelect: ''
@@ -1863,7 +1861,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-16T14:28:25.381Z
-            updatedAt: 2019-09-16T14:28:25.381Z
+            updatedAt: 2019-09-16T14:28:39.758Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
