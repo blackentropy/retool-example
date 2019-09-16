@@ -1877,7 +1877,7 @@ appTemplate:
                 - onChange: ''
                 - tooltipText: ''
                 - value: ''
-                - label: H1
+                - label: 'H1: '
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
                 - disabled: ''
@@ -1897,7 +1897,7 @@ appTemplate:
                 height: 2
                 width: 2
             createdAt: 2019-09-16T14:30:09.872Z
-            updatedAt: 2019-09-16T14:34:24.924Z
+            updatedAt: 2019-09-16T14:34:28.618Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
