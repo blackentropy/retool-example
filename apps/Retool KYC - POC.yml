@@ -1468,8 +1468,9 @@ appTemplate:
               position2:
                 container: form1
                 row: 48
+                col: 1
                 height: 1
-                width: 5
+                width: 4
             mobilePosition2:
               position2:
                 container: form1
