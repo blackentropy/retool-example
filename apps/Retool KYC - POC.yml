@@ -1725,7 +1725,7 @@ appTemplate:
             subtype: CheckboxWidget
             template:
               ordered:
-                - label: Non-
+                - label: Non-Resident(s)
                 - value: false
                 - disabled: ''
                 - onCheckQuery: ''
@@ -1745,7 +1745,7 @@ appTemplate:
                 height: 1
                 width: 2
             createdAt: 2019-09-16T14:21:43.576Z
-            updatedAt: 2019-09-16T14:21:56.869Z
+            updatedAt: 2019-09-16T14:22:00.175Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
