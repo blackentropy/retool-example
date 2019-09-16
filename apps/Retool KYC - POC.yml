@@ -730,7 +730,7 @@ appTemplate:
             subtype: TextWidget
             template:
               ordered:
-                - value: Client Information - Head of Household
+                - value: Members of the Household
                 - html: false
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -749,7 +749,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-16T13:13:13.690Z
-            updatedAt: 2019-09-16T13:13:13.690Z
+            updatedAt: 2019-09-16T13:13:37.169Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
