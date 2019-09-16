@@ -150,7 +150,7 @@ appTemplate:
                 - disabled: ''
             position2:
               position2:
-                row: 5
+                row: 10
                 height: 26
                 width: 12
             mobilePosition2:
@@ -750,6 +750,31 @@ appTemplate:
                 width: 3
             createdAt: 2019-09-16T13:13:13.690Z
             updatedAt: 2019-09-16T13:13:37.169Z
+      - text6:
+          pluginTemplate:
+            id: text6
+            type: widget
+            subtype: TextWidget
+            template:
+              ordered:
+                - value: Client Information - Head of Household
+                - html: false
+                - scrollOverflow: false
+                - truncateOverflow: false
+            position2:
+              position2:
+                row: 9
+                col: 3
+                height: 1
+                width: 3
+            mobilePosition2:
+              position2:
+                row: 9
+                col: 3
+                height: 1
+                width: 3
+            createdAt: 2019-09-16T13:14:56.805Z
+            updatedAt: 2019-09-16T13:14:56.805Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
