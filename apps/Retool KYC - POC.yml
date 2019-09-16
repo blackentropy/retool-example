@@ -788,6 +788,46 @@ appTemplate:
                 width: 4
             createdAt: 2019-09-16T13:15:59.736Z
             updatedAt: 2019-09-16T13:16:33.004Z
+      - select3:
+          pluginTemplate:
+            id: select3
+            type: widget
+            subtype: SelectWidget
+            template:
+              ordered:
+                - values: '[1,2,3]'
+                - allowOutOfRangeValues: false
+                - enableFuzzyMatching: true
+                - searchValue: ''
+                - displayValue: ''
+                - tooltipText: ''
+                - value: ''
+                - maxResults: 50
+                - placeholder: ''
+                - label: Numbers
+                - labelMaxWidth: ''
+                - labelPlacedOnLeft: ''
+                - onSelect: ''
+                - disabled: ''
+                - hideClearButton: false
+                - required: false
+                - labels: ''
+            position2:
+              position2:
+                container: form1
+                row: 14
+                col: 4
+                height: 1
+                width: 4
+            mobilePosition2:
+              position2:
+                container: form1
+                row: 14
+                col: 4
+                height: 1
+                width: 4
+            createdAt: 2019-09-16T13:18:46.454Z
+            updatedAt: 2019-09-16T13:18:46.454Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
