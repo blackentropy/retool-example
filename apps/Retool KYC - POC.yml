@@ -1619,7 +1619,7 @@ appTemplate:
                 - value: 'The estimated net worth of the household is greater than '
                 - maxResults: 50
                 - placeholder: ''
-                - label: Numbers
+                - label: 'The estimated net worth of the household is greater than '
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
                 - onSelect: ''
@@ -1640,7 +1640,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-16T14:13:38.396Z
-            updatedAt: 2019-09-16T14:14:50.966Z
+            updatedAt: 2019-09-16T14:15:12.607Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
