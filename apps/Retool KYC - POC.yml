@@ -1147,7 +1147,7 @@ appTemplate:
                     Provide a detailed story for the Head of Household and EACH
                     member. [Including History of Occuplation & Employer,
                     Income, - Hold Co. 9Include Beneficial Owner(s) and percent
-                    (%)]
+                    (%) ownership)]
                 - formattedValue: ''
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
@@ -1168,7 +1168,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-16T13:39:36.413Z
-            updatedAt: 2019-09-16T13:41:01.343Z
+            updatedAt: 2019-09-16T13:41:04.611Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
