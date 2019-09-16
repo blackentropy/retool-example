@@ -757,7 +757,7 @@ appTemplate:
             subtype: SelectWidget
             template:
               ordered:
-                - values: '[1,2,3]'
+                - values: '["Low"]'
                 - allowOutOfRangeValues: false
                 - enableFuzzyMatching: true
                 - searchValue: ''
@@ -787,7 +787,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-16T13:15:59.736Z
-            updatedAt: 2019-09-16T13:16:14.842Z
+            updatedAt: 2019-09-16T13:16:27.525Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
