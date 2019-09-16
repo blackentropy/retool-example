@@ -1939,6 +1939,41 @@ appTemplate:
                 width: 12
             createdAt: 2019-09-16T14:38:39.554Z
             updatedAt: 2019-09-16T14:39:40.835Z
+      - checkboxgroup3:
+          pluginTemplate:
+            id: checkboxgroup3
+            type: widget
+            subtype: CheckboxGroupWidget
+            template:
+              ordered:
+                - values: >-
+                    [ 
+
+                    "Correspondent Bank", "Entity that can issue bearer shares",
+                    "Money service business"]
+                - verticalAligned: false
+                - onChange: ''
+                - tooltipText: ''
+                - value: ''
+                - label: 'H2: Check all which apply to HH members'
+                - labelMaxWidth: ''
+                - labelPlacedOnLeft: ''
+                - disabled: ''
+                - labels: ''
+            position2:
+              position2:
+                container: form1
+                row: 61
+                height: 2
+                width: 12
+            mobilePosition2:
+              position2:
+                container: form1
+                row: 61
+                height: 2
+                width: 12
+            createdAt: 2019-09-16T14:40:02.271Z
+            updatedAt: 2019-09-16T14:40:02.271Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
