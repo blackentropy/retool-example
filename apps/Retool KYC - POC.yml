@@ -835,7 +835,7 @@ appTemplate:
             subtype: SelectWidget
             template:
               ordered:
-                - values: '["Yes]'
+                - values: '["Yes","No"]'
                 - allowOutOfRangeValues: false
                 - enableFuzzyMatching: true
                 - searchValue: ''
@@ -866,7 +866,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-16T13:21:27.184Z
-            updatedAt: 2019-09-16T13:23:58.416Z
+            updatedAt: 2019-09-16T13:24:01.573Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
