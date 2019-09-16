@@ -1659,10 +1659,11 @@ appTemplate:
                 - value: ''
                 - maxResults: 50
                 - placeholder: ''
-                - label: |
+                - label: |-
                     Are any members of this household:
                     • non-resident(s)
                     • Senior Foreign Politically Exposed Person(s)
+                    •
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
                 - onSelect: ''
@@ -1683,7 +1684,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-16T14:17:26.564Z
-            updatedAt: 2019-09-16T14:18:51.002Z
+            updatedAt: 2019-09-16T14:18:59.307Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
