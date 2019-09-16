@@ -1230,7 +1230,7 @@ appTemplate:
                 - placeholder: Search here...
                 - label: >-
                     Reason for Establishing PB Relationship - Include Wealth
-                    Management Solution 
+                    Management Solution / Strategy
                 - formattedValue: ''
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
@@ -1251,7 +1251,7 @@ appTemplate:
                 height: 4
                 width: 12
             createdAt: 2019-09-16T13:50:49.351Z
-            updatedAt: 2019-09-16T13:51:24.450Z
+            updatedAt: 2019-09-16T13:51:27.052Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
