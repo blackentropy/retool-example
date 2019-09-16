@@ -1371,7 +1371,9 @@ appTemplate:
                 - tooltipText: ''
                 - value: ''
                 - placeholder: Search here...
-                - label: 'Both searches (OLWI & Internet Search) were '
+                - label: >-
+                    Both searches (OLWI & Internet Search) were completed by
+                    (name of employee)
                 - formattedValue: ''
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
@@ -1392,7 +1394,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-16T14:00:52.003Z
-            updatedAt: 2019-09-16T14:01:35.601Z
+            updatedAt: 2019-09-16T14:01:40.660Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
