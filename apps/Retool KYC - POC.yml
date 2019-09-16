@@ -1662,6 +1662,7 @@ appTemplate:
                 - label: >-
                     Are any members of this household:
 
+
                     • non-resident(s)
 
                     • Senior Foreign Politically Exposed Person(s)
@@ -1690,7 +1691,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-16T14:17:26.564Z
-            updatedAt: 2019-09-16T14:19:39.668Z
+            updatedAt: 2019-09-16T14:19:55.758Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
