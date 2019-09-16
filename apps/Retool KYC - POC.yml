@@ -1659,8 +1659,9 @@ appTemplate:
                 - value: ''
                 - maxResults: 50
                 - placeholder: ''
-                - label: |
+                - label: |-
                     Are any members of this household:
+                    • 
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
                 - onSelect: ''
@@ -1681,7 +1682,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-16T14:17:26.564Z
-            updatedAt: 2019-09-16T14:18:15.137Z
+            updatedAt: 2019-09-16T14:18:27.491Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
