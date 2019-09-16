@@ -535,7 +535,7 @@ appTemplate:
                 - tooltipText: ''
                 - value: ''
                 - placeholder: Search here...
-                - label: Name
+                - label: First Name
                 - formattedValue: ''
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
@@ -558,7 +558,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-16T13:08:04.419Z
-            updatedAt: 2019-09-16T13:08:04.419Z
+            updatedAt: 2019-09-16T13:08:11.231Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
