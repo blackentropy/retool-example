@@ -1616,7 +1616,9 @@ appTemplate:
                 - searchValue: ''
                 - displayValue: ''
                 - tooltipText: ''
-                - value: 'The estimated networth of this household is in excess of '
+                - value: >-
+                    The estimated networth of this household is in excess of
+                    $30,000,000.
                 - maxResults: 50
                 - placeholder: ''
                 - label: Numbers
@@ -1640,7 +1642,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-16T14:13:38.396Z
-            updatedAt: 2019-09-16T14:13:59.307Z
+            updatedAt: 2019-09-16T14:14:05.823Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
