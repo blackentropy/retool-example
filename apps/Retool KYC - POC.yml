@@ -1616,9 +1616,7 @@ appTemplate:
                 - searchValue: ''
                 - displayValue: ''
                 - tooltipText: ''
-                - value: >-
-                    "The estimated net worth of the household is greater than
-                    $30,000,000."
+                - value: 'The estimated net worth of the household is greater than '
                 - maxResults: 50
                 - placeholder: ''
                 - label: Numbers
@@ -1642,7 +1640,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-16T14:13:38.396Z
-            updatedAt: 2019-09-16T14:14:43.731Z
+            updatedAt: 2019-09-16T14:14:50.966Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
