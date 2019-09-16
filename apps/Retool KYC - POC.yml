@@ -1371,7 +1371,7 @@ appTemplate:
                 - tooltipText: ''
                 - value: ''
                 - placeholder: Search here...
-                - label: Both searches (OLWI & )
+                - label: Both searches (OLWI & Internet Search)
                 - formattedValue: ''
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
@@ -1392,7 +1392,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-16T14:00:52.003Z
-            updatedAt: 2019-09-16T14:01:28.563Z
+            updatedAt: 2019-09-16T14:01:31.244Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
