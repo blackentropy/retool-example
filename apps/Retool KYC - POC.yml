@@ -1465,6 +1465,34 @@ appTemplate:
                 width: 3
             createdAt: 2019-09-16T14:09:35.839Z
             updatedAt: 2019-09-16T14:09:49.733Z
+      - checkbox4:
+          pluginTemplate:
+            id: checkbox4
+            type: widget
+            subtype: CheckboxWidget
+            template:
+              ordered:
+                - label: Checkbox label
+                - value: false
+                - disabled: ''
+                - onCheckQuery: ''
+                - onUncheckQuery: ''
+            position2:
+              position2:
+                container: form1
+                row: 48
+                col: 4
+                height: 1
+                width: 2
+            mobilePosition2:
+              position2:
+                container: form1
+                row: 48
+                col: 4
+                height: 1
+                width: 2
+            createdAt: 2019-09-16T14:10:14.130Z
+            updatedAt: 2019-09-16T14:10:14.130Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
