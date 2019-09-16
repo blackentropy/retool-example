@@ -970,6 +970,120 @@ appTemplate:
                 width: 3
             createdAt: 2019-09-16T13:29:07.769Z
             updatedAt: 2019-09-16T13:29:23.173Z
+      - table1:
+          pluginTemplate:
+            id: table1
+            type: widget
+            subtype: TableWidget
+            template:
+              ordered:
+                - columnWidths: []
+                - columnWidthsMobile: []
+                - columnHeaderNames:
+                    ordered: []
+                - alwaysShowPaginator: false
+                - columnColors:
+                    ordered: []
+                - allowMultiRowSelect: false
+                - columnFormats:
+                    ordered: []
+                - nextBeforeCursor: ''
+                - columnVisibility:
+                    ordered:
+                      - Title: true
+                      - Description: true
+                      - Sales: true
+                - selectedPageIndex: '0'
+                - actionButtonColumnName: Actions
+                - serverPaginated: false
+                - data: |-
+                    [{
+                      "id": 1,
+                      "name": "Hanson Deck",
+                      "email": "hanson@deck.com",
+                      "sales": 37
+                    }, {
+                      "id": 2,
+                      "name": "Max Conversation",
+                      "email": "Max@conversation.com",
+                      "sales": 424
+                    }, {
+                      "id": 3,
+                      "name": "Jason Response",
+                      "email": "jason@response.com",
+                      "sales": 55
+                    }, {
+                      "id": 4,
+                      "name": "Sue Shei",
+                      "email": "sueshei@example.com",
+                      "sales": 550
+                    }, {
+                      "id": 5,
+                      "name": "Eric Widget",
+                      "email": "eric@widget.org",
+                      "sales": 243
+                    }]
+                - actionButtons: []
+                - actionButtonSelectsRow: true
+                - selectRowByDefault: true
+                - defaultSortByColumn: ''
+                - paginationOffset: 0
+                - sortedDesc: false
+                - columnMappersRenderAsHTML:
+                    ordered: []
+                - pageSize: '10'
+                - selectedColumn: null
+                - actionButtonPosition: left
+                - bulkUpdateAction: ''
+                - afterCursor: ''
+                - changeSet:
+                    object: {}
+                - sortedColumn: ''
+                - columnAllowOverflow:
+                    ordered: []
+                - beforeCursor: ''
+                - serverPaginationType: limitOffsetBased
+                - onRowSelect: ''
+                - showDownloadButton: true
+                - selectedIndex: ''
+                - defaultSortDescending: false
+                - totalRowCount: ''
+                - recordUpdates:
+                    array: []
+                - columnEditable:
+                    ordered: []
+                - columnMappers:
+                    ordered: []
+                - showClearSelection: false
+                - columns:
+                    - Title
+                    - Description
+                    - Sales
+                - sort: null
+                - calculatedColumns: []
+                - selectedRow:
+                    object:
+                      index: null
+                      data: null
+                - showPaginationOnTop: false
+                - nextAfterCursor: ''
+                - useCompactMode: false
+            position2:
+              position2:
+                container: form1
+                row: 26
+                col: 3
+                height: 8
+                width: 8
+            mobilePosition2:
+              position2:
+                container: form1
+                row: 26
+                col: 3
+                height: 8
+                width: 8
+            createdAt: 2019-09-16T13:29:56.144Z
+            updatedAt: 2019-09-16T13:29:56.144Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
