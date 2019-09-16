@@ -1187,7 +1187,9 @@ appTemplate:
                 - tooltipText: ''
                 - value: ''
                 - placeholder: Search here...
-                - label: 'Source of Wealth '
+                - label: >-
+                    Source of Wealth and Composition - Include Corroboration of
+                    Sou
                 - formattedValue: ''
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
@@ -1208,7 +1210,7 @@ appTemplate:
                 height: 4
                 width: 12
             createdAt: 2019-09-16T13:49:47.979Z
-            updatedAt: 2019-09-16T13:50:18.007Z
+            updatedAt: 2019-09-16T13:50:28.445Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
