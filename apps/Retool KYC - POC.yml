@@ -150,7 +150,7 @@ appTemplate:
                 - disabled: ''
             position2:
               position2:
-                row: 10
+                row: 5
                 height: 26
                 width: 12
             mobilePosition2:
@@ -750,31 +750,34 @@ appTemplate:
                 width: 3
             createdAt: 2019-09-16T13:13:13.690Z
             updatedAt: 2019-09-16T13:13:37.169Z
-      - text6:
+      - checkbox4:
           pluginTemplate:
-            id: text6
+            id: checkbox4
             type: widget
-            subtype: TextWidget
+            subtype: CheckboxWidget
             template:
               ordered:
-                - value: Client Information - Head of Household
-                - html: false
-                - scrollOverflow: false
-                - truncateOverflow: false
+                - label: Checkbox label
+                - value: false
+                - disabled: ''
+                - onCheckQuery: ''
+                - onUncheckQuery: ''
             position2:
               position2:
-                row: 9
-                col: 3
+                container: form1
+                row: 18
+                col: 10
                 height: 1
-                width: 3
+                width: 2
             mobilePosition2:
               position2:
-                row: 9
-                col: 3
+                container: form1
+                row: 18
+                col: 10
                 height: 1
-                width: 3
-            createdAt: 2019-09-16T13:14:56.805Z
-            updatedAt: 2019-09-16T13:14:56.805Z
+                width: 2
+            createdAt: 2019-09-16T13:15:35.824Z
+            updatedAt: 2019-09-16T13:15:35.824Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
