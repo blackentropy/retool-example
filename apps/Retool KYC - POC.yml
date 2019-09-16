@@ -844,7 +844,7 @@ appTemplate:
                 - value: ''
                 - maxResults: 50
                 - placeholder: ''
-                - label: Suggested Service Model
+                - label: 'Will '
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
                 - onSelect: ''
@@ -866,7 +866,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-16T13:21:27.184Z
-            updatedAt: 2019-09-16T13:24:01.573Z
+            updatedAt: 2019-09-16T13:24:44.407Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
