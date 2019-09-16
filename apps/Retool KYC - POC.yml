@@ -1170,6 +1170,50 @@ appTemplate:
                 width: 4
             createdAt: 2019-09-16T13:39:36.413Z
             updatedAt: 2019-09-16T13:49:31.664Z
+      - textinput12:
+          pluginTemplate:
+            id: textinput12
+            type: widget
+            subtype: TextInputWidget
+            template:
+              ordered:
+                - readonly: ''
+                - disabledKeyCodes: ''
+                - onBlur: ''
+                - docsSlug: textinput
+                - currencyType: USD
+                - leftIconName: search
+                - initialValue: ''
+                - tooltipText: ''
+                - value: ''
+                - placeholder: Search here...
+                - label: >-
+                    Provide a detailed story for the Head of Household and EACH
+                    member. [Including History of Occuplation & Employer,
+                    Income, - Hold Co. (Include Beneficial Owner(s) and percent
+                    (%) ownership) and Trust (Inlcude Settlors, Trustee and
+                    Beneficiaries) + incorporation & purpose]
+                - formattedValue: ''
+                - labelMaxWidth: ''
+                - labelPlacedOnLeft: ''
+                - onSubmit: ''
+                - type: text
+                - allowedRegex: .*
+                - required: false
+            position2:
+              position2:
+                container: form1
+                row: 30
+                height: 4
+                width: 12
+            mobilePosition2:
+              position2:
+                container: form1
+                row: 30
+                height: 4
+                width: 12
+            createdAt: 2019-09-16T13:49:47.979Z
+            updatedAt: 2019-09-16T13:49:47.979Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
