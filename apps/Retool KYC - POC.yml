@@ -996,6 +996,7 @@ appTemplate:
                       - Middle Name: ''
                       - Last: ''
                       - Last Name/: ''
+                      - CRI: ''
                       - id: ''
                       - First Name: ''
                       - email: ''
@@ -1020,6 +1021,7 @@ appTemplate:
                       - Last: true
                       - Title: true
                       - Last Name/: true
+                      - CRI: true
                       - id: true
                       - First Name: true
                       - email: true
@@ -1032,8 +1034,8 @@ appTemplate:
                     [{
                       "Last Name/Name of non-personal entity": 1,
                       "First Name": "Lia",
-                      "Middle Name": "Carla"
-                      "CRI": "A",
+                      "Middle Name": "Carla",
+                      "CRI": "A"
                     }]
                 - actionButtons: []
                 - actionButtonSelectsRow: true
@@ -1087,6 +1089,7 @@ appTemplate:
                     - L
                     - First Name
                     - Middle Name
+                    - CRI
                 - sort: null
                 - calculatedColumns: []
                 - selectedRow:
@@ -1111,7 +1114,7 @@ appTemplate:
                 height: 8
                 width: 8
             createdAt: 2019-09-16T13:29:56.144Z
-            updatedAt: 2019-09-16T13:34:15.895Z
+            updatedAt: 2019-09-16T13:34:23.376Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
