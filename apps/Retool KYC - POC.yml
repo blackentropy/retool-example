@@ -1811,9 +1811,7 @@ appTemplate:
             subtype: CheckboxWidget
             template:
               ordered:
-                - label: >-
-                    Domestic Politically Exposed Person(s) within the last 5
-                    years
+                - label: Head of an International Organization
                 - value: false
                 - disabled: ''
                 - onCheckQuery: ''
@@ -1833,7 +1831,7 @@ appTemplate:
                 height: 1
                 width: 2
             createdAt: 2019-09-16T14:23:45.722Z
-            updatedAt: 2019-09-16T14:23:45.722Z
+            updatedAt: 2019-09-16T14:23:58.350Z
   createdAt: null
   version: 2.47.8
   responsiveLayoutDisabled: false
