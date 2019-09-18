@@ -2222,7 +2222,7 @@ appTemplate:
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
                 - onSubmit: ''
-                - type: text
+                - type: date
                 - allowedRegex: .*
                 - required: false
             position2:
@@ -2240,7 +2240,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-18T20:01:05.111Z
-            updatedAt: 2019-09-18T20:01:13.385Z
+            updatedAt: 2019-09-18T20:01:17.201Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
