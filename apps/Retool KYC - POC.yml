@@ -2031,7 +2031,7 @@ appTemplate:
                 - placeholder: Search here...
                 - label: >-
                     If you answered "yes" or checked any boxes in any questions
-                    with this Client 
+                    with this Client Risk Assessment section, please provide 
                 - formattedValue: ''
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
@@ -2052,7 +2052,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-18T19:54:22.227Z
-            updatedAt: 2019-09-18T19:55:18.956Z
+            updatedAt: 2019-09-18T19:55:25.943Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
