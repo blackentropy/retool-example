@@ -2248,7 +2248,7 @@ appTemplate:
             subtype: TextWidget
             template:
               ordered:
-                - value: 'Senior Management '
+                - value: Senior Management Approval
                 - html: false
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -2267,7 +2267,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-18T20:01:38.505Z
-            updatedAt: 2019-09-18T20:01:50.977Z
+            updatedAt: 2019-09-18T20:01:54.460Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
