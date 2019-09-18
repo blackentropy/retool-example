@@ -2138,7 +2138,7 @@ appTemplate:
                 - tooltipText: ''
                 - value: ''
                 - placeholder: Search here...
-                - label: R
+                - label: Risk Description
                 - formattedValue: ''
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
@@ -2160,7 +2160,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-18T19:58:11.872Z
-            updatedAt: 2019-09-18T19:58:26.111Z
+            updatedAt: 2019-09-18T19:58:29.187Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
