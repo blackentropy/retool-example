@@ -79,7 +79,7 @@ appTemplate:
                 - disabled: ''
             position2:
               position2:
-                height: 71
+                height: 72
                 width: 12
             mobilePosition2:
               position2:
