@@ -2217,7 +2217,7 @@ appTemplate:
                 - tooltipText: ''
                 - value: ''
                 - placeholder: Search here...
-                - label: ''
+                - label: Date of Approval
                 - formattedValue: ''
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
@@ -2240,7 +2240,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-18T20:01:05.111Z
-            updatedAt: 2019-09-18T20:01:10.555Z
+            updatedAt: 2019-09-18T20:01:13.385Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
