@@ -2121,6 +2121,45 @@ appTemplate:
                 width: 3
             createdAt: 2019-09-18T19:56:53.654Z
             updatedAt: 2019-09-18T19:57:12.690Z
+      - textinput21:
+          pluginTemplate:
+            id: textinput21
+            type: widget
+            subtype: TextInputWidget
+            template:
+              ordered:
+                - readonly: ''
+                - disabledKeyCodes: ''
+                - onBlur: ''
+                - docsSlug: textinput
+                - currencyType: USD
+                - leftIconName: search
+                - initialValue: ''
+                - tooltipText: ''
+                - value: ''
+                - placeholder: Search here...
+                - label: Risk Evaluation at On-Boarding
+                - formattedValue: ''
+                - labelMaxWidth: ''
+                - labelPlacedOnLeft: ''
+                - onSubmit: ''
+                - type: text
+                - allowedRegex: .*
+                - required: false
+            position2:
+              position2:
+                container: form1
+                row: 69
+                height: 1
+                width: 4
+            mobilePosition2:
+              position2:
+                container: form1
+                row: 69
+                height: 1
+                width: 4
+            createdAt: 2019-09-18T19:58:11.872Z
+            updatedAt: 2019-09-18T19:58:11.872Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
