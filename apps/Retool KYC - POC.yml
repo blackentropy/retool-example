@@ -2102,7 +2102,7 @@ appTemplate:
             subtype: TextWidget
             template:
               ordered:
-                - value: "**Hello** <b>friend!</b> \U0001F603"
+                - value: Household Risk
                 - html: false
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -2121,7 +2121,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-18T19:56:53.654Z
-            updatedAt: 2019-09-18T19:56:53.654Z
+            updatedAt: 2019-09-18T19:57:12.690Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
