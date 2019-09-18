@@ -2071,7 +2071,7 @@ appTemplate:
                 - tooltipText: ''
                 - value: ''
                 - placeholder: Search here...
-                - label: Name
+                - label: Risk Ev
                 - formattedValue: ''
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
@@ -2093,7 +2093,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-18T19:56:38.803Z
-            updatedAt: 2019-09-18T19:56:38.803Z
+            updatedAt: 2019-09-18T19:57:58.449Z
       - text11:
           pluginTemplate:
             id: text11
