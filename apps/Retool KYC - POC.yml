@@ -2200,6 +2200,47 @@ appTemplate:
                 width: 4
             createdAt: 2019-09-18T20:00:25.186Z
             updatedAt: 2019-09-18T20:00:45.752Z
+      - textinput23:
+          pluginTemplate:
+            id: textinput23
+            type: widget
+            subtype: TextInputWidget
+            template:
+              ordered:
+                - readonly: ''
+                - disabledKeyCodes: ''
+                - onBlur: ''
+                - docsSlug: textinput
+                - currencyType: USD
+                - leftIconName: search
+                - initialValue: ''
+                - tooltipText: ''
+                - value: ''
+                - placeholder: Search here...
+                - label: Name
+                - formattedValue: ''
+                - labelMaxWidth: ''
+                - labelPlacedOnLeft: ''
+                - onSubmit: ''
+                - type: text
+                - allowedRegex: .*
+                - required: false
+            position2:
+              position2:
+                container: form1
+                row: 72
+                col: 5
+                height: 1
+                width: 4
+            mobilePosition2:
+              position2:
+                container: form1
+                row: 72
+                col: 5
+                height: 1
+                width: 4
+            createdAt: 2019-09-18T20:01:05.111Z
+            updatedAt: 2019-09-18T20:01:05.111Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
