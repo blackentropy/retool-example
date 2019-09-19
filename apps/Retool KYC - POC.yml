@@ -2309,7 +2309,7 @@ appTemplate:
                 container: form1
                 col: 3
                 height: 1
-                width: 3
+                width: 9
             mobilePosition2:
               position2:
                 container: form1
