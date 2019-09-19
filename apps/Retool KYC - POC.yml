@@ -2303,6 +2303,7 @@ appTemplate:
                 - html: false
                 - scrollOverflow: false
                 - truncateOverflow: false
+                - tooltipText: ggg
             position2:
               position2:
                 container: form1
@@ -2316,7 +2317,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-19T18:45:48.398Z
-            updatedAt: 2019-09-19T18:45:48.398Z
+            updatedAt: 2019-09-19T18:47:00.374Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
