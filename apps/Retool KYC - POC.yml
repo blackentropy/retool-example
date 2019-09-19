@@ -822,7 +822,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 22
+                row: 23
                 height: 1
                 width: 7
             mobilePosition2:
@@ -862,10 +862,10 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 24
-                col: 5
+                row: 22
+                col: 7
                 height: 1
-                width: 7
+                width: 5
             mobilePosition2:
               position2:
                 container: form1
