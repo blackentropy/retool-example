@@ -840,7 +840,7 @@ appTemplate:
             subtype: SelectWidget
             template:
               ordered:
-                - values: '["Yes","No"'
+                - values: '["Yes","No"]'
                 - allowOutOfRangeValues: false
                 - enableFuzzyMatching: true
                 - searchValue: ''
@@ -872,7 +872,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-16T13:27:36.282Z
-            updatedAt: 2019-09-19T19:53:08.379Z
+            updatedAt: 2019-09-19T19:53:10.739Z
       - text6:
           pluginTemplate:
             id: text6
