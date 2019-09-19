@@ -16,32 +16,58 @@ appTemplate:
                 - queryDisabledMessage: ''
                 - successMessage: ''
                 - queryDisabled: ''
+                - useSheetRange: true
+                - playgroundQuerySaveId: 0
                 - resourceNameOverride: ''
                 - useRawSpreadsheetId: true
                 - runWhenModelUpdates: true
                 - spreadsheetId: 1jQKcJQRgjBNzr2ZlKHJOGzv7HwSHJZOiYV0wQ9sx2EI
+                - playgroundQueryId: 0
                 - sheetUpdate: ''
                 - privateParams: []
                 - triggersOnSuccess: []
                 - sheetIdToCopy: ''
+                - sheetName: ''
+                - runWhenPageLoadsDelay: ''
                 - data: null
+                - importedQueryInputs:
+                    ordered: []
+                - showSuccessConfetti: false
+                - isImported: false
                 - showSuccessToaster: true
+                - cacheKeyTtl: ''
+                - filterBy: ''
                 - actionType: read
                 - triggersOnFailure: []
                 - confirmationMessage: null
                 - isFetching: false
+                - rawData: null
+                - offset: ''
+                - queryTriggerDelay: '0'
                 - watchedParams: []
                 - useRawCopyToSpreadsheetId: false
                 - timestamp: 0
+                - importedQueryDefaults:
+                    ordered: []
+                - enableTransformer: false
                 - copyToSpreadsheetId: ''
                 - runWhenPageLoads: false
                 - sheetTitle: ''
+                - transformer: >-
+                    // type your code here
+
+                    // example: return formatDataAsArray(data).filter(row =>
+                    row.quantity > 20)
+
+                    return data
                 - queryTimeout: '10000'
                 - requireConfirmation: false
+                - limit: ''
+                - enableCaching: false
                 - sheetRange: 'A3:Z'
                 - queryThrottleTime: '750'
             createdAt: 2018-09-17T20:07:05.926Z
-            updatedAt: 2018-09-20T08:10:29.924Z
+            updatedAt: 2019-09-19T20:32:43.299Z
       - companiesTable:
           pluginTemplate:
             id: companiesTable
@@ -93,6 +119,7 @@ appTemplate:
                 - actionButtonUrl: ''
                 - actionButton: false
                 - actionButtonNewWindow: false
+                - nextBeforeCursor: ''
                 - columnVisibility:
                     ordered:
                       - address_id: true
@@ -118,8 +145,11 @@ appTemplate:
                       - Description: true
                       - category: true
                 - selectedPageIndex: '0'
+                - actionButtonColumnName: Actions
                 - serverPaginated: false
                 - data: '{{ filteredCompanies.data }}'
+                - actionButtons: []
+                - actionButtonSelectsRow: true
                 - selectRowByDefault: true
                 - defaultSortByColumn: ''
                 - paginationOffset: 0
@@ -129,13 +159,26 @@ appTemplate:
                 - actionButtonInternalUrlPath: ''
                 - pageSize: 8
                 - selectedColumn: null
+                - actionButtonPosition: left
+                - bulkUpdateAction: ''
+                - afterCursor: ''
+                - changeSet:
+                    object: {}
                 - sortedColumn: ''
                 - actionButtonText: ''
                 - columnAllowOverflow:
                     ordered: []
+                - beforeCursor: ''
+                - serverPaginationType: limitOffsetBased
                 - onRowSelect: ''
+                - showDownloadButton: true
                 - selectedIndex: ''
+                - defaultSortDescending: false
                 - totalRowCount: ''
+                - recordUpdates:
+                    array: []
+                - columnEditable:
+                    ordered: []
                 - columnMappers:
                     ordered: []
                 - showClearSelection: false
@@ -164,10 +207,14 @@ appTemplate:
                     - category
                 - sort: null
                 - actionButtonInternalUrlQuery: ''
+                - calculatedColumns: []
                 - selectedRow:
                     object:
                       index: null
                       data: null
+                - showPaginationOnTop: false
+                - nextAfterCursor: ''
+                - useCompactMode: false
             position2:
               position2:
                 row: 3
@@ -179,7 +226,7 @@ appTemplate:
                 height: 9
                 width: 12
             createdAt: 2018-08-06T18:01:25.280Z
-            updatedAt: 2018-09-20T08:59:14.957Z
+            updatedAt: 2019-09-19T20:32:43.303Z
       - toInput:
           pluginTemplate:
             id: toInput
@@ -189,13 +236,18 @@ appTemplate:
               ordered:
                 - readonly: 'true'
                 - disabledKeyCodes: ''
+                - onBlur: ''
                 - docsSlug: textinput
+                - currencyType: USD
                 - leftIconName: mail
                 - initialValue: '{{  companiesTable.selectedRow.data.email  }}'
+                - tooltipText: ''
                 - value: ''
                 - placeholder: Send to...
                 - label: 'To:'
+                - formattedValue: ''
                 - labelMaxWidth: ''
+                - labelPlacedOnLeft: ''
                 - onSubmit: ''
                 - type: text
                 - allowedRegex: .*
@@ -212,7 +264,7 @@ appTemplate:
                 height: 2
                 width: 12
             createdAt: 2018-09-17T23:58:47.568Z
-            updatedAt: 2018-09-20T08:10:29.927Z
+            updatedAt: 2019-09-19T20:32:43.304Z
       - bccInput:
           pluginTemplate:
             id: bccInput
@@ -222,13 +274,18 @@ appTemplate:
               ordered:
                 - readonly: ''
                 - disabledKeyCodes: ''
+                - onBlur: ''
                 - docsSlug: textinput
+                - currencyType: USD
                 - leftIconName: mail
                 - initialValue: ''
+                - tooltipText: ''
                 - value: ''
                 - placeholder: BCC'd emails (maybe your email?)
                 - label: 'BCC (optional):'
+                - formattedValue: ''
                 - labelMaxWidth: ''
+                - labelPlacedOnLeft: ''
                 - onSubmit: ''
                 - type: text
                 - allowedRegex: .*
@@ -245,7 +302,7 @@ appTemplate:
                 height: 2
                 width: 12
             createdAt: 2018-09-18T00:01:06.012Z
-            updatedAt: 2018-09-20T08:10:29.927Z
+            updatedAt: 2019-09-19T20:32:43.304Z
       - personalizedInput:
           pluginTemplate:
             id: personalizedInput
@@ -255,13 +312,18 @@ appTemplate:
               ordered:
                 - readonly: ''
                 - disabledKeyCodes: ''
+                - onBlur: ''
                 - docsSlug: textinput
+                - currencyType: USD
                 - leftIconName: search
                 - initialValue: ''
+                - tooltipText: ''
                 - value: ''
                 - placeholder: I was excited by the potential your company has!
                 - label: Personalized snippet
+                - formattedValue: ''
                 - labelMaxWidth: ''
+                - labelPlacedOnLeft: ''
                 - onSubmit: ''
                 - type: text
                 - allowedRegex: .*
@@ -278,7 +340,7 @@ appTemplate:
                 height: 3
                 width: 12
             createdAt: 2018-09-18T00:03:50.869Z
-            updatedAt: 2018-09-20T08:10:29.928Z
+            updatedAt: 2019-09-19T20:32:43.305Z
       - sendEmailButton:
           pluginTemplate:
             id: sendEmailButton
@@ -286,7 +348,9 @@ appTemplate:
             subtype: ButtonWidget
             template:
               ordered:
+                - valueToCopy: ''
                 - color: ''
+                - internalUrlHashParams: ''
                 - exportFileType: csv
                 - buttonType: action
                 - exportTemplate: null
@@ -312,7 +376,7 @@ appTemplate:
                 height: 1
                 width: 12
             createdAt: 2018-09-18T00:06:17.145Z
-            updatedAt: 2018-09-20T08:10:29.928Z
+            updatedAt: 2019-09-19T20:32:43.305Z
       - text2:
           pluginTemplate:
             id: text2
@@ -344,7 +408,7 @@ appTemplate:
                 height: 1
                 width: 12
             createdAt: 2018-09-18T00:26:47.046Z
-            updatedAt: 2018-09-20T08:51:04.778Z
+            updatedAt: 2019-09-19T20:32:43.306Z
       - emailPreview:
           pluginTemplate:
             id: emailPreview
@@ -354,7 +418,9 @@ appTemplate:
               ordered:
                 - readonly: 'true'
                 - disabledKeyCodes: ''
+                - onBlur: ''
                 - docsSlug: textinput
+                - currencyType: USD
                 - leftIconName: search
                 - initialValue: >-
                     Hi founders at {{  companiesTable.selectedRow.data.name }},
@@ -365,10 +431,13 @@ appTemplate:
 
 
                     Thanks!
+                - tooltipText: ''
                 - value: ''
                 - placeholder: Search here...
                 - label: Email preview
+                - formattedValue: ''
                 - labelMaxWidth: ''
+                - labelPlacedOnLeft: ''
                 - onSubmit: ''
                 - type: text
                 - allowedRegex: .*
@@ -385,7 +454,7 @@ appTemplate:
                 height: 4
                 width: 12
             createdAt: 2018-09-18T00:58:49.496Z
-            updatedAt: 2018-09-20T08:10:29.929Z
+            updatedAt: 2019-09-19T20:32:43.306Z
       - sendEmail:
           pluginTemplate:
             id: sendEmail
@@ -403,31 +472,52 @@ appTemplate:
                 - queryDisabledMessage: Please enter in a personalized snippet!
                 - successMessage: ''
                 - queryDisabled: '{{ !personalizedInput.value}}'
+                - playgroundQuerySaveId: 0
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: false
                 - paginationPaginationField: ''
                 - headers: ''
                 - paginationEnabled: false
                 - query: emails/new
+                - playgroundQueryId: 0
                 - privateParams: []
                 - triggersOnSuccess: []
+                - runWhenPageLoadsDelay: ''
                 - data: null
+                - importedQueryInputs:
+                    ordered: []
+                - showSuccessConfetti: false
+                - isImported: false
                 - showSuccessToaster: true
+                - cacheKeyTtl: ''
                 - cookies: ''
                 - triggersOnFailure: []
                 - confirmationMessage: null
                 - isFetching: false
+                - rawData: null
+                - queryTriggerDelay: '0'
                 - watchedParams: []
                 - paginationDataField: ''
                 - timestamp: 0
+                - importedQueryDefaults:
+                    ordered: []
+                - enableTransformer: false
                 - runWhenPageLoads: false
+                - transformer: >-
+                    // type your code here
+
+                    // example: return formatDataAsArray(data).filter(row =>
+                    row.quantity > 20)
+
+                    return data
                 - queryTimeout: '10000'
                 - requireConfirmation: false
                 - type: POST
+                - enableCaching: false
                 - bodyType: json
                 - queryThrottleTime: '750'
             createdAt: 2018-09-19T05:51:17.389Z
-            updatedAt: 2018-09-20T08:10:29.929Z
+            updatedAt: 2019-09-19T20:32:43.308Z
       - multiselect1:
           pluginTemplate:
             id: multiselect1
@@ -435,16 +525,26 @@ appTemplate:
             subtype: MultiSelectWidget
             template:
               ordered:
+                - values: '  {{ companiesQuery.data.map(function(d) { return d.category })}}'
+                - allowOutOfRangeValues: false
+                - enableFuzzyMatching: true
+                - searchValue: ''
+                - displayValue: ''
+                - tooltipText: ''
+                - value: ''
+                - maxResults: 50
+                - placeholder: ''
                 - label: Filter by category
                 - labelMaxWidth: ''
-                - value: ''
-                - displayValue: ''
-                - placeholder: ''
-                - values: '  {{ companiesQuery.data.map(function(d) { return d.category })}}'
+                - labelPlacedOnLeft: ''
+                - onSelect: ''
+                - allowCustomValues: false
+                - disabled: ''
+                - hideClearButton: false
+                - required: false
                 - labels: >-
                     {{ companiesQuery.data.map(function(d) { return d.category
                     })}}
-                - disabled: ''
             position2:
               position2:
                 row: 1
@@ -456,7 +556,7 @@ appTemplate:
                 height: 2
                 width: 12
             createdAt: 2018-09-20T08:07:10.344Z
-            updatedAt: 2018-09-20T08:10:29.929Z
+            updatedAt: 2019-09-19T20:32:43.308Z
       - filteredCompanies:
           pluginTemplate:
             id: filteredCompanies
@@ -469,29 +569,50 @@ appTemplate:
                 - queryDisabledMessage: ''
                 - successMessage: ''
                 - queryDisabled: ''
+                - playgroundQuerySaveId: 0
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: true
                 - query: >-
                     select * from {{ companiesQuery.data }} where {{
                     multiselect1.value.length == 0}} or category = ANY ({{
                     multiselect1.value}}) order by category
+                - playgroundQueryId: 0
                 - privateParams: []
                 - triggersOnSuccess: []
+                - runWhenPageLoadsDelay: ''
                 - data: null
+                - importedQueryInputs:
+                    ordered: []
+                - showSuccessConfetti: false
+                - isImported: false
                 - showSuccessToaster: true
+                - cacheKeyTtl: ''
                 - triggersOnFailure: []
                 - confirmationMessage: null
                 - isFetching: false
+                - rawData: null
+                - queryTriggerDelay: '0'
                 - watchedParams: []
                 - timestamp: 0
+                - importedQueryDefaults:
+                    ordered: []
+                - enableTransformer: false
                 - runWhenPageLoads: false
+                - transformer: >-
+                    // type your code here
+
+                    // example: return formatDataAsArray(data).filter(row =>
+                    row.quantity > 20)
+
+                    return data
                 - queryTimeout: '10000'
                 - requireConfirmation: false
+                - enableCaching: false
                 - queryThrottleTime: '750'
             createdAt: 2018-09-20T08:08:33.866Z
-            updatedAt: 2018-09-20T08:10:29.929Z
+            updatedAt: 2019-09-19T20:32:43.309Z
   createdAt: null
-  version: 2.29.11
+  version: 2.47.11
   responsiveLayoutDisabled: false
   urlFragmentDefinitions: []
   pageLoadValueOverrides: []
