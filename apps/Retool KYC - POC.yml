@@ -2299,7 +2299,7 @@ appTemplate:
             subtype: TextWidget
             template:
               ordered:
-                - value: <center><h3> font </h3>
+                - value: <center> <h3> font </h3>
                 - html: false
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -2316,7 +2316,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-19T18:45:48.398Z
-            updatedAt: 2019-09-19T18:55:41.184Z
+            updatedAt: 2019-09-19T18:55:43.806Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
