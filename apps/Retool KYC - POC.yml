@@ -1747,7 +1747,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 55
+                row: 56
                 col: 7
                 height: 1
                 width: 2
@@ -1775,7 +1775,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 55
+                row: 56
                 col: 9
                 height: 1
                 width: 2
@@ -1858,7 +1858,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 56
+                row: 57
                 col: 6
                 height: 1
                 width: 4
@@ -1897,7 +1897,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 57
+                row: 58
                 height: 2
                 width: 12
             mobilePosition2:
@@ -1933,7 +1933,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 59
+                row: 60
                 height: 2
                 width: 12
             mobilePosition2:
@@ -1968,7 +1968,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 61
+                row: 62
                 height: 2
                 width: 12
             mobilePosition2:
@@ -2003,7 +2003,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 63
+                row: 64
                 height: 2
                 width: 12
             mobilePosition2:
@@ -2045,7 +2045,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 65
+                row: 66
                 height: 2
                 width: 8
             mobilePosition2:
@@ -2110,7 +2110,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 67
+                row: 68
                 col: 5
                 height: 1
                 width: 3
@@ -2151,7 +2151,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 68
+                row: 69
                 col: 6
                 height: 2
                 width: 4
@@ -2257,7 +2257,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 70
+                row: 71
                 col: 4
                 height: 1
                 width: 3
@@ -2401,6 +2401,39 @@ appTemplate:
                 width: 3
             createdAt: 2019-09-19T19:14:27.459Z
             updatedAt: 2019-09-19T19:17:15.407Z
+      - checkboxgroup5:
+          pluginTemplate:
+            id: checkboxgroup5
+            type: widget
+            subtype: CheckboxGroupWidget
+            template:
+              ordered:
+                - values: '[ 1,2,3]'
+                - verticalAligned: false
+                - onChange: ''
+                - tooltipText: ''
+                - value: ''
+                - label: Checkbox group
+                - labelMaxWidth: ''
+                - labelPlacedOnLeft: ''
+                - disabled: ''
+                - labels: ''
+            position2:
+              position2:
+                container: form1
+                row: 54
+                col: 8
+                height: 2
+                width: 2
+            mobilePosition2:
+              position2:
+                container: form1
+                row: 54
+                col: 8
+                height: 2
+                width: 2
+            createdAt: 2019-09-19T19:26:09.867Z
+            updatedAt: 2019-09-19T19:26:09.867Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
