@@ -2408,7 +2408,7 @@ appTemplate:
             subtype: CheckboxGroupWidget
             template:
               ordered:
-                - values: '[ "Non-Residents",2,3]'
+                - values: '[ "Non-Resident(s",2,3]'
                 - verticalAligned: false
                 - onChange: ''
                 - tooltipText: ''
@@ -2433,7 +2433,7 @@ appTemplate:
                 height: 2
                 width: 2
             createdAt: 2019-09-19T19:26:09.867Z
-            updatedAt: 2019-09-19T19:26:49.782Z
+            updatedAt: 2019-09-19T19:27:01.175Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
