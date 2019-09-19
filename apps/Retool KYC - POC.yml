@@ -862,7 +862,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 25
+                row: 26
                 height: 1
                 width: 7
             mobilePosition2:
@@ -887,7 +887,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 26
+                row: 27
                 col: 4
                 height: 1
                 width: 4
@@ -1091,7 +1091,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 27
+                row: 28
                 height: 4
                 width: 12
             mobilePosition2:
@@ -1132,7 +1132,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 35
+                row: 36
                 height: 4
                 width: 12
             mobilePosition2:
@@ -1173,7 +1173,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 31
+                row: 32
                 height: 4
                 width: 12
             mobilePosition2:
@@ -1214,7 +1214,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 39
+                row: 40
                 height: 4
                 width: 12
             mobilePosition2:
@@ -1239,7 +1239,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 43
+                row: 44
                 col: 4
                 height: 1
                 width: 3
@@ -1280,7 +1280,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 43
+                row: 44
                 height: 2
                 width: 4
             mobilePosition2:
@@ -1319,7 +1319,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 44
+                row: 45
                 col: 5
                 height: 2
                 width: 4
@@ -1345,7 +1345,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 46
+                row: 47
                 col: 4
                 height: 1
                 width: 3
@@ -1427,7 +1427,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 47
+                row: 48
                 col: 4
                 height: 1
                 width: 2
@@ -1484,7 +1484,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 48
+                row: 49
                 col: 5
                 height: 1
                 width: 1
@@ -1566,7 +1566,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 49
+                row: 50
                 col: 5
                 height: 1
                 width: 1
@@ -2414,8 +2414,8 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 6
-                col: 9
+                row: 25
+                col: 4
                 height: 1
                 width: 3
             mobilePosition2:
