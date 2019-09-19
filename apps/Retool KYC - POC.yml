@@ -2312,10 +2312,10 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 54
-                col: 8
-                height: 2
-                width: 2
+                row: 55
+                col: 4
+                height: 1
+                width: 6
             mobilePosition2:
               position2:
                 container: form1
