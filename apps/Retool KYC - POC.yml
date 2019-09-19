@@ -2322,25 +2322,7 @@ appTemplate:
                       {
                         "label": "Yes",
                         "value": "shoes",
-                        "children": [
-                          {
-                            "label": "Atheletic",
-                            "value": "athletic",
-                            "children": [
-                              {
-                                "label": "Tennis Shoes",
-                                "value": "tennis"
-                              },
-                              {
-                                "label": "Running",
-                                "value": "running"
-                              }
-                            ]
-                          },
-                          {
-                            "label": "Dress Shoes",
-                            "value": "dress"
-                          },"
+                        "children": 
                               }
                             ]
                           }
@@ -2396,7 +2378,7 @@ appTemplate:
                 height: 6
                 width: 3
             createdAt: 2019-09-19T21:01:33.469Z
-            updatedAt: 2019-09-19T21:25:29.774Z
+            updatedAt: 2019-09-19T21:25:39.716Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
