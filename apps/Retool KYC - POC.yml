@@ -1165,7 +1165,7 @@ appTemplate:
                 - initialValue: ''
                 - tooltipText: ''
                 - value: ''
-                - placeholder: Search here...
+                - placeholder: Enter details here
                 - label: >-
                     Reason for Establishing PB Relationship - Include Wealth
                     Management Solution / Strategy
@@ -1189,7 +1189,7 @@ appTemplate:
                 height: 4
                 width: 12
             createdAt: 2019-09-16T13:50:49.351Z
-            updatedAt: 2019-09-19T20:27:58.666Z
+            updatedAt: 2019-09-19T20:37:52.411Z
       - textinput14:
           pluginTemplate:
             id: textinput14
