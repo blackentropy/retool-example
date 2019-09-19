@@ -1803,7 +1803,7 @@ appTemplate:
               position2:
                 container: form1
                 row: 70
-                col: 5
+                col: 4
                 height: 1
                 width: 3
             mobilePosition2:
