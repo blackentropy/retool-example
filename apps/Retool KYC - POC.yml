@@ -2273,7 +2273,7 @@ appTemplate:
             subtype: TextWidget
             template:
               ordered:
-                - value: <h2Type of Client
+                - value: <h2> Type of Client
                 - html: false
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -2291,7 +2291,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-19T18:45:03.173Z
-            updatedAt: 2019-09-19T18:59:32.873Z
+            updatedAt: 2019-09-19T18:59:35.448Z
       - text14:
           pluginTemplate:
             id: text14
