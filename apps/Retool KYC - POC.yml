@@ -2411,7 +2411,7 @@ appTemplate:
                 - values: >-
                     [ "Non-Resident(s)","Senior Foreign Politically Exposed
                     Person(s)","Domestic Politically Exposed Person(s) within
-                    the last 6 years", "Head of an "]
+                    the last 6 years", "Head of "]
                 - verticalAligned: false
                 - onChange: ''
                 - tooltipText: ''
@@ -2436,7 +2436,7 @@ appTemplate:
                 height: 2
                 width: 2
             createdAt: 2019-09-19T19:26:09.867Z
-            updatedAt: 2019-09-19T19:28:23.780Z
+            updatedAt: 2019-09-19T19:28:29.612Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
