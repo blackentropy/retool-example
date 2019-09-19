@@ -2379,7 +2379,7 @@ appTemplate:
             subtype: TextWidget
             template:
               ordered:
-                - value: "**Hello** <b>friend!</b> \U0001F603"
+                - value: <h5> Relat
                 - html: false
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -2398,7 +2398,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-19T19:14:27.459Z
-            updatedAt: 2019-09-19T19:14:27.459Z
+            updatedAt: 2019-09-19T19:14:48.965Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
