@@ -1080,7 +1080,7 @@ appTemplate:
                 - initialValue: ''
                 - tooltipText: ''
                 - value: ''
-                - placeholder: Search here...
+                - placeholder: Ent
                 - label: >-
                     Provide a detailed story for the Head of Household and EACH
                     member. [Including History of Occuplation & Employer,
@@ -1107,7 +1107,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-16T13:39:36.413Z
-            updatedAt: 2019-09-19T20:27:58.666Z
+            updatedAt: 2019-09-19T20:37:38.966Z
       - textinput12:
           pluginTemplate:
             id: textinput12
