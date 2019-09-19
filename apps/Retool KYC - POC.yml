@@ -2303,6 +2303,37 @@ appTemplate:
                 width: 4
             createdAt: 2019-09-19T20:42:18.786Z
             updatedAt: 2019-09-19T20:42:32.272Z
+      - toggle1:
+          pluginTemplate:
+            id: toggle1
+            type: widget
+            subtype: ToggleWidget
+            template:
+              ordered:
+                - label: ''
+                - labelMaxWidth: ''
+                - labelPlacedOnLeft: ''
+                - tooltipText: ''
+                - value: false
+                - toggleOnQuery: ''
+                - toggleOffQuery: ''
+                - disabled: ''
+            position2:
+              position2:
+                container: form1
+                row: 7
+                col: 9
+                height: 1
+                width: 2
+            mobilePosition2:
+              position2:
+                container: form1
+                row: 7
+                col: 9
+                height: 1
+                width: 2
+            createdAt: 2019-09-19T21:00:37.033Z
+            updatedAt: 2019-09-19T21:00:37.033Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
