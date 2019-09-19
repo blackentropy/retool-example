@@ -89,7 +89,7 @@ appTemplate:
             subtype: TextWidget
             template:
               ordered:
-                - value: <center> </center>
+                - value: <center> hh</center>
                 - html: true
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -100,7 +100,7 @@ appTemplate:
                 width: 12
             tabIndex: 3
             createdAt: 2019-09-13T17:31:46.987Z
-            updatedAt: 2019-09-19T18:56:24.993Z
+            updatedAt: 2019-09-19T18:56:27.526Z
       - textinput1:
           pluginTemplate:
             id: textinput1
