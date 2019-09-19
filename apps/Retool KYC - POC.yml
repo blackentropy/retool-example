@@ -802,7 +802,7 @@ appTemplate:
             subtype: SelectWidget
             template:
               ordered:
-                - values: '[1,2,3]'
+                - values: '["Yes"]'
                 - allowOutOfRangeValues: false
                 - enableFuzzyMatching: true
                 - searchValue: ''
@@ -832,7 +832,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-16T13:26:18.135Z
-            updatedAt: 2019-09-19T18:43:33.839Z
+            updatedAt: 2019-09-19T19:52:45.832Z
       - select6:
           pluginTemplate:
             id: select6
