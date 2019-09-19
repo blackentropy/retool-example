@@ -422,7 +422,7 @@ appTemplate:
                 - initialValue: ''
                 - tooltipText: ''
                 - value: ''
-                - placeholder: Search here...
+                - placeholder: ''
                 - label: Last Name
                 - formattedValue: ''
                 - labelMaxWidth: ''
@@ -445,7 +445,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-16T13:07:05.657Z
-            updatedAt: 2019-09-19T19:09:14.148Z
+            updatedAt: 2019-09-19T19:50:57.513Z
       - textinput6:
           pluginTemplate:
             id: textinput6
