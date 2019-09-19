@@ -1702,36 +1702,6 @@ appTemplate:
                 width: 2
             createdAt: 2019-09-16T14:21:43.576Z
             updatedAt: 2019-09-19T18:43:33.858Z
-      - checkbox10:
-          pluginTemplate:
-            id: checkbox10
-            type: widget
-            subtype: CheckboxWidget
-            template:
-              ordered:
-                - label: >-
-                    Domestic Politically Exposed Person(s) within the last 5
-                    years
-                - value: false
-                - disabled: ''
-                - onCheckQuery: ''
-                - onUncheckQuery: ''
-            position2:
-              position2:
-                container: form1
-                row: 56
-                col: 5
-                height: 1
-                width: 2
-            mobilePosition2:
-              position2:
-                container: form1
-                row: 54
-                col: 4
-                height: 1
-                width: 2
-            createdAt: 2019-09-16T14:23:02.896Z
-            updatedAt: 2019-09-19T18:43:33.858Z
       - checkbox11:
           pluginTemplate:
             id: checkbox11
