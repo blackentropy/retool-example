@@ -2352,7 +2352,7 @@ appTemplate:
             subtype: TextWidget
             template:
               ordered:
-                - value: <center> <h3> Private  </h3>
+                - value: <center> <h3> Private Banker - Client Risk  </h3>
                 - html: true
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -2369,7 +2369,7 @@ appTemplate:
                 height: 1
                 width: 12
             createdAt: 2019-09-19T19:05:31.570Z
-            updatedAt: 2019-09-19T19:06:04.699Z
+            updatedAt: 2019-09-19T19:06:10.564Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
