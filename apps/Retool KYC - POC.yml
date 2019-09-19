@@ -1232,7 +1232,7 @@ appTemplate:
             subtype: TextWidget
             template:
               ordered:
-                - value: Source(s) of Wealth
+                - value: <h5>Source(s) of Wealth
                 - html: false
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -1251,7 +1251,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-16T13:57:03.516Z
-            updatedAt: 2019-09-19T18:43:33.856Z
+            updatedAt: 2019-09-19T19:22:02.050Z
       - textinput15:
           pluginTemplate:
             id: textinput15
