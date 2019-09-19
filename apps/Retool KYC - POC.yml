@@ -2384,7 +2384,7 @@ appTemplate:
                         "value": "misc"
                       }
                     ]
-                - label: Will Household meet the Minimum $10M R
+                - label: Will Household meet the Minimum $10M Revenue?
                 - checkedPathStrings:
                     array: []
                 - labelMaxWidth: ''
@@ -2414,7 +2414,7 @@ appTemplate:
                 height: 6
                 width: 3
             createdAt: 2019-09-19T21:01:33.469Z
-            updatedAt: 2019-09-19T21:02:43.926Z
+            updatedAt: 2019-09-19T21:02:46.813Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
