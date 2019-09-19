@@ -1648,32 +1648,6 @@ appTemplate:
                 width: 4
             createdAt: 2019-09-16T14:13:38.396Z
             updatedAt: 2019-09-19T18:43:33.858Z
-      - text10:
-          pluginTemplate:
-            id: text10
-            type: widget
-            subtype: TextWidget
-            template:
-              ordered:
-                - value: 'Are any members of this household:'
-                - html: false
-                - scrollOverflow: false
-                - truncateOverflow: false
-            position2:
-              position2:
-                container: form1
-                row: 55
-                height: 1
-                width: 2
-            mobilePosition2:
-              position2:
-                container: form1
-                row: 55
-                col: 1
-                height: 1
-                width: 3
-            createdAt: 2019-09-16T14:20:40.971Z
-            updatedAt: 2019-09-19T18:43:33.858Z
       - checkbox11:
           pluginTemplate:
             id: checkbox11
