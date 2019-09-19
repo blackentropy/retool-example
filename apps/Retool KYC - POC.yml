@@ -2301,7 +2301,7 @@ appTemplate:
               ordered:
                 - value: "**Hello** <b>friend!</b> \U0001F603"
                 - html: false
-                - scrollOverflow: false
+                - scrollOverflow: true
                 - truncateOverflow: false
                 - tooltipText: ''
             position2:
@@ -2317,7 +2317,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-19T18:45:48.398Z
-            updatedAt: 2019-09-19T18:47:11.722Z
+            updatedAt: 2019-09-19T18:47:31.743Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
