@@ -544,7 +544,7 @@ appTemplate:
                 - initialValue: ''
                 - tooltipText: ''
                 - value: ''
-                - placeholder: Search here...
+                - placeholder: ''
                 - label: CRI
                 - formattedValue: ''
                 - labelMaxWidth: ''
@@ -568,7 +568,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-16T13:09:27.943Z
-            updatedAt: 2019-09-19T19:13:06.187Z
+            updatedAt: 2019-09-19T19:51:17.546Z
       - textinput9:
           pluginTemplate:
             id: textinput9
