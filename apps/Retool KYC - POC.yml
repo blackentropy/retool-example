@@ -503,7 +503,7 @@ appTemplate:
                 - initialValue: ''
                 - tooltipText: ''
                 - value: ''
-                - placeholder: Search here...
+                - placeholder: ''
                 - label: Middle Name
                 - formattedValue: ''
                 - labelMaxWidth: ''
@@ -527,7 +527,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-16T13:08:43.270Z
-            updatedAt: 2019-09-19T19:12:59.874Z
+            updatedAt: 2019-09-19T19:51:09.838Z
       - textinput8:
           pluginTemplate:
             id: textinput8
