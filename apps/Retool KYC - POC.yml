@@ -2273,7 +2273,7 @@ appTemplate:
             subtype: TextWidget
             template:
               ordered:
-                - value: <center> <h5> Client source </h6> <center>
+                - value: <center> <h5> Client source </h6> </center>
                 - html: false
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -2292,7 +2292,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-19T18:45:03.173Z
-            updatedAt: 2019-09-19T19:01:42.844Z
+            updatedAt: 2019-09-19T19:01:46.103Z
       - text14:
           pluginTemplate:
             id: text14
