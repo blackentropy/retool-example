@@ -1831,7 +1831,7 @@ appTemplate:
                 - initialValue: ''
                 - tooltipText: ''
                 - value: ''
-                - placeholder: 'Enter description '
+                - placeholder: Enter description here...
                 - label: Risk Description
                 - formattedValue: ''
                 - labelMaxWidth: ''
@@ -1854,7 +1854,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-18T19:58:11.872Z
-            updatedAt: 2019-09-19T19:50:42.494Z
+            updatedAt: 2019-09-19T19:50:44.949Z
       - textinput22:
           pluginTemplate:
             id: textinput22
