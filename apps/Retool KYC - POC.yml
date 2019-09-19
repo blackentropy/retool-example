@@ -2353,7 +2353,7 @@ appTemplate:
             template:
               ordered:
                 - value: >-
-                    <center> <h3> Private Banker - Client Risk Assessment /
+                    <center> <h3> Private Banker - Client Risk Assessment / KYC
                     </h3>
                 - html: true
                 - scrollOverflow: false
@@ -2371,7 +2371,7 @@ appTemplate:
                 height: 1
                 width: 12
             createdAt: 2019-09-19T19:05:31.570Z
-            updatedAt: 2019-09-19T19:06:25.730Z
+            updatedAt: 2019-09-19T19:06:29.565Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
