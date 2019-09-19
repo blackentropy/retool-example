@@ -2413,7 +2413,7 @@ appTemplate:
                 - onChange: ''
                 - tooltipText: ''
                 - value: ''
-                - label: Checkbox group
+                - label: Are any mem
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
                 - disabled: ''
@@ -2433,7 +2433,7 @@ appTemplate:
                 height: 2
                 width: 2
             createdAt: 2019-09-19T19:26:09.867Z
-            updatedAt: 2019-09-19T19:26:09.867Z
+            updatedAt: 2019-09-19T19:26:22.684Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
