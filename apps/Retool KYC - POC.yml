@@ -2400,33 +2400,6 @@ appTemplate:
                 width: 3
             createdAt: 2019-09-19T19:14:27.459Z
             updatedAt: 2019-09-19T19:17:15.407Z
-      - text18:
-          pluginTemplate:
-            id: text18
-            type: widget
-            subtype: TextWidget
-            template:
-              ordered:
-                - value: "**Hello** <b>friend!</b> \U0001F603"
-                - html: false
-                - scrollOverflow: false
-                - truncateOverflow: false
-            position2:
-              position2:
-                container: form1
-                row: 25
-                col: 4
-                height: 1
-                width: 3
-            mobilePosition2:
-              position2:
-                container: form1
-                row: 6
-                col: 9
-                height: 1
-                width: 3
-            createdAt: 2019-09-19T19:20:53.195Z
-            updatedAt: 2019-09-19T19:20:53.195Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
