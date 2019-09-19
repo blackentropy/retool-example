@@ -1374,7 +1374,7 @@ appTemplate:
                 - initialValue: ''
                 - tooltipText: ''
                 - value: ''
-                - placeholder: 'Enter '
+                - placeholder: Enter name here
                 - label: >-
                     Both searches (OLWI & Internet Search) were completed by
                     (name of employee):
@@ -1398,7 +1398,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-16T14:00:52.003Z
-            updatedAt: 2019-09-19T19:24:49.522Z
+            updatedAt: 2019-09-19T19:24:52.037Z
       - textinput18:
           pluginTemplate:
             id: textinput18
