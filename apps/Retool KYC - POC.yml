@@ -2293,33 +2293,6 @@ appTemplate:
                 width: 3
             createdAt: 2019-09-19T18:45:03.173Z
             updatedAt: 2019-09-19T19:01:46.103Z
-      - text14:
-          pluginTemplate:
-            id: text14
-            type: widget
-            subtype: TextWidget
-            template:
-              ordered:
-                - value: >-
-                    <center> <h3> Private Banking Client Risk Assessment/KYC
-                    </h3>
-                - html: false
-                - scrollOverflow: false
-                - truncateOverflow: false
-                - tooltipText: ''
-            position2:
-              position2:
-                container: form1
-                height: 1
-                width: 12
-            mobilePosition2:
-              position2:
-                container: form1
-                col: 3
-                height: 1
-                width: 3
-            createdAt: 2019-09-19T18:45:48.398Z
-            updatedAt: 2019-09-19T19:05:15.168Z
       - text15:
           pluginTemplate:
             id: text15
