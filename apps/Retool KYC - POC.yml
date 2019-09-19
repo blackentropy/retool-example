@@ -384,7 +384,7 @@ appTemplate:
             subtype: TextWidget
             template:
               ordered:
-                - value: <h5 >Client Information - Head of Household
+                - value: <h5 >Client Information - Head of Household </h5
                 - html: false
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -403,7 +403,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-16T13:05:26.088Z
-            updatedAt: 2019-09-19T19:04:09.858Z
+            updatedAt: 2019-09-19T19:04:16.708Z
       - textinput5:
           pluginTemplate:
             id: textinput5
