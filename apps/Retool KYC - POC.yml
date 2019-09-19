@@ -1277,7 +1277,7 @@ appTemplate:
                 - placeholder: Search here...
                 - label: Estimated Household Net Worth
                 - formattedValue: ''
-                - labelMaxWidth: '90'
+                - labelMaxWidth: '70'
                 - labelPlacedOnLeft: ''
                 - onSubmit: ''
                 - type: text
@@ -1296,7 +1296,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-16T13:57:25.968Z
-            updatedAt: 2019-09-19T20:34:27.744Z
+            updatedAt: 2019-09-19T20:34:32.805Z
       - textinput16:
           pluginTemplate:
             id: textinput16
