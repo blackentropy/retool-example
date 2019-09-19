@@ -2379,7 +2379,7 @@ appTemplate:
             subtype: TextWidget
             template:
               ordered:
-                - value: <center> <h5> Relationship Management
+                - value: <h5> Relationship Management
                 - html: false
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -2398,7 +2398,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-19T19:14:27.459Z
-            updatedAt: 2019-09-19T19:16:00.220Z
+            updatedAt: 2019-09-19T19:16:52.777Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
