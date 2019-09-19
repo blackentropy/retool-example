@@ -2325,9 +2325,7 @@ appTemplate:
             subtype: TextWidget
             template:
               ordered:
-                - value: >-
-                    <center> <h3> Private Banker - Client Risk Assessment / KYC
-                    </h3>
+                - value: <center> <h3> Wealth Management -  </h3>
                 - html: true
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -2343,7 +2341,7 @@ appTemplate:
                 height: 1
                 width: 12
             createdAt: 2019-09-19T19:05:31.570Z
-            updatedAt: 2019-09-19T19:06:29.565Z
+            updatedAt: 2019-09-19T19:07:35.601Z
       - text14:
           pluginTemplate:
             id: text14
