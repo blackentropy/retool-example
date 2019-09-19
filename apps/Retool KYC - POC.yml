@@ -2275,7 +2275,7 @@ appTemplate:
             subtype: TextWidget
             template:
               ordered:
-                - value: 'Type '
+                - value: Type of Client
                 - html: false
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -2294,7 +2294,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-19T18:45:03.173Z
-            updatedAt: 2019-09-19T18:45:11.598Z
+            updatedAt: 2019-09-19T18:45:14.214Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
