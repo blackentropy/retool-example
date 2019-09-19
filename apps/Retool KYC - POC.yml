@@ -2379,9 +2379,7 @@ appTemplate:
                           }
                         ]
                       },
-                      {
-                       
-                      }
+                      
                     ]
                 - label: Categories
                 - checkedPathStrings:
@@ -2413,7 +2411,7 @@ appTemplate:
                 height: 6
                 width: 3
             createdAt: 2019-09-19T21:26:20.704Z
-            updatedAt: 2019-09-19T21:26:36.038Z
+            updatedAt: 2019-09-19T21:26:41.810Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
