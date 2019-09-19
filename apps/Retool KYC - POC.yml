@@ -1871,7 +1871,7 @@ appTemplate:
                 - initialValue: ''
                 - tooltipText: ''
                 - value: ''
-                - placeholder: Search here...
+                - placeholder: Name here
                 - label: 'Electronically Approved By:'
                 - formattedValue: ''
                 - labelMaxWidth: ''
@@ -1893,7 +1893,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-18T20:00:25.186Z
-            updatedAt: 2019-09-19T19:49:53.686Z
+            updatedAt: 2019-09-19T19:50:27.116Z
       - textinput23:
           pluginTemplate:
             id: textinput23
