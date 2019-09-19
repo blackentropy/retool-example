@@ -2303,44 +2303,6 @@ appTemplate:
                 width: 4
             createdAt: 2019-09-19T20:42:18.786Z
             updatedAt: 2019-09-19T20:42:32.272Z
-      - image1:
-          pluginTemplate:
-            id: image1
-            type: widget
-            subtype: ImageWidget
-            template:
-              ordered:
-                - valueToCopy: ''
-                - internalUrlHashParams: ''
-                - exportFileType: csv
-                - buttonType: action
-                - exportTemplate: null
-                - url: ''
-                - newWindow: false
-                - exportQuery: ''
-                - imageUrl: ''
-                - action: ''
-                - internalUrlQuery: ''
-                - internalUrlPath: ''
-                - exportFileName: ''
-                - loading: ''
-                - disabled: ''
-            position2:
-              position2:
-                container: form1
-                row: 5
-                col: 10
-                height: 3
-                width: 2
-            mobilePosition2:
-              position2:
-                container: form1
-                row: 5
-                col: 10
-                height: 3
-                width: 2
-            createdAt: 2019-09-19T21:28:52.056Z
-            updatedAt: 2019-09-19T21:29:50.087Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
