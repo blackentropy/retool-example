@@ -1124,7 +1124,7 @@ appTemplate:
                 - initialValue: ''
                 - tooltipText: ''
                 - value: ''
-                - placeholder: Search here...
+                - placeholder: Enter details here
                 - label: >-
                     Source of Wealth and Composition - Include Corroboration of
                     Source of Wealth
@@ -1148,7 +1148,7 @@ appTemplate:
                 height: 4
                 width: 12
             createdAt: 2019-09-16T13:49:47.979Z
-            updatedAt: 2019-09-19T20:27:58.666Z
+            updatedAt: 2019-09-19T20:38:04.607Z
       - textinput13:
           pluginTemplate:
             id: textinput13
