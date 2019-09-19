@@ -1942,7 +1942,7 @@ appTemplate:
             subtype: TextWidget
             template:
               ordered:
-                - value: Senior Management Approval
+                - value: <h5> Senior Management Approval
                 - html: false
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -1961,7 +1961,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-18T20:01:38.505Z
-            updatedAt: 2019-09-19T18:43:33.861Z
+            updatedAt: 2019-09-19T19:49:42.656Z
       - text13:
           pluginTemplate:
             id: text13
