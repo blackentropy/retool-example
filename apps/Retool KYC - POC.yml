@@ -626,7 +626,7 @@ appTemplate:
                 - initialValue: ''
                 - tooltipText: ''
                 - value: ''
-                - placeholder: Search here...
+                - placeholder: ''
                 - label: SRF (if available)
                 - formattedValue: ''
                 - labelMaxWidth: ''
@@ -650,7 +650,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-16T13:11:18.399Z
-            updatedAt: 2019-09-19T19:13:14.625Z
+            updatedAt: 2019-09-19T19:51:27.483Z
       - text5:
           pluginTemplate:
             id: text5
