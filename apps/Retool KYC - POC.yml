@@ -1240,7 +1240,6 @@ appTemplate:
               position2:
                 container: form1
                 row: 44
-                col: 4
                 height: 1
                 width: 3
             mobilePosition2:
@@ -1280,7 +1279,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 44
+                row: 45
                 height: 2
                 width: 4
             mobilePosition2:
@@ -1388,7 +1387,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 46
+                row: 47
                 height: 1
                 width: 4
             mobilePosition2:
