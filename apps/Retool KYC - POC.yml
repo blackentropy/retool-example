@@ -392,7 +392,7 @@ appTemplate:
               position2:
                 container: form1
                 row: 7
-                col: 2
+                col: 3
                 height: 1
                 width: 6
             mobilePosition2:
