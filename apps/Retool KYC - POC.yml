@@ -1274,7 +1274,7 @@ appTemplate:
                 - initialValue: ''
                 - tooltipText: ''
                 - value: ''
-                - placeholder: Search here...
+                - placeholder: ''
                 - label: Estimated Household Investable Assets
                 - formattedValue: ''
                 - labelMaxWidth: ''
@@ -1297,7 +1297,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-16T13:58:21.471Z
-            updatedAt: 2019-09-19T20:27:58.666Z
+            updatedAt: 2019-09-19T20:37:22.365Z
       - text7:
           pluginTemplate:
             id: text7
