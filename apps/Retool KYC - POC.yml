@@ -79,7 +79,7 @@ appTemplate:
                 - disabled: ''
             position2:
               position2:
-                height: 79
+                height: 81
                 width: 12
             mobilePosition2:
               position2:
@@ -2218,6 +2218,31 @@ appTemplate:
                 width: 4
             createdAt: 2019-09-19T20:35:45.763Z
             updatedAt: 2019-09-19T20:37:10.676Z
+      - signaturepad1:
+          pluginTemplate:
+            id: signaturepad1
+            type: widget
+            subtype: SignaturePadWidget
+            template:
+              ordered:
+                - signatureImageFile: null
+                - showClearSignatureBtn: true
+            position2:
+              position2:
+                container: form1
+                row: 76
+                col: 2
+                height: 4
+                width: 4
+            mobilePosition2:
+              position2:
+                container: form1
+                row: 76
+                col: 2
+                height: 4
+                width: 4
+            createdAt: 2019-09-19T20:40:05.552Z
+            updatedAt: 2019-09-19T20:40:05.552Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
