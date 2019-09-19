@@ -2197,6 +2197,46 @@ appTemplate:
                 width: 4
             createdAt: 2019-09-19T19:32:37.301Z
             updatedAt: 2019-09-19T19:34:06.390Z
+      - select11:
+          pluginTemplate:
+            id: select11
+            type: widget
+            subtype: SelectWidget
+            template:
+              ordered:
+                - values: '[1,2,3]'
+                - allowOutOfRangeValues: false
+                - enableFuzzyMatching: true
+                - searchValue: ''
+                - displayValue: ''
+                - tooltipText: ''
+                - value: ''
+                - maxResults: 50
+                - placeholder: ''
+                - label: Numbers
+                - labelMaxWidth: ''
+                - labelPlacedOnLeft: ''
+                - onSelect: ''
+                - disabled: ''
+                - hideClearButton: false
+                - required: false
+                - labels: ''
+            position2:
+              position2:
+                container: form1
+                row: 52
+                col: 7
+                height: 1
+                width: 4
+            mobilePosition2:
+              position2:
+                container: form1
+                row: 52
+                col: 7
+                height: 1
+                width: 4
+            createdAt: 2019-09-19T19:35:05.923Z
+            updatedAt: 2019-09-19T19:35:05.923Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
