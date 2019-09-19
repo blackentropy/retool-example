@@ -2319,7 +2319,7 @@ appTemplate:
                 - newWindow: false
                 - exportQuery: ''
                 - imageUrl: >-
-                    https://www.thehappycatsite.com/wp-content/uploads/2017/12/grow.jpg
+                    https://www.weareguernsey.com/business-directory/r/rbc-offshore-fund-managers-limited/
                 - action: ''
                 - internalUrlQuery: ''
                 - internalUrlPath: ''
@@ -2341,7 +2341,7 @@ appTemplate:
                 height: 3
                 width: 2
             createdAt: 2019-09-19T21:30:04.131Z
-            updatedAt: 2019-09-19T21:30:04.131Z
+            updatedAt: 2019-09-19T21:31:12.038Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
