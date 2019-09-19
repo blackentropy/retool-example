@@ -2320,7 +2320,7 @@ appTemplate:
                 - structure: |-
                     [
                       {
-                        "label": "Shoes",
+                        "label": "Yes",
                         "value": "shoes",
                         "children": [
                           {
@@ -2414,7 +2414,7 @@ appTemplate:
                 height: 6
                 width: 3
             createdAt: 2019-09-19T21:26:20.704Z
-            updatedAt: 2019-09-19T21:26:20.704Z
+            updatedAt: 2019-09-19T21:26:26.937Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
