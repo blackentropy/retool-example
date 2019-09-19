@@ -2410,7 +2410,7 @@ appTemplate:
               ordered:
                 - values: >-
                     [ "Non-Resident(s)","Senior Foreign Politically Exposed
-                    Person(s)","Domestic "]
+                    Person(s)","Domestic Politically Exposed Person(s) "]
                 - verticalAligned: false
                 - onChange: ''
                 - tooltipText: ''
@@ -2435,7 +2435,7 @@ appTemplate:
                 height: 2
                 width: 2
             createdAt: 2019-09-19T19:26:09.867Z
-            updatedAt: 2019-09-19T19:27:38.031Z
+            updatedAt: 2019-09-19T19:27:46.945Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
