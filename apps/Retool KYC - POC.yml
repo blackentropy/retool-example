@@ -1674,34 +1674,6 @@ appTemplate:
                 width: 3
             createdAt: 2019-09-16T14:20:40.971Z
             updatedAt: 2019-09-19T18:43:33.858Z
-      - checkbox8:
-          pluginTemplate:
-            id: checkbox8
-            type: widget
-            subtype: CheckboxWidget
-            template:
-              ordered:
-                - label: Non-Resident(s)
-                - value: false
-                - disabled: ''
-                - onCheckQuery: ''
-                - onUncheckQuery: ''
-            position2:
-              position2:
-                container: form1
-                row: 55
-                col: 2
-                height: 1
-                width: 2
-            mobilePosition2:
-              position2:
-                container: form1
-                row: 53
-                col: 3
-                height: 1
-                width: 2
-            createdAt: 2019-09-16T14:21:43.576Z
-            updatedAt: 2019-09-19T18:43:33.858Z
       - checkbox11:
           pluginTemplate:
             id: checkbox11
