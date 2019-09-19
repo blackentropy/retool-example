@@ -2195,7 +2195,7 @@ appTemplate:
                 - initialValue: ''
                 - tooltipText: ''
                 - value: ''
-                - placeholder: Search here...
+                - placeholder: ''
                 - label: Estimated Household Net Worth
                 - formattedValue: ''
                 - labelMaxWidth: ''
@@ -2217,7 +2217,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-19T20:35:45.763Z
-            updatedAt: 2019-09-19T20:36:53.753Z
+            updatedAt: 2019-09-19T20:37:10.676Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
