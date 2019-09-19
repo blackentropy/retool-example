@@ -1258,46 +1258,6 @@ appTemplate:
                 width: 3
             createdAt: 2019-09-16T13:57:03.516Z
             updatedAt: 2019-09-19T20:27:58.666Z
-      - textinput15:
-          pluginTemplate:
-            id: textinput15
-            type: widget
-            subtype: TextInputWidget
-            template:
-              ordered:
-                - readonly: ''
-                - disabledKeyCodes: ''
-                - onBlur: ''
-                - docsSlug: textinput
-                - currencyType: USD
-                - leftIconName: ''
-                - initialValue: ''
-                - tooltipText: ''
-                - value: ''
-                - placeholder: Search here...
-                - label: Estimated Household Net Worth
-                - formattedValue: ''
-                - labelMaxWidth: |
-                    80
-                - labelPlacedOnLeft: ''
-                - onSubmit: ''
-                - type: text
-                - allowedRegex: .*
-                - required: false
-            position2:
-              position2:
-                container: form1
-                row: 46
-                height: 2
-                width: 3
-            mobilePosition2:
-              position2:
-                container: form1
-                row: 43
-                height: 1
-                width: 4
-            createdAt: 2019-09-16T13:57:25.968Z
-            updatedAt: 2019-09-19T20:34:45.517Z
       - textinput16:
           pluginTemplate:
             id: textinput16
