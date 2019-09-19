@@ -2300,7 +2300,9 @@ appTemplate:
             subtype: TextWidget
             template:
               ordered:
-                - value: ' <h3> Private Banking Client Risk Assessment/KYC  </h3></center>'
+                - value: >-
+                    <center> <h3> Private Banking Client Risk Assessment/KYC 
+                    </h3>
                 - html: false
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -2317,7 +2319,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-19T18:45:48.398Z
-            updatedAt: 2019-09-19T19:05:03.951Z
+            updatedAt: 2019-09-19T19:05:11.329Z
       - text15:
           pluginTemplate:
             id: text15
