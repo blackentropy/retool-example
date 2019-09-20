@@ -819,7 +819,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 29
+                row: 44
                 col: 4
                 height: 1
                 width: 4
@@ -1014,7 +1014,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 30
+                row: 40
                 height: 4
                 width: 12
             mobilePosition2:
@@ -1055,7 +1055,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 38
+                row: 45
                 height: 4
                 width: 12
             mobilePosition2:
@@ -1096,7 +1096,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 34
+                row: 36
                 height: 4
                 width: 12
             mobilePosition2:
@@ -1137,7 +1137,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 43
+                row: 49
                 height: 4
                 width: 12
             mobilePosition2:
@@ -2626,7 +2626,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 47
+                row: 53
                 height: 4
                 width: 12
             mobilePosition2:
@@ -2693,6 +2693,31 @@ appTemplate:
                 - queryThrottleTime: '750'
             createdAt: 2019-09-20T19:16:45.586Z
             updatedAt: 2019-09-20T19:16:45.586Z
+      - container2:
+          pluginTemplate:
+            id: container2
+            type: widget
+            subtype: ContainerWidget
+            template:
+              ordered:
+                - disabled: ''
+                - spinWhenChildrenAreFetching: true
+            position2:
+              position2:
+                container: form1
+                row: 28
+                col: 4
+                height: 8
+                width: 6
+            mobilePosition2:
+              position2:
+                container: form1
+                row: 28
+                col: 4
+                height: 8
+                width: 6
+            createdAt: 2019-09-20T19:40:02.072Z
+            updatedAt: 2019-09-20T19:40:02.072Z
   createdAt: null
   version: 2.47.14
   responsiveLayoutDisabled: false
