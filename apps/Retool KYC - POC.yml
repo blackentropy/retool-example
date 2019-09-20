@@ -2400,7 +2400,7 @@ appTemplate:
                 - tooltipText: ''
                 - value: ''
                 - placeholder: Search here...
-                - label: 'Additional '
+                - label: Additional Comments/Information re
                 - formattedValue: ''
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
@@ -2423,7 +2423,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-20T14:37:22.952Z
-            updatedAt: 2019-09-20T14:37:31.340Z
+            updatedAt: 2019-09-20T14:37:36.694Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
