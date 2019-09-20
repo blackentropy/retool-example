@@ -2468,7 +2468,7 @@ appTemplate:
                 - columnHeaderNames:
                     ordered:
                       - id: Type
-                      - name: 'Desription and '
+                      - name: Desription and Method of Validation
                 - alwaysShowPaginator: false
                 - columnColors:
                     ordered:
@@ -2583,7 +2583,7 @@ appTemplate:
                 height: 8
                 width: 8
             createdAt: 2019-09-20T14:47:06.960Z
-            updatedAt: 2019-09-20T14:50:26.618Z
+            updatedAt: 2019-09-20T14:50:31.845Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
