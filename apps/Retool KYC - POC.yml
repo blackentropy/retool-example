@@ -1156,7 +1156,7 @@ appTemplate:
             template:
               ordered:
                 - value: <h5> <u> Source(s) of Wealth
-                - html: false
+                - html: true
                 - scrollOverflow: false
                 - truncateOverflow: false
                 - tooltipText: Complete this section for all clients to be on-boarded.
@@ -1173,7 +1173,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-16T13:57:03.516Z
-            updatedAt: 2019-09-20T19:12:03.447Z
+            updatedAt: 2019-09-20T19:38:43.294Z
       - textinput16:
           pluginTemplate:
             id: textinput16
