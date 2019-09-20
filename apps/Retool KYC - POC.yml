@@ -2437,7 +2437,7 @@ appTemplate:
                 - html: false
                 - scrollOverflow: false
                 - truncateOverflow: false
-                - tooltipText: 'Note: '
+                - tooltipText: 'Note: To add (or remove) a row,'
             position2:
               position2:
                 container: form1
@@ -2453,7 +2453,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-20T14:40:50.868Z
-            updatedAt: 2019-09-20T14:48:46.646Z
+            updatedAt: 2019-09-20T14:48:53.208Z
       - table2:
           pluginTemplate:
             id: table2
