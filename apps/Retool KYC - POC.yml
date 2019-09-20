@@ -4,9 +4,9 @@ appTemplate:
   isFetching: false
   plugins:
     ordered:
-      - query1:
+      - countries_world:
           pluginTemplate:
-            id: query1
+            id: countries_world
             type: datasource
             subtype: SqlQuery
             resourceName: testdb (read)
