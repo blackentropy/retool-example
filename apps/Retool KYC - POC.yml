@@ -2366,7 +2366,7 @@ appTemplate:
                 - label: 'If Yes, Enter ALL Country Names That Apply'
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
-                - onSelect: countries_world_minus_canada
+                - onSelect: ''
                 - allowCustomValues: false
                 - disabled: ''
                 - hideClearButton: false
@@ -2387,7 +2387,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-20T14:10:17.100Z
-            updatedAt: 2019-09-20T18:55:57.321Z
+            updatedAt: 2019-09-20T18:56:44.104Z
       - textinput26:
           pluginTemplate:
             id: textinput26
