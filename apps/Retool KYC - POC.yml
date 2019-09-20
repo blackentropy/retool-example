@@ -79,7 +79,7 @@ appTemplate:
                 - disabled: ''
             position2:
               position2:
-                height: 83
+                height: 93
                 width: 12
             mobilePosition2:
               position2:
@@ -1812,7 +1812,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 76
+                row: 91
                 col: 5
                 height: 1
                 width: 4
@@ -2156,7 +2156,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 77
+                row: 87
                 col: 5
                 height: 4
                 width: 4
@@ -2208,7 +2208,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 81
+                row: 86
                 col: 5
                 height: 1
                 width: 4
@@ -2452,60 +2452,81 @@ appTemplate:
                 width: 3
             createdAt: 2019-09-20T14:40:50.868Z
             updatedAt: 2019-09-20T14:40:50.868Z
-      - querybuilder1:
+      - jsonschemaform1:
           pluginTemplate:
-            id: querybuilder1
+            id: jsonschemaform1
             type: widget
-            subtype: QueryBuilderWidget
+            subtype: JSONSchemaFormWidget
             template:
               ordered:
-                - value: ''
-                - fields: |-
-                    [
-                      {
-                        "name": "status",
-                        "label": "Status",
-                        "enum": [
-                          "happy",
-                          "sad",
-                          "neutral"
-                        ],
-                        "enumNames": [
-                          "Happy",
-                          "Sad",
-                          "So-so"
-                        ]
-                      },
-                      {
-                        "name": "firstName",
-                        "label": "First Name"
-                      },
-                      {
-                        "name": "lastName",
-                        "label": "Last Name"
-                      },
-                      {
-                        "name": "email",
-                        "label": "Email"
+                - liveValidate: true
+                - clearFormAfterSubmit: false
+                - jsonSchema: |-
+                    {
+                      "title": "A registration form",
+                      "description": "A simple form example.",
+                      "type": "object",
+                      "required": [
+                        "username",
+                        "password"
+                      ],
+                      "properties": {
+                        "username": {
+                          "type": "string",
+                          "title": "Username"
+                        },
+                        "password": {
+                          "type": "string",
+                          "title": "Password",
+                          "minLength": 3
+                        },
+                        "birthday": {
+                          "type": "string",
+                          "title": "Birthday",
+                        }
                       }
-                    ]
-                - asSql: ''
+                    }
+                - data: |-
+                    {
+                      "username": "john.doe",
+                      "password": "johndoeisthebest",
+                      "birthday": "1970-01-15"
+                    }
+                - submitButtonFullWidth: false
+                - submitDisabled: ''
+                - uiSchema: |-
+                    {
+                      "username": {
+                        "ui:autofocus": true,
+                        "ui:emptyValue": ""
+                      },
+                      "password": {
+                        "ui:widget": "password",
+                        "ui:help": "Hint: Make it strong!"
+                      },
+                      "birthday": {
+                        "ui:widget": "date"
+                      }
+                    }
+                - submitButtonText: Submit
+                - onSubmit: ''
+                - loading: ''
             position2:
               position2:
                 container: form1
-                row: 5
-                col: 6
-                height: 5
-                width: 5
+                row: 76
+                col: 8
+                height: 10
+                width: 4
             mobilePosition2:
               position2:
                 container: form1
-                row: 5
-                col: 6
-                height: 5
-                width: 5
-            createdAt: 2019-09-20T14:42:12.582Z
-            updatedAt: 2019-09-20T14:42:12.582Z
+                row: 76
+                col: 8
+                height: 10
+                width: 4
+            createdAt: 2019-09-20T14:42:47.482Z
+            updatedAt: 2019-09-20T14:42:47.482Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
