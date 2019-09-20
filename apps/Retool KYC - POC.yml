@@ -226,7 +226,8 @@ appTemplate:
                     International", "RBC IRP", "RBC Mortgage Specialist", "RBC
                     Retail Branch", "RBC PH&N Investment Counsellor", "RBC
                     Estate & Trust", "CNB (City National)", "Group Solutions",
-                    "Auto Finance", "NCG (National Client Group)", "E]
+                    "Auto Finance", "NCG (National Client Group)", "ESC
+                    (Enterprise Strategic Client Group)",]
                 - allowOutOfRangeValues: false
                 - enableFuzzyMatching: true
                 - searchValue: ''
@@ -257,7 +258,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-13T18:48:07.272Z
-            updatedAt: 2019-09-20T13:30:14.500Z
+            updatedAt: 2019-09-20T13:30:24.826Z
       - textinput4:
           pluginTemplate:
             id: textinput4
