@@ -319,7 +319,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 11
+                row: 29
                 col: 4
                 height: 1
                 width: 5
@@ -441,7 +441,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 13
+                row: 26
                 col: 4
                 height: 2
                 width: 2
@@ -482,7 +482,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 13
+                row: 26
                 col: 6
                 height: 2
                 width: 1
@@ -523,7 +523,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 12
+                row: 24
                 col: 7
                 height: 2
                 width: 2
@@ -564,7 +564,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 11
+                row: 24
                 col: 9
                 height: 2
                 width: 3
@@ -594,7 +594,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 15
+                row: 25
                 col: 4
                 height: 1
                 width: 3
@@ -634,7 +634,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 21
+                row: 24
                 height: 1
                 width: 4
             mobilePosition2:
@@ -672,7 +672,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 22
+                row: 28
                 col: 6
                 height: 1
                 width: 4
@@ -712,7 +712,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 23
+                row: 30
                 height: 1
                 width: 7
             mobilePosition2:
@@ -751,7 +751,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 24
+                row: 31
                 height: 1
                 width: 7
             mobilePosition2:
@@ -791,7 +791,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 26
+                row: 32
                 height: 1
                 width: 7
             mobilePosition2:
@@ -816,7 +816,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 27
+                row: 33
                 col: 4
                 height: 1
                 width: 4
@@ -966,7 +966,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 16
+                row: 19
                 height: 5
                 width: 12
             mobilePosition2:
@@ -1011,7 +1011,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 28
+                row: 34
                 height: 4
                 width: 12
             mobilePosition2:
@@ -1052,7 +1052,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 36
+                row: 42
                 height: 4
                 width: 12
             mobilePosition2:
@@ -1093,7 +1093,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 32
+                row: 38
                 height: 4
                 width: 12
             mobilePosition2:
@@ -1134,7 +1134,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 40
+                row: 46
                 height: 4
                 width: 12
             mobilePosition2:
@@ -1160,7 +1160,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 45
+                row: 50
                 col: 4
                 height: 1
                 width: 3
@@ -1201,7 +1201,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 46
+                row: 51
                 col: 5
                 height: 2
                 width: 4
@@ -1230,7 +1230,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 49
+                row: 53
                 col: 4
                 height: 1
                 width: 3
@@ -1273,7 +1273,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 51
+                row: 52
                 height: 1
                 width: 4
             mobilePosition2:
@@ -1312,7 +1312,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 51
+                row: 54
                 col: 5
                 height: 1
                 width: 2
@@ -1354,7 +1354,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 55
+                row: 56
                 height: 2
                 width: 6
             mobilePosition2:
@@ -1394,7 +1394,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 59
+                row: 60
                 height: 1
                 width: 4
             mobilePosition2:
@@ -1435,7 +1435,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 59
+                row: 60
                 col: 6
                 height: 1
                 width: 4
@@ -1474,7 +1474,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 60
+                row: 61
                 height: 2
                 width: 12
             mobilePosition2:
@@ -1510,7 +1510,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 62
+                row: 63
                 height: 2
                 width: 12
             mobilePosition2:
@@ -1545,7 +1545,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 64
+                row: 65
                 height: 2
                 width: 12
             mobilePosition2:
@@ -1585,7 +1585,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 66
+                row: 67
                 height: 2
                 width: 12
             mobilePosition2:
@@ -1627,7 +1627,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 68
+                row: 69
                 height: 2
                 width: 8
             mobilePosition2:
@@ -1692,7 +1692,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 70
+                row: 71
                 col: 4
                 height: 1
                 width: 3
@@ -1733,7 +1733,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 71
+                row: 72
                 col: 6
                 height: 2
                 width: 4
@@ -1812,7 +1812,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 74
+                row: 75
                 col: 5
                 height: 1
                 width: 4
@@ -1839,7 +1839,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 73
+                row: 74
                 col: 4
                 height: 1
                 width: 3
@@ -1866,7 +1866,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 12
+                row: 4
                 col: 5
                 height: 1
                 width: 2
@@ -1945,7 +1945,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 21
+                row: 24
                 col: 4
                 height: 1
                 width: 3
@@ -1985,7 +1985,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 57
+                row: 58
                 height: 2
                 width: 10
             mobilePosition2:
@@ -2027,7 +2027,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 53
+                row: 54
                 height: 2
                 width: 5
             mobilePosition2:
@@ -2068,7 +2068,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 53
+                row: 55
                 col: 6
                 height: 2
                 width: 5
@@ -2109,7 +2109,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 46
+                row: 50
                 height: 2
                 width: 4
             mobilePosition2:
@@ -2254,57 +2254,33 @@ appTemplate:
                 width: 2
             createdAt: 2019-09-20T13:15:49.714Z
             updatedAt: 2019-09-20T13:16:25.050Z
-      - boundingbox1:
+      - listview1:
           pluginTemplate:
-            id: boundingbox1
+            id: listview1
             type: widget
-            subtype: BoundingBoxWidget
+            subtype: ListViewWidget
             template:
               ordered:
-                - imageUrl: >-
-                    http://drivinginstructorblog.com/wp-content/uploads/2013/03/k.jpg
-                - mode: boundingbox
-                - boundingBoxes: |-
-                    [
-                      {
-                        "x": 364.33285687062585,
-                        "y": 455.1241526664781,
-                        "height": 234.01870447637899,
-                        "width": 460.11987944778207,
-                        "label": "Car"
-                      },
-                      {
-                        "x": 913.6813524877781,
-                        "y": 379.67898685000057,
-                        "height": 97.41991424890055,
-                        "width": 214.32030588701454,
-                        "label": "Car"
-                      },
-                      {
-                        "x": 1329.3946932006634,
-                        "y": 388.4448721768223,
-                        "height": 126.93974320779306,
-                        "width": 172.20563847429517,
-                        "label": "Car"
-                      }
-                    ]
-                - labels: '["Car", "Pedestrian", "Traffic Sign"]'
+                - data: ''
+                - instances: '3'
+                - itemHeight: '3'
+                - scroll: false
             position2:
               position2:
                 container: form1
-                row: 4
-                col: 6
-                height: 7
-                width: 6
+                row: 5
+                col: 4
+                height: 14
+                width: 8
             mobilePosition2:
               position2:
                 container: form1
-                row: 4
-                col: 6
-                height: 7
-                width: 6
-            createdAt: 2019-09-20T13:51:43.119Z
-            updatedAt: 2019-09-20T13:51:43.119Z
+                row: 5
+                col: 4
+                height: 14
+                width: 8
+            createdAt: 2019-09-20T13:52:12.118Z
+            updatedAt: 2019-09-20T13:52:12.118Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
