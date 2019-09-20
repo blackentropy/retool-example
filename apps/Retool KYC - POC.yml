@@ -1290,7 +1290,7 @@ appTemplate:
             subtype: TextWidget
             template:
               ordered:
-                - value: <h5> Client Risk Assessment
+                - value: <h5> <u> Client Risk Assessment
                 - html: false
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -1309,7 +1309,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-16T14:00:01.977Z
-            updatedAt: 2019-09-20T12:58:51.232Z
+            updatedAt: 2019-09-20T13:01:52.879Z
       - textinput17:
           pluginTemplate:
             id: textinput17
