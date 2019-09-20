@@ -319,7 +319,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 21
+                row: 11
                 col: 4
                 height: 1
                 width: 5
@@ -441,7 +441,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 11
+                row: 12
                 col: 4
                 height: 2
                 width: 2
@@ -482,7 +482,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 11
+                row: 12
                 col: 6
                 height: 2
                 width: 1
@@ -523,7 +523,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 14
+                row: 12
                 col: 7
                 height: 2
                 width: 2
@@ -564,7 +564,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 14
+                row: 11
                 col: 9
                 height: 2
                 width: 3
@@ -594,7 +594,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 13
+                row: 14
                 col: 4
                 height: 1
                 width: 3
@@ -634,7 +634,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 22
+                row: 20
                 height: 1
                 width: 4
             mobilePosition2:
@@ -672,7 +672,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 22
+                row: 21
                 col: 6
                 height: 1
                 width: 4
@@ -712,7 +712,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 24
+                row: 22
                 height: 1
                 width: 7
             mobilePosition2:
@@ -751,7 +751,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 25
+                row: 24
                 height: 1
                 width: 7
             mobilePosition2:
@@ -966,7 +966,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 16
+                row: 15
                 height: 5
                 width: 12
             mobilePosition2:
@@ -1866,7 +1866,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 4
+                row: 10
                 col: 5
                 height: 1
                 width: 2
@@ -1945,7 +1945,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 23
+                row: 20
                 col: 4
                 height: 1
                 width: 3
@@ -2254,81 +2254,46 @@ appTemplate:
                 width: 2
             createdAt: 2019-09-20T13:15:49.714Z
             updatedAt: 2019-09-20T13:16:25.050Z
-      - jsonschemaform1:
+      - togglelist1:
           pluginTemplate:
-            id: jsonschemaform1
+            id: togglelist1
             type: widget
-            subtype: JSONSchemaFormWidget
+            subtype: ToggleListWidget
             template:
               ordered:
-                - liveValidate: true
-                - clearFormAfterSubmit: false
-                - jsonSchema: |-
-                    {
-                      "title": "A registration form",
-                      "description": "A simple form example.",
-                      "type": "object",
-                      "required": [
-                        "username",
-                        "password"
-                      ],
-                      "properties": {
-                        "username": {
-                          "type": "string",
-                          "title": "Username"
-                        },
-                        "password": {
-                          "type": "string",
-                          "title": "Password",
-                          "minLength": 3
-                        },
-                        "birthday": {
-                          "type": "string",
-                          "title": "Birthday",
-                        }
-                      }
-                    }
-                - data: |-
-                    {
-                      "username": "john.doe",
-                      "password": "johndoeisthebest",
-                      "birthday": "1970-01-15"
-                    }
-                - submitButtonFullWidth: false
-                - submitDisabled: ''
-                - uiSchema: |-
-                    {
-                      "username": {
-                        "ui:autofocus": true,
-                        "ui:emptyValue": ""
-                      },
-                      "password": {
-                        "ui:widget": "password",
-                        "ui:help": "Hint: Make it strong!"
-                      },
-                      "birthday": {
-                        "ui:widget": "date"
-                      }
-                    }
-                - submitButtonText: Submit
-                - onSubmit: ''
-                - loading: ''
+                - toggles:
+                    - ordered:
+                        - label: Enable Feature One
+                        - description: Added in release v2.1
+                        - value: '{{ true }}'
+                        - tags: '["mobile", "marketing"]'
+                        - toggleOnQuery: ''
+                        - toggleOffQuery: ''
+                        - disabled: ''
+                    - ordered:
+                        - label: Enable Feature Two
+                        - description: Added in release v2.5
+                        - value: '{{ false }}'
+                        - tags: '["desktop", "bugfix", "priority one"]'
+                        - toggleOnQuery: ''
+                        - toggleOffQuery: ''
+                        - disabled: ''
             position2:
               position2:
                 container: form1
                 row: 4
-                col: 7
-                height: 10
-                width: 4
+                col: 6
+                height: 6
+                width: 6
             mobilePosition2:
               position2:
                 container: form1
                 row: 4
-                col: 7
-                height: 10
-                width: 4
-            createdAt: 2019-09-20T13:53:21.483Z
-            updatedAt: 2019-09-20T13:53:21.483Z
+                col: 6
+                height: 6
+                width: 6
+            createdAt: 2019-09-20T13:53:54.813Z
+            updatedAt: 2019-09-20T13:53:54.813Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
