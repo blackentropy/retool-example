@@ -2370,8 +2370,8 @@ appTemplate:
                 - labels: '{{countries_world_minus_canada.data.name}}'
             position2:
               position2:
-                container: form1
-                row: 26
+                container: container3
+                row: 5
                 col: 7
                 height: 2
                 width: 4
