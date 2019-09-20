@@ -2425,7 +2425,7 @@ appTemplate:
             subtype: TextWidget
             template:
               ordered:
-                - value: <h5><u>Detailed Breakdown of non-Canadian Asset(s)
+                - value: <center><h5><u>Detailed Breakdown of non-Canadian Asset(s)
                 - html: true
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -2445,7 +2445,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-20T14:40:50.868Z
-            updatedAt: 2019-09-20T20:00:03.178Z
+            updatedAt: 2019-09-20T20:00:10.884Z
       - table2:
           pluginTemplate:
             id: table2
