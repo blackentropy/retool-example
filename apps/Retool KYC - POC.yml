@@ -1254,7 +1254,7 @@ appTemplate:
                 - disabledKeyCodes: ''
                 - onBlur: ''
                 - docsSlug: textinput
-                - currencyType: USD
+                - currencyType: CAD
                 - leftIconName: ''
                 - initialValue: ''
                 - tooltipText: ''
@@ -1282,7 +1282,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-16T13:58:21.471Z
-            updatedAt: 2019-09-20T13:03:04.768Z
+            updatedAt: 2019-09-20T13:03:26.163Z
       - text7:
           pluginTemplate:
             id: text7
