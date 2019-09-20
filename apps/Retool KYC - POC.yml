@@ -2452,33 +2452,6 @@ appTemplate:
                 width: 3
             createdAt: 2019-09-20T14:40:50.868Z
             updatedAt: 2019-09-20T14:40:50.868Z
-      - stripecardform1:
-          pluginTemplate:
-            id: stripecardform1
-            type: widget
-            subtype: StripeCardFormWidget
-            template:
-              ordered:
-                - onStripeTokenCreated: ''
-                - stripePublishableKey: pk_test_replace_me
-                - submitButtonText: Submit
-                - stripeToken: null
-            position2:
-              position2:
-                container: form1
-                row: 76
-                col: 8
-                height: 4
-                width: 4
-            mobilePosition2:
-              position2:
-                container: form1
-                row: 76
-                col: 8
-                height: 4
-                width: 4
-            createdAt: 2019-09-20T14:43:11.003Z
-            updatedAt: 2019-09-20T14:43:11.003Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
