@@ -1326,7 +1326,7 @@ appTemplate:
                 - initialValue: ''
                 - tooltipText: ''
                 - value: ''
-                - placeholder: Enter name here
+                - placeholder: Enter employee name here
                 - label: >-
                     Both searches (OLWI & Internet Search) were completed by
                     (name of employee):
@@ -1350,7 +1350,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-16T14:00:52.003Z
-            updatedAt: 2019-09-20T12:58:51.232Z
+            updatedAt: 2019-09-20T13:04:00.151Z
       - textinput18:
           pluginTemplate:
             id: textinput18
