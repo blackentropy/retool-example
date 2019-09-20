@@ -588,7 +588,9 @@ appTemplate:
                 - html: false
                 - scrollOverflow: false
                 - truncateOverflow: false
-                - tooltipText: 'Note: To add (or remove) a row, double-click on the + (or x)'
+                - tooltipText: >-
+                    Note: To add (or remove) a row, double-click on the + (or x)
+                    symbol at the end of the row. 
             position2:
               position2:
                 container: form1
@@ -604,7 +606,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-16T13:13:13.690Z
-            updatedAt: 2019-09-20T13:48:51.138Z
+            updatedAt: 2019-09-20T13:49:00.561Z
       - select2:
           pluginTemplate:
             id: select2
