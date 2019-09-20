@@ -385,8 +385,8 @@ appTemplate:
             template:
               ordered:
                 - value: >-
-                    <center> <h5>Client Information - Head of Household </h5>
-                    </center>
+                    <center> <h5><u> Client Information - Head of Household
+                    </h5> </center>
                 - html: false
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -405,7 +405,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-16T13:05:26.088Z
-            updatedAt: 2019-09-20T13:00:45.737Z
+            updatedAt: 2019-09-20T13:00:49.259Z
       - textinput5:
           pluginTemplate:
             id: textinput5
