@@ -2452,6 +2452,38 @@ appTemplate:
                 width: 3
             createdAt: 2019-09-20T14:40:50.868Z
             updatedAt: 2019-09-20T14:40:50.868Z
+      - editabletext1:
+          pluginTemplate:
+            id: editabletext1
+            type: widget
+            subtype: EditableTextWidget
+            template:
+              ordered:
+                - leftIconName: search
+                - onChange: ''
+                - tooltipText: ''
+                - value: Editable text
+                - placeholder: Search here...
+                - label: ''
+                - labelMaxWidth: ''
+                - labelPlacedOnLeft: ''
+                - disabled: ''
+            position2:
+              position2:
+                container: form1
+                row: 78
+                col: 7
+                height: 1
+                width: 3
+            mobilePosition2:
+              position2:
+                container: form1
+                row: 78
+                col: 7
+                height: 1
+                width: 3
+            createdAt: 2019-09-20T14:44:15.839Z
+            updatedAt: 2019-09-20T14:44:15.839Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
