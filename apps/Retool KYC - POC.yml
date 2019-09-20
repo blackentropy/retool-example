@@ -2254,6 +2254,32 @@ appTemplate:
                 width: 2
             createdAt: 2019-09-20T13:15:49.714Z
             updatedAt: 2019-09-20T13:16:25.050Z
+      - reorderablelist1:
+          pluginTemplate:
+            id: reorderablelist1
+            type: widget
+            subtype: ReorderableListWidget
+            template:
+              ordered:
+                - value: '[''The first card'', ''The second card'', ''And me!'']'
+                - renderedValue: ''
+                - onReorder: ''
+            position2:
+              position2:
+                container: form1
+                row: 22
+                col: 8
+                height: 5
+                width: 4
+            mobilePosition2:
+              position2:
+                container: form1
+                row: 22
+                col: 8
+                height: 5
+                width: 4
+            createdAt: 2019-09-20T13:51:24.665Z
+            updatedAt: 2019-09-20T13:51:24.665Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
