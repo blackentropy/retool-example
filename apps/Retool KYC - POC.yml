@@ -2342,6 +2342,47 @@ appTemplate:
                 width: 4
             createdAt: 2019-09-20T14:06:59.742Z
             updatedAt: 2019-09-20T14:08:37.574Z
+      - multiselect2:
+          pluginTemplate:
+            id: multiselect2
+            type: widget
+            subtype: MultiSelectWidget
+            template:
+              ordered:
+                - values: '[1,2,3]'
+                - allowOutOfRangeValues: false
+                - enableFuzzyMatching: true
+                - searchValue: ''
+                - displayValue: ''
+                - tooltipText: ''
+                - value: ''
+                - maxResults: 50
+                - placeholder: ''
+                - label: Numbers
+                - labelMaxWidth: ''
+                - labelPlacedOnLeft: ''
+                - onSelect: ''
+                - allowCustomValues: false
+                - disabled: ''
+                - hideClearButton: false
+                - required: false
+                - labels: ''
+            position2:
+              position2:
+                container: form1
+                row: 26
+                col: 7
+                height: 1
+                width: 4
+            mobilePosition2:
+              position2:
+                container: form1
+                row: 26
+                col: 7
+                height: 1
+                width: 4
+            createdAt: 2019-09-20T14:10:17.100Z
+            updatedAt: 2019-09-20T14:10:17.100Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
