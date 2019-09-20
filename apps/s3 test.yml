@@ -194,7 +194,8 @@ appTemplate:
                 - url: ''
                 - newWindow: false
                 - exportQuery: ''
-                - imageUrl: 'https://retool-public-demo.s3.us-east-2.amazonaws.com/1.png'
+                - imageUrl: >-
+                    https://retool-public-demo.s3.us-east-2.amazonaws.com/{{table}}
                 - action: ''
                 - internalUrlQuery: ''
                 - internalUrlPath: ''
@@ -214,7 +215,7 @@ appTemplate:
                 height: 3
                 width: 2
             createdAt: 2019-09-20T17:38:43.625Z
-            updatedAt: 2019-09-20T17:39:16.627Z
+            updatedAt: 2019-09-20T17:39:23.448Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
