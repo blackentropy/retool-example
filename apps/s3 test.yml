@@ -194,8 +194,7 @@ appTemplate:
                 - url: ''
                 - newWindow: false
                 - exportQuery: ''
-                - imageUrl: >-
-                    https://www.thehappycatsite.com/wp-content/uploads/2017/12/grow.jpg
+                - imageUrl: 'https://retool-public-demo.s3.us-east-2.amazonaws.com/1.png'
                 - action: ''
                 - internalUrlQuery: ''
                 - internalUrlPath: ''
@@ -215,7 +214,7 @@ appTemplate:
                 height: 3
                 width: 2
             createdAt: 2019-09-20T17:38:43.625Z
-            updatedAt: 2019-09-20T17:38:43.625Z
+            updatedAt: 2019-09-20T17:39:16.627Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
