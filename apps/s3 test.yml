@@ -232,7 +232,7 @@ appTemplate:
                 - generateNames: false
                 - label: upload to S3
                 - s3BucketName: ''
-                - s3ResourceName: ''
+                - s3ResourceName: s3
                 - s3FolderName: ''
                 - disabled: ''
                 - lastUploadedFileUrl: ''
@@ -250,7 +250,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-20T17:42:54.072Z
-            updatedAt: 2019-09-20T17:42:54.072Z
+            updatedAt: 2019-09-20T17:42:57.173Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
