@@ -1941,6 +1941,7 @@ appTemplate:
                 - html: false
                 - scrollOverflow: false
                 - truncateOverflow: false
+                - tooltipText: Use dropd
             position2:
               position2:
                 container: form1
@@ -1956,7 +1957,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-19T19:14:27.459Z
-            updatedAt: 2019-09-20T13:01:21.296Z
+            updatedAt: 2019-09-20T13:49:22.170Z
       - checkboxgroup5:
           pluginTemplate:
             id: checkboxgroup5
