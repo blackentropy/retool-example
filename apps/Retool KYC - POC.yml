@@ -2371,7 +2371,7 @@ appTemplate:
                 - disabled: ''
                 - hideClearButton: false
                 - required: false
-                - labels: '{{countries_world_minus_canada.data.}}'
+                - labels: '{{countries_world_minus_canada.data.name}}'
             position2:
               position2:
                 container: form1
@@ -2387,7 +2387,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-20T14:10:17.100Z
-            updatedAt: 2019-09-20T19:04:25.085Z
+            updatedAt: 2019-09-20T19:04:27.405Z
       - textinput26:
           pluginTemplate:
             id: textinput26
