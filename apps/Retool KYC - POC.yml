@@ -2452,6 +2452,60 @@ appTemplate:
                 width: 3
             createdAt: 2019-09-20T14:40:50.868Z
             updatedAt: 2019-09-20T14:40:50.868Z
+      - querybuilder1:
+          pluginTemplate:
+            id: querybuilder1
+            type: widget
+            subtype: QueryBuilderWidget
+            template:
+              ordered:
+                - value: ''
+                - fields: |-
+                    [
+                      {
+                        "name": "status",
+                        "label": "Status",
+                        "enum": [
+                          "happy",
+                          "sad",
+                          "neutral"
+                        ],
+                        "enumNames": [
+                          "Happy",
+                          "Sad",
+                          "So-so"
+                        ]
+                      },
+                      {
+                        "name": "firstName",
+                        "label": "First Name"
+                      },
+                      {
+                        "name": "lastName",
+                        "label": "Last Name"
+                      },
+                      {
+                        "name": "email",
+                        "label": "Email"
+                      }
+                    ]
+                - asSql: ''
+            position2:
+              position2:
+                container: form1
+                row: 5
+                col: 6
+                height: 5
+                width: 5
+            mobilePosition2:
+              position2:
+                container: form1
+                row: 5
+                col: 6
+                height: 5
+                width: 5
+            createdAt: 2019-09-20T14:42:12.582Z
+            updatedAt: 2019-09-20T14:42:12.582Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
