@@ -170,7 +170,7 @@ appTemplate:
                 row: 2
                 col: 1
                 height: 8
-                width: 8
+                width: 5
             mobilePosition2:
               position2:
                 row: 2
