@@ -145,34 +145,6 @@ appTemplate:
                 width: 2
             createdAt: 2019-09-13T18:24:35.784Z
             updatedAt: 2019-09-20T12:58:51.215Z
-      - checkbox3:
-          pluginTemplate:
-            id: checkbox3
-            type: widget
-            subtype: CheckboxWidget
-            template:
-              ordered:
-                - label: Client added to existing HH
-                - value: false
-                - disabled: ''
-                - onCheckQuery: ''
-                - onUncheckQuery: ''
-            position2:
-              position2:
-                container: form1
-                row: 5
-                col: 7
-                height: 1
-                width: 3
-            mobilePosition2:
-              position2:
-                container: form1
-                row: 3
-                col: 7
-                height: 1
-                width: 2
-            createdAt: 2019-09-13T18:24:55.426Z
-            updatedAt: 2019-09-20T12:58:51.215Z
       - textinput1:
           pluginTemplate:
             id: textinput1
