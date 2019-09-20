@@ -65,7 +65,7 @@ appTemplate:
                 - enableCaching: false
                 - queryThrottleTime: '750'
             createdAt: 2019-09-20T17:37:39.132Z
-            updatedAt: 2019-09-20T17:45:35.044Z
+            updatedAt: 2019-09-20T17:46:19.125Z
       - table1:
           pluginTemplate:
             id: table1
@@ -181,7 +181,7 @@ appTemplate:
                 height: 8
                 width: 8
             createdAt: 2019-09-20T17:38:11.605Z
-            updatedAt: 2019-09-20T17:46:13.304Z
+            updatedAt: 2019-09-20T17:46:19.126Z
       - image1:
           pluginTemplate:
             id: image1
@@ -218,7 +218,7 @@ appTemplate:
                 height: 3
                 width: 2
             createdAt: 2019-09-20T17:38:43.625Z
-            updatedAt: 2019-09-20T17:45:35.045Z
+            updatedAt: 2019-09-20T17:46:19.126Z
       - s3uploader1:
           pluginTemplate:
             id: s3uploader1
@@ -253,7 +253,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-20T17:42:54.072Z
-            updatedAt: 2019-09-20T17:45:35.045Z
+            updatedAt: 2019-09-20T17:46:19.127Z
       - textinput1:
           pluginTemplate:
             id: textinput1
@@ -292,7 +292,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-20T17:44:47.380Z
-            updatedAt: 2019-09-20T17:45:35.045Z
+            updatedAt: 2019-09-20T17:46:19.127Z
       - orderBy:
           pluginTemplate:
             id: orderBy
@@ -345,7 +345,30 @@ appTemplate:
                 - enableCaching: false
                 - queryThrottleTime: '750'
             createdAt: 2019-09-20T17:45:37.226Z
-            updatedAt: 2019-09-20T17:45:59.176Z
+            updatedAt: 2019-09-20T17:46:19.128Z
+      - text1:
+          pluginTemplate:
+            id: text1
+            type: widget
+            subtype: TextWidget
+            template:
+              ordered:
+                - value: "**Hello** <b>friend!</b> \U0001F603"
+                - html: false
+                - scrollOverflow: false
+                - truncateOverflow: false
+            position2:
+              position2:
+                col: 1
+                height: 1
+                width: 3
+            mobilePosition2:
+              position2:
+                col: 1
+                height: 1
+                width: 3
+            createdAt: 2019-09-20T17:46:27.687Z
+            updatedAt: 2019-09-20T17:46:27.687Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
