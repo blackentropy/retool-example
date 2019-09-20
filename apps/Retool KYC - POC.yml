@@ -2504,7 +2504,7 @@ appTemplate:
                       "email": "hanson@deck.com",
 
                     }, {
-                      "id": 2,
+                      "Type": 2,
                       "name": "Max Conversation",
                       "email": "Max@conversation.com",
                       
@@ -2574,7 +2574,7 @@ appTemplate:
                 height: 8
                 width: 8
             createdAt: 2019-09-20T14:47:06.960Z
-            updatedAt: 2019-09-20T14:55:36.368Z
+            updatedAt: 2019-09-20T14:55:39.988Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
