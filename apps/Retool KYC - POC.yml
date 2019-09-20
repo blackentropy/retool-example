@@ -1633,8 +1633,9 @@ appTemplate:
                 - values: >-
                     [ 
 
-                    "Clients approved by RROC", "Client upon whom 3+ STR",
-                    "Restricted client provided with an esception by the CALMO"]
+                    "Indivuduals or Entities Sanctioned", "Client upon whom 3+
+                    STR", "Restricted client provided with an esception by the
+                    CALMO"]
                 - verticalAligned: false
                 - onChange: ''
                 - tooltipText: ''
@@ -1657,7 +1658,7 @@ appTemplate:
                 height: 2
                 width: 12
             createdAt: 2019-09-16T14:42:27.044Z
-            updatedAt: 2019-09-20T13:06:52.136Z
+            updatedAt: 2019-09-20T13:07:10.005Z
       - textinput19:
           pluginTemplate:
             id: textinput19
