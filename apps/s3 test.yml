@@ -354,8 +354,8 @@ appTemplate:
             template:
               ordered:
                 - value: >-
-                    ### Upload a file, and it will automatically appear see it
-                    in the first row of the table  (sorted by LastModified)
+                    ### Upload a file, and it will automatically appear in the
+                    first row of the table  (sorted by LastModified)
                 - html: false
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -370,7 +370,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-20T17:46:27.687Z
-            updatedAt: 2019-09-20T17:54:55.264Z
+            updatedAt: 2019-09-20T17:54:57.568Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
