@@ -2175,7 +2175,7 @@ appTemplate:
                 - disabledKeyCodes: ''
                 - onBlur: ''
                 - docsSlug: textinput
-                - currencyType: USD
+                - currencyType: CAD
                 - leftIconName: ''
                 - initialValue: ''
                 - tooltipText: ''
@@ -2202,7 +2202,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-19T20:35:45.763Z
-            updatedAt: 2019-09-20T13:02:49.077Z
+            updatedAt: 2019-09-20T13:03:35.018Z
       - signaturepad1:
           pluginTemplate:
             id: signaturepad1
