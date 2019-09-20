@@ -2315,7 +2315,7 @@ appTemplate:
             subtype: CheckboxGroupWidget
             template:
               ordered:
-                - values: '[ "New Client to RBC","Existing RBC Client''",3]'
+                - values: '[ "New Client to RBC","Existing RBC Client",""]'
                 - verticalAligned: false
                 - onChange: ''
                 - tooltipText: ''
@@ -2340,7 +2340,7 @@ appTemplate:
                 height: 2
                 width: 2
             createdAt: 2019-09-20T13:15:49.714Z
-            updatedAt: 2019-09-20T13:16:15.662Z
+            updatedAt: 2019-09-20T13:16:20.124Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
