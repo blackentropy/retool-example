@@ -2473,9 +2473,11 @@ appTemplate:
                 - alwaysShowPaginator: false
                 - columnColors:
                     ordered:
-                      - id: ''
+                      - Type: ''
                       - name: ''
                       - email: ''
+                      - id: ''
+                      - Ty: ''
                       - sales: ''
                 - allowMultiRowSelect: false
                 - columnFormats:
@@ -2483,19 +2485,21 @@ appTemplate:
                 - nextBeforeCursor: ''
                 - columnVisibility:
                     ordered:
-                      - id: true
+                      - Ty: true
                       - name: true
-                      - email: true
+                      - Sales: true
                       - sales: true
                       - Title: true
+                      - Type: true
+                      - id: true
+                      - email: true
                       - Description: true
-                      - Sales: true
                 - selectedPageIndex: '0'
                 - actionButtonColumnName: Actions
                 - serverPaginated: false
                 - data: |-
                     [{
-                      "id": 1,
+                      "Type": 1,
                       "name": "Hanson Deck",
                       "email": "hanson@deck.com",
 
@@ -2545,6 +2549,8 @@ appTemplate:
                     - name
                     - email
                     - sales
+                    - Ty
+                    - Type
                 - sort: null
                 - calculatedColumns: []
                 - selectedRow:
@@ -2568,7 +2574,7 @@ appTemplate:
                 height: 8
                 width: 8
             createdAt: 2019-09-20T14:47:06.960Z
-            updatedAt: 2019-09-20T14:54:13.043Z
+            updatedAt: 2019-09-20T14:55:36.368Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
