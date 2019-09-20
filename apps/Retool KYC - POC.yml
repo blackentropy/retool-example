@@ -319,7 +319,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 10
+                row: 11
                 col: 4
                 height: 1
                 width: 5
@@ -441,7 +441,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 11
+                row: 13
                 col: 4
                 height: 2
                 width: 2
@@ -482,7 +482,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 11
+                row: 13
                 col: 6
                 height: 2
                 width: 1
@@ -523,7 +523,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 11
+                row: 12
                 col: 7
                 height: 2
                 width: 2
@@ -594,7 +594,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 13
+                row: 15
                 col: 4
                 height: 1
                 width: 3
@@ -634,7 +634,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 20
+                row: 21
                 height: 1
                 width: 4
             mobilePosition2:
@@ -672,7 +672,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 20
+                row: 22
                 col: 6
                 height: 1
                 width: 4
@@ -712,7 +712,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 22
+                row: 23
                 height: 1
                 width: 7
             mobilePosition2:
@@ -966,7 +966,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 14
+                row: 16
                 height: 5
                 width: 12
             mobilePosition2:
@@ -1866,7 +1866,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 4
+                row: 12
                 col: 5
                 height: 1
                 width: 2
@@ -1945,7 +1945,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 19
+                row: 21
                 col: 4
                 height: 1
                 width: 3
@@ -2254,6 +2254,57 @@ appTemplate:
                 width: 2
             createdAt: 2019-09-20T13:15:49.714Z
             updatedAt: 2019-09-20T13:16:25.050Z
+      - boundingbox1:
+          pluginTemplate:
+            id: boundingbox1
+            type: widget
+            subtype: BoundingBoxWidget
+            template:
+              ordered:
+                - imageUrl: >-
+                    http://drivinginstructorblog.com/wp-content/uploads/2013/03/k.jpg
+                - mode: boundingbox
+                - boundingBoxes: |-
+                    [
+                      {
+                        "x": 364.33285687062585,
+                        "y": 455.1241526664781,
+                        "height": 234.01870447637899,
+                        "width": 460.11987944778207,
+                        "label": "Car"
+                      },
+                      {
+                        "x": 913.6813524877781,
+                        "y": 379.67898685000057,
+                        "height": 97.41991424890055,
+                        "width": 214.32030588701454,
+                        "label": "Car"
+                      },
+                      {
+                        "x": 1329.3946932006634,
+                        "y": 388.4448721768223,
+                        "height": 126.93974320779306,
+                        "width": 172.20563847429517,
+                        "label": "Car"
+                      }
+                    ]
+                - labels: '["Car", "Pedestrian", "Traffic Sign"]'
+            position2:
+              position2:
+                container: form1
+                row: 4
+                col: 6
+                height: 7
+                width: 6
+            mobilePosition2:
+              position2:
+                container: form1
+                row: 4
+                col: 6
+                height: 7
+                width: 6
+            createdAt: 2019-09-20T13:51:43.119Z
+            updatedAt: 2019-09-20T13:51:43.119Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
