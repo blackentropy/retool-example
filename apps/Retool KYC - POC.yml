@@ -1946,9 +1946,8 @@ appTemplate:
             position2:
               position2:
                 container: container3
-                col: 4
                 height: 1
-                width: 8
+                width: 12
             mobilePosition2:
               position2:
                 container: form1
