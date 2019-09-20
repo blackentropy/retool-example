@@ -482,8 +482,8 @@ appTemplate:
                 - required: false
             position2:
               position2:
-                container: form1
-                row: 11
+                container: container5
+                row: 3
                 col: 6
                 height: 2
                 width: 1
@@ -523,8 +523,8 @@ appTemplate:
                 - required: false
             position2:
               position2:
-                container: form1
-                row: 11
+                container: container5
+                row: 3
                 col: 7
                 height: 2
                 width: 2
@@ -564,8 +564,8 @@ appTemplate:
                 - required: false
             position2:
               position2:
-                container: form1
-                row: 11
+                container: container5
+                row: 3
                 col: 9
                 height: 2
                 width: 3
