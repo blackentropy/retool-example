@@ -1654,7 +1654,7 @@ appTemplate:
                 - initialValue: ''
                 - tooltipText: ''
                 - value: ''
-                - placeholder: ''
+                - placeholder: 'Either '
                 - label: Risk Evaluation at On-Boarding
                 - formattedValue: ''
                 - labelMaxWidth: ''
@@ -1677,7 +1677,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-18T19:56:38.803Z
-            updatedAt: 2019-09-20T14:36:26.897Z
+            updatedAt: 2019-09-20T14:36:29.172Z
       - text11:
           pluginTemplate:
             id: text11
