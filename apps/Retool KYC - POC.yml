@@ -747,7 +747,7 @@ appTemplate:
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
                 - onSelect: ''
-                - disabled: ''
+                - disabled: 'if select5 == "Yes", then '
                 - hideClearButton: false
                 - required: false
                 - labels: ''
@@ -764,7 +764,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-16T13:26:18.135Z
-            updatedAt: 2019-09-20T18:49:50.090Z
+            updatedAt: 2019-09-20T19:07:53.360Z
       - select6:
           pluginTemplate:
             id: select6
