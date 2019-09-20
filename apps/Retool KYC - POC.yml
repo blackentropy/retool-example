@@ -2243,6 +2243,45 @@ appTemplate:
                 width: 2
             createdAt: 2019-09-20T13:15:49.714Z
             updatedAt: 2019-09-20T13:16:25.050Z
+      - daterangepicker1:
+          pluginTemplate:
+            id: daterangepicker1
+            type: widget
+            subtype: DateRangePickerWidget
+            template:
+              ordered:
+                - minDate: ''
+                - startFormattedString: null
+                - formattedString: null
+                - startValue: null
+                - tooltipText: ''
+                - startPlaceholder: ''
+                - endFormattedString: null
+                - maxDate: ''
+                - label: ''
+                - endValue: null
+                - labelMaxWidth: ''
+                - labelPlacedOnLeft: ''
+                - format: MM/DD/YYYY
+                - endPlaceholder: ''
+                - onSelect: ''
+                - disabled: ''
+            position2:
+              position2:
+                container: form1
+                row: 7
+                col: 9
+                height: 1
+                width: 3
+            mobilePosition2:
+              position2:
+                container: form1
+                row: 7
+                col: 9
+                height: 1
+                width: 3
+            createdAt: 2019-09-20T13:31:36.970Z
+            updatedAt: 2019-09-20T13:31:36.970Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
