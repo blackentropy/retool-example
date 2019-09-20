@@ -1823,7 +1823,7 @@ appTemplate:
             template:
               ordered:
                 - value: <h5> <u> Senior Management Approval
-                - html: false
+                - html: true
                 - scrollOverflow: false
                 - truncateOverflow: false
             position2:
@@ -1839,7 +1839,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-18T20:01:38.505Z
-            updatedAt: 2019-09-20T19:12:03.467Z
+            updatedAt: 2019-09-20T20:02:55.450Z
       - text13:
           pluginTemplate:
             id: text13
