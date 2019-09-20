@@ -1692,7 +1692,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 70
+                row: 71
                 col: 4
                 height: 1
                 width: 3
@@ -1733,7 +1733,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 71
+                row: 72
                 col: 4
                 height: 2
                 width: 3
@@ -1812,7 +1812,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 74
+                row: 75
                 col: 5
                 height: 1
                 width: 4
@@ -1839,7 +1839,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 73
+                row: 74
                 col: 4
                 height: 1
                 width: 3
@@ -2426,6 +2426,33 @@ appTemplate:
                 width: 4
             createdAt: 2019-09-20T14:37:22.952Z
             updatedAt: 2019-09-20T14:38:05.066Z
+      - text15:
+          pluginTemplate:
+            id: text15
+            type: widget
+            subtype: TextWidget
+            template:
+              ordered:
+                - value: "**Hello** <b>friend!</b> \U0001F603"
+                - html: false
+                - scrollOverflow: false
+                - truncateOverflow: false
+            position2:
+              position2:
+                container: form1
+                row: 70
+                col: 4
+                height: 1
+                width: 3
+            mobilePosition2:
+              position2:
+                container: form1
+                row: 70
+                col: 4
+                height: 1
+                width: 3
+            createdAt: 2019-09-20T14:40:50.868Z
+            updatedAt: 2019-09-20T14:40:50.868Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
