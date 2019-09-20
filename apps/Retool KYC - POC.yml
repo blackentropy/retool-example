@@ -2270,7 +2270,7 @@ appTemplate:
                 - value: ''
                 - maxResults: 50
                 - placeholder: ''
-                - label: Select all
+                - label: 'Select ALL '
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
                 - onSelect: ''
@@ -2294,7 +2294,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-20T13:54:10.269Z
-            updatedAt: 2019-09-20T13:55:26.345Z
+            updatedAt: 2019-09-20T13:55:32.319Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
