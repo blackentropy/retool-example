@@ -224,7 +224,7 @@ appTemplate:
                     Commercial Markets", "RBC DS Investment Advisor", "RBC
                     Executive", "RBC Financial Planner", "RBC Private Banking
                     International", "RBC IRP", "RBC Mortgage Specialist", "RBC
-                    Retail Branch", "RBC PH&N ]
+                    Retail Branch", "RBC PH&N Investment Counsellor", "]
                 - allowOutOfRangeValues: false
                 - enableFuzzyMatching: true
                 - searchValue: ''
@@ -255,7 +255,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-13T18:48:07.272Z
-            updatedAt: 2019-09-20T13:28:33.827Z
+            updatedAt: 2019-09-20T13:28:41.585Z
       - textinput4:
           pluginTemplate:
             id: textinput4
