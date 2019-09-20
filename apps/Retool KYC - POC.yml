@@ -2498,7 +2498,7 @@ appTemplate:
                       "id": 1,
                       "name": "Hanson Deck",
                       "email": "hanson@deck.com",
-                      "sales": 37
+
                     }, {
                       "id": 2,
                       "name": "Max Conversation",
@@ -2584,7 +2584,7 @@ appTemplate:
                 height: 8
                 width: 8
             createdAt: 2019-09-20T14:47:06.960Z
-            updatedAt: 2019-09-20T14:50:50.363Z
+            updatedAt: 2019-09-20T14:53:19.781Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
