@@ -223,7 +223,7 @@ appTemplate:
             subtype: S3UploaderWidget
             template:
               ordered:
-                - onUpload: ''
+                - onUpload: query1
                 - fileExtension: ''
                 - s3FileName: ''
                 - s3ACL: private
@@ -250,7 +250,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-20T17:42:54.072Z
-            updatedAt: 2019-09-20T17:42:57.173Z
+            updatedAt: 2019-09-20T17:43:05.156Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
