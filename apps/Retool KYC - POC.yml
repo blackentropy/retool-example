@@ -2452,81 +2452,33 @@ appTemplate:
                 width: 3
             createdAt: 2019-09-20T14:40:50.868Z
             updatedAt: 2019-09-20T14:40:50.868Z
-      - jsonschemaform1:
+      - stripecardform1:
           pluginTemplate:
-            id: jsonschemaform1
+            id: stripecardform1
             type: widget
-            subtype: JSONSchemaFormWidget
+            subtype: StripeCardFormWidget
             template:
               ordered:
-                - liveValidate: true
-                - clearFormAfterSubmit: false
-                - jsonSchema: |-
-                    {
-                      "title": "A registration form",
-                      "description": "A simple form example.",
-                      "type": "object",
-                      "required": [
-                        "username",
-                        "password"
-                      ],
-                      "properties": {
-                        "username": {
-                          "type": "string",
-                          "title": "Username"
-                        },
-                        "password": {
-                          "type": "string",
-                          "title": "Password",
-                          "minLength": 3
-                        },
-                        "birthday": {
-                          "type": "string",
-                          "title": "Birthday",
-                        }
-                      }
-                    }
-                - data: |-
-                    {
-                      "username": "john.doe",
-                      "password": "johndoeisthebest",
-                      "birthday": "1970-01-15"
-                    }
-                - submitButtonFullWidth: false
-                - submitDisabled: ''
-                - uiSchema: |-
-                    {
-                      "username": {
-                        "ui:autofocus": true,
-                        "ui:emptyValue": ""
-                      },
-                      "password": {
-                        "ui:widget": "password",
-                        "ui:help": "Hint: Make it strong!"
-                      },
-                      "birthday": {
-                        "ui:widget": "date"
-                      }
-                    }
+                - onStripeTokenCreated: ''
+                - stripePublishableKey: pk_test_replace_me
                 - submitButtonText: Submit
-                - onSubmit: ''
-                - loading: ''
+                - stripeToken: null
             position2:
               position2:
                 container: form1
                 row: 76
                 col: 8
-                height: 10
+                height: 4
                 width: 4
             mobilePosition2:
               position2:
                 container: form1
                 row: 76
                 col: 8
-                height: 10
+                height: 4
                 width: 4
-            createdAt: 2019-09-20T14:42:47.482Z
-            updatedAt: 2019-09-20T14:42:47.482Z
+            createdAt: 2019-09-20T14:43:11.003Z
+            updatedAt: 2019-09-20T14:43:11.003Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
