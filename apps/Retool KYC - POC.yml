@@ -2395,7 +2395,7 @@ appTemplate:
                 - onBlur: ''
                 - docsSlug: textinput
                 - currencyType: USD
-                - leftIconName: search
+                - leftIconName: ''
                 - initialValue: ''
                 - tooltipText: ''
                 - value: ''
@@ -2425,7 +2425,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-20T14:37:22.952Z
-            updatedAt: 2019-09-20T14:37:50.262Z
+            updatedAt: 2019-09-20T14:37:55.012Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
