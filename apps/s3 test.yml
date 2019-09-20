@@ -80,27 +80,37 @@ appTemplate:
                 - alwaysShowPaginator: false
                 - columnColors:
                     ordered:
-                      - id: ''
+                      - Size: ''
                       - name: ''
-                      - email: ''
                       - sales: ''
+                      - ETag: ''
+                      - id: ''
+                      - email: ''
+                      - StorageClass: ''
+                      - Key: ''
+                      - LastModified: ''
                 - allowMultiRowSelect: false
                 - columnFormats:
                     ordered: []
                 - nextBeforeCursor: ''
                 - columnVisibility:
                     ordered:
-                      - id: true
+                      - Size: true
                       - name: true
-                      - email: true
-                      - sales: true
-                      - Title: true
-                      - Description: true
                       - Sales: true
+                      - sales: true
+                      - ETag: true
+                      - Title: true
+                      - id: true
+                      - email: true
+                      - Description: true
+                      - StorageClass: true
+                      - Key: true
+                      - LastModified: true
                 - selectedPageIndex: '0'
                 - actionButtonColumnName: Actions
                 - serverPaginated: false
-                - data: '{{query1.data.}}'
+                - data: '{{query1.data.Contents}}'
                 - actionButtons: []
                 - actionButtonSelectsRow: true
                 - selectRowByDefault: true
@@ -141,6 +151,11 @@ appTemplate:
                     - name
                     - email
                     - sales
+                    - Key
+                    - LastModified
+                    - ETag
+                    - Size
+                    - StorageClass
                 - sort: null
                 - calculatedColumns: []
                 - selectedRow:
@@ -163,7 +178,7 @@ appTemplate:
                 height: 8
                 width: 8
             createdAt: 2019-09-20T17:38:11.605Z
-            updatedAt: 2019-09-20T17:38:22.987Z
+            updatedAt: 2019-09-20T17:38:28.348Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
