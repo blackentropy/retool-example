@@ -2511,7 +2511,7 @@ appTemplate:
                     }, {
                       "Type": 2,
                       "Description": "Max Conversation",
-                      "email": "Max@conversation.com",
+                      "Amount": "Max@conversation.com",
                       
                     }]
                 - actionButtons: []
@@ -2581,7 +2581,7 @@ appTemplate:
                 height: 8
                 width: 8
             createdAt: 2019-09-20T14:47:06.960Z
-            updatedAt: 2019-09-20T14:56:30.426Z
+            updatedAt: 2019-09-20T14:56:34.299Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
