@@ -1959,7 +1959,7 @@ appTemplate:
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
                 - disabled: ''
-                - labels: '[]'
+                - labels: '["test"]'
             position2:
               position2:
                 container: form1
@@ -1974,7 +1974,7 @@ appTemplate:
                 height: 2
                 width: 2
             createdAt: 2019-09-19T19:26:09.867Z
-            updatedAt: 2019-09-20T13:21:16.451Z
+            updatedAt: 2019-09-20T13:21:19.529Z
       - select10:
           pluginTemplate:
             id: select10
