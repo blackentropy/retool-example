@@ -2263,7 +2263,7 @@ appTemplate:
               ordered:
                 - values: >-
                     ["Alberta","British Columbia","Manitoba","New
-                    Brunswick","Nova Scotia","Ontario","Quebec"]
+                    Brunswick","Nova Scotia","Ontario","Quebec",]
                 - allowOutOfRangeValues: false
                 - enableFuzzyMatching: true
                 - searchValue: ''
@@ -2296,7 +2296,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-20T13:54:10.269Z
-            updatedAt: 2019-09-20T14:02:40.236Z
+            updatedAt: 2019-09-20T14:02:43.463Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
