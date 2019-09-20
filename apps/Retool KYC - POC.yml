@@ -1200,9 +1200,9 @@ appTemplate:
                 - required: false
             position2:
               position2:
-                container: form1
-                row: 50
-                col: 5
+                container: container1
+                row: 3
+                col: 7
                 height: 2
                 width: 4
             mobilePosition2:
