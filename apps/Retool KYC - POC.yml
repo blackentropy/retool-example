@@ -2243,35 +2243,6 @@ appTemplate:
                 width: 2
             createdAt: 2019-09-20T13:15:49.714Z
             updatedAt: 2019-09-20T13:16:25.050Z
-      - text15:
-          pluginTemplate:
-            id: text15
-            type: widget
-            subtype: TextWidget
-            template:
-              ordered:
-                - value: >-
-                    Answer all of the following questions for all clients to be
-                    on-boarded
-                - html: false
-                - scrollOverflow: false
-                - truncateOverflow: false
-            position2:
-              position2:
-                container: form1
-                row: 49
-                col: 3
-                height: 1
-                width: 4
-            mobilePosition2:
-              position2:
-                container: form1
-                row: 49
-                col: 7
-                height: 1
-                width: 3
-            createdAt: 2019-09-20T13:43:51.592Z
-            updatedAt: 2019-09-20T13:45:37.218Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
