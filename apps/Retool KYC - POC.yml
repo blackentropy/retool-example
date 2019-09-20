@@ -2589,7 +2589,7 @@ appTemplate:
                 - url: ''
                 - newWindow: false
                 - exportQuery: ''
-                - imageUrl: ''
+                - imageUrl: 'https://images.app.goo.gl/ufiLNqR3P7Zw6TYG8'
                 - action: ''
                 - internalUrlQuery: ''
                 - internalUrlPath: ''
@@ -2611,7 +2611,7 @@ appTemplate:
                 height: 3
                 width: 2
             createdAt: 2019-09-20T15:09:55.545Z
-            updatedAt: 2019-09-20T15:11:50.300Z
+            updatedAt: 2019-09-20T15:12:20.225Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
