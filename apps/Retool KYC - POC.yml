@@ -1134,8 +1134,8 @@ appTemplate:
                 - required: false
             position2:
               position2:
-                container: form1
-                row: 50
+                container: container2
+                row: 13
                 height: 4
                 width: 12
             mobilePosition2:
@@ -2704,7 +2704,7 @@ appTemplate:
               position2:
                 container: form1
                 row: 33
-                height: 17
+                height: 18
                 width: 12
             mobilePosition2:
               position2:
