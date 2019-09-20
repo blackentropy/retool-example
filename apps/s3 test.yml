@@ -113,7 +113,7 @@ appTemplate:
                 - selectedPageIndex: '0'
                 - actionButtonColumnName: Actions
                 - serverPaginated: false
-                - data: '{{query1.data.Contents}}'
+                - data: '{{orderBy.data}}'
                 - actionButtons: []
                 - actionButtonSelectsRow: true
                 - selectRowByDefault: true
@@ -181,7 +181,7 @@ appTemplate:
                 height: 8
                 width: 8
             createdAt: 2019-09-20T17:38:11.605Z
-            updatedAt: 2019-09-20T17:45:35.045Z
+            updatedAt: 2019-09-20T17:46:13.304Z
       - image1:
           pluginTemplate:
             id: image1
