@@ -2263,9 +2263,9 @@ appTemplate:
               ordered:
                 - values: >-
                     ["Alberta","British Columbia","Manitoba","New
-                    Brunswick","Newfoundland & Labrador",", "Nova
-                    Scotia","Nunavut","Ontario","Prince Edward
-                    Island","Quebec","Saskatchewan","Yukon"]
+                    Brunswick","Newfoundland & Labrador","Northwest
+                    Territories", "Nova Scotia","Nunavut","Ontario","Prince
+                    Edward Island","Quebec","Saskatchewan","Yukon"]
                 - allowOutOfRangeValues: false
                 - enableFuzzyMatching: true
                 - searchValue: ''
@@ -2298,7 +2298,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-20T13:54:10.269Z
-            updatedAt: 2019-09-20T14:04:34.550Z
+            updatedAt: 2019-09-20T14:04:39.510Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
