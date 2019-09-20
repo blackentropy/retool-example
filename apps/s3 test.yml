@@ -268,7 +268,7 @@ appTemplate:
                 - tooltipText: ''
                 - value: ''
                 - placeholder: Search here...
-                - label: Name
+                - label: Search by prefix
                 - formattedValue: ''
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
@@ -289,7 +289,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-20T17:44:47.380Z
-            updatedAt: 2019-09-20T17:44:47.380Z
+            updatedAt: 2019-09-20T17:44:51.411Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
