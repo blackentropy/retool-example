@@ -65,7 +65,7 @@ appTemplate:
                 - enableCaching: false
                 - queryThrottleTime: '750'
             createdAt: 2019-09-20T17:37:39.132Z
-            updatedAt: 2019-09-20T17:37:48.692Z
+            updatedAt: 2019-09-20T17:38:09.496Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
