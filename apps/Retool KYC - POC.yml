@@ -313,7 +313,7 @@ appTemplate:
                 - value: >-
                     <center> <h5><u> Client Information - Head of Household
                     </h5> </center>
-                - html: false
+                - html: true
                 - scrollOverflow: false
                 - truncateOverflow: false
                 - tooltipText: >-
@@ -332,7 +332,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-16T13:05:26.088Z
-            updatedAt: 2019-09-20T19:12:03.441Z
+            updatedAt: 2019-09-20T19:46:01.669Z
       - textinput5:
           pluginTemplate:
             id: textinput5
