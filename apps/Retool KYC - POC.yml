@@ -2243,6 +2243,32 @@ appTemplate:
                 width: 2
             createdAt: 2019-09-20T13:15:49.714Z
             updatedAt: 2019-09-20T13:16:25.050Z
+      - authlogin1:
+          pluginTemplate:
+            id: authlogin1
+            type: widget
+            subtype: AuthLoginWidget
+            template:
+              ordered:
+                - label: ''
+                - authResourceName: ''
+                - authType: ''
+            position2:
+              position2:
+                container: form1
+                row: 5
+                col: 7
+                height: 1
+                width: 4
+            mobilePosition2:
+              position2:
+                container: form1
+                row: 5
+                col: 7
+                height: 1
+                width: 4
+            createdAt: 2019-09-20T13:39:11.831Z
+            updatedAt: 2019-09-20T13:39:11.831Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
