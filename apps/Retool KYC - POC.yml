@@ -316,7 +316,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 10
+                row: 11
                 col: 4
                 height: 1
                 width: 5
@@ -438,7 +438,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 11
+                row: 13
                 col: 4
                 height: 2
                 width: 2
@@ -479,7 +479,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 11
+                row: 13
                 col: 6
                 height: 2
                 width: 1
@@ -520,7 +520,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 11
+                row: 12
                 col: 7
                 height: 2
                 width: 2
@@ -588,7 +588,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 13
+                row: 15
                 col: 4
                 height: 1
                 width: 3
@@ -628,7 +628,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 20
+                row: 21
                 height: 1
                 width: 4
             mobilePosition2:
@@ -666,7 +666,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 20
+                row: 22
                 col: 6
                 height: 1
                 width: 4
@@ -706,7 +706,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 22
+                row: 23
                 height: 1
                 width: 7
             mobilePosition2:
@@ -960,7 +960,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 14
+                row: 16
                 height: 5
                 width: 12
             mobilePosition2:
@@ -1856,7 +1856,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 4
+                row: 12
                 col: 5
                 height: 1
                 width: 2
@@ -1934,7 +1934,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 19
+                row: 21
                 col: 4
                 height: 1
                 width: 3
@@ -2243,6 +2243,36 @@ appTemplate:
                 width: 2
             createdAt: 2019-09-20T13:15:49.714Z
             updatedAt: 2019-09-20T13:16:25.050Z
+      - textannotation1:
+          pluginTemplate:
+            id: textannotation1
+            type: widget
+            subtype: TextAnnotationWidget
+            template:
+              ordered:
+                - text: >-
+                    I live in San Francisco and my name is John. I have an isue
+                    with the order I placed two weeks ago with your company! I
+                    paid 300$ for this already! Please help out!
+                - labels: '{{ ["name", "currency", "city"] }}'
+                - tags: ''
+                - onTagChange: ''
+            position2:
+              position2:
+                container: form1
+                row: 4
+                col: 6
+                height: 7
+                width: 6
+            mobilePosition2:
+              position2:
+                container: form1
+                row: 4
+                col: 6
+                height: 7
+                width: 6
+            createdAt: 2019-09-20T13:38:25.098Z
+            updatedAt: 2019-09-20T13:38:25.098Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
