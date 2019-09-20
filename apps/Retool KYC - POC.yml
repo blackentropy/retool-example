@@ -2433,7 +2433,7 @@ appTemplate:
             subtype: TextWidget
             template:
               ordered:
-                - value: 'Detailed Breakdown of '
+                - value: 'Detailed Breakdown of non-Canadian '
                 - html: false
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -2451,7 +2451,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-20T14:40:50.868Z
-            updatedAt: 2019-09-20T14:47:31.084Z
+            updatedAt: 2019-09-20T14:47:34.286Z
       - table2:
           pluginTemplate:
             id: table2
