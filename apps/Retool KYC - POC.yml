@@ -82,7 +82,7 @@ appTemplate:
                 - disabled: ''
             position2:
               position2:
-                height: 108
+                height: 109
                 width: 12
             mobilePosition2:
               position2:
@@ -1802,7 +1802,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 99
+                row: 102
                 col: 4
                 height: 1
                 width: 4
@@ -1829,7 +1829,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 100
+                row: 101
                 col: 4
                 height: 1
                 width: 3
@@ -2146,7 +2146,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 102
+                row: 103
                 col: 4
                 height: 4
                 width: 4
@@ -2198,7 +2198,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 106
+                row: 107
                 col: 4
                 height: 1
                 width: 4
@@ -2894,6 +2894,31 @@ appTemplate:
                 width: 6
             createdAt: 2019-09-20T20:00:28.510Z
             updatedAt: 2019-09-20T20:00:28.510Z
+      - container11:
+          pluginTemplate:
+            id: container11
+            type: widget
+            subtype: ContainerWidget
+            template:
+              ordered:
+                - disabled: ''
+                - spinWhenChildrenAreFetching: true
+            position2:
+              position2:
+                container: form1
+                row: 93
+                col: 4
+                height: 8
+                width: 6
+            mobilePosition2:
+              position2:
+                container: form1
+                row: 93
+                col: 4
+                height: 8
+                width: 6
+            createdAt: 2019-09-20T20:01:46.273Z
+            updatedAt: 2019-09-20T20:01:46.273Z
   createdAt: null
   version: 2.47.14
   responsiveLayoutDisabled: false
