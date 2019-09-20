@@ -227,7 +227,8 @@ appTemplate:
                     Retail Branch", "RBC PH&N Investment Counsellor", "RBC
                     Estate & Trust", "CNB (City National)", "Group Solutions",
                     "Auto Finance", "NCG (National Client Group)", "ESC
-                    (Enterprise Strategic Client Group)", "Wealth Mgmt ]
+                    (Enterprise Strategic Client Group)", "Wealth Mgmt
+                    US/Asia/UK"]
                 - allowOutOfRangeValues: false
                 - enableFuzzyMatching: true
                 - searchValue: ''
@@ -258,7 +259,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-13T18:48:07.272Z
-            updatedAt: 2019-09-20T13:30:34.763Z
+            updatedAt: 2019-09-20T13:30:38.083Z
       - textinput4:
           pluginTemplate:
             id: textinput4
