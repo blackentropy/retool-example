@@ -1954,7 +1954,7 @@ appTemplate:
                 - verticalAligned: false
                 - onChange: ''
                 - tooltipText: >-
-                    Head of an International Organization: primary Person who
+                    Head of an International Organization: primary person who
                     leads an organization (president or CEO) which is set up by
                     the governments of more than one country or an institution
                     established by an international organization. 
@@ -1978,7 +1978,7 @@ appTemplate:
                 height: 2
                 width: 2
             createdAt: 2019-09-19T19:26:09.867Z
-            updatedAt: 2019-09-20T13:22:37.579Z
+            updatedAt: 2019-09-20T13:22:40.175Z
       - select10:
           pluginTemplate:
             id: select10
