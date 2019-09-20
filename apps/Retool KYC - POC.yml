@@ -2264,7 +2264,7 @@ appTemplate:
                 - values: >-
                     ["Alberta","British Columbia","Manitoba","New
                     Brunswick","Nova
-                    Scotia","Ontario","Quebec","Saskatchewan",Yukon"]
+                    Scotia","Ontario","Quebec","Saskatchewan","Yukon"]
                 - allowOutOfRangeValues: false
                 - enableFuzzyMatching: true
                 - searchValue: ''
@@ -2297,7 +2297,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-20T13:54:10.269Z
-            updatedAt: 2019-09-20T14:02:57.998Z
+            updatedAt: 2019-09-20T14:03:00.366Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
