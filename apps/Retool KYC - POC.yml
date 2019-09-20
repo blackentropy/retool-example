@@ -1220,7 +1220,7 @@ appTemplate:
                 - truncateOverflow: false
                 - tooltipText: >-
                     Answer all the following questions to assess the risk of
-                    your household
+                    your household.
             position2:
               position2:
                 container: form1
@@ -1236,7 +1236,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-16T14:00:01.977Z
-            updatedAt: 2019-09-20T13:47:02.060Z
+            updatedAt: 2019-09-20T13:47:09.505Z
       - textinput17:
           pluginTemplate:
             id: textinput17
