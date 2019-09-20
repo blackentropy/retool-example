@@ -1678,7 +1678,7 @@ appTemplate:
             template:
               ordered:
                 - value: <h5> <u> Household Risk
-                - html: false
+                - html: true
                 - scrollOverflow: false
                 - truncateOverflow: false
             position2:
@@ -1694,7 +1694,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-18T19:56:53.654Z
-            updatedAt: 2019-09-20T19:12:03.458Z
+            updatedAt: 2019-09-20T20:00:57.553Z
       - textinput21:
           pluginTemplate:
             id: textinput21
