@@ -73,7 +73,10 @@ appTemplate:
             subtype: TableWidget
             template:
               ordered:
-                - columnWidths: []
+                - columnWidths:
+                    - object:
+                        id: LastModified
+                        value: 169.515625
                 - columnWidthsMobile: []
                 - columnHeaderNames:
                     ordered: []
@@ -178,7 +181,7 @@ appTemplate:
                 height: 8
                 width: 8
             createdAt: 2019-09-20T17:38:11.605Z
-            updatedAt: 2019-09-20T17:40:13.386Z
+            updatedAt: 2019-09-20T17:45:17.125Z
       - image1:
           pluginTemplate:
             id: image1
