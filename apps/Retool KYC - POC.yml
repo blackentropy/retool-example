@@ -1679,7 +1679,7 @@ appTemplate:
                 - initialValue: ''
                 - tooltipText: ''
                 - value: ''
-                - placeholder: Search here...
+                - placeholder: Provide description here...
                 - label: >-
                     If you answered "yes" or checked any boxes in any questions
                     with this Client Risk Assessment section, please provide
@@ -1704,7 +1704,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-18T19:54:22.227Z
-            updatedAt: 2019-09-20T12:58:51.235Z
+            updatedAt: 2019-09-20T13:11:42.665Z
       - textinput20:
           pluginTemplate:
             id: textinput20
