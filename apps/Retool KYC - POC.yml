@@ -1346,7 +1346,7 @@ appTemplate:
             position2:
               position2:
                 container: container8
-                row: 6
+                row: 8
                 height: 1
                 width: 6
             mobilePosition2:
@@ -1386,7 +1386,7 @@ appTemplate:
             position2:
               position2:
                 container: container8
-                row: 8
+                row: 10
                 height: 1
                 width: 6
             mobilePosition2:
@@ -2019,7 +2019,7 @@ appTemplate:
             position2:
               position2:
                 container: container8
-                row: 3
+                row: 5
                 height: 1
                 width: 6
             mobilePosition2:
