@@ -2354,7 +2354,7 @@ appTemplate:
             subtype: MultiSelectWidget
             template:
               ordered:
-                - values: '{{countries_world_minus_canada.data.}}'
+                - values: '{{countries_world_minus_canada.data.country}}'
                 - allowOutOfRangeValues: false
                 - enableFuzzyMatching: true
                 - searchValue: ''
@@ -2387,7 +2387,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-20T14:10:17.100Z
-            updatedAt: 2019-09-20T18:59:09.986Z
+            updatedAt: 2019-09-20T18:59:13.502Z
       - textinput26:
           pluginTemplate:
             id: textinput26
