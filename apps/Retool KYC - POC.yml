@@ -789,7 +789,7 @@ appTemplate:
             position2:
               position2:
                 container: container3
-                row: 6
+                row: 8
                 height: 1
                 width: 7
             mobilePosition2:
