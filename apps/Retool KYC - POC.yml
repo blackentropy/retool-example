@@ -1945,8 +1945,7 @@ appTemplate:
                 - tooltipText: Use dropdown menu for selections.
             position2:
               position2:
-                container: form1
-                row: 19
+                container: container3
                 col: 4
                 height: 1
                 width: 3
