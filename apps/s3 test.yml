@@ -44,7 +44,7 @@ appTemplate:
                 - signedOperationOptions: ''
                 - queryTriggerDelay: '0'
                 - watchedParams: []
-                - bucketName: retool-public-demo
+                - bucketName: ''
                 - timestamp: 0
                 - importedQueryDefaults:
                     ordered: []
@@ -65,7 +65,7 @@ appTemplate:
                 - enableCaching: false
                 - queryThrottleTime: '750'
             createdAt: 2019-09-20T17:37:39.132Z
-            updatedAt: 2019-09-20T17:38:09.496Z
+            updatedAt: 2019-09-20T17:38:36.515Z
       - table1:
           pluginTemplate:
             id: table1
