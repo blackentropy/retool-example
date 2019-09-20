@@ -39,7 +39,7 @@ appTemplate:
                 - copySource: ''
                 - confirmationMessage: null
                 - isFetching: false
-                - prefix: ''
+                - prefix: '{{textinput1.value}}'
                 - rawData: null
                 - signedOperationOptions: ''
                 - queryTriggerDelay: '0'
@@ -65,7 +65,7 @@ appTemplate:
                 - enableCaching: false
                 - queryThrottleTime: '750'
             createdAt: 2019-09-20T17:37:39.132Z
-            updatedAt: 2019-09-20T17:38:36.515Z
+            updatedAt: 2019-09-20T17:45:04.358Z
       - table1:
           pluginTemplate:
             id: table1
