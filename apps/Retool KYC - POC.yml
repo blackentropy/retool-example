@@ -2223,7 +2223,7 @@ appTemplate:
                 row: 6
                 col: 5
                 height: 2
-                width: 6
+                width: 7
             mobilePosition2:
               position2:
                 container: form1
