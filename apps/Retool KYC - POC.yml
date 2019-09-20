@@ -2589,8 +2589,7 @@ appTemplate:
                 - url: ''
                 - newWindow: false
                 - exportQuery: ''
-                - imageUrl: >-
-                    https://www.thehappycatsite.com/wp-content/uploads/2017/12/grow.jpg
+                - imageUrl: ''
                 - action: ''
                 - internalUrlQuery: ''
                 - internalUrlPath: ''
@@ -2612,7 +2611,7 @@ appTemplate:
                 height: 3
                 width: 2
             createdAt: 2019-09-20T15:09:55.545Z
-            updatedAt: 2019-09-20T15:09:55.545Z
+            updatedAt: 2019-09-20T15:11:50.300Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
