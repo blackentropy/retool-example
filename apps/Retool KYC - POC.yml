@@ -2186,7 +2186,7 @@ appTemplate:
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
                 - onSubmit: ''
-                - type: text
+                - type: currency
                 - allowedRegex: .*
                 - required: false
             position2:
@@ -2202,7 +2202,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-19T20:35:45.763Z
-            updatedAt: 2019-09-20T12:58:51.244Z
+            updatedAt: 2019-09-20T13:02:49.077Z
       - signaturepad1:
           pluginTemplate:
             id: signaturepad1
