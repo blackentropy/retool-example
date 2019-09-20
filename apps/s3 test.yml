@@ -65,7 +65,7 @@ appTemplate:
                 - enableCaching: false
                 - queryThrottleTime: '750'
             createdAt: 2019-09-20T17:37:39.132Z
-            updatedAt: 2019-09-20T17:45:04.358Z
+            updatedAt: 2019-09-20T17:45:35.044Z
       - table1:
           pluginTemplate:
             id: table1
@@ -181,7 +181,7 @@ appTemplate:
                 height: 8
                 width: 8
             createdAt: 2019-09-20T17:38:11.605Z
-            updatedAt: 2019-09-20T17:45:32.307Z
+            updatedAt: 2019-09-20T17:45:35.045Z
       - image1:
           pluginTemplate:
             id: image1
@@ -218,7 +218,7 @@ appTemplate:
                 height: 3
                 width: 2
             createdAt: 2019-09-20T17:38:43.625Z
-            updatedAt: 2019-09-20T17:39:32.917Z
+            updatedAt: 2019-09-20T17:45:35.045Z
       - s3uploader1:
           pluginTemplate:
             id: s3uploader1
@@ -253,7 +253,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-20T17:42:54.072Z
-            updatedAt: 2019-09-20T17:43:05.156Z
+            updatedAt: 2019-09-20T17:45:35.045Z
       - textinput1:
           pluginTemplate:
             id: textinput1
@@ -292,7 +292,69 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-20T17:44:47.380Z
-            updatedAt: 2019-09-20T17:44:51.411Z
+            updatedAt: 2019-09-20T17:45:35.045Z
+      - query2:
+          pluginTemplate:
+            id: query2
+            type: datasource
+            subtype: S3Query
+            resourceName: s3
+            template:
+              ordered:
+                - queryRefreshTime: ''
+                - queryDisabledMessage: ''
+                - fileKey: ''
+                - successMessage: ''
+                - queryDisabled: ''
+                - playgroundQuerySaveId: 0
+                - resourceNameOverride: ''
+                - runWhenModelUpdates: true
+                - delimiter: ''
+                - playgroundQueryId: 0
+                - uploadFileName: export.csv
+                - privateParams: []
+                - triggersOnSuccess: []
+                - runWhenPageLoadsDelay: ''
+                - data: null
+                - uploadData: ''
+                - importedQueryInputs:
+                    ordered: []
+                - showSuccessConfetti: false
+                - isImported: false
+                - showSuccessToaster: true
+                - cacheKeyTtl: ''
+                - actionType: list
+                - triggersOnFailure: []
+                - copySource: ''
+                - confirmationMessage: null
+                - isFetching: false
+                - prefix: ''
+                - rawData: null
+                - signedOperationOptions: ''
+                - queryTriggerDelay: '0'
+                - watchedParams: []
+                - bucketName: ''
+                - timestamp: 0
+                - importedQueryDefaults:
+                    ordered: []
+                - signedOperationName: ''
+                - enableTransformer: false
+                - uploadFileType: csv
+                - maxKeys: ''
+                - runWhenPageLoads: false
+                - transformer: >-
+                    // type your code here
+
+                    // example: return formatDataAsArray(data).filter(row =>
+                    row.quantity > 20)
+
+                    return data
+                - queryTimeout: '10000'
+                - requireConfirmation: false
+                - enableCaching: false
+                - queryThrottleTime: '750'
+            createdAt: 2019-09-20T17:45:37.226Z
+            updatedAt: 2019-09-20T17:45:37.226Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
