@@ -1216,7 +1216,7 @@ appTemplate:
                 - value: |
                     <h5> <u> Client Risk Assessment
                       
-                      <p> **Hel
+                      
                 - html: false
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -1235,7 +1235,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-16T14:00:01.977Z
-            updatedAt: 2019-09-20T13:44:17.142Z
+            updatedAt: 2019-09-20T13:44:20.150Z
       - textinput17:
           pluginTemplate:
             id: textinput17
