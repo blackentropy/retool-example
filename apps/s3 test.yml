@@ -206,8 +206,8 @@ appTemplate:
               position2:
                 row: 2
                 col: 8
-                height: 3
-                width: 2
+                height: 8
+                width: 3
             mobilePosition2:
               position2:
                 row: 2
