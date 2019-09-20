@@ -2263,7 +2263,7 @@ appTemplate:
               ordered:
                 - values: >-
                     ["Alberta","British Columbia","Manitoba","New
-                    Brunswick","Newfoundland & Labrador"Nova
+                    Brunswick","Newfoundland & Labrador",Nova
                     Scotia","Ontario","Quebec","Saskatchewan","Yukon"]
                 - allowOutOfRangeValues: false
                 - enableFuzzyMatching: true
@@ -2297,7 +2297,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-20T13:54:10.269Z
-            updatedAt: 2019-09-20T14:03:31.365Z
+            updatedAt: 2019-09-20T14:03:33.707Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
