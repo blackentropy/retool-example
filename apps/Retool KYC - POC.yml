@@ -2354,7 +2354,7 @@ appTemplate:
             subtype: MultiSelectWidget
             template:
               ordered:
-                - values: '{{countries_world.data.name}}'
+                - values: '{{countries_world_minus_canada.data.name}}'
                 - allowOutOfRangeValues: false
                 - enableFuzzyMatching: true
                 - searchValue: ''
@@ -2366,7 +2366,7 @@ appTemplate:
                 - label: 'If Yes, Enter ALL Country Names That Apply'
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
-                - onSelect: countries_world
+                - onSelect: countries_world_minus_canada
                 - allowCustomValues: false
                 - disabled: ''
                 - hideClearButton: false
@@ -2387,7 +2387,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-20T14:10:17.100Z
-            updatedAt: 2019-09-20T18:51:36.446Z
+            updatedAt: 2019-09-20T18:55:57.321Z
       - textinput26:
           pluginTemplate:
             id: textinput26
