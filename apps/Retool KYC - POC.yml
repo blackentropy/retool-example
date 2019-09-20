@@ -2243,35 +2243,6 @@ appTemplate:
                 width: 2
             createdAt: 2019-09-20T13:15:49.714Z
             updatedAt: 2019-09-20T13:16:25.050Z
-      - tabbedcontainer1:
-          pluginTemplate:
-            id: tabbedcontainer1
-            type: widget
-            subtype: TabbedContainerWidget
-            template:
-              ordered:
-                - disabled: ''
-                - selectedTab: '"0"'
-                - selectedTabIndex: 0
-                - showTabBar: true
-                - tabNames: '["Tab One", "Tab Two"]'
-                - spinWhenChildrenAreFetching: true
-            position2:
-              position2:
-                container: form1
-                row: 7
-                col: 6
-                height: 8
-                width: 6
-            mobilePosition2:
-              position2:
-                container: form1
-                row: 7
-                col: 6
-                height: 8
-                width: 6
-            createdAt: 2019-09-20T13:33:09.722Z
-            updatedAt: 2019-09-20T13:33:09.722Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
