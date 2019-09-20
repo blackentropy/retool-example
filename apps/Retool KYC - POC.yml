@@ -1677,7 +1677,7 @@ appTemplate:
             subtype: TextWidget
             template:
               ordered:
-                - value: <center><h5> <u> Household Risk
+                - value: <center> <h5> <u> Household Risk
                 - html: true
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -1694,7 +1694,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-18T19:56:53.654Z
-            updatedAt: 2019-09-20T20:01:01.700Z
+            updatedAt: 2019-09-20T20:01:05.377Z
       - textinput21:
           pluginTemplate:
             id: textinput21
