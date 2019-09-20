@@ -588,7 +588,7 @@ appTemplate:
             template:
               ordered:
                 - value: <center> <h5> <u> Members of the Household
-                - html: false
+                - html: true
                 - scrollOverflow: false
                 - truncateOverflow: false
                 - tooltipText: >-
@@ -607,7 +607,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-16T13:13:13.690Z
-            updatedAt: 2019-09-20T19:12:03.442Z
+            updatedAt: 2019-09-20T19:45:14.140Z
       - select2:
           pluginTemplate:
             id: select2
