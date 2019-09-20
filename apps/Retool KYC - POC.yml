@@ -2243,6 +2243,40 @@ appTemplate:
                 width: 2
             createdAt: 2019-09-20T13:15:49.714Z
             updatedAt: 2019-09-20T13:16:25.050Z
+      - modal1:
+          pluginTemplate:
+            id: modal1
+            type: widget
+            subtype: ModalWidget
+            template:
+              ordered:
+                - buttonBackgroundColor: ''
+                - open: false
+                - onModalClose: ''
+                - buttonColor: ''
+                - modalHeight: ''
+                - onModalOpen: ''
+                - modalWidth: ''
+                - closeOnOutsideClick: false
+                - loading: ''
+                - disabled: ''
+                - buttonText: Open Modal
+            position2:
+              position2:
+                container: form1
+                row: 6
+                col: 8
+                height: 1
+                width: 3
+            mobilePosition2:
+              position2:
+                container: form1
+                row: 6
+                col: 8
+                height: 1
+                width: 3
+            createdAt: 2019-09-20T13:37:59.029Z
+            updatedAt: 2019-09-20T13:37:59.029Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
