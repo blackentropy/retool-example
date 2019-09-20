@@ -2622,7 +2622,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 56
+                row: 57
                 height: 4
                 width: 12
             mobilePosition2:
@@ -2701,7 +2701,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 38
+                row: 39
                 height: 18
                 width: 12
             mobilePosition2:
@@ -2725,7 +2725,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 27
+                row: 29
                 height: 10
                 width: 12
             mobilePosition2:
@@ -2749,7 +2749,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 19
+                row: 21
                 height: 8
                 width: 12
             mobilePosition2:
@@ -2761,6 +2761,31 @@ appTemplate:
                 width: 6
             createdAt: 2019-09-20T19:44:33.474Z
             updatedAt: 2019-09-20T19:44:33.474Z
+      - container5:
+          pluginTemplate:
+            id: container5
+            type: widget
+            subtype: ContainerWidget
+            template:
+              ordered:
+                - disabled: ''
+                - spinWhenChildrenAreFetching: true
+            position2:
+              position2:
+                container: form1
+                row: 13
+                col: 4
+                height: 8
+                width: 6
+            mobilePosition2:
+              position2:
+                container: form1
+                row: 13
+                col: 4
+                height: 8
+                width: 6
+            createdAt: 2019-09-20T19:45:32.611Z
+            updatedAt: 2019-09-20T19:45:32.611Z
   createdAt: null
   version: 2.47.14
   responsiveLayoutDisabled: false
