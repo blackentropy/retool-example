@@ -1265,7 +1265,7 @@ appTemplate:
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
                 - onSubmit: ''
-                - type: text
+                - type: currency
                 - allowedRegex: .*
                 - required: false
             position2:
@@ -1282,7 +1282,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-16T13:58:21.471Z
-            updatedAt: 2019-09-20T12:58:51.232Z
+            updatedAt: 2019-09-20T13:03:04.768Z
       - text7:
           pluginTemplate:
             id: text7
