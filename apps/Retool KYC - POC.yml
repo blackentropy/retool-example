@@ -2315,7 +2315,7 @@ appTemplate:
                 - initialValue: ''
                 - tooltipText: ''
                 - value: ''
-                - placeholder: Search here...
+                - placeholder: Enter details here...
                 - label: >-
                     If not met, detail estimated revvenue and outline
                     timeline/plan to achieve the minimum.
@@ -2341,7 +2341,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-20T14:06:59.742Z
-            updatedAt: 2019-09-20T14:08:25.054Z
+            updatedAt: 2019-09-20T14:08:37.574Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
