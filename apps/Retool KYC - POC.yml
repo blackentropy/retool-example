@@ -2354,7 +2354,7 @@ appTemplate:
             subtype: MultiSelectWidget
             template:
               ordered:
-                - values: ''
+                - values: '{{}}'
                 - allowOutOfRangeValues: false
                 - enableFuzzyMatching: true
                 - searchValue: ''
@@ -2387,7 +2387,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-20T14:10:17.100Z
-            updatedAt: 2019-09-20T18:45:58.331Z
+            updatedAt: 2019-09-20T18:47:59.608Z
       - textinput26:
           pluginTemplate:
             id: textinput26
