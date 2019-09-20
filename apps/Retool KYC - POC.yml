@@ -2466,7 +2466,8 @@ appTemplate:
                 - columnWidths: []
                 - columnWidthsMobile: []
                 - columnHeaderNames:
-                    ordered: []
+                    ordered:
+                      - id: Type
                 - alwaysShowPaginator: false
                 - columnColors:
                     ordered:
@@ -2581,7 +2582,7 @@ appTemplate:
                 height: 8
                 width: 8
             createdAt: 2019-09-20T14:47:06.960Z
-            updatedAt: 2019-09-20T14:47:08.525Z
+            updatedAt: 2019-09-20T14:49:21.781Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
