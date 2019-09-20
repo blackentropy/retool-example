@@ -2400,7 +2400,9 @@ appTemplate:
                 - tooltipText: ''
                 - value: ''
                 - placeholder: Search here...
-                - label: Additional Comments/Information re
+                - label: >-
+                    Additional Comments/Information re H1, H2, H3 or restricted
+                    Client Rating
                 - formattedValue: ''
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
@@ -2423,7 +2425,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-20T14:37:22.952Z
-            updatedAt: 2019-09-20T14:37:36.694Z
+            updatedAt: 2019-09-20T14:37:50.262Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
