@@ -658,7 +658,7 @@ appTemplate:
             subtype: TextWidget
             template:
               ordered:
-                - value: <center> <h5> Members of the Household
+                - value: <center> <h5> <u> Members of the Household
                 - html: false
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -677,7 +677,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-16T13:13:13.690Z
-            updatedAt: 2019-09-20T12:59:23.992Z
+            updatedAt: 2019-09-20T13:01:05.328Z
       - select2:
           pluginTemplate:
             id: select2
