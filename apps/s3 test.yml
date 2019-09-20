@@ -8,42 +8,50 @@ appTemplate:
           pluginTemplate:
             id: query1
             type: datasource
-            subtype: SqlQuery
-            resourceName: testdb (read)
+            subtype: S3Query
+            resourceName: s3
             template:
               ordered:
                 - queryRefreshTime: ''
-                - databasePasswordOverride: ''
                 - queryDisabledMessage: ''
+                - fileKey: ''
                 - successMessage: ''
                 - queryDisabled: ''
                 - playgroundQuerySaveId: 0
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: true
-                - query: ''
+                - delimiter: ''
                 - playgroundQueryId: 0
+                - uploadFileName: export.csv
                 - privateParams: []
                 - triggersOnSuccess: []
                 - runWhenPageLoadsDelay: ''
                 - data: null
+                - uploadData: ''
                 - importedQueryInputs:
                     ordered: []
                 - showSuccessConfetti: false
                 - isImported: false
                 - showSuccessToaster: true
-                - dataArray: []
                 - cacheKeyTtl: ''
+                - actionType: list
                 - triggersOnFailure: []
-                - databaseNameOverride: ''
+                - copySource: ''
                 - confirmationMessage: null
                 - isFetching: false
+                - prefix: ''
                 - rawData: null
+                - signedOperationOptions: ''
                 - queryTriggerDelay: '0'
                 - watchedParams: []
+                - bucketName: retool-public-demo
                 - timestamp: 0
                 - importedQueryDefaults:
                     ordered: []
+                - signedOperationName: ''
                 - enableTransformer: false
+                - uploadFileType: csv
+                - maxKeys: ''
                 - runWhenPageLoads: false
                 - transformer: >-
                     // type your code here
@@ -52,13 +60,12 @@ appTemplate:
                     row.quantity > 20)
 
                     return data
-                - queryTimeout: '10001'
+                - queryTimeout: '10000'
                 - requireConfirmation: false
                 - enableCaching: false
-                - databaseUsernameOverride: ''
                 - queryThrottleTime: '750'
             createdAt: 2019-09-20T17:37:39.132Z
-            updatedAt: 2019-09-20T17:37:39.132Z
+            updatedAt: 2019-09-20T17:37:48.692Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
