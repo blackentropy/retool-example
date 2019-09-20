@@ -2358,7 +2358,7 @@ appTemplate:
                 - value: ''
                 - maxResults: 50
                 - placeholder: ''
-                - label: Numbers
+                - label: ''
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
                 - onSelect: ''
@@ -2382,7 +2382,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-20T14:10:17.100Z
-            updatedAt: 2019-09-20T14:10:17.100Z
+            updatedAt: 2019-09-20T14:10:44.086Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
