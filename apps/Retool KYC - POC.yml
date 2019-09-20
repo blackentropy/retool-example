@@ -2077,7 +2077,7 @@ appTemplate:
                 - currencyType: CAD
                 - leftIconName: ''
                 - initialValue: ''
-                - tooltipText: ''
+                - tooltipText: Dollar a
                 - value: ''
                 - placeholder: ''
                 - label: Estimated Household Net Worth
@@ -2101,7 +2101,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-19T20:35:45.763Z
-            updatedAt: 2019-09-20T13:03:35.018Z
+            updatedAt: 2019-09-20T13:24:44.719Z
       - signaturepad1:
           pluginTemplate:
             id: signaturepad1
