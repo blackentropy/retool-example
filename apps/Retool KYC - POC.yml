@@ -2311,7 +2311,7 @@ appTemplate:
             subtype: TextInputWidget
             template:
               ordered:
-                - readonly: ''
+                - readonly: '{{}}'
                 - disabledKeyCodes: ''
                 - onBlur: ''
                 - docsSlug: textinput
@@ -2346,7 +2346,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-20T14:06:59.742Z
-            updatedAt: 2019-09-20T18:49:50.165Z
+            updatedAt: 2019-09-20T19:10:19.882Z
       - multiselect2:
           pluginTemplate:
             id: multiselect2
