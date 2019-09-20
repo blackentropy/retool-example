@@ -2243,6 +2243,81 @@ appTemplate:
                 width: 2
             createdAt: 2019-09-20T13:15:49.714Z
             updatedAt: 2019-09-20T13:16:25.050Z
+      - map1:
+          pluginTemplate:
+            id: map1
+            type: widget
+            subtype: MapWidget
+            template:
+              ordered:
+                - pointValue: ''
+                - points: |-
+                    {{[
+                        { longitude: '-122.4194', latitude: '37.7949' },
+                        { longitude: '-122.4794', latitude: '37.7749' },
+                        { longitude: '-122.4194', latitude: '37.7049' },
+                    ]}}
+                - latitude: '37.7577'
+                - onPointSelected: ''
+                - latitudeColumnName: latitude
+                - longitude: '-122.4376'
+                - longitudeColumnName: longitude
+                - zoom: '8'
+                - onViewportChange: ''
+                - selectedPoint: null
+                - visiblePoints:
+                    array: []
+                - showCurrentLngLat: false
+                - fitBoundsToGeoJson: false
+                - geoJsonLayerStyle: ''
+                - geoJson: |-
+                    {
+                       "type":"FeatureCollection",
+                       "features":[
+                          {
+                             "type":"Feature",
+                             "geometry":{
+                                "type":"Polygon",
+                                "coordinates":[
+                                   [
+                                      [
+                                         -122.454,
+                                         37.766
+                                      ],
+                                      [
+                                         -122.510,
+                                         37.764
+                                      ],
+                                      [
+                                         -122.510,
+                                         37.772
+                                      ],
+                                      [
+                                         -122.455,
+                                         37.773
+                                      ]
+                                   ]
+                                ]
+                             }
+                          }
+                       ]
+                    }
+            position2:
+              position2:
+                container: form1
+                row: 4
+                col: 7
+                height: 6
+                width: 4
+            mobilePosition2:
+              position2:
+                container: form1
+                row: 4
+                col: 7
+                height: 6
+                width: 4
+            createdAt: 2019-09-20T13:37:16.557Z
+            updatedAt: 2019-09-20T13:37:16.557Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
