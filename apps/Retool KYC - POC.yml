@@ -2087,7 +2087,7 @@ appTemplate:
             subtype: SelectWidget
             template:
               ordered:
-                - values: '[1,2,3]'
+                - values: '["Yes","No"]'
                 - allowOutOfRangeValues: false
                 - enableFuzzyMatching: true
                 - searchValue: ''
@@ -2121,7 +2121,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-19T19:32:37.301Z
-            updatedAt: 2019-09-20T12:58:51.244Z
+            updatedAt: 2019-09-20T13:04:16.378Z
       - select11:
           pluginTemplate:
             id: select11
