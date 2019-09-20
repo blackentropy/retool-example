@@ -2504,21 +2504,6 @@ appTemplate:
                       "name": "Max Conversation",
                       "email": "Max@conversation.com",
                       
-                    }, {
-                      "id": 3,
-                      "name": "Jason Response",
-                      "email": "jason@response.com",
-                     
-                    }, {
-                      "id": 4,
-                      "name": "Sue Shei",
-                      "email": "sueshei@example.com",
-                      
-                    }, {
-                      "id": 5,
-                      "name": "Eric Widget",
-                      "email": "eric@widget.org",
-
                     }]
                 - actionButtons: []
                 - actionButtonSelectsRow: true
@@ -2584,7 +2569,7 @@ appTemplate:
                 height: 8
                 width: 8
             createdAt: 2019-09-20T14:47:06.960Z
-            updatedAt: 2019-09-20T14:53:28.324Z
+            updatedAt: 2019-09-20T14:53:48.726Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
