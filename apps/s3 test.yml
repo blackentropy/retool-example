@@ -353,7 +353,9 @@ appTemplate:
             subtype: TextWidget
             template:
               ordered:
-                - value: '### Upload a file, see it in the first row of the table '
+                - value: >-
+                    ### Upload a file, see it in the first row of the table 
+                    (sorted by )
                 - html: false
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -368,7 +370,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-20T17:46:27.687Z
-            updatedAt: 2019-09-20T17:47:28.143Z
+            updatedAt: 2019-09-20T17:47:31.207Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
