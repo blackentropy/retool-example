@@ -2452,34 +2452,6 @@ appTemplate:
                 width: 3
             createdAt: 2019-09-20T14:40:50.868Z
             updatedAt: 2019-09-20T14:40:50.868Z
-      - listview1:
-          pluginTemplate:
-            id: listview1
-            type: widget
-            subtype: ListViewWidget
-            template:
-              ordered:
-                - data: ''
-                - instances: |
-                    4
-                - itemHeight: '3'
-                - scroll: false
-            position2:
-              position2:
-                container: form1
-                row: 76
-                col: 4
-                height: 14
-                width: 8
-            mobilePosition2:
-              position2:
-                container: form1
-                row: 76
-                col: 4
-                height: 14
-                width: 8
-            createdAt: 2019-09-20T14:45:26.895Z
-            updatedAt: 2019-09-20T14:45:39.122Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
