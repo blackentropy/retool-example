@@ -65,7 +65,7 @@ appTemplate:
                 - enableCaching: false
                 - queryThrottleTime: '750'
             createdAt: 2019-09-20T17:37:39.132Z
-            updatedAt: 2019-09-20T17:46:19.125Z
+            updatedAt: 2019-09-20T17:54:16.025Z
       - table1:
           pluginTemplate:
             id: table1
@@ -181,7 +181,7 @@ appTemplate:
                 height: 8
                 width: 8
             createdAt: 2019-09-20T17:38:11.605Z
-            updatedAt: 2019-09-20T17:46:19.126Z
+            updatedAt: 2019-09-20T17:54:16.026Z
       - image1:
           pluginTemplate:
             id: image1
@@ -218,7 +218,7 @@ appTemplate:
                 height: 3
                 width: 2
             createdAt: 2019-09-20T17:38:43.625Z
-            updatedAt: 2019-09-20T17:46:19.126Z
+            updatedAt: 2019-09-20T17:54:16.026Z
       - s3uploader1:
           pluginTemplate:
             id: s3uploader1
@@ -253,7 +253,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-20T17:42:54.072Z
-            updatedAt: 2019-09-20T17:46:19.127Z
+            updatedAt: 2019-09-20T17:54:16.026Z
       - textinput1:
           pluginTemplate:
             id: textinput1
@@ -292,7 +292,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-20T17:44:47.380Z
-            updatedAt: 2019-09-20T17:46:19.127Z
+            updatedAt: 2019-09-20T17:54:16.026Z
       - orderBy:
           pluginTemplate:
             id: orderBy
@@ -345,7 +345,7 @@ appTemplate:
                 - enableCaching: false
                 - queryThrottleTime: '750'
             createdAt: 2019-09-20T17:45:37.226Z
-            updatedAt: 2019-09-20T17:46:19.128Z
+            updatedAt: 2019-09-20T17:54:16.027Z
       - text1:
           pluginTemplate:
             id: text1
@@ -354,8 +354,8 @@ appTemplate:
             template:
               ordered:
                 - value: >-
-                    ### Upload a file, see it in the first row of the table 
-                    (sorted by LastModified)
+                    ### Upload a file, and it will automatically appear see it
+                    in the first row of the table  (sorted by LastModified)
                 - html: false
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -370,7 +370,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-20T17:46:27.687Z
-            updatedAt: 2019-09-20T17:47:33.255Z
+            updatedAt: 2019-09-20T17:54:55.264Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
