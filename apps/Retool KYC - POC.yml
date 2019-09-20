@@ -880,7 +880,7 @@ appTemplate:
             subtype: TextWidget
             template:
               ordered:
-                - value: <h5> Household Background Information
+                - value: <h5><u> Household Background Information
                 - html: false
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -898,7 +898,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-16T13:29:07.769Z
-            updatedAt: 2019-09-20T12:58:51.229Z
+            updatedAt: 2019-09-20T13:01:28.975Z
       - table1:
           pluginTemplate:
             id: table1
