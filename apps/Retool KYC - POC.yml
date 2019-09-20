@@ -588,6 +588,7 @@ appTemplate:
                 - html: false
                 - scrollOverflow: false
                 - truncateOverflow: false
+                - tooltipText: 'Note: '
             position2:
               position2:
                 container: form1
@@ -603,7 +604,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-16T13:13:13.690Z
-            updatedAt: 2019-09-20T13:01:05.328Z
+            updatedAt: 2019-09-20T13:48:32.016Z
       - select2:
           pluginTemplate:
             id: select2
