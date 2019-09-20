@@ -2349,7 +2349,7 @@ appTemplate:
             subtype: MultiSelectWidget
             template:
               ordered:
-                - values: '[1,2,3]'
+                - values: ''
                 - allowOutOfRangeValues: false
                 - enableFuzzyMatching: true
                 - searchValue: ''
@@ -2382,7 +2382,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-20T14:10:17.100Z
-            updatedAt: 2019-09-20T14:11:11.519Z
+            updatedAt: 2019-09-20T14:33:56.284Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
