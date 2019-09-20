@@ -79,13 +79,21 @@ appTemplate:
                     ordered: []
                 - alwaysShowPaginator: false
                 - columnColors:
-                    ordered: []
+                    ordered:
+                      - id: ''
+                      - name: ''
+                      - email: ''
+                      - sales: ''
                 - allowMultiRowSelect: false
                 - columnFormats:
                     ordered: []
                 - nextBeforeCursor: ''
                 - columnVisibility:
                     ordered:
+                      - id: true
+                      - name: true
+                      - email: true
+                      - sales: true
                       - Title: true
                       - Description: true
                       - Sales: true
@@ -127,7 +135,7 @@ appTemplate:
                 - sortedDesc: false
                 - columnMappersRenderAsHTML:
                     ordered: []
-                - pageSize: '10'
+                - pageSize: 6
                 - selectedColumn: null
                 - actionButtonPosition: left
                 - bulkUpdateAction: ''
@@ -155,6 +163,10 @@ appTemplate:
                     - Title
                     - Description
                     - Sales
+                    - id
+                    - name
+                    - email
+                    - sales
                 - sort: null
                 - calculatedColumns: []
                 - selectedRow:
@@ -177,7 +189,7 @@ appTemplate:
                 height: 8
                 width: 8
             createdAt: 2019-09-20T17:38:11.605Z
-            updatedAt: 2019-09-20T17:38:11.605Z
+            updatedAt: 2019-09-20T17:38:11.883Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
