@@ -293,9 +293,9 @@ appTemplate:
                 width: 4
             createdAt: 2019-09-20T17:44:47.380Z
             updatedAt: 2019-09-20T17:45:35.045Z
-      - query2:
+      - orderBy:
           pluginTemplate:
-            id: query2
+            id: orderBy
             type: datasource
             subtype: S3Query
             resourceName: s3
