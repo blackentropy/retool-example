@@ -1633,9 +1633,9 @@ appTemplate:
                 - values: >-
                     [ 
 
-                    "Indivuduals or Entities Sanctioned",
-                    "Individuals/Entities", "Restricted client provided with an
-                    esception by the CALMO"]
+                    "Indivuduals or Entities Sanctioned", "Individuals/Entities
+                    targetted ", "Restricted client provided with an esception
+                    by the CALMO"]
                 - verticalAligned: false
                 - onChange: ''
                 - tooltipText: ''
@@ -1658,7 +1658,7 @@ appTemplate:
                 height: 2
                 width: 12
             createdAt: 2019-09-16T14:42:27.044Z
-            updatedAt: 2019-09-20T13:07:43.937Z
+            updatedAt: 2019-09-20T13:07:57.576Z
       - textinput19:
           pluginTemplate:
             id: textinput19
