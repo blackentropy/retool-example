@@ -2243,42 +2243,6 @@ appTemplate:
                 width: 2
             createdAt: 2019-09-20T13:15:49.714Z
             updatedAt: 2019-09-20T13:16:25.050Z
-      - timepicker1:
-          pluginTemplate:
-            id: timepicker1
-            type: widget
-            subtype: TimePickerWidget
-            template:
-              ordered:
-                - minuteStep: '5'
-                - use12Hours: false
-                - formattedString: null
-                - hourStep: '1'
-                - defaultValue: null
-                - tooltipText: ''
-                - value: null
-                - placeholder: Choose a time...
-                - label: ''
-                - labelMaxWidth: ''
-                - labelPlacedOnLeft: ''
-                - format: 'HH:mm:ss'
-                - disabled: ''
-            position2:
-              position2:
-                container: form1
-                row: 6
-                col: 8
-                height: 1
-                width: 2
-            mobilePosition2:
-              position2:
-                container: form1
-                row: 6
-                col: 8
-                height: 1
-                width: 2
-            createdAt: 2019-09-20T13:35:16.219Z
-            updatedAt: 2019-09-20T13:35:16.219Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
