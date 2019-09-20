@@ -1638,7 +1638,7 @@ appTemplate:
                     Foreign Assets Control (OFAC)", "Internet/Online Gambling
                     Entities & those associated with this industry",
                     "Jurisdiction/FFI listed as Primary Money Laundering
-                    Concern"]
+                    Concern", ""]
                 - verticalAligned: false
                 - onChange: ''
                 - tooltipText: ''
@@ -1661,7 +1661,7 @@ appTemplate:
                 height: 2
                 width: 12
             createdAt: 2019-09-16T14:42:27.044Z
-            updatedAt: 2019-09-20T13:10:02.883Z
+            updatedAt: 2019-09-20T13:10:14.488Z
       - textinput19:
           pluginTemplate:
             id: textinput19
