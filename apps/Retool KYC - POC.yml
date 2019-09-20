@@ -818,8 +818,7 @@ appTemplate:
                 - truncateOverflow: false
             position2:
               position2:
-                container: form1
-                row: 52
+                container: container2
                 col: 4
                 height: 1
                 width: 4
