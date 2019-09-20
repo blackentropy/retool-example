@@ -747,7 +747,7 @@ appTemplate:
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
                 - onSelect: ''
-                - disabled: '{{select == "Yes"}}'
+                - disabled: ''
                 - hideClearButton: false
                 - required: false
                 - labels: ''
@@ -764,7 +764,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-16T13:26:18.135Z
-            updatedAt: 2019-09-20T19:08:53.938Z
+            updatedAt: 2019-09-20T19:08:58.307Z
       - select6:
           pluginTemplate:
             id: select6
