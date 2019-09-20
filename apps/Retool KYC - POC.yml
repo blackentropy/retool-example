@@ -1173,7 +1173,7 @@ appTemplate:
                 - currencyType: CAD
                 - leftIconName: ''
                 - initialValue: ''
-                - tooltipText: ''
+                - tooltipText: Dollar
                 - value: ''
                 - placeholder: ''
                 - label: Estimated Household Investable Assets
@@ -1198,7 +1198,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-16T13:58:21.471Z
-            updatedAt: 2019-09-20T13:03:26.163Z
+            updatedAt: 2019-09-20T13:24:54.098Z
       - text7:
           pluginTemplate:
             id: text7
