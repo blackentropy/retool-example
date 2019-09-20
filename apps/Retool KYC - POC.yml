@@ -2495,7 +2495,7 @@ appTemplate:
                       - sales: true
                       - Amount: true
                       - Title: true
-                      - Type: true
+                      - Type: ''
                       - id: true
                       - email: true
                       - Description: true
@@ -2573,7 +2573,7 @@ appTemplate:
                 height: 8
                 width: 8
             createdAt: 2019-09-20T14:47:06.960Z
-            updatedAt: 2019-09-20T14:57:56.885Z
+            updatedAt: 2019-09-20T14:58:04.072Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
