@@ -1637,7 +1637,8 @@ appTemplate:
                     targeted by the US Department of the Treasury Office of
                     Foreign Assets Control (OFAC)", "Internet/Online Gambling
                     Entities & those associated with this industry",
-                    "Jurisdiction/FFI listed as Primary Money Laundering"]
+                    "Jurisdiction/FFI listed as Primary Money Laundering
+                    Concern"]
                 - verticalAligned: false
                 - onChange: ''
                 - tooltipText: ''
@@ -1660,7 +1661,7 @@ appTemplate:
                 height: 2
                 width: 12
             createdAt: 2019-09-16T14:42:27.044Z
-            updatedAt: 2019-09-20T13:09:59.513Z
+            updatedAt: 2019-09-20T13:10:02.883Z
       - textinput19:
           pluginTemplate:
             id: textinput19
