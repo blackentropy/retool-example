@@ -1953,7 +1953,7 @@ appTemplate:
                     the last 6 years", "Head of an International Organization"]
                 - verticalAligned: false
                 - onChange: ''
-                - tooltipText: Head of an International O
+                - tooltipText: 'Head of an International Organization: primary '
                 - value: ''
                 - label: 'Are any member(s) of this household:'
                 - labelMaxWidth: ''
@@ -1974,7 +1974,7 @@ appTemplate:
                 height: 2
                 width: 2
             createdAt: 2019-09-19T19:26:09.867Z
-            updatedAt: 2019-09-20T13:21:48.355Z
+            updatedAt: 2019-09-20T13:21:53.741Z
       - select10:
           pluginTemplate:
             id: select10
