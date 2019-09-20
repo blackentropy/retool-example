@@ -1857,7 +1857,7 @@ appTemplate:
             template:
               ordered:
                 - value: <center> <h5><u> Client source </h6> </center>
-                - html: false
+                - html: true
                 - scrollOverflow: false
                 - truncateOverflow: false
             position2:
@@ -1873,7 +1873,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-19T18:45:03.173Z
-            updatedAt: 2019-09-20T19:12:03.468Z
+            updatedAt: 2019-09-20T19:48:48.666Z
       - text16:
           pluginTemplate:
             id: text16
