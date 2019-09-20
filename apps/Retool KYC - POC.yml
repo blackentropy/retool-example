@@ -222,7 +222,7 @@ appTemplate:
                     of Influence","Existing Private Banking Client","RBC Private
                     Banker (self)","RBC Bank GA","RBC Capital Markets","RBC
                     Commercial Markets", "RBC DS Investment Advisor", "RBC
-                    Executive"]
+                    Executive", "]
                 - allowOutOfRangeValues: false
                 - enableFuzzyMatching: true
                 - searchValue: ''
@@ -253,7 +253,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-13T18:48:07.272Z
-            updatedAt: 2019-09-20T13:26:43.114Z
+            updatedAt: 2019-09-20T13:26:46.597Z
       - textinput4:
           pluginTemplate:
             id: textinput4
