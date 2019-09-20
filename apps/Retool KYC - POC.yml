@@ -2474,8 +2474,9 @@ appTemplate:
                 - columnColors:
                     ordered:
                       - Type: ''
-                      - name: ''
+                      - '': ''
                       - email: ''
+                      - name: ''
                       - id: ''
                       - Ty: ''
                       - sales: ''
@@ -2485,6 +2486,7 @@ appTemplate:
                 - nextBeforeCursor: ''
                 - columnVisibility:
                     ordered:
+                      - '': true
                       - Ty: true
                       - name: true
                       - Sales: true
@@ -2500,7 +2502,7 @@ appTemplate:
                 - data: |-
                     [{
                       "Type": 1,
-                      "name": "Hanson Deck",
+                      "": "Hanson Deck",
                       "email": "hanson@deck.com",
 
                     }, {
@@ -2551,6 +2553,7 @@ appTemplate:
                     - sales
                     - Ty
                     - Type
+                    - ''
                 - sort: null
                 - calculatedColumns: []
                 - selectedRow:
@@ -2574,7 +2577,7 @@ appTemplate:
                 height: 8
                 width: 8
             createdAt: 2019-09-20T14:47:06.960Z
-            updatedAt: 2019-09-20T14:55:39.988Z
+            updatedAt: 2019-09-20T14:55:52.707Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
