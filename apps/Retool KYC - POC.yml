@@ -2574,6 +2574,45 @@ appTemplate:
                 width: 8
             createdAt: 2019-09-20T14:47:06.960Z
             updatedAt: 2019-09-20T15:07:30.548Z
+      - image1:
+          pluginTemplate:
+            id: image1
+            type: widget
+            subtype: ImageWidget
+            template:
+              ordered:
+                - valueToCopy: ''
+                - internalUrlHashParams: ''
+                - exportFileType: csv
+                - buttonType: action
+                - exportTemplate: null
+                - url: ''
+                - newWindow: false
+                - exportQuery: ''
+                - imageUrl: >-
+                    https://www.thehappycatsite.com/wp-content/uploads/2017/12/grow.jpg
+                - action: ''
+                - internalUrlQuery: ''
+                - internalUrlPath: ''
+                - exportFileName: ''
+                - loading: ''
+                - disabled: ''
+            position2:
+              position2:
+                container: form1
+                row: 5
+                col: 8
+                height: 3
+                width: 2
+            mobilePosition2:
+              position2:
+                container: form1
+                row: 5
+                col: 8
+                height: 3
+                width: 2
+            createdAt: 2019-09-20T15:09:55.545Z
+            updatedAt: 2019-09-20T15:09:55.545Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
