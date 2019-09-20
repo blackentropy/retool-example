@@ -119,8 +119,7 @@ appTemplate:
                 - required: false
             position2:
               position2:
-                container: form1
-                row: 3
+                container: container7
                 col: 4
                 height: 2
                 width: 3
@@ -159,8 +158,7 @@ appTemplate:
                 - required: false
             position2:
               position2:
-                container: form1
-                row: 3
+                container: container7
                 height: 2
                 width: 4
             mobilePosition2:
@@ -199,8 +197,7 @@ appTemplate:
                 - required: false
             position2:
               position2:
-                container: form1
-                row: 3
+                container: container7
                 col: 7
                 height: 2
                 width: 3
