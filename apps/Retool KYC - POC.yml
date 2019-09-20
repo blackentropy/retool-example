@@ -223,7 +223,7 @@ appTemplate:
                     Banker (self)","RBC Bank GA","RBC Capital Markets","RBC
                     Commercial Markets", "RBC DS Investment Advisor", "RBC
                     Executive", "RBC Financial Planner", "RBC Private Banking
-                    International", "RBC IRP", "]
+                    International", "RBC IRP", "RBC Mortgage Specialist", "]
                 - allowOutOfRangeValues: false
                 - enableFuzzyMatching: true
                 - searchValue: ''
@@ -254,7 +254,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-13T18:48:07.272Z
-            updatedAt: 2019-09-20T13:28:03.933Z
+            updatedAt: 2019-09-20T13:28:10.970Z
       - textinput4:
           pluginTemplate:
             id: textinput4
