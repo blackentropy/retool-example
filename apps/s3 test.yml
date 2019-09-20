@@ -297,50 +297,41 @@ appTemplate:
           pluginTemplate:
             id: orderBy
             type: datasource
-            subtype: S3Query
-            resourceName: s3
+            subtype: SqlTransformQuery
+            resourceName: SQL Transforms
             template:
               ordered:
                 - queryRefreshTime: ''
                 - queryDisabledMessage: ''
-                - fileKey: ''
                 - successMessage: ''
                 - queryDisabled: ''
                 - playgroundQuerySaveId: 0
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: true
-                - delimiter: ''
+                - query: >-
+                    select * from {{query1.data.Contents}} order by LastModified
+                    Desc
                 - playgroundQueryId: 0
-                - uploadFileName: export.csv
                 - privateParams: []
                 - triggersOnSuccess: []
                 - runWhenPageLoadsDelay: ''
                 - data: null
-                - uploadData: ''
                 - importedQueryInputs:
                     ordered: []
                 - showSuccessConfetti: false
                 - isImported: false
                 - showSuccessToaster: true
                 - cacheKeyTtl: ''
-                - actionType: list
                 - triggersOnFailure: []
-                - copySource: ''
                 - confirmationMessage: null
                 - isFetching: false
-                - prefix: ''
                 - rawData: null
-                - signedOperationOptions: ''
                 - queryTriggerDelay: '0'
                 - watchedParams: []
-                - bucketName: ''
                 - timestamp: 0
                 - importedQueryDefaults:
                     ordered: []
-                - signedOperationName: ''
                 - enableTransformer: false
-                - uploadFileType: csv
-                - maxKeys: ''
                 - runWhenPageLoads: false
                 - transformer: >-
                     // type your code here
@@ -354,7 +345,7 @@ appTemplate:
                 - enableCaching: false
                 - queryThrottleTime: '750'
             createdAt: 2019-09-20T17:45:37.226Z
-            updatedAt: 2019-09-20T17:45:37.226Z
+            updatedAt: 2019-09-20T17:45:59.176Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
