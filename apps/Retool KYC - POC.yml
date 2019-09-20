@@ -1221,7 +1221,7 @@ appTemplate:
             template:
               ordered:
                 - value: <center> <h5> <u> Client Risk Assessment
-                - html: false
+                - html: true
                 - scrollOverflow: false
                 - truncateOverflow: false
                 - tooltipText: >-
@@ -1242,7 +1242,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-16T14:00:01.977Z
-            updatedAt: 2019-09-20T18:30:33.730Z
+            updatedAt: 2019-09-20T18:30:40.768Z
       - textinput17:
           pluginTemplate:
             id: textinput17
