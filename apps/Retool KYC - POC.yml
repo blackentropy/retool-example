@@ -2590,7 +2590,7 @@ appTemplate:
                 - newWindow: false
                 - exportQuery: ''
                 - imageUrl: >-
-                    https://www.thehappycatsite.com/wp-content/uploads/2017/12/grow.jpg
+                    https://abreathofhope.org/wp-content/uploads/2016/12/RBC-Logo-for-Tea.jpg
                 - action: ''
                 - internalUrlQuery: ''
                 - internalUrlPath: ''
@@ -2612,7 +2612,7 @@ appTemplate:
                 height: 3
                 width: 2
             createdAt: 2019-09-20T18:17:55.464Z
-            updatedAt: 2019-09-20T18:17:55.464Z
+            updatedAt: 2019-09-20T18:19:20.200Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
