@@ -1953,7 +1953,7 @@ appTemplate:
             subtype: TextWidget
             template:
               ordered:
-                - value: <h4> Type of Client </h2>
+                - value: <h6> Type of Client </h2>
                 - html: false
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -1971,7 +1971,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-19T19:01:58.997Z
-            updatedAt: 2019-09-20T12:58:51.243Z
+            updatedAt: 2019-09-20T13:15:16.762Z
       - text16:
           pluginTemplate:
             id: text16
