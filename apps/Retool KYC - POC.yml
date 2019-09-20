@@ -1218,7 +1218,9 @@ appTemplate:
                 - html: false
                 - scrollOverflow: false
                 - truncateOverflow: false
-                - tooltipText: Answer all the following questions to a
+                - tooltipText: >-
+                    Answer all the following questions to assess the risk of
+                    your household
             position2:
               position2:
                 container: form1
@@ -1234,7 +1236,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-16T14:00:01.977Z
-            updatedAt: 2019-09-20T13:46:53.532Z
+            updatedAt: 2019-09-20T13:47:02.060Z
       - textinput17:
           pluginTemplate:
             id: textinput17
