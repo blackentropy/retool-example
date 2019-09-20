@@ -1639,7 +1639,7 @@ appTemplate:
                 - onChange: ''
                 - tooltipText: ''
                 - value: ''
-                - label: Res
+                - label: 'Restricted: '
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
                 - disabled: ''
@@ -1657,7 +1657,7 @@ appTemplate:
                 height: 2
                 width: 12
             createdAt: 2019-09-16T14:42:27.044Z
-            updatedAt: 2019-09-20T13:06:32.638Z
+            updatedAt: 2019-09-20T13:06:37.010Z
       - textinput19:
           pluginTemplate:
             id: textinput19
