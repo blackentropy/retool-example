@@ -2243,54 +2243,6 @@ appTemplate:
                 width: 2
             createdAt: 2019-09-20T13:15:49.714Z
             updatedAt: 2019-09-20T13:16:25.050Z
-      - keyvaluemap1:
-          pluginTemplate:
-            id: keyvaluemap1
-            type: widget
-            subtype: KeyValueMapWidget
-            template:
-              ordered:
-                - rowHeaderNames:
-                    ordered: []
-                - rowFormats:
-                    ordered: []
-                - valueTitle: Value
-                - data: |-
-                    {
-                      "a": 1,
-                      "b": 2,
-                      "c": 3
-                    }
-                - rowMappersRenderAsHTML:
-                    ordered: []
-                - rowVisibility:
-                    ordered:
-                      - a: true
-                      - b: true
-                      - c: true
-                - rowMappers:
-                    ordered: []
-                - rows:
-                    - a
-                    - b
-                    - c
-                - keyTitle: Key
-            position2:
-              position2:
-                container: form1
-                row: 5
-                col: 10
-                height: 5
-                width: 2
-            mobilePosition2:
-              position2:
-                container: form1
-                row: 5
-                col: 10
-                height: 5
-                width: 2
-            createdAt: 2019-09-20T13:33:41.665Z
-            updatedAt: 2019-09-20T13:33:41.665Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
