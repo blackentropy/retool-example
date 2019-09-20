@@ -143,7 +143,7 @@ appTemplate:
                 - onBlur: ''
                 - docsSlug: textinput
                 - currencyType: USD
-                - leftIconName: ''
+                - leftIconName: search
                 - initialValue: ''
                 - tooltipText: ''
                 - value: ''
@@ -169,7 +169,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-13T18:27:49.973Z
-            updatedAt: 2019-09-20T19:12:03.440Z
+            updatedAt: 2019-09-20T19:52:04.207Z
       - textinput3:
           pluginTemplate:
             id: textinput3
