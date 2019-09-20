@@ -1429,7 +1429,7 @@ appTemplate:
                 container: container8
                 row: 12
                 col: 1
-                height: 1
+                height: 2
                 width: 5
             mobilePosition2:
               position2:
