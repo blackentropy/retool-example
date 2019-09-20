@@ -2261,7 +2261,7 @@ appTemplate:
             subtype: MultiSelectWidget
             template:
               ordered:
-                - values: '[1]'
+                - values: '["Alberta","]'
                 - allowOutOfRangeValues: false
                 - enableFuzzyMatching: true
                 - searchValue: ''
@@ -2294,7 +2294,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-20T13:54:10.269Z
-            updatedAt: 2019-09-20T14:01:38.861Z
+            updatedAt: 2019-09-20T14:01:43.347Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
