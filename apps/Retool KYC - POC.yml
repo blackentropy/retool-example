@@ -2509,7 +2509,7 @@ appTemplate:
                       "Amount": "$1,500,000",
 
                     }, {
-                      "Type": 2,
+                      "Type": "",
                       "Description": "Max Conversation",
                       "Amount": "Max@conversation.com",
                       
@@ -2573,7 +2573,7 @@ appTemplate:
                 height: 8
                 width: 8
             createdAt: 2019-09-20T14:47:06.960Z
-            updatedAt: 2019-09-20T14:57:26.729Z
+            updatedAt: 2019-09-20T14:57:30.176Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
