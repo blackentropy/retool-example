@@ -2308,6 +2308,39 @@ appTemplate:
                 width: 4
             createdAt: 2019-09-19T20:42:18.786Z
             updatedAt: 2019-09-20T12:58:51.244Z
+      - checkboxgroup6:
+          pluginTemplate:
+            id: checkboxgroup6
+            type: widget
+            subtype: CheckboxGroupWidget
+            template:
+              ordered:
+                - values: '[ 1,2,3]'
+                - verticalAligned: false
+                - onChange: ''
+                - tooltipText: ''
+                - value: ''
+                - label: Checkbox group
+                - labelMaxWidth: ''
+                - labelPlacedOnLeft: ''
+                - disabled: ''
+                - labels: ''
+            position2:
+              position2:
+                container: form1
+                row: 6
+                col: 9
+                height: 2
+                width: 2
+            mobilePosition2:
+              position2:
+                container: form1
+                row: 6
+                col: 9
+                height: 2
+                width: 2
+            createdAt: 2019-09-20T13:15:49.714Z
+            updatedAt: 2019-09-20T13:15:49.714Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
