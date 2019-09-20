@@ -2460,7 +2460,8 @@ appTemplate:
             template:
               ordered:
                 - data: ''
-                - instances: '3'
+                - instances: |
+                    4
                 - itemHeight: '3'
                 - scroll: false
             position2:
@@ -2478,7 +2479,7 @@ appTemplate:
                 height: 14
                 width: 8
             createdAt: 2019-09-20T14:45:26.895Z
-            updatedAt: 2019-09-20T14:45:26.895Z
+            updatedAt: 2019-09-20T14:45:39.122Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
