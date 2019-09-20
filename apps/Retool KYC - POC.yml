@@ -21,8 +21,8 @@ appTemplate:
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: true
                 - query: >-
-                    select name from countries_world where name != 'Canada'
-                    order by name asc;
+                    select country, name from countries_world where name !=
+                    'Canada' order by name asc;
                 - playgroundQueryId: 0
                 - privateParams: []
                 - triggersOnSuccess: []
@@ -61,7 +61,7 @@ appTemplate:
                 - databaseUsernameOverride: ''
                 - queryThrottleTime: '750'
             createdAt: 2019-04-20T04:49:38.684Z
-            updatedAt: 2019-09-20T18:49:50.043Z
+            updatedAt: 2019-09-20T18:58:47.532Z
       - form1:
           pluginTemplate:
             id: form1
