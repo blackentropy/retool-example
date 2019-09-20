@@ -2641,9 +2641,9 @@ appTemplate:
                 width: 6
             createdAt: 2019-09-20T18:25:36.883Z
             updatedAt: 2019-09-20T19:12:03.475Z
-      - query2:
+      - PDF_exporter:
           pluginTemplate:
-            id: query2
+            id: PDF_exporter
             type: datasource
             subtype: SqlQuery
             resourceName: testdb (read)
