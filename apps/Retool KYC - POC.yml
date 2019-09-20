@@ -1639,7 +1639,7 @@ appTemplate:
                 - onChange: ''
                 - tooltipText: ''
                 - value: ''
-                - label: 'Restricted: Which (if any)'
+                - label: 'Restricted: Which (if any) option applies to HH members?'
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
                 - disabled: ''
@@ -1657,7 +1657,7 @@ appTemplate:
                 height: 2
                 width: 12
             createdAt: 2019-09-16T14:42:27.044Z
-            updatedAt: 2019-09-20T13:06:46.087Z
+            updatedAt: 2019-09-20T13:06:52.136Z
       - textinput19:
           pluginTemplate:
             id: textinput19
