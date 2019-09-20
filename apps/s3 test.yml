@@ -362,8 +362,8 @@ appTemplate:
             position2:
               position2:
                 col: 1
-                height: 1
-                width: 3
+                height: 2
+                width: 8
             mobilePosition2:
               position2:
                 col: 1
