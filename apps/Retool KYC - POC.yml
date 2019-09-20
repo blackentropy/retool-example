@@ -2616,8 +2616,8 @@ appTemplate:
                 - spinWhenChildrenAreFetching: true
             position2:
               position2:
-                container: form1
-                row: 57
+                container: container2
+                row: 17
                 height: 4
                 width: 12
             mobilePosition2:
@@ -2697,7 +2697,7 @@ appTemplate:
               position2:
                 container: form1
                 row: 32
-                height: 18
+                height: 22
                 width: 12
             mobilePosition2:
               position2:
