@@ -1635,7 +1635,7 @@ appTemplate:
 
                     "Indivuduals or Entities Sanctioned", "Individuals/Entities
                     targeted by the US Department of the Treasury Office of
-                    Foreign Assets Control (OFAC)", "Internet"]
+                    Foreign Assets Control (OFAC)", "Internet/Online Gambling "]
                 - verticalAligned: false
                 - onChange: ''
                 - tooltipText: ''
@@ -1658,7 +1658,7 @@ appTemplate:
                 height: 2
                 width: 12
             createdAt: 2019-09-16T14:42:27.044Z
-            updatedAt: 2019-09-20T13:09:13.644Z
+            updatedAt: 2019-09-20T13:09:19.846Z
       - textinput19:
           pluginTemplate:
             id: textinput19
