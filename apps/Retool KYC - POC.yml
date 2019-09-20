@@ -1654,7 +1654,7 @@ appTemplate:
                 - initialValue: ''
                 - tooltipText: ''
                 - value: ''
-                - placeholder: 'Either "Low", "Medium"'
+                - placeholder: 'Either "Low", "Medium" or "High"'
                 - label: Risk Evaluation at On-Boarding
                 - formattedValue: ''
                 - labelMaxWidth: ''
@@ -1677,7 +1677,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-18T19:56:38.803Z
-            updatedAt: 2019-09-20T14:36:33.966Z
+            updatedAt: 2019-09-20T14:36:36.717Z
       - text11:
           pluginTemplate:
             id: text11
