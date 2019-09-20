@@ -319,7 +319,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 11
+                row: 10
                 col: 4
                 height: 1
                 width: 5
@@ -441,7 +441,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 12
+                row: 11
                 col: 4
                 height: 2
                 width: 2
@@ -482,7 +482,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 12
+                row: 11
                 col: 6
                 height: 2
                 width: 1
@@ -523,7 +523,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 12
+                row: 11
                 col: 7
                 height: 2
                 width: 2
@@ -594,7 +594,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 14
+                row: 13
                 col: 4
                 height: 1
                 width: 3
@@ -672,7 +672,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 21
+                row: 20
                 col: 6
                 height: 1
                 width: 4
@@ -966,7 +966,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 15
+                row: 14
                 height: 5
                 width: 12
             mobilePosition2:
@@ -1866,7 +1866,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 10
+                row: 4
                 col: 5
                 height: 1
                 width: 2
@@ -1945,7 +1945,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 20
+                row: 19
                 col: 4
                 height: 1
                 width: 3
@@ -2254,46 +2254,47 @@ appTemplate:
                 width: 2
             createdAt: 2019-09-20T13:15:49.714Z
             updatedAt: 2019-09-20T13:16:25.050Z
-      - togglelist1:
+      - multiselect1:
           pluginTemplate:
-            id: togglelist1
+            id: multiselect1
             type: widget
-            subtype: ToggleListWidget
+            subtype: MultiSelectWidget
             template:
               ordered:
-                - toggles:
-                    - ordered:
-                        - label: Enable Feature One
-                        - description: Added in release v2.1
-                        - value: '{{ true }}'
-                        - tags: '["mobile", "marketing"]'
-                        - toggleOnQuery: ''
-                        - toggleOffQuery: ''
-                        - disabled: ''
-                    - ordered:
-                        - label: Enable Feature Two
-                        - description: Added in release v2.5
-                        - value: '{{ false }}'
-                        - tags: '["desktop", "bugfix", "priority one"]'
-                        - toggleOnQuery: ''
-                        - toggleOffQuery: ''
-                        - disabled: ''
+                - values: '[1,2,3]'
+                - allowOutOfRangeValues: false
+                - enableFuzzyMatching: true
+                - searchValue: ''
+                - displayValue: ''
+                - tooltipText: ''
+                - value: ''
+                - maxResults: 50
+                - placeholder: ''
+                - label: Numbers
+                - labelMaxWidth: ''
+                - labelPlacedOnLeft: ''
+                - onSelect: ''
+                - allowCustomValues: false
+                - disabled: ''
+                - hideClearButton: false
+                - required: false
+                - labels: ''
             position2:
               position2:
                 container: form1
-                row: 4
-                col: 6
-                height: 6
-                width: 6
+                row: 6
+                col: 7
+                height: 1
+                width: 4
             mobilePosition2:
               position2:
                 container: form1
-                row: 4
-                col: 6
-                height: 6
-                width: 6
-            createdAt: 2019-09-20T13:53:54.813Z
-            updatedAt: 2019-09-20T13:53:54.813Z
+                row: 6
+                col: 7
+                height: 1
+                width: 4
+            createdAt: 2019-09-20T13:54:10.269Z
+            updatedAt: 2019-09-20T13:54:10.269Z
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
