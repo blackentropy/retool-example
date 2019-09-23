@@ -94,10 +94,12 @@ appTemplate:
             subtype: TextWidget
             template:
               ordered:
-                - value: |-
+                - value: >-
                     Sept 23, 2019
 
-                    - Table: how to modify table cell entries and add new rows. 
+
+                    - Table: how to modify table cell entries and add new rows.
+                    Doing sp
                 - html: false
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -112,7 +114,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-23T16:33:36.448Z
-            updatedAt: 2019-09-23T16:36:00.275Z
+            updatedAt: 2019-09-23T16:36:03.668Z
       - container1:
           pluginTemplate:
             id: container1
