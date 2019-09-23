@@ -3018,7 +3018,7 @@ appTemplate:
                 - enableFuzzyMatching: true
                 - searchValue: ''
                 - displayValue: ''
-                - tooltipText: Search for
+                - tooltipText: 'Search for: Last Name, First Name'
                 - value: ''
                 - maxResults: 50
                 - placeholder: Search here...
@@ -3041,7 +3041,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-23T19:46:06.411Z
-            updatedAt: 2019-09-23T22:18:45.658Z
+            updatedAt: 2019-09-23T22:18:51.468Z
       - rtam:
           pluginTemplate:
             id: rtam
