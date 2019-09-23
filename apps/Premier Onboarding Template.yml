@@ -80,7 +80,7 @@ appTemplate:
             position2:
               position2:
                 height: 12
-                width: 11
+                width: 12
             mobilePosition2:
               position2:
                 row: 1
