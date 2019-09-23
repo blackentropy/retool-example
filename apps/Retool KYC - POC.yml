@@ -2934,7 +2934,7 @@ appTemplate:
                 - playgroundQuerySaveId: 0
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: true
-                - query: select ID from privatebanker_data;
+                - query: select ROLLUP from privatebanker_data;
                 - playgroundQueryId: 0
                 - privateParams: []
                 - triggersOnSuccess: []
@@ -2973,7 +2973,7 @@ appTemplate:
                 - databaseUsernameOverride: ''
                 - queryThrottleTime: '750'
             createdAt: 2019-09-23T14:56:16.419Z
-            updatedAt: 2019-09-23T15:15:40.778Z
+            updatedAt: 2019-09-23T15:16:20.971Z
   createdAt: null
   version: 2.47.14
   responsiveLayoutDisabled: false
