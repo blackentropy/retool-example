@@ -120,7 +120,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-23T16:33:36.448Z
-            updatedAt: 2019-09-23T16:38:12.469Z
+            updatedAt: 2019-09-23T16:38:16.636Z
       - container1:
           pluginTemplate:
             id: container1
