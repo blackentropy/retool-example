@@ -1557,7 +1557,7 @@ appTemplate:
             template:
               ordered:
                 - readonly: |
-                    {{select10.value == "No"}} 
+                    {{select10.value == "No"}} &
                 - disabledKeyCodes: ''
                 - onBlur: ''
                 - docsSlug: textinput
@@ -1591,7 +1591,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-18T19:54:22.227Z
-            updatedAt: 2019-09-23T19:38:11.354Z
+            updatedAt: 2019-09-23T19:59:33.784Z
       - textinput20:
           pluginTemplate:
             id: textinput20
