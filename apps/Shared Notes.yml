@@ -94,7 +94,7 @@ appTemplate:
             subtype: TextWidget
             template:
               ordered:
-                - value: "**Hello** <b>friend!</b> \U0001F603"
+                - value: ''
                 - html: false
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -109,7 +109,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-23T16:33:36.448Z
-            updatedAt: 2019-09-23T16:33:36.448Z
+            updatedAt: 2019-09-23T16:34:12.984Z
       - container1:
           pluginTemplate:
             id: container1
