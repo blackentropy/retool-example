@@ -3034,9 +3034,9 @@ appTemplate:
                 width: 4
             createdAt: 2019-09-23T19:46:06.411Z
             updatedAt: 2019-09-23T19:49:28.752Z
-      - query5:
+      - rtam:
           pluginTemplate:
-            id: query5
+            id: rtam
             type: datasource
             subtype: SqlQuery
             resourceName: testdb (read)
