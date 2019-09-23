@@ -430,8 +430,8 @@ appTemplate:
                 - leftIconName: ''
                 - initialValue: ''
                 - tooltipText: >-
-                    <b> Client Risk Index </b> (A is lowest risk. D and E are
-                    high risk and require escalation)
+                    Client Risk Index (A is lowest risk. D and E are high risk
+                    and require escalation)
                 - value: ''
                 - placeholder: ''
                 - label: CRI
@@ -457,7 +457,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-16T13:09:27.943Z
-            updatedAt: 2019-09-23T22:01:00.212Z
+            updatedAt: 2019-09-23T22:01:19.195Z
       - textinput9:
           pluginTemplate:
             id: textinput9
