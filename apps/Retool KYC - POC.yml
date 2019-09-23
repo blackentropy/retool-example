@@ -468,7 +468,7 @@ appTemplate:
                 - currencyType: USD
                 - leftIconName: ''
                 - initialValue: ''
-                - tooltipText: ''
+                - tooltipText: Client
                 - value: ''
                 - placeholder: ''
                 - label: CRI
@@ -494,7 +494,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-16T13:09:27.943Z
-            updatedAt: 2019-09-23T14:29:08.419Z
+            updatedAt: 2019-09-23T14:30:16.761Z
       - textinput9:
           pluginTemplate:
             id: textinput9
