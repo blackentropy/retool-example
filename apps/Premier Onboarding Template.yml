@@ -216,6 +216,45 @@ appTemplate:
                 width: 4
             createdAt: 2019-09-23T16:18:00.318Z
             updatedAt: 2019-09-23T16:18:39.433Z
+      - textinput3:
+          pluginTemplate:
+            id: textinput3
+            type: widget
+            subtype: TextInputWidget
+            template:
+              ordered:
+                - readonly: ''
+                - disabledKeyCodes: ''
+                - onBlur: ''
+                - docsSlug: textinput
+                - currencyType: USD
+                - leftIconName: ''
+                - initialValue: ''
+                - tooltipText: ''
+                - value: ''
+                - placeholder: Search here...
+                - label: Premier Advisor's Name
+                - formattedValue: ''
+                - labelMaxWidth: ''
+                - labelPlacedOnLeft: ''
+                - onSubmit: ''
+                - type: text
+                - allowedRegex: .*
+                - required: false
+            position2:
+              position2:
+                container: container1
+                row: 3
+                height: 1
+                width: 4
+            mobilePosition2:
+              position2:
+                container: container1
+                row: 3
+                height: 1
+                width: 4
+            createdAt: 2019-09-23T16:18:51.490Z
+            updatedAt: 2019-09-23T16:18:51.490Z
   createdAt: null
   version: 2.47.14
   responsiveLayoutDisabled: false
