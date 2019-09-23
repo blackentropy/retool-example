@@ -2934,11 +2934,12 @@ appTemplate:
                 - playgroundQuerySaveId: 0
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: true
-                - query: ''
+                - query: select Rollup_Name from privatebanker_data;
                 - playgroundQueryId: 0
                 - privateParams: []
                 - triggersOnSuccess: []
                 - runWhenPageLoadsDelay: ''
+                - warningCodes: []
                 - data: null
                 - importedQueryInputs:
                     ordered: []
@@ -2972,7 +2973,7 @@ appTemplate:
                 - databaseUsernameOverride: ''
                 - queryThrottleTime: '750'
             createdAt: 2019-09-23T14:56:16.419Z
-            updatedAt: 2019-09-23T14:56:16.419Z
+            updatedAt: 2019-09-23T14:58:46.118Z
   createdAt: null
   version: 2.47.14
   responsiveLayoutDisabled: false
