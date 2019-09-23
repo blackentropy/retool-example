@@ -108,7 +108,7 @@ appTemplate:
                 - initialValue: '{{rtam.data.RTAM[''0'']}}'
                 - tooltipText: ''
                 - value: ''
-                - placeholder: Search here...
+                - placeholder: ''
                 - label: RTAM
                 - formattedValue: ''
                 - labelMaxWidth: ''
@@ -130,7 +130,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-13T18:25:40.193Z
-            updatedAt: 2019-09-23T22:00:01.015Z
+            updatedAt: 2019-09-23T22:02:02.349Z
       - textinput3:
           pluginTemplate:
             id: textinput3
