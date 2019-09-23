@@ -2918,9 +2918,9 @@ appTemplate:
                 width: 6
             createdAt: 2019-09-20T20:01:46.273Z
             updatedAt: 2019-09-23T14:56:04.674Z
-      - privatebanker:
+      - privatebanker_name:
           pluginTemplate:
-            id: privatebanker
+            id: privatebanker_name
             type: datasource
             subtype: SqlQuery
             resourceName: testdb (read)
