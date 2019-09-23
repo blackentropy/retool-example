@@ -100,7 +100,7 @@ appTemplate:
                 - truncateOverflow: false
             position2:
               position2:
-                row: 8
+                container: container1
                 height: 1
                 width: 3
             mobilePosition2:
