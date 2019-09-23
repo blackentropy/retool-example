@@ -59,48 +59,6 @@ appTemplate:
                 - queryThrottleTime: '750'
             createdAt: 2019-04-20T04:49:38.684Z
             updatedAt: 2019-09-23T16:00:34.627Z
-      - container1:
-          pluginTemplate:
-            id: container1
-            type: widget
-            subtype: ContainerWidget
-            template:
-              ordered:
-                - disabled: ''
-                - spinWhenChildrenAreFetching: true
-            position2:
-              position2:
-                height: 5
-                width: 12
-            mobilePosition2:
-              position2:
-                height: 8
-                width: 6
-            createdAt: 2019-04-20T04:49:44.975Z
-            updatedAt: 2019-09-23T16:00:34.627Z
-      - text1:
-          pluginTemplate:
-            id: text1
-            type: widget
-            subtype: TextWidget
-            template:
-              ordered:
-                - value: '# Welcome to Retool!'
-                - html: false
-                - scrollOverflow: false
-                - truncateOverflow: false
-            position2:
-              position2:
-                container: container1
-                height: 1
-                width: 12
-            mobilePosition2:
-              position2:
-                container: container1
-                height: 1
-                width: 3
-            createdAt: 2019-04-20T04:49:50.631Z
-            updatedAt: 2019-09-23T16:00:34.628Z
       - container2:
           pluginTemplate:
             id: container2
@@ -190,35 +148,6 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-04-20T04:50:42.211Z
-            updatedAt: 2019-09-23T16:00:34.628Z
-      - text4:
-          pluginTemplate:
-            id: text4
-            type: widget
-            subtype: TextWidget
-            template:
-              ordered:
-                - value: |-
-                    *Starter ideas*!!
-
-                    * Write documentation about this app here
-                    * This is how the app works
-                - html: false
-                - scrollOverflow: false
-                - truncateOverflow: false
-            position2:
-              position2:
-                container: container1
-                row: 1
-                height: 3
-                width: 7
-            mobilePosition2:
-              position2:
-                container: container1
-                row: 1
-                height: 1
-                width: 3
-            createdAt: 2019-04-20T04:51:13.674Z
             updatedAt: 2019-09-23T16:00:34.628Z
       - text5:
           pluginTemplate:
