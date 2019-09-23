@@ -106,7 +106,8 @@ appTemplate:
                     OR choose from a dropdown)
 
                     - Disable feature... something like select10.value == 'two
-                    conditionso' AND select11.value == 'condition' AND 
+                    conditionso' AND select11.value == 'condition' AND
+                    checkmarkboxgroup.
                 - html: false
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -121,7 +122,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-23T16:33:36.448Z
-            updatedAt: 2019-09-23T16:39:39.851Z
+            updatedAt: 2019-09-23T16:39:46.024Z
       - container1:
           pluginTemplate:
             id: container1
