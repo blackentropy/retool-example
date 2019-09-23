@@ -192,7 +192,7 @@ appTemplate:
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
                 - onSubmit: ''
-                - type: color
+                - type: datetime-local
                 - allowedRegex: .*
                 - required: false
             position2:
@@ -209,7 +209,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-13T18:29:00.895Z
-            updatedAt: 2019-09-23T14:31:11.248Z
+            updatedAt: 2019-09-23T14:31:21.025Z
       - select1:
           pluginTemplate:
             id: select1
