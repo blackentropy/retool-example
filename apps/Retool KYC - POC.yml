@@ -3021,7 +3021,7 @@ appTemplate:
                 - disabled: ''
                 - hideClearButton: false
                 - required: false
-                - labels: '{{select12}}'
+                - labels: '{{select12.}}'
             position2:
               position2:
                 container: container7
@@ -3033,7 +3033,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-23T19:46:06.411Z
-            updatedAt: 2019-09-23T19:47:05.580Z
+            updatedAt: 2019-09-23T19:47:52.750Z
   createdAt: null
   version: 2.47.14
   responsiveLayoutDisabled: false
