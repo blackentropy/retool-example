@@ -106,7 +106,7 @@ appTemplate:
                     OR choose from a dropdown)
 
                     - Disable feature... something like select10.value == 'Yes'
-                    and/or 'no' AND '
+                    and/or 'no' AND 
                 - html: false
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -121,7 +121,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-23T16:33:36.448Z
-            updatedAt: 2019-09-23T16:39:07.005Z
+            updatedAt: 2019-09-23T16:39:09.354Z
       - container1:
           pluginTemplate:
             id: container1
