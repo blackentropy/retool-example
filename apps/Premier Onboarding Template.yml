@@ -96,7 +96,7 @@ appTemplate:
             subtype: TextWidget
             template:
               ordered:
-                - value: '<center> <h6> Premier Banking '
+                - value: <center> <h6> Premier Banking Client Onboarding Template
                 - html: true
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -113,7 +113,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-23T16:05:32.284Z
-            updatedAt: 2019-09-23T16:06:02.385Z
+            updatedAt: 2019-09-23T16:06:08.391Z
   createdAt: null
   version: 2.47.14
   responsiveLayoutDisabled: false
