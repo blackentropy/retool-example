@@ -102,8 +102,8 @@ appTemplate:
                     Doing spcial features in table cell entries like dropdowns
 
                     - Text input... how can i link a database only works with
-                    dropdown (eg. if i want to have the option to manually input
-                    )
+                    dropdown (eg. if i want to have the option to manually
+                    input 
                 - html: false
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -118,7 +118,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-23T16:33:36.448Z
-            updatedAt: 2019-09-23T16:36:58.662Z
+            updatedAt: 2019-09-23T16:37:18.537Z
       - container1:
           pluginTemplate:
             id: container1
