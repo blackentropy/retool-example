@@ -2918,9 +2918,9 @@ appTemplate:
                 width: 6
             createdAt: 2019-09-20T20:01:46.273Z
             updatedAt: 2019-09-23T14:56:04.674Z
-      - query3:
+      - privatebanker:
           pluginTemplate:
-            id: query3
+            id: privatebanker
             type: datasource
             subtype: SqlQuery
             resourceName: testdb (read)
