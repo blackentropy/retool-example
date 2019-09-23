@@ -1565,7 +1565,7 @@ appTemplate:
                     checkboxgroup1.value.length == 0 &&
                     checkboxgroup3.value.length == 0 &&
                     checkboxgroup4.value.length == 0 &&
-                    checkboxgroup2.value.length == 0}}
+                    checkboxgroup5.value.length == 0}}
                 - disabledKeyCodes: ''
                 - onBlur: ''
                 - docsSlug: textinput
@@ -1599,7 +1599,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-18T19:54:22.227Z
-            updatedAt: 2019-09-23T22:11:59.199Z
+            updatedAt: 2019-09-23T22:12:02.378Z
       - textinput20:
           pluginTemplate:
             id: textinput20
