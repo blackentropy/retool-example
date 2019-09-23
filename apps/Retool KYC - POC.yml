@@ -3050,11 +3050,14 @@ appTemplate:
                 - playgroundQuerySaveId: 0
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: true
-                - query: ''
+                - query: >-
+                    select "RTAM" from privatebanker_data where
+                    privatebanker_data."Rollup_Name" = {{select12.value}}
                 - playgroundQueryId: 0
                 - privateParams: []
                 - triggersOnSuccess: []
                 - runWhenPageLoadsDelay: ''
+                - warningCodes: []
                 - data: null
                 - importedQueryInputs:
                     ordered: []
@@ -3088,7 +3091,7 @@ appTemplate:
                 - databaseUsernameOverride: ''
                 - queryThrottleTime: '750'
             createdAt: 2019-09-23T19:50:52.366Z
-            updatedAt: 2019-09-23T19:50:52.366Z
+            updatedAt: 2019-09-23T19:55:11.412Z
   createdAt: null
   version: 2.47.14
   responsiveLayoutDisabled: false
