@@ -107,7 +107,7 @@ appTemplate:
 
                     - Disable feature... something like select10.value == 'two
                     conditionso' AND select11.value == 'condition' AND
-                    checkmarkboxgroup.
+                    checkmarkboxgroup.indication == 's
                 - html: false
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -122,7 +122,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-23T16:33:36.448Z
-            updatedAt: 2019-09-23T16:39:46.024Z
+            updatedAt: 2019-09-23T16:40:01.568Z
       - container1:
           pluginTemplate:
             id: container1
