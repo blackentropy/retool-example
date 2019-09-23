@@ -102,7 +102,7 @@ appTemplate:
                     Doing spcial features in table cell entries like dropdowns
 
                     - Text input... how can i link a database only works with
-                    dropdown (eg. if i want)
+                    dropdown (eg. if i )
                 - html: false
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -117,7 +117,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-23T16:33:36.448Z
-            updatedAt: 2019-09-23T16:36:42.446Z
+            updatedAt: 2019-09-23T16:36:48.543Z
       - container1:
           pluginTemplate:
             id: container1
