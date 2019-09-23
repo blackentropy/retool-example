@@ -94,7 +94,7 @@ appTemplate:
             subtype: TextWidget
             template:
               ordered:
-                - value: >
+                - value: >-
                     Sept 23, 2019
 
 
@@ -109,6 +109,8 @@ appTemplate:
                     conditionso' AND select11.value == 'condition' AND
                     checkmarkboxgroup.indication == 'some check mark box
                     condition here'
+
+                    - We h
                 - html: false
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -123,7 +125,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-23T16:33:36.448Z
-            updatedAt: 2019-09-23T16:40:09.114Z
+            updatedAt: 2019-09-23T16:40:14.307Z
       - container1:
           pluginTemplate:
             id: container1
