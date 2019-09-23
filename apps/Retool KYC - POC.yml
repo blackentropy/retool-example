@@ -3017,7 +3017,7 @@ appTemplate:
                 - label: Numbers
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
-                - onSelect: ''
+                - onSelect: privatebanker_name
                 - disabled: ''
                 - hideClearButton: false
                 - required: false
@@ -3033,7 +3033,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-23T19:46:06.411Z
-            updatedAt: 2019-09-23T19:46:06.411Z
+            updatedAt: 2019-09-23T19:46:37.496Z
   createdAt: null
   version: 2.47.14
   responsiveLayoutDisabled: false
