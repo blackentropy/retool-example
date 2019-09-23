@@ -3005,7 +3005,7 @@ appTemplate:
             subtype: SelectWidget
             template:
               ordered:
-                - values: ''
+                - values: '{{privatebanker_name.data.Rollup_Name}}'
                 - allowOutOfRangeValues: false
                 - enableFuzzyMatching: true
                 - searchValue: ''
@@ -3033,7 +3033,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-23T19:46:06.411Z
-            updatedAt: 2019-09-23T19:49:19.487Z
+            updatedAt: 2019-09-23T19:49:28.752Z
   createdAt: null
   version: 2.47.14
   responsiveLayoutDisabled: false
