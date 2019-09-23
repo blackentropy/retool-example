@@ -372,9 +372,8 @@ appTemplate:
             position2:
               position2:
                 container: container1
-                col: 4
                 height: 1
-                width: 3
+                width: 7
             mobilePosition2:
               position2:
                 container: container1
