@@ -94,7 +94,7 @@ appTemplate:
             subtype: TextWidget
             template:
               ordered:
-                - value: >
+                - value: >-
                     Sept 23, 2019
 
 
@@ -104,6 +104,8 @@ appTemplate:
                     - Text input... how can i link a database only works with
                     dropdown (eg. if i want to have the option to manually input
                     OR choose from a dropdown)
+
+                    - Disable 
                 - html: false
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -118,7 +120,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-23T16:33:36.448Z
-            updatedAt: 2019-09-23T16:37:39.627Z
+            updatedAt: 2019-09-23T16:37:58.419Z
       - container1:
           pluginTemplate:
             id: container1
