@@ -160,7 +160,7 @@ appTemplate:
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
                 - onSubmit: ''
-                - type: text
+                - type: datetime-local
                 - allowedRegex: .*
                 - required: false
             position2:
@@ -176,7 +176,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-23T16:07:33.343Z
-            updatedAt: 2019-09-23T16:07:39.278Z
+            updatedAt: 2019-09-23T16:07:51.661Z
   createdAt: null
   version: 2.47.14
   responsiveLayoutDisabled: false
