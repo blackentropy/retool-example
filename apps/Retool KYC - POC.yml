@@ -3005,7 +3005,7 @@ appTemplate:
             subtype: SelectWidget
             template:
               ordered:
-                - values: '[1,2,3]'
+                - values: ''
                 - allowOutOfRangeValues: false
                 - enableFuzzyMatching: true
                 - searchValue: ''
@@ -3033,7 +3033,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-23T19:46:06.411Z
-            updatedAt: 2019-09-23T19:48:47.672Z
+            updatedAt: 2019-09-23T19:49:19.487Z
   createdAt: null
   version: 2.47.14
   responsiveLayoutDisabled: false
