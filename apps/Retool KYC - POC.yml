@@ -1561,7 +1561,7 @@ appTemplate:
                 - readonly: >-
                     {{select10.value == "No" && select11.value == "No" &&
                     select7.value == "No" && select8.value =="No" &&
-                    select9.value && checkboxgroup2.value.length == 0}}
+                    select9.value == "No" && checkboxgroup2.value.length == 0}}
                 - disabledKeyCodes: ''
                 - onBlur: ''
                 - docsSlug: textinput
@@ -1595,7 +1595,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-18T19:54:22.227Z
-            updatedAt: 2019-09-23T22:10:46.739Z
+            updatedAt: 2019-09-23T22:10:50.618Z
       - textinput20:
           pluginTemplate:
             id: textinput20
