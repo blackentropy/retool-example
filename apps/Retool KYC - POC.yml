@@ -131,45 +131,6 @@ appTemplate:
                 width: 4
             createdAt: 2019-09-13T18:25:40.193Z
             updatedAt: 2019-09-23T19:38:11.340Z
-      - textinput2:
-          pluginTemplate:
-            id: textinput2
-            type: widget
-            subtype: TextInputWidget
-            template:
-              ordered:
-                - readonly: ''
-                - disabledKeyCodes: ''
-                - onBlur: privatebanker_name
-                - docsSlug: textinput
-                - currencyType: USD
-                - leftIconName: search
-                - initialValue: ''
-                - tooltipText: ''
-                - value: ''
-                - placeholder: Search here...
-                - label: Private Banker
-                - formattedValue: ''
-                - labelMaxWidth: ''
-                - labelPlacedOnLeft: ''
-                - onSubmit: privatebanker_name
-                - type: text
-                - allowedRegex: .*
-                - required: true
-            position2:
-              position2:
-                container: container7
-                height: 2
-                width: 4
-            mobilePosition2:
-              position2:
-                container: form1
-                row: 1
-                col: 4
-                height: 1
-                width: 4
-            createdAt: 2019-09-13T18:27:49.973Z
-            updatedAt: 2019-09-23T19:38:11.340Z
       - textinput3:
           pluginTemplate:
             id: textinput3
