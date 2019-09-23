@@ -110,7 +110,7 @@ appTemplate:
                     checkmarkboxgroup.indication == 'some check mark box
                     condition here'
 
-                    - We h
+                    - We want our workflow
                 - html: false
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -125,7 +125,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-23T16:33:36.448Z
-            updatedAt: 2019-09-23T16:40:14.307Z
+            updatedAt: 2019-09-23T16:40:17.370Z
       - container1:
           pluginTemplate:
             id: container1
