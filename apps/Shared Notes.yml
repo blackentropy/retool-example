@@ -59,6 +59,29 @@ appTemplate:
                 - queryThrottleTime: '750'
             createdAt: 2019-09-23T05:22:00.316Z
             updatedAt: 2019-09-23T05:22:00.316Z
+      - text1:
+          pluginTemplate:
+            id: text1
+            type: widget
+            subtype: TextWidget
+            template:
+              ordered:
+                - value: "**Hello** <b>friend!</b> \U0001F603"
+                - html: false
+                - scrollOverflow: false
+                - truncateOverflow: false
+            position2:
+              position2:
+                row: 1
+                height: 1
+                width: 3
+            mobilePosition2:
+              position2:
+                row: 1
+                height: 1
+                width: 3
+            createdAt: 2019-09-23T05:22:02.305Z
+            updatedAt: 2019-09-23T05:22:02.305Z
   createdAt: null
   version: 2.47.14
   responsiveLayoutDisabled: false
