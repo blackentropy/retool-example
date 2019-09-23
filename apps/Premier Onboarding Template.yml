@@ -150,7 +150,7 @@ appTemplate:
                 - onBlur: ''
                 - docsSlug: textinput
                 - currencyType: USD
-                - leftIconName: search
+                - leftIconName: calendar
                 - initialValue: ''
                 - tooltipText: ''
                 - value: ''
@@ -176,7 +176,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-23T16:07:33.343Z
-            updatedAt: 2019-09-23T16:07:55.092Z
+            updatedAt: 2019-09-23T16:08:36.811Z
   createdAt: null
   version: 2.47.14
   responsiveLayoutDisabled: false
