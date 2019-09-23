@@ -58,7 +58,7 @@ appTemplate:
                 - databaseUsernameOverride: ''
                 - queryThrottleTime: '750'
             createdAt: 2019-09-23T05:22:00.316Z
-            updatedAt: 2019-09-23T05:22:00.316Z
+            updatedAt: 2019-09-23T16:33:18.053Z
       - text1:
           pluginTemplate:
             id: text1
@@ -75,7 +75,7 @@ appTemplate:
                 - truncateOverflow: false
             position2:
               position2:
-                row: 1
+                row: 9
                 height: 11
                 width: 10
             mobilePosition2:
@@ -84,7 +84,30 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-23T05:22:02.305Z
-            updatedAt: 2019-09-23T05:22:15.260Z
+            updatedAt: 2019-09-23T16:33:18.054Z
+      - text2:
+          pluginTemplate:
+            id: text2
+            type: widget
+            subtype: TextWidget
+            template:
+              ordered:
+                - value: "**Hello** <b>friend!</b> \U0001F603"
+                - html: false
+                - scrollOverflow: false
+                - truncateOverflow: false
+            position2:
+              position2:
+                row: 8
+                height: 1
+                width: 3
+            mobilePosition2:
+              position2:
+                row: 8
+                height: 1
+                width: 3
+            createdAt: 2019-09-23T16:33:36.448Z
+            updatedAt: 2019-09-23T16:33:36.448Z
   createdAt: null
   version: 2.47.14
   responsiveLayoutDisabled: false
