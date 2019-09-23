@@ -271,7 +271,7 @@ appTemplate:
                 - value: ''
                 - maxResults: 50
                 - placeholder: ''
-                - label: 'Has the KYC/Account Opening Form '
+                - label: Has the KYC/Account Opening Form been veri
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
                 - onSelect: ''
@@ -292,7 +292,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-23T16:19:09.450Z
-            updatedAt: 2019-09-23T16:19:36.078Z
+            updatedAt: 2019-09-23T16:19:38.687Z
   createdAt: null
   version: 2.47.14
   responsiveLayoutDisabled: false
