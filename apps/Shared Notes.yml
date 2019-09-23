@@ -73,8 +73,8 @@ appTemplate:
             position2:
               position2:
                 row: 1
-                height: 1
-                width: 3
+                height: 11
+                width: 10
             mobilePosition2:
               position2:
                 row: 1
