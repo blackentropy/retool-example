@@ -153,7 +153,7 @@ appTemplate:
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
                 - onSubmit: ''
-                - type: week
+                - type: text
                 - allowedRegex: .*
                 - required: true
             position2:
@@ -169,7 +169,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-13T18:27:49.973Z
-            updatedAt: 2019-09-23T15:31:02.107Z
+            updatedAt: 2019-09-23T15:31:08.597Z
       - textinput3:
           pluginTemplate:
             id: textinput3
