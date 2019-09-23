@@ -246,7 +246,7 @@ appTemplate:
                 container: container1
                 row: 3
                 height: 1
-                width: 4
+                width: 5
             mobilePosition2:
               position2:
                 container: container1
