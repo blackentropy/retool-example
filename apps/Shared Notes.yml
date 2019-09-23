@@ -94,7 +94,7 @@ appTemplate:
             subtype: TextWidget
             template:
               ordered:
-                - value: "Sept 23, 2019\n\n- Table: how to modify table cell entries and add new rows. Doing spcial features in table cell entries like dropdowns\n- Text input... how can i link a database only works with dropdown (eg. if i want to have the option to manually input OR choose from a dropdown)\n- Disable feature... something like select10.value == 'two conditionso' AND select11.value == 'condition' AND checkmarkboxgroup.indication == 'some check mark box condition here'\n- We want our workflow to be as follows:\n\n\t(i) Private Banker fills out the form (only they can do it)\n(ii) Upon submission, AML team reviews form (only they can review completed forms)\n\n(iii) Then after review, data goes into internal database on Retool. Queries built to reflect c"
+                - value: "Sept 23, 2019\n\n- Table: how to modify table cell entries and add new rows. Doing spcial features in table cell entries like dropdowns\n- Text input... how can i link a database only works with dropdown (eg. if i want to have the option to manually input OR choose from a dropdown)\n- Disable feature... something like select10.value == 'two conditionso' AND select11.value == 'condition' AND checkmarkboxgroup.indication == 'some check mark box condition here'\n- We want our workflow to be as follows:\n\n\t(i) Private Banker fills out the form (only they can do it)\n(ii) Upon submission, AML team reviews form (only they can review completed forms)\n\n(iii) Then after review, data goes into internal database on Retool. Queries built to reflect data stored (eg. net worth"
                 - html: false
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -109,7 +109,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-23T16:33:36.448Z
-            updatedAt: 2019-09-23T16:42:09.861Z
+            updatedAt: 2019-09-23T16:42:17.966Z
       - container1:
           pluginTemplate:
             id: container1
