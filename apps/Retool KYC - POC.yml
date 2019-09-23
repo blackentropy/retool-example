@@ -192,7 +192,7 @@ appTemplate:
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
                 - onSubmit: ''
-                - type: range
+                - type: tel
                 - allowedRegex: .*
                 - required: false
             position2:
@@ -209,7 +209,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-13T18:29:00.895Z
-            updatedAt: 2019-09-23T14:31:36.510Z
+            updatedAt: 2019-09-23T14:32:07.563Z
       - select1:
           pluginTemplate:
             id: select1
