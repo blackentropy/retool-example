@@ -3021,7 +3021,7 @@ appTemplate:
                 - disabled: ''
                 - hideClearButton: false
                 - required: false
-                - labels: '{{privatebanker_name.data}}'
+                - labels: '{{privatebanker_name.data.Rollup_n}}'
             position2:
               position2:
                 container: container7
@@ -3033,7 +3033,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-23T19:46:06.411Z
-            updatedAt: 2019-09-23T19:48:12.288Z
+            updatedAt: 2019-09-23T19:48:20.046Z
   createdAt: null
   version: 2.47.14
   responsiveLayoutDisabled: false
