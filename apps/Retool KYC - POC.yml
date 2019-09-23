@@ -140,7 +140,7 @@ appTemplate:
               ordered:
                 - readonly: ''
                 - disabledKeyCodes: ''
-                - onBlur: ''
+                - onBlur: privatebanker_name
                 - docsSlug: textinput
                 - currencyType: USD
                 - leftIconName: search
@@ -169,7 +169,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-13T18:27:49.973Z
-            updatedAt: 2019-09-23T15:24:21.764Z
+            updatedAt: 2019-09-23T15:26:57.129Z
       - textinput3:
           pluginTemplate:
             id: textinput3
