@@ -91,7 +91,7 @@ appTemplate:
                 - spinWhenChildrenAreFetching: true
             position2:
               position2:
-                row: 5
+                row: 7
                 col: 4
                 height: 14
                 width: 8
@@ -317,6 +317,38 @@ appTemplate:
                 width: 11
             createdAt: 2019-04-22T05:14:02.203Z
             updatedAt: 2019-09-23T16:00:34.629Z
+      - form1:
+          pluginTemplate:
+            id: form1
+            type: widget
+            subtype: FormWidget
+            template:
+              ordered:
+                - spinWhenChildrenAreFetching: true
+                - clearFormAfterSubmit: false
+                - borderless: false
+                - data: ''
+                - submitButtonFullWidth: false
+                - submitDisabled: ''
+                - submitButtonText: Submit
+                - onSubmit: ''
+                - requiredFormControls: []
+                - loading: ''
+                - disabled: ''
+            position2:
+              position2:
+                row: 1
+                col: 5
+                height: 6
+                width: 6
+            mobilePosition2:
+              position2:
+                row: 1
+                col: 5
+                height: 6
+                width: 6
+            createdAt: 2019-09-23T16:02:37.232Z
+            updatedAt: 2019-09-23T16:02:37.232Z
   createdAt: null
   version: 2.47.14
   responsiveLayoutDisabled: false
