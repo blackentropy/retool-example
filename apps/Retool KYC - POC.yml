@@ -2037,7 +2037,7 @@ appTemplate:
             subtype: SelectWidget
             template:
               ordered:
-                - values: '[1,2,3]'
+                - values: '[''Yes,"No"]'
                 - allowOutOfRangeValues: false
                 - enableFuzzyMatching: true
                 - searchValue: ''
@@ -2071,7 +2071,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-19T19:35:05.923Z
-            updatedAt: 2019-09-23T15:30:40.201Z
+            updatedAt: 2019-09-23T15:44:46.058Z
       - textinput24:
           pluginTemplate:
             id: textinput24
