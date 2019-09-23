@@ -429,7 +429,7 @@ appTemplate:
                 - currencyType: USD
                 - leftIconName: ''
                 - initialValue: ''
-                - tooltipText: C
+                - tooltipText: Client Risk Index ()
                 - value: ''
                 - placeholder: ''
                 - label: CRI
@@ -455,7 +455,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-16T13:09:27.943Z
-            updatedAt: 2019-09-23T22:00:15.348Z
+            updatedAt: 2019-09-23T22:00:21.088Z
       - textinput9:
           pluginTemplate:
             id: textinput9
