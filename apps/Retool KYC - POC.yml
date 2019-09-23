@@ -152,7 +152,7 @@ appTemplate:
                 - formattedValue: ''
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
-                - onSubmit: ''
+                - onSubmit: privatebanker_name
                 - type: text
                 - allowedRegex: .*
                 - required: false
@@ -169,7 +169,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-13T18:27:49.973Z
-            updatedAt: 2019-09-23T14:56:04.662Z
+            updatedAt: 2019-09-23T15:23:45.869Z
       - textinput3:
           pluginTemplate:
             id: textinput3
