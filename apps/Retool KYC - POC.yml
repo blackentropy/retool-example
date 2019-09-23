@@ -3016,7 +3016,7 @@ appTemplate:
                 - tooltipText: ''
                 - value: ''
                 - maxResults: 50
-                - placeholder: ''
+                - placeholder: Search here...
                 - label: Private Banker
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
@@ -3036,7 +3036,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-23T19:46:06.411Z
-            updatedAt: 2019-09-23T22:00:01.051Z
+            updatedAt: 2019-09-23T22:03:11.566Z
       - rtam:
           pluginTemplate:
             id: rtam
