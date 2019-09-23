@@ -105,8 +105,8 @@ appTemplate:
                     dropdown (eg. if i want to have the option to manually input
                     OR choose from a dropdown)
 
-                    - Disable feature... something like select10.value == 'o'
-                    AND select11.value == 'condition'
+                    - Disable feature... something like select10.value == 'two
+                    conditionso' AND select11.value == 'condition'
                 - html: false
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -121,7 +121,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-23T16:33:36.448Z
-            updatedAt: 2019-09-23T16:39:29.082Z
+            updatedAt: 2019-09-23T16:39:31.938Z
       - container1:
           pluginTemplate:
             id: container1
