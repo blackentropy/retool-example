@@ -66,10 +66,12 @@ appTemplate:
             subtype: TextWidget
             template:
               ordered:
-                - value: |-
+                - value: |+
                     # Hi Ryan!
 
                     We can keep track of notes here for now :)
+
+
                 - html: false
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -84,7 +86,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-23T05:22:02.305Z
-            updatedAt: 2019-09-23T16:33:18.054Z
+            updatedAt: 2019-09-23T16:33:47.075Z
       - text2:
           pluginTemplate:
             id: text2
