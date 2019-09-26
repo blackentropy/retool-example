@@ -3306,10 +3306,10 @@ appTemplate:
             position2:
               position2:
                 container: container12
-                row: 4
-                col: 7
-                height: 1
-                width: 4
+                row: 1
+                col: 8
+                height: 2
+                width: 2
             mobilePosition2:
               position2:
                 container: container12
