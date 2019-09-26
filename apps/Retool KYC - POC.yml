@@ -3207,7 +3207,7 @@ appTemplate:
                 - disabledKeyCodes: ''
                 - onBlur: ''
                 - docsSlug: textinput
-                - currencyType: USD
+                - currencyType: CAD
                 - leftIconName: search
                 - initialValue: ''
                 - tooltipText: ''
@@ -3236,7 +3236,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-26T20:43:23.701Z
-            updatedAt: 2019-09-26T20:43:39.200Z
+            updatedAt: 2019-09-26T20:43:43.569Z
   createdAt: null
   version: 2.47.16
   responsiveLayoutDisabled: false
