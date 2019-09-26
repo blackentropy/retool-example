@@ -2489,7 +2489,7 @@ appTemplate:
                 - pageSize: 3
                 - selectedColumn: null
                 - actionButtonPosition: left
-                - bulkUpdateAction: ''
+                - bulkUpdateAction: countries_world_minus_canada
                 - afterCursor: ''
                 - changeSet:
                     object: {}
@@ -2537,7 +2537,7 @@ appTemplate:
                 height: 8
                 width: 8
             createdAt: 2019-09-20T14:47:06.960Z
-            updatedAt: 2019-09-23T22:18:11.326Z
+            updatedAt: 2019-09-26T19:44:46.504Z
       - image1:
           pluginTemplate:
             id: image1
