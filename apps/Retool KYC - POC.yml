@@ -3224,10 +3224,10 @@ appTemplate:
             position2:
               position2:
                 container: container12
-                row: 2
+                row: 1
                 col: 4
-                height: 1
-                width: 4
+                height: 2
+                width: 3
             mobilePosition2:
               position2:
                 container: container12
