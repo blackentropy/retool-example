@@ -987,47 +987,6 @@ appTemplate:
                 width: 4
             createdAt: 2019-09-16T13:39:36.413Z
             updatedAt: 2019-09-23T22:18:11.322Z
-      - textinput12:
-          pluginTemplate:
-            id: textinput12
-            type: widget
-            subtype: TextInputWidget
-            template:
-              ordered:
-                - readonly: ''
-                - disabledKeyCodes: ''
-                - onBlur: ''
-                - docsSlug: textinput
-                - currencyType: USD
-                - leftIconName: search
-                - initialValue: ''
-                - tooltipText: ''
-                - value: ''
-                - placeholder: Enter details here
-                - label: >-
-                    Source of Wealth and Composition - Include Corroboration of
-                    Source of Wealth
-                - formattedValue: ''
-                - labelMaxWidth: ''
-                - labelPlacedOnLeft: ''
-                - onSubmit: ''
-                - type: text
-                - allowedRegex: .*
-                - required: false
-            position2:
-              position2:
-                container: container2
-                row: 9
-                height: 4
-                width: 12
-            mobilePosition2:
-              position2:
-                container: form1
-                row: 30
-                height: 4
-                width: 12
-            createdAt: 2019-09-16T13:49:47.979Z
-            updatedAt: 2019-09-23T22:18:11.322Z
       - textinput13:
           pluginTemplate:
             id: textinput13
