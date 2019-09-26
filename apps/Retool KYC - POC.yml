@@ -3300,7 +3300,7 @@ appTemplate:
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
                 - onSubmit: ''
-                - type: text
+                - type: currency
                 - allowedRegex: .*
                 - required: false
             position2:
@@ -3318,7 +3318,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-26T20:45:17.326Z
-            updatedAt: 2019-09-26T20:45:23.952Z
+            updatedAt: 2019-09-26T20:45:28.290Z
   createdAt: null
   version: 2.47.16
   responsiveLayoutDisabled: false
