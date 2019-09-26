@@ -3289,12 +3289,12 @@ appTemplate:
                 - disabledKeyCodes: ''
                 - onBlur: ''
                 - docsSlug: textinput
-                - currencyType: USD
+                - currencyType: CAD
                 - leftIconName: search
                 - initialValue: ''
                 - tooltipText: ''
                 - value: ''
-                - placeholder: Search here...
+                - placeholder: ''
                 - label: Business Income
                 - formattedValue: ''
                 - labelMaxWidth: ''
@@ -3318,7 +3318,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-26T20:45:17.326Z
-            updatedAt: 2019-09-26T20:45:28.290Z
+            updatedAt: 2019-09-26T20:45:35.437Z
   createdAt: null
   version: 2.47.16
   responsiveLayoutDisabled: false
