@@ -3100,7 +3100,7 @@ appTemplate:
             template:
               ordered:
                 - value: < center> <h4>Sources of Wealth
-                - html: false
+                - html: true
                 - scrollOverflow: false
                 - truncateOverflow: false
             position2:
@@ -3115,7 +3115,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-26T20:39:04.009Z
-            updatedAt: 2019-09-26T20:40:00.649Z
+            updatedAt: 2019-09-26T20:40:06.267Z
   createdAt: null
   version: 2.47.16
   responsiveLayoutDisabled: false
