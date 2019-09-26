@@ -2508,6 +2508,7 @@ appTemplate:
                 - columnEditable:
                     ordered:
                       - Type: true
+                      - Description: true
                 - columnMappers:
                     ordered: []
                 - showClearSelection: false
@@ -2538,7 +2539,7 @@ appTemplate:
                 height: 8
                 width: 8
             createdAt: 2019-09-20T14:47:06.960Z
-            updatedAt: 2019-09-26T19:44:51.353Z
+            updatedAt: 2019-09-26T19:44:58.449Z
       - image1:
           pluginTemplate:
             id: image1
