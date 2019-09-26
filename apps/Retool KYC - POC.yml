@@ -3099,7 +3099,7 @@ appTemplate:
             subtype: TextWidget
             template:
               ordered:
-                - value: ''
+                - value: Sources of Wealth
                 - html: false
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -3116,7 +3116,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-26T20:39:04.009Z
-            updatedAt: 2019-09-26T20:39:14.284Z
+            updatedAt: 2019-09-26T20:39:17.535Z
   createdAt: null
   version: 2.47.16
   responsiveLayoutDisabled: false
