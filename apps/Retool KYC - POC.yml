@@ -3391,7 +3391,7 @@ appTemplate:
             subtype: TextWidget
             template:
               ordered:
-                - value: '<center> <h3> Detailed '
+                - value: <center> <h3> Detailed Family History
                 - html: false
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -3408,7 +3408,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-27T19:04:00.652Z
-            updatedAt: 2019-09-27T19:04:20.917Z
+            updatedAt: 2019-09-27T19:04:24.085Z
   createdAt: null
   version: 2.47.16
   responsiveLayoutDisabled: false
