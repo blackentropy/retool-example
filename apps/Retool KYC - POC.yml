@@ -3400,7 +3400,7 @@ appTemplate:
                 container: container13
                 col: 3
                 height: 1
-                width: 3
+                width: 9
             mobilePosition2:
               position2:
                 container: container13
