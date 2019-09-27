@@ -3545,7 +3545,7 @@ appTemplate:
                 - initialValue: ''
                 - tooltipText: ''
                 - value: ''
-                - placeholder: Search here...
+                - placeholder: ''
                 - label: >-
                     Holding Companies (Beneficial Owner(s) & Percentage
                     Ownership)
@@ -3571,7 +3571,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-27T19:09:59.627Z
-            updatedAt: 2019-09-27T19:11:23.533Z
+            updatedAt: 2019-09-27T19:11:26.116Z
   createdAt: null
   version: 2.47.16
   responsiveLayoutDisabled: false
