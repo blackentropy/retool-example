@@ -3459,11 +3459,11 @@ appTemplate:
                 - onBlur: ''
                 - docsSlug: textinput
                 - currencyType: USD
-                - leftIconName: search
+                - leftIconName: ''
                 - initialValue: ''
                 - tooltipText: ''
                 - value: ''
-                - placeholder: Search here...
+                - placeholder: ''
                 - label: 'Household Revenue '
                 - formattedValue: ''
                 - labelMaxWidth: ''
@@ -3487,7 +3487,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-27T19:05:43.331Z
-            updatedAt: 2019-09-27T19:05:56.435Z
+            updatedAt: 2019-09-27T19:08:49.186Z
       - textinput35:
           pluginTemplate:
             id: textinput35
