@@ -3505,7 +3505,7 @@ appTemplate:
                 - tooltipText: ''
                 - value: ''
                 - placeholder: Search here...
-                - label: Trusts (Bene)
+                - label: Trusts (Beneficiaries & Trustee)
                 - formattedValue: ''
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
@@ -3528,7 +3528,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-27T19:07:22.099Z
-            updatedAt: 2019-09-27T19:07:31.196Z
+            updatedAt: 2019-09-27T19:07:36.452Z
   createdAt: null
   version: 2.47.16
   responsiveLayoutDisabled: false
