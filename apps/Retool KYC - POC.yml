@@ -2244,7 +2244,7 @@ appTemplate:
                 - labelPlacedOnLeft: ''
                 - onSelect: ''
                 - allowCustomValues: false
-                - disabled: '{{select6.value == ""}}'
+                - disabled: '{{select6.value == "No"}}'
                 - hideClearButton: false
                 - required: false
                 - labels: '{{countries_world_minus_canada.data.name}}'
@@ -2263,7 +2263,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-20T14:10:17.100Z
-            updatedAt: 2019-09-27T21:36:28.374Z
+            updatedAt: 2019-09-27T21:36:31.851Z
       - textinput26:
           pluginTemplate:
             id: textinput26
