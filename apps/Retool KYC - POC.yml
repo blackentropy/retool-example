@@ -148,7 +148,7 @@ appTemplate:
                 - tooltipText: ''
                 - value: ''
                 - placeholder: Search here...
-                - label: Onboarding Date
+                - label: Date of Completion
                 - formattedValue: ''
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
@@ -170,7 +170,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-13T18:29:00.895Z
-            updatedAt: 2019-09-26T19:57:04.596Z
+            updatedAt: 2019-09-27T21:35:50.006Z
       - select1:
           pluginTemplate:
             id: select1
