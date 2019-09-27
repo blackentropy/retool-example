@@ -82,7 +82,7 @@ appTemplate:
                 - disabled: ''
             position2:
               position2:
-                height: 105
+                height: 112
                 width: 12
             mobilePosition2:
               position2:
@@ -976,7 +976,7 @@ appTemplate:
             position2:
               position2:
                 container: container2
-                row: 5
+                row: 20
                 height: 4
                 width: 12
             mobilePosition2:
@@ -1058,7 +1058,7 @@ appTemplate:
             position2:
               position2:
                 container: container2
-                row: 17
+                row: 24
                 height: 4
                 width: 12
             mobilePosition2:
@@ -2549,7 +2549,7 @@ appTemplate:
             position2:
               position2:
                 container: container2
-                row: 21
+                row: 28
                 height: 4
                 width: 12
             mobilePosition2:
@@ -2629,7 +2629,7 @@ appTemplate:
               position2:
                 container: form1
                 row: 32
-                height: 26
+                height: 33
                 width: 12
             mobilePosition2:
               position2:
@@ -2772,7 +2772,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 58
+                row: 65
                 height: 25
                 width: 12
             mobilePosition2:
@@ -2796,7 +2796,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 83
+                row: 90
                 height: 8
                 width: 12
             mobilePosition2:
@@ -2820,7 +2820,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 91
+                row: 107
                 height: 4
                 width: 12
             mobilePosition2:
@@ -2844,7 +2844,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 95
+                row: 98
                 height: 9
                 width: 12
             mobilePosition2:
@@ -3080,7 +3080,7 @@ appTemplate:
             position2:
               position2:
                 container: container2
-                row: 13
+                row: 16
                 height: 4
                 width: 12
             mobilePosition2:
@@ -3360,6 +3360,31 @@ appTemplate:
                 width: 4
             createdAt: 2019-09-26T20:46:05.789Z
             updatedAt: 2019-09-27T18:57:34.473Z
+      - container13:
+          pluginTemplate:
+            id: container13
+            type: widget
+            subtype: ContainerWidget
+            template:
+              ordered:
+                - disabled: ''
+                - spinWhenChildrenAreFetching: true
+            position2:
+              position2:
+                container: container2
+                row: 8
+                col: 4
+                height: 8
+                width: 6
+            mobilePosition2:
+              position2:
+                container: container2
+                row: 8
+                col: 4
+                height: 8
+                width: 6
+            createdAt: 2019-09-27T19:03:17.736Z
+            updatedAt: 2019-09-27T19:03:17.736Z
   createdAt: null
   version: 2.47.16
   responsiveLayoutDisabled: false
