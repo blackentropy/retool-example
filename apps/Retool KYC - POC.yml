@@ -3500,11 +3500,11 @@ appTemplate:
                 - onBlur: ''
                 - docsSlug: textinput
                 - currencyType: USD
-                - leftIconName: search
+                - leftIconName: ''
                 - initialValue: ''
                 - tooltipText: ''
                 - value: ''
-                - placeholder: Search here...
+                - placeholder: ''
                 - label: Trusts (Beneficiaries & Trustee Information)
                 - formattedValue: ''
                 - labelMaxWidth: ''
@@ -3528,7 +3528,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-27T19:07:22.099Z
-            updatedAt: 2019-09-27T19:07:39.338Z
+            updatedAt: 2019-09-27T19:08:54.059Z
   createdAt: null
   version: 2.47.16
   responsiveLayoutDisabled: false
