@@ -3373,7 +3373,7 @@ appTemplate:
               position2:
                 container: container2
                 row: 6
-                height: 6
+                height: 7
                 width: 12
             mobilePosition2:
               position2:
@@ -3516,7 +3516,7 @@ appTemplate:
             position2:
               position2:
                 container: container13
-                row: 1
+                row: 2
                 col: 6
                 height: 4
                 width: 3
@@ -3529,6 +3529,47 @@ appTemplate:
                 width: 4
             createdAt: 2019-09-27T19:07:22.099Z
             updatedAt: 2019-09-27T19:08:54.059Z
+      - textinput36:
+          pluginTemplate:
+            id: textinput36
+            type: widget
+            subtype: TextInputWidget
+            template:
+              ordered:
+                - readonly: ''
+                - disabledKeyCodes: ''
+                - onBlur: ''
+                - docsSlug: textinput
+                - currencyType: USD
+                - leftIconName: search
+                - initialValue: ''
+                - tooltipText: ''
+                - value: ''
+                - placeholder: Search here...
+                - label: Name
+                - formattedValue: ''
+                - labelMaxWidth: ''
+                - labelPlacedOnLeft: ''
+                - onSubmit: ''
+                - type: text
+                - allowedRegex: .*
+                - required: false
+            position2:
+              position2:
+                container: container13
+                row: 1
+                col: 8
+                height: 1
+                width: 4
+            mobilePosition2:
+              position2:
+                container: container13
+                row: 1
+                col: 8
+                height: 1
+                width: 4
+            createdAt: 2019-09-27T19:09:59.627Z
+            updatedAt: 2019-09-27T19:09:59.627Z
   createdAt: null
   version: 2.47.16
   responsiveLayoutDisabled: false
