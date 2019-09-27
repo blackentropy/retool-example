@@ -3420,11 +3420,11 @@ appTemplate:
                 - onBlur: ''
                 - docsSlug: textinput
                 - currencyType: USD
-                - leftIconName: search
+                - leftIconName: ''
                 - initialValue: ''
                 - tooltipText: ''
                 - value: ''
-                - placeholder: Search here...
+                - placeholder: ''
                 - label: 'Occupation(s) '
                 - formattedValue: ''
                 - labelMaxWidth: ''
@@ -3446,7 +3446,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-27T19:04:50.872Z
-            updatedAt: 2019-09-27T19:05:04.374Z
+            updatedAt: 2019-09-27T19:08:43.684Z
       - textinput34:
           pluginTemplate:
             id: textinput34
