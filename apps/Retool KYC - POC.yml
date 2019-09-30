@@ -3900,7 +3900,7 @@ appTemplate:
                 - exportTemplate: null
                 - url: ''
                 - newWindow: false
-                - value: Submit
+                - value: Save
                 - exportQuery: ''
                 - action: ''
                 - internalUrlQuery: ''
@@ -3921,7 +3921,7 @@ appTemplate:
                 height: 1
                 width: 2
             createdAt: 2019-09-30T20:46:35.719Z
-            updatedAt: 2019-09-30T20:46:35.719Z
+            updatedAt: 2019-09-30T20:47:33.169Z
   createdAt: null
   version: 2.47.16
   responsiveLayoutDisabled: false
