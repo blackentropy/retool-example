@@ -3885,6 +3885,43 @@ appTemplate:
                 width: 2
             createdAt: 2019-09-30T20:45:55.187Z
             updatedAt: 2019-09-30T20:46:01.306Z
+      - button6:
+          pluginTemplate:
+            id: button6
+            type: widget
+            subtype: ButtonWidget
+            template:
+              ordered:
+                - valueToCopy: ''
+                - color: ''
+                - internalUrlHashParams: ''
+                - exportFileType: csv
+                - buttonType: action
+                - exportTemplate: null
+                - url: ''
+                - newWindow: false
+                - value: Submit
+                - exportQuery: ''
+                - action: ''
+                - internalUrlQuery: ''
+                - internalUrlPath: ''
+                - exportFileName: ''
+                - loading: ''
+                - disabled: ''
+            position2:
+              position2:
+                container: container1
+                col: 10
+                height: 1
+                width: 2
+            mobilePosition2:
+              position2:
+                container: container1
+                col: 10
+                height: 1
+                width: 2
+            createdAt: 2019-09-30T20:46:35.719Z
+            updatedAt: 2019-09-30T20:46:35.719Z
   createdAt: null
   version: 2.47.16
   responsiveLayoutDisabled: false
