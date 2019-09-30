@@ -2121,9 +2121,7 @@ appTemplate:
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
                 - disabled: ''
-                - labels: >-
-                    [ "New Client to RBC","Existing RBC Client","Client added to
-                    existing HH"]
+                - labels: ''
             position2:
               position2:
                 container: container6
@@ -2138,7 +2136,7 @@ appTemplate:
                 height: 2
                 width: 2
             createdAt: 2019-09-20T13:15:49.714Z
-            updatedAt: 2019-09-30T15:47:05.686Z
+            updatedAt: 2019-09-30T15:47:16.619Z
       - multiselect1:
           pluginTemplate:
             id: multiselect1
