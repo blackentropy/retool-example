@@ -184,7 +184,9 @@ appTemplate:
             subtype: SelectWidget
             template:
               ordered:
-                - values: '[''n/a'', ''coi'', ''existing'', ''self'', ''rbc_bank_ga'', ''rbc_]'
+                - values: >-
+                    ['n/a', 'coi', 'existing', 'self', 'rbc_bank_ga',
+                    'rbc_capital_markets',']
                 - allowOutOfRangeValues: false
                 - enableFuzzyMatching: true
                 - searchValue: ''
@@ -227,7 +229,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-13T18:48:07.272Z
-            updatedAt: 2019-09-30T15:50:59.486Z
+            updatedAt: 2019-09-30T15:51:04.196Z
       - textinput4:
           pluginTemplate:
             id: textinput4
