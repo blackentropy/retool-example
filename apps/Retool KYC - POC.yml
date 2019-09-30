@@ -3655,7 +3655,7 @@ appTemplate:
                 - newWindow: false
                 - value: Save
                 - exportQuery: ''
-                - action: ''
+                - action: button1Trigger
                 - internalUrlQuery: ''
                 - internalUrlPath: ''
                 - exportFileName: ''
@@ -3674,7 +3674,7 @@ appTemplate:
                 height: 1
                 width: 2
             createdAt: 2019-09-30T15:54:22.135Z
-            updatedAt: 2019-09-30T15:54:25.568Z
+            updatedAt: 2019-09-30T15:54:39.206Z
       - button1Trigger:
           pluginTemplate:
             id: button1Trigger
