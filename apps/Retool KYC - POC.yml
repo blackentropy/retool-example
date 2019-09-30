@@ -4073,9 +4073,9 @@ appTemplate:
                 width: 2
             createdAt: 2019-09-30T20:49:21.283Z
             updatedAt: 2019-09-30T20:49:21.283Z
-      - query8:
+      - save_relationship_management_data:
           pluginTemplate:
-            id: query8
+            id: save_relationship_management_data
             type: datasource
             subtype: RetoolTableQuery
             resourceName: testdb (write)
