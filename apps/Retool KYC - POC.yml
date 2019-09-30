@@ -243,7 +243,7 @@ appTemplate:
                 - docsSlug: textinput
                 - currencyType: USD
                 - leftIconName: search
-                - initialValue: '{{client_data.data.client_referral_name}}'
+                - initialValue: '{{client_data.data.client_referral_name[0]}}'
                 - tooltipText: ''
                 - value: ''
                 - placeholder: Search here...
@@ -270,7 +270,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-16T12:57:08.002Z
-            updatedAt: 2019-09-30T15:53:07.764Z
+            updatedAt: 2019-09-30T15:53:10.057Z
       - text3:
           pluginTemplate:
             id: text3
