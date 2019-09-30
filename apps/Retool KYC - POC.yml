@@ -184,18 +184,7 @@ appTemplate:
             subtype: SelectWidget
             template:
               ordered:
-                - values: >-
-                    ["N/A - Adding client to existing Household","COI - Centre
-                    of Influence","Existing Private Banking Client","RBC Private
-                    Banker (self)","RBC Bank GA","RBC Capital Markets","RBC
-                    Commercial Markets", "RBC DS Investment Advisor", "RBC
-                    Executive", "RBC Financial Planner", "RBC Private Banking
-                    International", "RBC IRP", "RBC Mortgage Specialist", "RBC
-                    Retail Branch", "RBC PH&N Investment Counsellor", "RBC
-                    Estate & Trust", "CNB (City National)", "Group Solutions",
-                    "Auto Finance", "NCG (National Client Group)", "ESC
-                    (Enterprise Strategic Client Group)", "Wealth Mgmt
-                    US/Asia/UK"]
+                - values: ''
                 - allowOutOfRangeValues: false
                 - enableFuzzyMatching: true
                 - searchValue: ''
@@ -211,7 +200,18 @@ appTemplate:
                 - disabled: ''
                 - hideClearButton: false
                 - required: false
-                - labels: ''
+                - labels: >-
+                    ["N/A - Adding client to existing Household","COI - Centre
+                    of Influence","Existing Private Banking Client","RBC Private
+                    Banker (self)","RBC Bank GA","RBC Capital Markets","RBC
+                    Commercial Markets", "RBC DS Investment Advisor", "RBC
+                    Executive", "RBC Financial Planner", "RBC Private Banking
+                    International", "RBC IRP", "RBC Mortgage Specialist", "RBC
+                    Retail Branch", "RBC PH&N Investment Counsellor", "RBC
+                    Estate & Trust", "CNB (City National)", "Group Solutions",
+                    "Auto Finance", "NCG (National Client Group)", "ESC
+                    (Enterprise Strategic Client Group)", "Wealth Mgmt
+                    US/Asia/UK"]
             position2:
               position2:
                 container: container6
@@ -227,7 +227,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-13T18:48:07.272Z
-            updatedAt: 2019-09-30T15:50:06.309Z
+            updatedAt: 2019-09-30T15:50:37.756Z
       - textinput4:
           pluginTemplate:
             id: textinput4
