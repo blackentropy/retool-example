@@ -3609,7 +3609,7 @@ appTemplate:
                 - searchValue: ''
                 - displayValue: ''
                 - tooltipText: ''
-                - value: ''
+                - value: '{{ cli}}'
                 - maxResults: 50
                 - placeholder: ''
                 - label: Type of client
@@ -3635,7 +3635,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-30T15:47:53.416Z
-            updatedAt: 2019-09-30T15:48:20.265Z
+            updatedAt: 2019-09-30T15:48:39.721Z
   createdAt: null
   version: 2.47.16
   responsiveLayoutDisabled: false
