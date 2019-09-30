@@ -2112,7 +2112,7 @@ appTemplate:
             subtype: CheckboxGroupWidget
             template:
               ordered:
-                - values: '[''new'', ''exi'']'
+                - values: '[''new'', ''existing'', ''added_to_existing'']'
                 - verticalAligned: false
                 - onChange: ''
                 - tooltipText: ''
@@ -2138,7 +2138,7 @@ appTemplate:
                 height: 2
                 width: 2
             createdAt: 2019-09-20T13:15:49.714Z
-            updatedAt: 2019-09-30T15:46:52.374Z
+            updatedAt: 2019-09-30T15:46:57.727Z
       - multiselect1:
           pluginTemplate:
             id: multiselect1
