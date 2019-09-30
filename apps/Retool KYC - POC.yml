@@ -3574,9 +3574,9 @@ appTemplate:
                 width: 4
             createdAt: 2019-09-30T15:44:58.236Z
             updatedAt: 2019-09-30T15:45:13.992Z
-      - query6:
+      - client_data:
           pluginTemplate:
-            id: query6
+            id: client_data
             type: datasource
             subtype: SqlQuery
             resourceName: testdb (read)
