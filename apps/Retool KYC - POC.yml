@@ -4102,7 +4102,7 @@ appTemplate:
                 - showSuccessToaster: true
                 - cacheKeyTtl: ''
                 - filterBy: ''
-                - actionType: ''
+                - actionType: UPDATE_BY
                 - triggersOnFailure: []
                 - confirmationMessage: null
                 - isFetching: false
@@ -4124,14 +4124,14 @@ appTemplate:
                     row.quantity > 20)
 
                     return data
-                - tableName: ''
+                - tableName: clients
                 - queryTimeout: '10000'
                 - requireConfirmation: false
                 - enableCaching: false
                 - doNotThrowOnNoOp: false
                 - queryThrottleTime: '750'
             createdAt: 2019-09-30T21:13:54.048Z
-            updatedAt: 2019-09-30T21:13:54.048Z
+            updatedAt: 2019-09-30T21:26:23.723Z
   createdAt: null
   version: 2.47.16
   responsiveLayoutDisabled: false
