@@ -3675,9 +3675,9 @@ appTemplate:
                 width: 2
             createdAt: 2019-09-30T15:54:22.135Z
             updatedAt: 2019-09-30T15:54:44.689Z
-      - save_client_data:
+      - save_client_source_data:
           pluginTemplate:
-            id: save_client_data
+            id: save_client_source_data
             type: datasource
             subtype: RetoolTableQuery
             resourceName: testdb (write)
