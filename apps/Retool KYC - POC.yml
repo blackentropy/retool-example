@@ -3675,9 +3675,9 @@ appTemplate:
                 width: 2
             createdAt: 2019-09-30T15:54:22.135Z
             updatedAt: 2019-09-30T15:54:39.206Z
-      - button1Trigger:
+      - save_client_data:
           pluginTemplate:
-            id: button1Trigger
+            id: save_client_data
             type: datasource
             subtype: RESTQuery
             resourceName: REST-WithoutResource
