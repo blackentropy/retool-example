@@ -3590,11 +3590,12 @@ appTemplate:
                 - playgroundQuerySaveId: 0
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: true
-                - query: ''
+                - query: 'select * from clients where id = {{ client_id.value }}'
                 - playgroundQueryId: 0
                 - privateParams: []
                 - triggersOnSuccess: []
                 - runWhenPageLoadsDelay: ''
+                - warningCodes: []
                 - data: null
                 - importedQueryInputs:
                     ordered: []
@@ -3628,7 +3629,7 @@ appTemplate:
                 - databaseUsernameOverride: ''
                 - queryThrottleTime: '750'
             createdAt: 2019-09-30T15:45:24.757Z
-            updatedAt: 2019-09-30T15:45:24.757Z
+            updatedAt: 2019-09-30T15:46:20.607Z
   createdAt: null
   version: 2.47.16
   responsiveLayoutDisabled: false
