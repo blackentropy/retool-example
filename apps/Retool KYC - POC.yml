@@ -3710,7 +3710,7 @@ appTemplate:
                 - confirmationMessage: null
                 - isFetching: false
                 - changeset: >-
-                    [{"key":"type","value":"{{select14.value}}"},{"key":"client_referral_source","value":"{{select1.value}}"},{"key":"client_referral_name","value":"{{textinput4.vaue}}"}]
+                    [{"key":"type","value":"{{select14.value}}"},{"key":"client_referral_source","value":"{{select1.value}}"},{"key":"client_referral_name","value":"{{textinput4.value}}"}]
                 - rawData: null
                 - queryTriggerDelay: '0'
                 - watchedParams: []
@@ -3735,7 +3735,7 @@ appTemplate:
                 - doNotThrowOnNoOp: false
                 - queryThrottleTime: '750'
             createdAt: 2019-09-30T15:54:38.862Z
-            updatedAt: 2019-09-30T21:13:21.174Z
+            updatedAt: 2019-09-30T21:13:29.100Z
       - button2:
           pluginTemplate:
             id: button2
