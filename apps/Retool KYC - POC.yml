@@ -3619,7 +3619,9 @@ appTemplate:
                 - disabled: ''
                 - hideClearButton: false
                 - required: false
-                - labels: ''
+                - labels: >-
+                    [ "New Client to RBC","Existing RBC Client","Client added to
+                    existing HH"]
             position2:
               position2:
                 container: container6
@@ -3633,7 +3635,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-30T15:47:53.416Z
-            updatedAt: 2019-09-30T15:47:53.417Z
+            updatedAt: 2019-09-30T15:47:58.079Z
   createdAt: null
   version: 2.47.16
   responsiveLayoutDisabled: false
