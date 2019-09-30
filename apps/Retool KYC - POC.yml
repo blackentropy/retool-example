@@ -3653,7 +3653,7 @@ appTemplate:
                 - exportTemplate: null
                 - url: ''
                 - newWindow: false
-                - value: Submit
+                - value: Save
                 - exportQuery: ''
                 - action: ''
                 - internalUrlQuery: ''
@@ -3674,7 +3674,7 @@ appTemplate:
                 height: 1
                 width: 2
             createdAt: 2019-09-30T15:54:22.135Z
-            updatedAt: 2019-09-30T15:54:22.135Z
+            updatedAt: 2019-09-30T15:54:25.568Z
   createdAt: null
   version: 2.47.16
   responsiveLayoutDisabled: false
