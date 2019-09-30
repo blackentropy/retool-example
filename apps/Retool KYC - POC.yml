@@ -3655,7 +3655,7 @@ appTemplate:
                 - newWindow: false
                 - value: Save
                 - exportQuery: ''
-                - action: save_client_data
+                - action: save_client_source_data
                 - internalUrlQuery: ''
                 - internalUrlPath: ''
                 - exportFileName: ''
@@ -3674,7 +3674,7 @@ appTemplate:
                 height: 1
                 width: 2
             createdAt: 2019-09-30T15:54:22.135Z
-            updatedAt: 2019-09-30T15:54:44.689Z
+            updatedAt: 2019-09-30T21:13:44.049Z
       - save_client_source_data:
           pluginTemplate:
             id: save_client_source_data
