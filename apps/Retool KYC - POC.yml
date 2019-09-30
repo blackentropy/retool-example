@@ -2138,7 +2138,7 @@ appTemplate:
                 height: 2
                 width: 2
             createdAt: 2019-09-20T13:15:49.714Z
-            updatedAt: 2019-09-30T15:46:57.727Z
+            updatedAt: 2019-09-30T15:47:05.686Z
       - multiselect1:
           pluginTemplate:
             id: multiselect1
