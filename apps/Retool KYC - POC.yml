@@ -201,7 +201,7 @@ appTemplate:
                 - searchValue: ''
                 - displayValue: ''
                 - tooltipText: ''
-                - value: '{{client_data.data.client_referral_source}}'
+                - value: '{{client_data.data.client_referral_source[0]}}'
                 - maxResults: 50
                 - placeholder: ''
                 - label: 'Client referral received from:'
@@ -227,7 +227,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-13T18:48:07.272Z
-            updatedAt: 2019-09-30T15:50:00.116Z
+            updatedAt: 2019-09-30T15:50:06.309Z
       - textinput4:
           pluginTemplate:
             id: textinput4
