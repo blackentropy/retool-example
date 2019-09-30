@@ -2112,9 +2112,7 @@ appTemplate:
             subtype: CheckboxGroupWidget
             template:
               ordered:
-                - values: >-
-                    [ "New Client to RBC","Existing RBC Client","Client added to
-                    existing HH"]
+                - values: '[''new'', ''exi'']'
                 - verticalAligned: false
                 - onChange: ''
                 - tooltipText: ''
@@ -2123,7 +2121,9 @@ appTemplate:
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
                 - disabled: ''
-                - labels: ''
+                - labels: >-
+                    [ "New Client to RBC","Existing RBC Client","Client added to
+                    existing HH"]
             position2:
               position2:
                 container: container6
@@ -2138,7 +2138,7 @@ appTemplate:
                 height: 2
                 width: 2
             createdAt: 2019-09-20T13:15:49.714Z
-            updatedAt: 2019-09-23T22:18:11.326Z
+            updatedAt: 2019-09-30T15:46:52.374Z
       - multiselect1:
           pluginTemplate:
             id: multiselect1
