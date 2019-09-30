@@ -4050,7 +4050,7 @@ appTemplate:
                 - exportTemplate: null
                 - url: ''
                 - newWindow: false
-                - value: Submit
+                - value: Save
                 - exportQuery: ''
                 - action: ''
                 - internalUrlQuery: ''
@@ -4073,7 +4073,7 @@ appTemplate:
                 height: 1
                 width: 2
             createdAt: 2019-09-30T20:49:21.283Z
-            updatedAt: 2019-09-30T20:49:21.283Z
+            updatedAt: 2019-09-30T20:49:26.035Z
   createdAt: null
   version: 2.47.16
   responsiveLayoutDisabled: false
