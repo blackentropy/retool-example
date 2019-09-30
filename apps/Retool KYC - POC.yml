@@ -3679,46 +3679,48 @@ appTemplate:
           pluginTemplate:
             id: save_client_data
             type: datasource
-            subtype: RESTQuery
-            resourceName: REST-WithoutResource
+            subtype: RetoolTableQuery
+            resourceName: testdb (write)
             template:
               ordered:
                 - queryRefreshTime: ''
-                - paginationLimit: ''
-                - body: ''
+                - records: ''
                 - queryDisabledMessage: ''
                 - successMessage: ''
                 - queryDisabled: ''
                 - playgroundQuerySaveId: 0
                 - resourceNameOverride: ''
-                - runWhenModelUpdates: true
-                - paginationPaginationField: ''
-                - headers: ''
-                - paginationEnabled: false
-                - query: ''
+                - runWhenModelUpdates: false
                 - playgroundQueryId: 0
                 - privateParams: []
-                - triggersOnSuccess: []
+                - triggersOnSuccess:
+                    - client_data
                 - runWhenPageLoadsDelay: ''
                 - data: null
+                - recordId: ''
                 - importedQueryInputs:
                     ordered: []
                 - showSuccessConfetti: false
                 - isImported: false
                 - showSuccessToaster: true
                 - cacheKeyTtl: ''
-                - cookies: ''
+                - filterBy: '[{"key":"id","value":"{{client_id.value}}","operation":"="}]'
+                - actionType: UPDATE_BY
                 - triggersOnFailure: []
                 - confirmationMessage: null
                 - isFetching: false
+                - changeset: >-
+                    [{"key":"type","value":"{{select14.value}}"},{"key":"client_referral_source","value":"{{select1.value}}"},{"key":"client_referral_name","value":"{{
+                    textinput4.value }}"}]
                 - rawData: null
                 - queryTriggerDelay: '0'
                 - watchedParams: []
-                - paginationDataField: ''
+                - enableBulkUpdates: false
                 - timestamp: 0
                 - importedQueryDefaults:
                     ordered: []
                 - enableTransformer: false
+                - bulkUpdatePrimaryKey: ''
                 - runWhenPageLoads: false
                 - transformer: >-
                     // type your code here
@@ -3727,14 +3729,14 @@ appTemplate:
                     row.quantity > 20)
 
                     return data
+                - tableName: clients
                 - queryTimeout: '10000'
                 - requireConfirmation: false
-                - type: GET
                 - enableCaching: false
-                - bodyType: json
+                - doNotThrowOnNoOp: false
                 - queryThrottleTime: '750'
             createdAt: 2019-09-30T15:54:38.862Z
-            updatedAt: 2019-09-30T15:54:38.862Z
+            updatedAt: 2019-09-30T15:57:59.855Z
   createdAt: null
   version: 2.47.16
   responsiveLayoutDisabled: false
