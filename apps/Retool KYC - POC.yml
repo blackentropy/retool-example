@@ -3541,7 +3541,7 @@ appTemplate:
             subtype: SelectWidget
             template:
               ordered:
-                - values: '[1,2,3]'
+                - values: '[1]'
                 - allowOutOfRangeValues: false
                 - enableFuzzyMatching: true
                 - searchValue: ''
@@ -3550,7 +3550,7 @@ appTemplate:
                 - value: ''
                 - maxResults: 50
                 - placeholder: ''
-                - label: 'TEMPORARY:'
+                - label: 'TEMPORARY: CLIENT_ID TO EDIT'
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
                 - onSelect: ''
@@ -3573,7 +3573,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-30T15:44:58.236Z
-            updatedAt: 2019-09-30T15:45:04.589Z
+            updatedAt: 2019-09-30T15:45:10.249Z
   createdAt: null
   version: 2.47.16
   responsiveLayoutDisabled: false
