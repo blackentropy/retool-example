@@ -3603,7 +3603,7 @@ appTemplate:
             subtype: SelectWidget
             template:
               ordered:
-                - values: '[''New'']'
+                - values: '[''new'', ''existing'', ''added'']'
                 - allowOutOfRangeValues: false
                 - enableFuzzyMatching: true
                 - searchValue: ''
@@ -3635,7 +3635,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-30T15:47:53.416Z
-            updatedAt: 2019-09-30T15:48:04.079Z
+            updatedAt: 2019-09-30T15:48:08.027Z
   createdAt: null
   version: 2.47.16
   responsiveLayoutDisabled: false
