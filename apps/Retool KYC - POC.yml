@@ -184,7 +184,7 @@ appTemplate:
             subtype: SelectWidget
             template:
               ordered:
-                - values: ''
+                - values: '[''n/a'', ]'
                 - allowOutOfRangeValues: false
                 - enableFuzzyMatching: true
                 - searchValue: ''
@@ -227,7 +227,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-13T18:48:07.272Z
-            updatedAt: 2019-09-30T15:50:37.756Z
+            updatedAt: 2019-09-30T15:50:42.552Z
       - textinput4:
           pluginTemplate:
             id: textinput4
