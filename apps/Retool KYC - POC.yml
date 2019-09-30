@@ -3949,7 +3949,7 @@ appTemplate:
               position2:
                 container: container8
                 row: 1
-                col: 9
+                col: 10
                 height: 1
                 width: 2
             mobilePosition2:
