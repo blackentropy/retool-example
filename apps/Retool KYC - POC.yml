@@ -76,7 +76,7 @@ appTemplate:
                 - submitButtonFullWidth: false
                 - submitDisabled: >-
                     {{select12.value == "" || textinput5.value == "" ||
-                    textinput6.value == "" }}
+                    textinput6.value == "" || }}
                 - submitButtonText: Submit
                 - onSubmit: ''
                 - requiredFormControls: []
@@ -93,7 +93,7 @@ appTemplate:
                 height: 6
                 width: 6
             createdAt: 2019-09-13T18:07:30.423Z
-            updatedAt: 2019-09-30T14:27:03.491Z
+            updatedAt: 2019-09-30T14:27:16.545Z
       - textinput1:
           pluginTemplate:
             id: textinput1
