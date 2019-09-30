@@ -3534,9 +3534,9 @@ appTemplate:
                 width: 4
             createdAt: 2019-09-27T19:09:59.627Z
             updatedAt: 2019-09-27T19:11:26.116Z
-      - select13:
+      - client_id:
           pluginTemplate:
-            id: select13
+            id: client_id
             type: widget
             subtype: SelectWidget
             template:
