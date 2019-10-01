@@ -338,7 +338,7 @@ appTemplate:
               ordered:
                 - title: Total Number of Clients
                 - value: 1234.5678
-                - prefix: $
+                - prefix: ''
                 - suffix: clients
                 - precision: 2
                 - round: true
@@ -353,7 +353,7 @@ appTemplate:
                 height: 2
                 width: 2
             createdAt: 2019-10-01T21:13:18.981Z
-            updatedAt: 2019-10-01T21:13:57.878Z
+            updatedAt: 2019-10-01T21:14:00.123Z
   createdAt: null
   version: 2.47.16
   responsiveLayoutDisabled: false
