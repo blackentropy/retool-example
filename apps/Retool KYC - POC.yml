@@ -1040,7 +1040,7 @@ appTemplate:
             subtype: TextWidget
             template:
               ordered:
-                - value: <center> <h5> <u> Source(s) of Wealth
+                - value: <center> <h5> <u> Total Household Wealth
                 - html: true
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -1058,7 +1058,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-09-16T13:57:03.516Z
-            updatedAt: 2019-09-23T22:18:11.323Z
+            updatedAt: 2019-10-01T20:17:36.314Z
       - textinput16:
           pluginTemplate:
             id: textinput16
