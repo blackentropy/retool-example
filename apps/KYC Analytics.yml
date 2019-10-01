@@ -20,11 +20,12 @@ appTemplate:
                 - playgroundQuerySaveId: 0
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: true
-                - query: ''
+                - query: select * from clients
                 - playgroundQueryId: 0
                 - privateParams: []
                 - triggersOnSuccess: []
                 - runWhenPageLoadsDelay: ''
+                - warningCodes: []
                 - data: null
                 - importedQueryInputs:
                     ordered: []
@@ -58,7 +59,7 @@ appTemplate:
                 - databaseUsernameOverride: ''
                 - queryThrottleTime: '750'
             createdAt: 2019-10-01T21:03:01.197Z
-            updatedAt: 2019-10-01T21:03:01.197Z
+            updatedAt: 2019-10-01T21:10:17.511Z
       - table1:
           pluginTemplate:
             id: table1
