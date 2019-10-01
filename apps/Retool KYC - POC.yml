@@ -3964,9 +3964,9 @@ appTemplate:
                 - queryThrottleTime: '750'
             createdAt: 2019-10-01T15:26:32.515Z
             updatedAt: 2019-10-01T20:05:16.526Z
-      - query11:
+      - save_non_canadian_assets:
           pluginTemplate:
-            id: query11
+            id: save_non_canadian_assets
             type: datasource
             subtype: RetoolTableQuery
             resourceName: testdb (write)
