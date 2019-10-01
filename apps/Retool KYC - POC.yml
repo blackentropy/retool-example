@@ -4162,11 +4162,12 @@ appTemplate:
                 - showSuccessToaster: true
                 - cacheKeyTtl: ''
                 - filterBy: ''
-                - actionType: ''
+                - actionType: UPDATE_OR_INSERT_BY
                 - triggersOnFailure: []
                 - confirmationMessage: null
                 - isFetching: false
-                - changeset: ''
+                - changeset: >-
+                    [{"key":"OLWI_internet_search_completed_by","value":"{{textinput17.value}}"},{"key":"OLWI_internet_search_completed_on","value":"{{textinput18.value}}"},{"key":"OLWI_derogatory_information","value":"{{select10.value}}"},{"key":"Internet_search_derogatory_information","value":"{{select11.value}}"},{"key":"net_worth_greater_30m","value":"{{select7.value}}"}]
                 - rawData: null
                 - queryTriggerDelay: '0'
                 - watchedParams: []
@@ -4184,14 +4185,14 @@ appTemplate:
                     row.quantity > 20)
 
                     return data
-                - tableName: ''
+                - tableName: clients
                 - queryTimeout: '10000'
                 - requireConfirmation: false
                 - enableCaching: false
                 - doNotThrowOnNoOp: false
                 - queryThrottleTime: '750'
             createdAt: 2019-09-30T21:40:16.565Z
-            updatedAt: 2019-09-30T21:40:16.565Z
+            updatedAt: 2019-10-01T14:08:13.111Z
   createdAt: null
   version: 2.47.16
   responsiveLayoutDisabled: false
