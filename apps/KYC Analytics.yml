@@ -340,7 +340,7 @@ appTemplate:
                 - value: 1234.5678
                 - prefix: ''
                 - suffix: clients
-                - precision: 2
+                - precision: ''
                 - round: true
             position2:
               position2:
@@ -353,7 +353,7 @@ appTemplate:
                 height: 2
                 width: 2
             createdAt: 2019-10-01T21:13:18.981Z
-            updatedAt: 2019-10-01T21:14:00.123Z
+            updatedAt: 2019-10-01T21:14:09.486Z
   createdAt: null
   version: 2.47.16
   responsiveLayoutDisabled: false
