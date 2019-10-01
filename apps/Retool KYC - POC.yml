@@ -4064,7 +4064,7 @@ appTemplate:
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: true
                 - query: >-
-                    select * from household_members where id = {{
+                    select * from non_canadian_assets where id = {{
                     client_id.value }}
                 - playgroundQueryId: 0
                 - privateParams: []
@@ -4104,7 +4104,7 @@ appTemplate:
                 - databaseUsernameOverride: ''
                 - queryThrottleTime: '750'
             createdAt: 2019-10-01T20:46:14.663Z
-            updatedAt: 2019-10-01T20:46:14.663Z
+            updatedAt: 2019-10-01T20:47:21.831Z
   createdAt: null
   version: 2.47.16
   responsiveLayoutDisabled: false
