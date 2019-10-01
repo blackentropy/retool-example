@@ -439,7 +439,7 @@ appTemplate:
             template:
               ordered:
                 - title: Number of Medium Risk Households
-                - value: 1234.5678
+                - value: '{{1234.5678}}'
                 - prefix: $
                 - suffix: / lb.
                 - precision: 2
@@ -457,7 +457,7 @@ appTemplate:
                 height: 2
                 width: 2
             createdAt: 2019-10-01T21:41:34.755Z
-            updatedAt: 2019-10-01T21:47:30.253Z
+            updatedAt: 2019-10-01T21:47:46.697Z
       - query3:
           pluginTemplate:
             id: query3
