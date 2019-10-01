@@ -20,11 +20,7 @@ appTemplate:
                 - playgroundQuerySaveId: 0
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: true
-                - query: >-
-                    select hh_head_last_name as last_name, hh_head_first_name as
-                    first_name, hh_head_cri as cri, hh_head_age as age,
-                    household_net_worth, household_investable_assets from
-                    clients
+                - query: select * from clients
                 - playgroundQueryId: 0
                 - privateParams: []
                 - triggersOnSuccess: []
@@ -63,7 +59,7 @@ appTemplate:
                 - databaseUsernameOverride: ''
                 - queryThrottleTime: '750'
             createdAt: 2019-10-01T21:03:01.197Z
-            updatedAt: 2019-10-01T21:39:29.976Z
+            updatedAt: 2019-10-01T21:40:35.733Z
       - table1:
           pluginTemplate:
             id: table1
