@@ -107,6 +107,7 @@ appTemplate:
                       - hh_head_last_name: ''
                       - additional_information: ''
                       - household_risk_level: ''
+                      - last_name: ''
                       - OLWI_internet_search_completed_by: ''
                       - hh_head_middle_name: ''
                       - private_banker_id: ''
@@ -175,6 +176,7 @@ appTemplate:
                       - hh_head_last_name: true
                       - additional_information: true
                       - household_risk_level: true
+                      - last_name: true
                       - OLWI_internet_search_completed_by: true
                       - hh_head_middle_name: true
                       - private_banker_id: true
@@ -306,6 +308,7 @@ appTemplate:
                     - trusts
                     - holding_companies
                     - other_details
+                    - last_name
                 - sort: null
                 - calculatedColumns: []
                 - selectedRow:
@@ -328,7 +331,7 @@ appTemplate:
                 height: 8
                 width: 8
             createdAt: 2019-10-01T21:03:15.630Z
-            updatedAt: 2019-10-01T21:18:02.651Z
+            updatedAt: 2019-10-01T21:30:14.839Z
       - statistic1:
           pluginTemplate:
             id: statistic1
