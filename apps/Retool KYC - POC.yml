@@ -3918,7 +3918,9 @@ appTemplate:
                 - runWhenModelUpdates: false
                 - playgroundQueryId: 0
                 - privateParams: []
-                - triggersOnSuccess: []
+                - triggersOnSuccess:
+                    - save_non_canadian_assets
+                    - client_form_number
                 - runWhenPageLoadsDelay: ''
                 - data: null
                 - recordId: ''
@@ -3963,7 +3965,7 @@ appTemplate:
                 - doNotThrowOnNoOp: false
                 - queryThrottleTime: '750'
             createdAt: 2019-10-01T15:26:32.515Z
-            updatedAt: 2019-10-01T20:05:16.526Z
+            updatedAt: 2019-10-01T20:14:08.912Z
       - save_non_canadian_assets:
           pluginTemplate:
             id: save_non_canadian_assets
