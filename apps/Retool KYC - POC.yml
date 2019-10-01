@@ -3911,7 +3911,7 @@ appTemplate:
                 - rawData: null
                 - queryTriggerDelay: '0'
                 - watchedParams: []
-                - enableBulkUpdates: false
+                - enableBulkUpdates: true
                 - timestamp: 0
                 - importedQueryDefaults:
                     ordered: []
@@ -3932,7 +3932,7 @@ appTemplate:
                 - doNotThrowOnNoOp: false
                 - queryThrottleTime: '750'
             createdAt: 2019-10-01T15:26:32.515Z
-            updatedAt: 2019-10-01T20:55:08.220Z
+            updatedAt: 2019-10-01T21:01:33.665Z
       - save_non_canadian_assets:
           pluginTemplate:
             id: save_non_canadian_assets
