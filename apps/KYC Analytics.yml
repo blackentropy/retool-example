@@ -425,6 +425,33 @@ appTemplate:
                 - queryThrottleTime: '750'
             createdAt: 2019-10-01T21:14:18.426Z
             updatedAt: 2019-10-01T21:17:36.826Z
+      - statistic2:
+          pluginTemplate:
+            id: statistic2
+            type: widget
+            subtype: StatisticWidget
+            template:
+              ordered:
+                - title: Current Price
+                - value: 1234.5678
+                - prefix: $
+                - suffix: / lb.
+                - precision: 2
+                - round: true
+            position2:
+              position2:
+                row: 13
+                col: 1
+                height: 2
+                width: 2
+            mobilePosition2:
+              position2:
+                row: 13
+                col: 1
+                height: 2
+                width: 2
+            createdAt: 2019-10-01T21:41:34.755Z
+            updatedAt: 2019-10-01T21:41:34.755Z
   createdAt: null
   version: 2.47.16
   responsiveLayoutDisabled: false
