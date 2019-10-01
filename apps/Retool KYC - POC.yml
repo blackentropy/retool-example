@@ -4047,9 +4047,9 @@ appTemplate:
                 - queryThrottleTime: '750'
             createdAt: 2019-10-01T20:45:17.051Z
             updatedAt: 2019-10-01T20:46:11.934Z
-      - query13:
+      - non_canadian_assets_number:
           pluginTemplate:
-            id: query13
+            id: non_canadian_assets_number
             type: datasource
             subtype: SqlQuery
             resourceName: testdb (read)
