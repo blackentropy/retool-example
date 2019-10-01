@@ -354,9 +354,9 @@ appTemplate:
                 width: 2
             createdAt: 2019-10-01T21:13:18.981Z
             updatedAt: 2019-10-01T21:14:09.486Z
-      - query2:
+      - total_clients:
           pluginTemplate:
-            id: query2
+            id: total_clients
             type: datasource
             subtype: SqlQuery
             resourceName: testdb (read)
