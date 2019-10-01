@@ -337,7 +337,7 @@ appTemplate:
             template:
               ordered:
                 - title: Total Number of Clients
-                - value: '{{1234.5678}}'
+                - value: '{{total}}'
                 - prefix: ''
                 - suffix: clients
                 - precision: ''
@@ -353,7 +353,7 @@ appTemplate:
                 height: 2
                 width: 2
             createdAt: 2019-10-01T21:13:18.981Z
-            updatedAt: 2019-10-01T21:18:09.898Z
+            updatedAt: 2019-10-01T21:18:12.916Z
       - total_clients:
           pluginTemplate:
             id: total_clients
