@@ -4161,7 +4161,7 @@ appTemplate:
                 - isImported: false
                 - showSuccessToaster: true
                 - cacheKeyTtl: ''
-                - filterBy: ''
+                - filterBy: '[{"key":"id","value":"{{client_id.value}}","operation":"="}]'
                 - actionType: UPDATE_OR_INSERT_BY
                 - triggersOnFailure: []
                 - confirmationMessage: null
@@ -4192,7 +4192,7 @@ appTemplate:
                 - doNotThrowOnNoOp: false
                 - queryThrottleTime: '750'
             createdAt: 2019-09-30T21:40:16.565Z
-            updatedAt: 2019-10-01T14:55:33.348Z
+            updatedAt: 2019-10-01T14:58:10.517Z
   createdAt: null
   version: 2.47.16
   responsiveLayoutDisabled: false
