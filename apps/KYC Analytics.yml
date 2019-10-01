@@ -23,7 +23,7 @@ appTemplate:
                 - query: >-
                     select hh_head_last_name as last_name, hh_head_first_name as
                     first_name, hh_head_cri as cri, hh_head_age as age,
-                    household_net_worth as net worth from clients
+                    household_net_worth as net_worth from clients
                 - playgroundQueryId: 0
                 - privateParams: []
                 - triggersOnSuccess: []
@@ -62,7 +62,7 @@ appTemplate:
                 - databaseUsernameOverride: ''
                 - queryThrottleTime: '750'
             createdAt: 2019-10-01T21:03:01.197Z
-            updatedAt: 2019-10-01T21:39:00.188Z
+            updatedAt: 2019-10-01T21:39:07.114Z
       - table1:
           pluginTemplate:
             id: table1
