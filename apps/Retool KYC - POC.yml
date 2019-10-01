@@ -3926,12 +3926,17 @@ appTemplate:
                 - isImported: false
                 - showSuccessToaster: true
                 - cacheKeyTtl: ''
-                - filterBy: ''
+                - filterBy: '[{"key":"id","value":"{{client_id.value}}","operation":"="}]'
                 - actionType: UPDATE_BY
                 - triggersOnFailure: []
                 - confirmationMessage: null
                 - isFetching: false
-                - changeset: ''
+                - changeset: >-
+                    [{"key":"last_name","value":"{{table1.selectedRow.data['Last
+                    Name/Name of non-personal
+                    entity']}}"},{"key":"first_name","value":"{{table1.selectedRow.data['First
+                    Name']}}"},{"key":"middle_name","value":"{{table1.selectedRow.data['Middle
+                    Name']}}"},{"key":"cri","value":"{{table1.selectedRow.data.CRI}}"},{"key":"age","value":"{{table1.selectedRow.data.Age}}"},{"key":"srf","value":"{{table1.selectedRow.data.srf}}"}]
                 - rawData: null
                 - queryTriggerDelay: '0'
                 - watchedParams: []
@@ -3956,7 +3961,7 @@ appTemplate:
                 - doNotThrowOnNoOp: false
                 - queryThrottleTime: '750'
             createdAt: 2019-10-01T15:26:32.515Z
-            updatedAt: 2019-10-01T19:57:29.619Z
+            updatedAt: 2019-10-01T20:05:16.526Z
   createdAt: null
   version: 2.47.16
   responsiveLayoutDisabled: false
