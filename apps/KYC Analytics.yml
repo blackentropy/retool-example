@@ -217,7 +217,7 @@ appTemplate:
                 - sortedDesc: false
                 - columnMappersRenderAsHTML:
                     ordered: []
-                - pageSize: 11
+                - pageSize: 6
                 - selectedColumn: null
                 - actionButtonPosition: left
                 - bulkUpdateAction: ''
@@ -314,7 +314,7 @@ appTemplate:
                       data: null
                 - showPaginationOnTop: false
                 - nextAfterCursor: ''
-                - useCompactMode: true
+                - useCompactMode: false
             position2:
               position2:
                 row: 2
@@ -328,7 +328,7 @@ appTemplate:
                 height: 8
                 width: 8
             createdAt: 2019-10-01T21:03:15.630Z
-            updatedAt: 2019-10-01T21:11:36.944Z
+            updatedAt: 2019-10-01T21:11:44.171Z
   createdAt: null
   version: 2.47.16
   responsiveLayoutDisabled: false
