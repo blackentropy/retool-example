@@ -3856,7 +3856,8 @@ appTemplate:
                 - runWhenModelUpdates: false
                 - playgroundQueryId: 0
                 - privateParams: []
-                - triggersOnSuccess: []
+                - triggersOnSuccess:
+                    - save_hh_members
                 - runWhenPageLoadsDelay: ''
                 - data: null
                 - recordId: ''
@@ -3897,7 +3898,7 @@ appTemplate:
                 - doNotThrowOnNoOp: false
                 - queryThrottleTime: '750'
             createdAt: 2019-09-30T21:40:16.565Z
-            updatedAt: 2019-10-01T14:58:10.517Z
+            updatedAt: 2019-10-01T20:09:30.101Z
       - save_hh_members:
           pluginTemplate:
             id: save_hh_members
