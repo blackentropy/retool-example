@@ -3971,7 +3971,7 @@ appTemplate:
                 - rawData: null
                 - queryTriggerDelay: '0'
                 - watchedParams: []
-                - enableBulkUpdates: false
+                - enableBulkUpdates: true
                 - timestamp: 0
                 - importedQueryDefaults:
                     ordered: []
@@ -3992,7 +3992,7 @@ appTemplate:
                 - doNotThrowOnNoOp: false
                 - queryThrottleTime: '750'
             createdAt: 2019-10-01T20:09:58.591Z
-            updatedAt: 2019-10-01T20:53:18.116Z
+            updatedAt: 2019-10-01T21:01:49.715Z
   createdAt: null
   version: 2.47.16
   responsiveLayoutDisabled: false
