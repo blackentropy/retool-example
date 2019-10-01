@@ -3898,7 +3898,8 @@ appTemplate:
                 - cacheKeyTtl: ''
                 - filterBy: '[{"key":"id","value":"{{client_id.value}}","operation":"="}]'
                 - actionType: UPDATE_OR_INSERT_BY
-                - triggersOnFailure: []
+                - triggersOnFailure:
+                    - save_non_canadian_assets
                 - confirmationMessage: null
                 - isFetching: false
                 - changeset: >-
@@ -3931,7 +3932,7 @@ appTemplate:
                 - doNotThrowOnNoOp: false
                 - queryThrottleTime: '750'
             createdAt: 2019-10-01T15:26:32.515Z
-            updatedAt: 2019-10-01T20:53:05.880Z
+            updatedAt: 2019-10-01T20:55:08.220Z
       - save_non_canadian_assets:
           pluginTemplate:
             id: save_non_canadian_assets
