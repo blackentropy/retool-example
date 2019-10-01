@@ -94,7 +94,7 @@ appTemplate:
                 - selectedPageIndex: '0'
                 - actionButtonColumnName: Actions
                 - serverPaginated: false
-                - data: ''
+                - data: '{{all}}'
                 - actionButtons: []
                 - actionButtonSelectsRow: true
                 - selectRowByDefault: true
@@ -157,7 +157,7 @@ appTemplate:
                 height: 8
                 width: 8
             createdAt: 2019-10-01T21:03:15.630Z
-            updatedAt: 2019-10-01T21:11:02.795Z
+            updatedAt: 2019-10-01T21:11:18.055Z
   createdAt: null
   version: 2.47.16
   responsiveLayoutDisabled: false
