@@ -3992,12 +3992,13 @@ appTemplate:
                 - isImported: false
                 - showSuccessToaster: true
                 - cacheKeyTtl: ''
-                - filterBy: ''
-                - actionType: ''
+                - filterBy: '[{"key":"id","value":"{{client_id.value}}","operation":"="}]'
+                - actionType: UPDATE_BY
                 - triggersOnFailure: []
                 - confirmationMessage: null
                 - isFetching: false
-                - changeset: ''
+                - changeset: >-
+                    [{"key":"type","value":"{{table2.selectedRow.data.Type}}"},{"key":"description","value":"{{table2.selectedRow.data.Description}}"},{"key":"amount","value":"{{table2.selectedRow.data.Amount}}"}]
                 - rawData: null
                 - queryTriggerDelay: '0'
                 - watchedParams: []
@@ -4015,14 +4016,14 @@ appTemplate:
                     row.quantity > 20)
 
                     return data
-                - tableName: ''
+                - tableName: non_canadian_assets
                 - queryTimeout: '10000'
                 - requireConfirmation: false
                 - enableCaching: false
                 - doNotThrowOnNoOp: false
                 - queryThrottleTime: '750'
             createdAt: 2019-10-01T20:09:58.591Z
-            updatedAt: 2019-10-01T20:09:58.591Z
+            updatedAt: 2019-10-01T20:13:41.433Z
   createdAt: null
   version: 2.47.16
   responsiveLayoutDisabled: false
