@@ -3695,6 +3695,7 @@ appTemplate:
                 - privateParams: []
                 - triggersOnSuccess:
                     - client_form_number
+                    - save_relationship_management_data
                 - runWhenPageLoadsDelay: ''
                 - data: null
                 - recordId: ''
@@ -3735,7 +3736,7 @@ appTemplate:
                 - doNotThrowOnNoOp: false
                 - queryThrottleTime: '750'
             createdAt: 2019-09-30T15:54:38.862Z
-            updatedAt: 2019-10-01T14:56:32.333Z
+            updatedAt: 2019-10-01T15:00:44.779Z
       - button2:
           pluginTemplate:
             id: button2
