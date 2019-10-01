@@ -122,6 +122,8 @@ appTemplate:
                       - date_of_approval: ''
                       - hh_head_first_name: ''
                       - head_household_id: ''
+                      - cri: ''
+                      - first_name: ''
                       - type: ''
                       - hh_head_cri: ''
                       - restricted: ''
@@ -137,6 +139,7 @@ appTemplate:
                       - details_to_meet_10m: ''
                       - hh_revenue: ''
                       - private_banker_signature: ''
+                      - age: ''
                       - hh_head_age: ''
                       - holding_companies: ''
                 - allowMultiRowSelect: false
@@ -192,6 +195,8 @@ appTemplate:
                       - date_of_approval: true
                       - hh_head_first_name: true
                       - head_household_id: true
+                      - cri: true
+                      - first_name: true
                       - type: true
                       - hh_head_cri: true
                       - restricted: true
@@ -208,6 +213,7 @@ appTemplate:
                       - details_to_meet_10m: true
                       - hh_revenue: true
                       - private_banker_signature: true
+                      - age: true
                       - hh_head_age: true
                       - holding_companies: true
                 - selectedPageIndex: '0'
@@ -312,6 +318,9 @@ appTemplate:
                     - holding_companies
                     - other_details
                     - last_name
+                    - first_name
+                    - cri
+                    - age
                 - sort: null
                 - calculatedColumns: []
                 - selectedRow:
@@ -334,7 +343,7 @@ appTemplate:
                 height: 8
                 width: 8
             createdAt: 2019-10-01T21:03:15.630Z
-            updatedAt: 2019-10-01T21:30:14.839Z
+            updatedAt: 2019-10-01T21:32:26.510Z
       - statistic1:
           pluginTemplate:
             id: statistic1
