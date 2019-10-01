@@ -208,7 +208,7 @@ appTemplate:
                 - selectedPageIndex: '0'
                 - actionButtonColumnName: Actions
                 - serverPaginated: false
-                - data: '{{all_clients.data}}'
+                - data: '{{client_list.data}}'
                 - actionButtons: []
                 - actionButtonSelectsRow: true
                 - selectRowByDefault: true
@@ -328,7 +328,7 @@ appTemplate:
                 height: 8
                 width: 8
             createdAt: 2019-10-01T21:03:15.630Z
-            updatedAt: 2019-10-01T21:11:44.171Z
+            updatedAt: 2019-10-01T21:18:02.651Z
       - statistic1:
           pluginTemplate:
             id: statistic1
