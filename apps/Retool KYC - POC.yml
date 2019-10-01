@@ -4051,7 +4051,7 @@ appTemplate:
                 - newWindow: false
                 - value: Save
                 - exportQuery: ''
-                - action: ''
+                - action: save_client_source_data
                 - internalUrlQuery: ''
                 - internalUrlPath: ''
                 - exportFileName: ''
@@ -4072,7 +4072,7 @@ appTemplate:
                 height: 1
                 width: 2
             createdAt: 2019-09-30T20:49:21.283Z
-            updatedAt: 2019-10-01T14:58:41.534Z
+            updatedAt: 2019-10-01T14:59:18.514Z
       - save_relationship_management_data:
           pluginTemplate:
             id: save_relationship_management_data
