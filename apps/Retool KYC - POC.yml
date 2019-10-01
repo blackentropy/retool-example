@@ -4005,7 +4005,9 @@ appTemplate:
                 - playgroundQuerySaveId: 0
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: true
-                - query: 'select * from clients where id = {{ client_id.value }}'
+                - query: >-
+                    select * from household_members where id = {{
+                    client_id.value }}
                 - playgroundQueryId: 0
                 - privateParams: []
                 - triggersOnSuccess: []
@@ -4044,7 +4046,7 @@ appTemplate:
                 - databaseUsernameOverride: ''
                 - queryThrottleTime: '750'
             createdAt: 2019-10-01T20:45:17.051Z
-            updatedAt: 2019-10-01T20:45:17.051Z
+            updatedAt: 2019-10-01T20:46:11.934Z
   createdAt: null
   version: 2.47.16
   responsiveLayoutDisabled: false
