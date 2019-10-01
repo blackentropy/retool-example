@@ -3894,7 +3894,7 @@ appTemplate:
                 - showSuccessToaster: true
                 - cacheKeyTtl: ''
                 - filterBy: '[{"key":"id","value":"{{client_id.value}}","operation":"="}]'
-                - actionType: UPDATE_BY
+                - actionType: UPDATE_OR_INSERT_BY
                 - triggersOnFailure: []
                 - confirmationMessage: null
                 - isFetching: false
@@ -3928,7 +3928,7 @@ appTemplate:
                 - doNotThrowOnNoOp: false
                 - queryThrottleTime: '750'
             createdAt: 2019-10-01T15:26:32.515Z
-            updatedAt: 2019-10-01T20:14:08.912Z
+            updatedAt: 2019-10-01T20:53:05.880Z
       - save_non_canadian_assets:
           pluginTemplate:
             id: save_non_canadian_assets
