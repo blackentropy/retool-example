@@ -474,7 +474,11 @@ appTemplate:
                 - playgroundQuerySaveId: 0
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: true
-                - query: 'select count(household_risk_level) as household_risk from '
+                - query: >-
+                    select count(household_risk_level) as household_risk from
+                    clients
+
+                    where household_risk_level = 'medium'
                 - playgroundQueryId: 0
                 - privateParams: []
                 - triggersOnSuccess: []
@@ -513,7 +517,7 @@ appTemplate:
                 - databaseUsernameOverride: ''
                 - queryThrottleTime: '750'
             createdAt: 2019-10-01T21:42:57.394Z
-            updatedAt: 2019-10-01T21:46:27.604Z
+            updatedAt: 2019-10-01T21:47:11.130Z
   createdAt: null
   version: 2.47.16
   responsiveLayoutDisabled: false
