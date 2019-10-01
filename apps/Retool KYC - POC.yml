@@ -3542,9 +3542,9 @@ appTemplate:
                 width: 4
             createdAt: 2019-09-30T15:44:58.236Z
             updatedAt: 2019-09-30T15:45:13.992Z
-      - client_data:
+      - client_form_number:
           pluginTemplate:
-            id: client_data
+            id: client_form_number
             type: datasource
             subtype: SqlQuery
             resourceName: testdb (read)
