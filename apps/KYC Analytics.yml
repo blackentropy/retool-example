@@ -440,8 +440,8 @@ appTemplate:
               ordered:
                 - title: Number of Medium Risk Households
                 - value: '{{query3.data.household_risk}}'
-                - prefix: $
-                - suffix: / lb.
+                - prefix: ''
+                - suffix: Households
                 - precision: 2
                 - round: true
             position2:
@@ -457,7 +457,7 @@ appTemplate:
                 height: 2
                 width: 2
             createdAt: 2019-10-01T21:41:34.755Z
-            updatedAt: 2019-10-01T21:48:00.555Z
+            updatedAt: 2019-10-01T21:48:10.962Z
       - query3:
           pluginTemplate:
             id: query3
