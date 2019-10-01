@@ -71,6 +71,9 @@ appTemplate:
                     - object:
                         id: household_needs_complexity
                         value: 103
+                    - object:
+                        id: household_risk_level
+                        value: 126
                 - columnWidthsMobile: []
                 - columnHeaderNames:
                     ordered: []
@@ -346,7 +349,7 @@ appTemplate:
                 height: 8
                 width: 8
             createdAt: 2019-10-01T21:03:15.630Z
-            updatedAt: 2019-10-01T21:45:03.887Z
+            updatedAt: 2019-10-01T21:45:31.887Z
       - statistic1:
           pluginTemplate:
             id: statistic1
