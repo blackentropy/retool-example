@@ -336,7 +336,7 @@ appTemplate:
             subtype: StatisticWidget
             template:
               ordered:
-                - title: Current Price
+                - title: Number of Clients
                 - value: 1234.5678
                 - prefix: $
                 - suffix: / lb.
@@ -353,7 +353,7 @@ appTemplate:
                 height: 2
                 width: 2
             createdAt: 2019-10-01T21:13:18.981Z
-            updatedAt: 2019-10-01T21:13:18.981Z
+            updatedAt: 2019-10-01T21:13:27.728Z
   createdAt: null
   version: 2.47.16
   responsiveLayoutDisabled: false
