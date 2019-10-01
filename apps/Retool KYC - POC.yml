@@ -4133,9 +4133,9 @@ appTemplate:
                 - queryThrottleTime: '750'
             createdAt: 2019-09-30T21:13:54.048Z
             updatedAt: 2019-09-30T21:39:38.523Z
-      - query9:
+      - save_client_risk:
           pluginTemplate:
-            id: query9
+            id: save_client_risk
             type: datasource
             subtype: RetoolTableQuery
             resourceName: testdb (write)
