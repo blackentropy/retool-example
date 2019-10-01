@@ -4,9 +4,9 @@ appTemplate:
   isFetching: false
   plugins:
     ordered:
-      - all_clients:
+      - client_list:
           pluginTemplate:
-            id: all_clients
+            id: client_list
             type: datasource
             subtype: SqlQuery
             resourceName: testdb (read)
