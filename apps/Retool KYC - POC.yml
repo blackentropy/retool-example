@@ -3898,9 +3898,9 @@ appTemplate:
                 - queryThrottleTime: '750'
             createdAt: 2019-09-30T21:40:16.565Z
             updatedAt: 2019-10-01T14:58:10.517Z
-      - query10:
+      - save_hh_members:
           pluginTemplate:
-            id: query10
+            id: save_hh_members
             type: datasource
             subtype: SqlQuery
             resourceName: testdb (read)
