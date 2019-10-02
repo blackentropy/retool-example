@@ -66,7 +66,7 @@ appTemplate:
             subtype: TextWidget
             template:
               ordered:
-                - value: "**Hello** <b>friend!</b> \U0001F603"
+                - value: 'This is the home screen '
                 - html: false
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -79,7 +79,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-10-02T20:41:46.581Z
-            updatedAt: 2019-10-02T20:41:46.581Z
+            updatedAt: 2019-10-02T20:41:53.748Z
   createdAt: null
   version: 2.47.16
   responsiveLayoutDisabled: false
