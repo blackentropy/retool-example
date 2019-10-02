@@ -212,33 +212,7 @@ appTemplate:
                 - selectedPageIndex: '0'
                 - actionButtonColumnName: Actions
                 - serverPaginated: false
-                - data: |-
-                    [{
-                      "id": 1,
-                      "name": "Hanson Deck",
-                      "email": "hanson@deck.com",
-                      "sales": 37
-                    }, {
-                      "id": 2,
-                      "name": "Max Conversation",
-                      "email": "Max@conversation.com",
-                      "sales": 424
-                    }, {
-                      "id": 3,
-                      "name": "Jason Response",
-                      "email": "jason@response.com",
-                      "sales": 55
-                    }, {
-                      "id": 4,
-                      "name": "Sue Shei",
-                      "email": "sueshei@example.com",
-                      "sales": 550
-                    }, {
-                      "id": 5,
-                      "name": "Eric Widget",
-                      "email": "eric@widget.org",
-                      "sales": 243
-                    }]
+                - data: ''
                 - actionButtons: []
                 - actionButtonSelectsRow: true
                 - selectRowByDefault: true
@@ -301,7 +275,7 @@ appTemplate:
                 height: 8
                 width: 8
             createdAt: 2019-10-02T20:43:59.662Z
-            updatedAt: 2019-10-02T20:44:00.269Z
+            updatedAt: 2019-10-02T20:44:11.745Z
   createdAt: null
   version: 2.47.16
   responsiveLayoutDisabled: false
