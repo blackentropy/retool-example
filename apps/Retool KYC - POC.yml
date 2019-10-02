@@ -882,6 +882,8 @@ appTemplate:
                       "Age": 54,
                       "SRF": "234345"
                     }]
+
+                    function 
                 - actionButtons: []
                 - actionButtonSelectsRow: true
                 - selectRowByDefault: true
@@ -950,7 +952,7 @@ appTemplate:
                 height: 8
                 width: 8
             createdAt: 2019-09-16T13:29:56.144Z
-            updatedAt: 2019-09-26T19:43:44.007Z
+            updatedAt: 2019-10-02T19:57:27.847Z
       - textinput13:
           pluginTemplate:
             id: textinput13
