@@ -88,7 +88,7 @@ appTemplate:
                 - disabled: ''
             position2:
               position2:
-                height: 104
+                height: 105
                 width: 12
             mobilePosition2:
               position2:
@@ -217,7 +217,7 @@ appTemplate:
             position2:
               position2:
                 container: container6
-                row: 1
+                row: 2
                 col: 5
                 height: 1
                 width: 7
@@ -258,7 +258,7 @@ appTemplate:
             position2:
               position2:
                 container: container6
-                row: 2
+                row: 3
                 col: 5
                 height: 1
                 width: 7
@@ -1753,6 +1753,7 @@ appTemplate:
             position2:
               position2:
                 container: container6
+                row: 1
                 height: 1
                 width: 12
             mobilePosition2:
@@ -2558,7 +2559,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 32
+                row: 33
                 height: 25
                 width: 12
             mobilePosition2:
@@ -2582,7 +2583,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 22
+                row: 23
                 height: 10
                 width: 12
             mobilePosition2:
@@ -2606,7 +2607,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 14
+                row: 15
                 height: 8
                 width: 12
             mobilePosition2:
@@ -2630,7 +2631,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 10
+                row: 11
                 height: 4
                 width: 12
             mobilePosition2:
@@ -2655,7 +2656,7 @@ appTemplate:
               position2:
                 container: form1
                 row: 6
-                height: 4
+                height: 5
                 width: 12
             mobilePosition2:
               position2:
@@ -2702,7 +2703,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 57
+                row: 58
                 height: 25
                 width: 12
             mobilePosition2:
@@ -2726,7 +2727,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 82
+                row: 83
                 height: 20
                 width: 12
             mobilePosition2:
@@ -3627,7 +3628,7 @@ appTemplate:
             position2:
               position2:
                 container: container6
-                row: 1
+                row: 2
                 height: 2
                 width: 5
             mobilePosition2:
@@ -3727,7 +3728,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 102
+                row: 103
                 col: 9
                 height: 1
                 width: 1
@@ -3993,6 +3994,43 @@ appTemplate:
                 - queryThrottleTime: '750'
             createdAt: 2019-10-01T20:09:58.591Z
             updatedAt: 2019-10-02T13:26:58.196Z
+      - button2:
+          pluginTemplate:
+            id: button2
+            type: widget
+            subtype: ButtonWidget
+            template:
+              ordered:
+                - valueToCopy: ''
+                - color: ''
+                - internalUrlHashParams: ''
+                - exportFileType: csv
+                - buttonType: action
+                - exportTemplate: null
+                - url: ''
+                - newWindow: false
+                - value: Submit
+                - exportQuery: ''
+                - action: ''
+                - internalUrlQuery: ''
+                - internalUrlPath: ''
+                - exportFileName: ''
+                - loading: ''
+                - disabled: ''
+            position2:
+              position2:
+                container: container6
+                col: 8
+                height: 1
+                width: 2
+            mobilePosition2:
+              position2:
+                container: container6
+                col: 8
+                height: 1
+                width: 2
+            createdAt: 2019-10-02T14:56:05.056Z
+            updatedAt: 2019-10-02T14:56:05.056Z
   createdAt: null
   version: 2.47.16
   responsiveLayoutDisabled: false
