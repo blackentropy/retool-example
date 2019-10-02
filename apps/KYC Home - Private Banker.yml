@@ -562,6 +562,43 @@ appTemplate:
                 - queryThrottleTime: '750'
             createdAt: 2019-10-02T20:44:57.296Z
             updatedAt: 2019-10-02T20:47:08.390Z
+      - button3:
+          pluginTemplate:
+            id: button3
+            type: widget
+            subtype: ButtonWidget
+            template:
+              ordered:
+                - valueToCopy: ''
+                - color: ''
+                - internalUrlHashParams: ''
+                - exportFileType: csv
+                - buttonType: action
+                - exportTemplate: null
+                - url: ''
+                - newWindow: false
+                - value: Submit
+                - exportQuery: ''
+                - action: ''
+                - internalUrlQuery: ''
+                - internalUrlPath: ''
+                - exportFileName: ''
+                - loading: ''
+                - disabled: ''
+            position2:
+              position2:
+                row: 7
+                col: 9
+                height: 1
+                width: 2
+            mobilePosition2:
+              position2:
+                row: 7
+                col: 9
+                height: 1
+                width: 2
+            createdAt: 2019-10-02T20:48:01.651Z
+            updatedAt: 2019-10-02T20:48:01.651Z
   createdAt: null
   version: 2.47.16
   responsiveLayoutDisabled: false
