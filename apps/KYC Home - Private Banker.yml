@@ -465,9 +465,9 @@ appTemplate:
                 width: 2
             createdAt: 2019-10-02T20:44:44.444Z
             updatedAt: 2019-10-02T20:47:19.132Z
-      - query3:
+      - add_new_client:
           pluginTemplate:
-            id: query3
+            id: add_new_client
             type: datasource
             subtype: RetoolTableQuery
             resourceName: testdb (write)
