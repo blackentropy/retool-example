@@ -314,7 +314,7 @@ appTemplate:
                 - docsSlug: textinput
                 - currencyType: USD
                 - leftIconName: ''
-                - initialValue: ''
+                - initialValue: Li
                 - tooltipText: ''
                 - value: ''
                 - placeholder: ''
@@ -340,7 +340,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-16T13:07:05.657Z
-            updatedAt: 2019-09-23T22:18:11.321Z
+            updatedAt: 2019-10-02T15:03:14.707Z
       - textinput6:
           pluginTemplate:
             id: textinput6
