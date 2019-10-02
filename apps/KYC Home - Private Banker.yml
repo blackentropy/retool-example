@@ -580,7 +580,7 @@ appTemplate:
                 - value: Edit Client
                 - exportQuery: ''
                 - action: ''
-                - internalUrlQuery: '"[{\"key\":\"id\",\"value\":\"{{table1.data.}}\"}]"'
+                - internalUrlQuery: '"[{\"key\":\"id\",\"value\":\"{{table1.}}\"}]"'
                 - internalUrlPath: 3f9c4a52-d64d-11e9-962d-17fef13b4b65
                 - exportFileName: ''
                 - loading: ''
@@ -598,7 +598,7 @@ appTemplate:
                 height: 1
                 width: 2
             createdAt: 2019-10-02T20:48:01.651Z
-            updatedAt: 2019-10-02T21:00:42.718Z
+            updatedAt: 2019-10-02T21:00:52.783Z
       - query4:
           pluginTemplate:
             id: query4
