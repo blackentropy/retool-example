@@ -599,6 +599,65 @@ appTemplate:
                 width: 2
             createdAt: 2019-10-02T20:48:01.651Z
             updatedAt: 2019-10-02T20:48:07.847Z
+      - query4:
+          pluginTemplate:
+            id: query4
+            type: datasource
+            subtype: RetoolTableQuery
+            resourceName: testdb (write)
+            template:
+              ordered:
+                - queryRefreshTime: ''
+                - records: ''
+                - queryDisabledMessage: ''
+                - successMessage: ''
+                - queryDisabled: ''
+                - playgroundQuerySaveId: 0
+                - resourceNameOverride: ''
+                - runWhenModelUpdates: false
+                - playgroundQueryId: 0
+                - privateParams: []
+                - triggersOnSuccess: []
+                - runWhenPageLoadsDelay: ''
+                - data: null
+                - recordId: ''
+                - importedQueryInputs:
+                    ordered: []
+                - showSuccessConfetti: false
+                - isImported: false
+                - showSuccessToaster: true
+                - cacheKeyTtl: ''
+                - filterBy: ''
+                - actionType: ''
+                - triggersOnFailure: []
+                - confirmationMessage: null
+                - isFetching: false
+                - changeset: ''
+                - rawData: null
+                - queryTriggerDelay: '0'
+                - watchedParams: []
+                - enableBulkUpdates: false
+                - timestamp: 0
+                - importedQueryDefaults:
+                    ordered: []
+                - enableTransformer: false
+                - bulkUpdatePrimaryKey: ''
+                - runWhenPageLoads: false
+                - transformer: >-
+                    // type your code here
+
+                    // example: return formatDataAsArray(data).filter(row =>
+                    row.quantity > 20)
+
+                    return data
+                - tableName: ''
+                - queryTimeout: '10000'
+                - requireConfirmation: false
+                - enableCaching: false
+                - doNotThrowOnNoOp: false
+                - queryThrottleTime: '750'
+            createdAt: 2019-10-02T20:48:10.260Z
+            updatedAt: 2019-10-02T20:48:10.260Z
   createdAt: null
   version: 2.47.16
   responsiveLayoutDisabled: false
