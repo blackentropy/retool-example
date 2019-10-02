@@ -480,7 +480,7 @@ appTemplate:
                 - exportTemplate: null
                 - url: ''
                 - newWindow: false
-                - value: Submit
+                - value: Add new client
                 - exportQuery: ''
                 - action: query3
                 - internalUrlQuery: ''
@@ -501,7 +501,7 @@ appTemplate:
                 height: 1
                 width: 2
             createdAt: 2019-10-02T20:44:44.444Z
-            updatedAt: 2019-10-02T20:46:55.607Z
+            updatedAt: 2019-10-02T20:47:19.132Z
       - query3:
           pluginTemplate:
             id: query3
