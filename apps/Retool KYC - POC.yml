@@ -3900,7 +3900,7 @@ appTemplate:
                 - isImported: false
                 - showSuccessToaster: true
                 - cacheKeyTtl: ''
-                - filterBy: '[{"key":"id","value":"{{client_id.value}}","operation":"="}]'
+                - filterBy: '[{"key":"id","value":"{{urlparams.id}}","operation":"="}]'
                 - actionType: UPDATE_BY
                 - triggersOnFailure:
                     - save_non_canadian_assets
@@ -3936,7 +3936,7 @@ appTemplate:
                 - doNotThrowOnNoOp: false
                 - queryThrottleTime: '750'
             createdAt: 2019-10-01T15:26:32.515Z
-            updatedAt: 2019-10-02T13:26:50.601Z
+            updatedAt: 2019-10-02T21:08:53.299Z
       - save_non_canadian_assets:
           pluginTemplate:
             id: save_non_canadian_assets
