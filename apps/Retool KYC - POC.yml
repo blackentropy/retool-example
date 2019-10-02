@@ -436,7 +436,7 @@ appTemplate:
                 - docsSlug: textinput
                 - currencyType: USD
                 - leftIconName: ''
-                - initialValue: '{{}}'
+                - initialValue: '{{client_form_number.data.}}'
                 - tooltipText: >-
                     Client Risk Index (A is lowest risk. D and E are high risk
                     and require escalation)
@@ -465,7 +465,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-16T13:09:27.943Z
-            updatedAt: 2019-10-02T15:05:18.809Z
+            updatedAt: 2019-10-02T15:05:25.248Z
       - textinput9:
           pluginTemplate:
             id: textinput9
