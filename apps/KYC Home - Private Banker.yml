@@ -98,7 +98,7 @@ appTemplate:
                 - newWindow: false
                 - value: Submit
                 - exportQuery: ''
-                - action: ''
+                - action: query1
                 - internalUrlQuery: ''
                 - internalUrlPath: ''
                 - exportFileName: ''
@@ -117,7 +117,7 @@ appTemplate:
                 height: 1
                 width: 2
             createdAt: 2019-10-02T20:42:27.736Z
-            updatedAt: 2019-10-02T20:42:27.736Z
+            updatedAt: 2019-10-02T20:43:43.815Z
   createdAt: null
   version: 2.47.16
   responsiveLayoutDisabled: false
