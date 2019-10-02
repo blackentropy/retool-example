@@ -529,7 +529,7 @@ appTemplate:
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
                 - onSubmit: ''
-                - type: text
+                - type: number
                 - allowedRegex: .*
                 - required: false
             position2:
@@ -547,7 +547,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-16T13:11:18.399Z
-            updatedAt: 2019-09-23T22:18:11.321Z
+            updatedAt: 2019-10-02T15:00:39.649Z
       - text5:
           pluginTemplate:
             id: text5
