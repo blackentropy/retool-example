@@ -3669,7 +3669,7 @@ appTemplate:
                 - showSuccessToaster: true
                 - cacheKeyTtl: ''
                 - filterBy: '[{"key":"id","value":"{{client_id.value}}","operation":"="}]'
-                - actionType: UPDATE_OR_INSERT_BY
+                - actionType: UPDATE_BY
                 - triggersOnFailure:
                     - save_relationship_management_data
                 - confirmationMessage: null
@@ -3700,7 +3700,7 @@ appTemplate:
                 - doNotThrowOnNoOp: false
                 - queryThrottleTime: '750'
             createdAt: 2019-09-30T15:54:38.862Z
-            updatedAt: 2019-10-01T20:54:30.779Z
+            updatedAt: 2019-10-02T13:24:05.551Z
       - button10:
           pluginTemplate:
             id: button10
