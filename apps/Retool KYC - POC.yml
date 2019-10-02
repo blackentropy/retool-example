@@ -3965,7 +3965,7 @@ appTemplate:
                 - isImported: false
                 - showSuccessToaster: true
                 - cacheKeyTtl: ''
-                - filterBy: '[{"key":"id","value":"{{client_id.value}}","operation":"="}]'
+                - filterBy: '[{"key":"id","value":"{{urlparams.id}}","operation":"="}]'
                 - actionType: UPDATE_BY
                 - triggersOnFailure: []
                 - confirmationMessage: null
@@ -3996,7 +3996,7 @@ appTemplate:
                 - doNotThrowOnNoOp: false
                 - queryThrottleTime: '750'
             createdAt: 2019-10-01T20:09:58.591Z
-            updatedAt: 2019-10-02T13:26:58.196Z
+            updatedAt: 2019-10-02T21:09:04.493Z
   createdAt: null
   version: 2.47.16
   responsiveLayoutDisabled: false
