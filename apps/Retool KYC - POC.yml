@@ -1753,6 +1753,7 @@ appTemplate:
             position2:
               position2:
                 container: container6
+                row: 1
                 height: 1
                 width: 12
             mobilePosition2:
