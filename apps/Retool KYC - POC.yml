@@ -4031,6 +4031,31 @@ appTemplate:
                 width: 3
             createdAt: 2019-10-02T20:30:36.688Z
             updatedAt: 2019-10-02T20:30:36.688Z
+      - text22:
+          pluginTemplate:
+            id: text22
+            type: widget
+            subtype: TextWidget
+            template:
+              ordered:
+                - value: "**Hello** <b>friend!</b> \U0001F603"
+                - html: false
+                - scrollOverflow: false
+                - truncateOverflow: false
+            position2:
+              position2:
+                container: modal1
+                col: 1
+                height: 1
+                width: 3
+            mobilePosition2:
+              position2:
+                container: modal1
+                col: 1
+                height: 1
+                width: 3
+            createdAt: 2019-10-02T20:31:24.700Z
+            updatedAt: 2019-10-02T20:31:24.700Z
   createdAt: null
   version: 2.47.16
   responsiveLayoutDisabled: false
