@@ -217,7 +217,7 @@ appTemplate:
             position2:
               position2:
                 container: container6
-                row: 2
+                row: 1
                 col: 5
                 height: 1
                 width: 7
@@ -258,7 +258,7 @@ appTemplate:
             position2:
               position2:
                 container: container6
-                row: 3
+                row: 2
                 col: 5
                 height: 1
                 width: 7
@@ -1753,7 +1753,6 @@ appTemplate:
             position2:
               position2:
                 container: container6
-                row: 1
                 height: 1
                 width: 12
             mobilePosition2:
@@ -3628,7 +3627,7 @@ appTemplate:
             position2:
               position2:
                 container: container6
-                row: 2
+                row: 1
                 height: 2
                 width: 5
             mobilePosition2:
