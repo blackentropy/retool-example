@@ -894,7 +894,7 @@ appTemplate:
                 - sortedDesc: false
                 - columnMappersRenderAsHTML:
                     ordered: []
-                - pageSize: 3
+                - pageSize: 5
                 - selectedColumn: null
                 - actionButtonPosition: left
                 - bulkUpdateAction: countries_world_minus_canada
@@ -943,8 +943,8 @@ appTemplate:
             position2:
               position2:
                 container: container4
-                row: 3
-                height: 5
+                row: 1
+                height: 7
                 width: 12
             mobilePosition2:
               position2:
@@ -954,7 +954,7 @@ appTemplate:
                 height: 8
                 width: 8
             createdAt: 2019-09-16T13:29:56.144Z
-            updatedAt: 2019-10-02T20:11:36.893Z
+            updatedAt: 2019-10-02T20:35:29.229Z
       - textinput13:
           pluginTemplate:
             id: textinput13
