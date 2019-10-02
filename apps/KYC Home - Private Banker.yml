@@ -445,7 +445,7 @@ appTemplate:
                 - newWindow: false
                 - value: Add new client
                 - exportQuery: ''
-                - action: query3
+                - action: add_new_client
                 - internalUrlQuery: ''
                 - internalUrlPath: ''
                 - exportFileName: ''
@@ -464,7 +464,7 @@ appTemplate:
                 height: 1
                 width: 2
             createdAt: 2019-10-02T20:44:44.444Z
-            updatedAt: 2019-10-02T20:47:19.132Z
+            updatedAt: 2019-10-02T21:32:08.007Z
       - add_new_client:
           pluginTemplate:
             id: add_new_client
