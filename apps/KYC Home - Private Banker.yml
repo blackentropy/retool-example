@@ -598,7 +598,7 @@ appTemplate:
                 height: 1
                 width: 2
             createdAt: 2019-10-02T20:48:01.651Z
-            updatedAt: 2019-10-02T20:50:33.029Z
+            updatedAt: 2019-10-02T20:50:44.805Z
       - query4:
           pluginTemplate:
             id: query4
