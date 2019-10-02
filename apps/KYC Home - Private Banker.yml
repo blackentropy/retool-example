@@ -301,7 +301,7 @@ appTemplate:
                 - selectedPageIndex: '0'
                 - actionButtonColumnName: Actions
                 - serverPaginated: false
-                - data: '{{query1.data}}'
+                - data: '{{client_list.data}}'
                 - actionButtons: []
                 - actionButtonSelectsRow: true
                 - selectRowByDefault: true
@@ -427,7 +427,7 @@ appTemplate:
                 height: 8
                 width: 8
             createdAt: 2019-10-02T20:43:59.662Z
-            updatedAt: 2019-10-02T20:44:24.331Z
+            updatedAt: 2019-10-02T21:31:55.463Z
       - button2:
           pluginTemplate:
             id: button2
@@ -484,7 +484,7 @@ appTemplate:
                 - playgroundQueryId: 0
                 - privateParams: []
                 - triggersOnSuccess:
-                    - query1
+                    - client_list
                 - runWhenPageLoadsDelay: ''
                 - data: null
                 - recordId: ''
@@ -524,7 +524,7 @@ appTemplate:
                 - doNotThrowOnNoOp: false
                 - queryThrottleTime: '750'
             createdAt: 2019-10-02T20:44:57.296Z
-            updatedAt: 2019-10-02T20:47:08.390Z
+            updatedAt: 2019-10-02T21:31:55.557Z
       - button3:
           pluginTemplate:
             id: button3
