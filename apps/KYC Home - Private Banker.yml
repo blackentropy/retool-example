@@ -98,7 +98,7 @@ appTemplate:
                 - newWindow: false
                 - value: Submit
                 - exportQuery: ''
-                - action: query1
+                - action: button1Trigger
                 - internalUrlQuery: ''
                 - internalUrlPath: ''
                 - exportFileName: ''
@@ -117,7 +117,7 @@ appTemplate:
                 height: 1
                 width: 2
             createdAt: 2019-10-02T20:42:27.736Z
-            updatedAt: 2019-10-02T20:43:43.815Z
+            updatedAt: 2019-10-02T20:43:48.751Z
       - button1Trigger:
           pluginTemplate:
             id: button1Trigger
