@@ -3562,7 +3562,7 @@ appTemplate:
                 - playgroundQuerySaveId: 0
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: true
-                - query: 'select * from clients where id = {{ client_id.value }}'
+                - query: 'select * from clients where id = {{ urlparams.id }}'
                 - playgroundQueryId: 0
                 - privateParams: []
                 - triggersOnSuccess: []
@@ -3601,7 +3601,7 @@ appTemplate:
                 - databaseUsernameOverride: ''
                 - queryThrottleTime: '750'
             createdAt: 2019-09-30T15:45:24.757Z
-            updatedAt: 2019-09-30T15:46:20.607Z
+            updatedAt: 2019-10-02T21:05:07.591Z
       - select14:
           pluginTemplate:
             id: select14
