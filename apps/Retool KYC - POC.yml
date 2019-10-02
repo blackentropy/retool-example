@@ -3778,7 +3778,7 @@ appTemplate:
                 - confirmationMessage: null
                 - isFetching: false
                 - changeset: >-
-                    [{"key":"household_needs_complexity","value":"{{select2.value}}"},{"key":"complexity_household_needs","value":"{{textinput25.value}}"},{"key":"household_meets_minimum_revenue_req","value":"{{select4.value}}"},{"key":"hh_members_canadian_tax_resident","value":"{{select5.value}}"},{"key":"tax_countries","value":"{{multiselect2.value}}"},{"key":"risk_evaluation_onboarding","value":"{{textinput20.value}}"},{"key":"date_of_approval","value":"{{textinput23.value}}"},{"key":"client_signature","value":"{{signaturepad1}}"},{"key":"private_banker_signature","value":"{{signaturepad2}}"},{"key":"reason_pb_relationship","value":"{{textinput13.value}}"},{"key":"cash","value":"{{textinput27.value}}"},{"key":"assets_under_management","value":"{{textinput28.value}}"},{"key":"properties","value":"{{textinput29.value}}"},{"key":"employment_income","value":"{{textinput30.value}}"},{"key":"business_income","value":"{{textinput31.value}}"},{"key":"other_income","value":"{{textinput32.value}}"},{"key":"occupation","value":"{{textinput33.value}}"},{"key":"hh_revenue","value":"{{textinput34.value}}"},{"key":"trusts","value":"{{textinput35.value}}"},{"key":"holding_companies","value":"{{textinput36.value}}"},{"key":"other_details","value":"{{textinput14.value}}"}]
+                    [{"key":"household_needs_complexity","value":"{{select2.value}}"},{"key":"complexity_household_needs","value":"{{textinput25.value}}"},{"key":"household_meets_minimum_revenue_req","value":"{{select4.value}}"},{"key":"hh_members_canadian_tax_resident","value":"{{select5.value}}"},{"key":"tax_countries","value":"{{multiselect2.value}}"},{"key":"risk_evaluation_onboarding","value":"{{textinput20.value}}"},{"key":"date_of_approval","value":"{{textinput23.value}}"},{"key":"client_signature","value":"{{signaturepad1.signatureImageFile}}"},{"key":"private_banker_signature","value":"{{signaturepad2.signatureImageFile}}"},{"key":"reason_pb_relationship","value":"{{textinput13.value}}"},{"key":"cash","value":"{{textinput27.value}}"},{"key":"assets_under_management","value":"{{textinput28.value}}"},{"key":"properties","value":"{{textinput29.value}}"},{"key":"employment_income","value":"{{textinput30.value}}"},{"key":"business_income","value":"{{textinput31.value}}"},{"key":"other_income","value":"{{textinput32.value}}"},{"key":"occupation","value":"{{textinput33.value}}"},{"key":"hh_revenue","value":"{{textinput34.value}}"},{"key":"trusts","value":"{{textinput35.value}}"},{"key":"holding_companies","value":"{{textinput36.value}}"},{"key":"other_details","value":"{{textinput14.value}}"}]
                 - rawData: null
                 - queryTriggerDelay: '0'
                 - watchedParams: []
@@ -3803,7 +3803,7 @@ appTemplate:
                 - doNotThrowOnNoOp: false
                 - queryThrottleTime: '750'
             createdAt: 2019-09-30T21:13:54.048Z
-            updatedAt: 2019-10-02T13:24:24.199Z
+            updatedAt: 2019-10-02T15:10:36.020Z
       - save_client_risk:
           pluginTemplate:
             id: save_client_risk
