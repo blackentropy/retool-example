@@ -573,7 +573,7 @@ appTemplate:
                 - color: ''
                 - internalUrlHashParams: ''
                 - exportFileType: csv
-                - buttonType: action
+                - buttonType: internal-url
                 - exportTemplate: null
                 - url: ''
                 - newWindow: false
@@ -598,7 +598,7 @@ appTemplate:
                 height: 1
                 width: 2
             createdAt: 2019-10-02T20:48:01.651Z
-            updatedAt: 2019-10-02T20:48:07.847Z
+            updatedAt: 2019-10-02T20:49:04.444Z
       - query4:
           pluginTemplate:
             id: query4
