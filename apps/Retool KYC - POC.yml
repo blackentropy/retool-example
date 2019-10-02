@@ -354,7 +354,7 @@ appTemplate:
                 - docsSlug: textinput
                 - currencyType: USD
                 - leftIconName: ''
-                - initialValue: '{{client}}'
+                - initialValue: '{{client_form_number.data}}'
                 - tooltipText: ''
                 - value: ''
                 - placeholder: ''
@@ -381,7 +381,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-16T13:08:04.419Z
-            updatedAt: 2019-10-02T15:03:35.018Z
+            updatedAt: 2019-10-02T15:03:38.456Z
       - textinput7:
           pluginTemplate:
             id: textinput7
