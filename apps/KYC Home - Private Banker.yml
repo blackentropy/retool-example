@@ -118,6 +118,66 @@ appTemplate:
                 width: 2
             createdAt: 2019-10-02T20:42:27.736Z
             updatedAt: 2019-10-02T20:43:43.815Z
+      - button1Trigger:
+          pluginTemplate:
+            id: button1Trigger
+            type: datasource
+            subtype: RESTQuery
+            resourceName: REST-WithoutResource
+            template:
+              ordered:
+                - queryRefreshTime: ''
+                - paginationLimit: ''
+                - body: ''
+                - queryDisabledMessage: ''
+                - successMessage: ''
+                - queryDisabled: ''
+                - playgroundQuerySaveId: 0
+                - resourceNameOverride: ''
+                - runWhenModelUpdates: true
+                - paginationPaginationField: ''
+                - headers: ''
+                - paginationEnabled: false
+                - query: ''
+                - playgroundQueryId: 0
+                - privateParams: []
+                - triggersOnSuccess: []
+                - runWhenPageLoadsDelay: ''
+                - data: null
+                - importedQueryInputs:
+                    ordered: []
+                - showSuccessConfetti: false
+                - isImported: false
+                - showSuccessToaster: true
+                - cacheKeyTtl: ''
+                - cookies: ''
+                - triggersOnFailure: []
+                - confirmationMessage: null
+                - isFetching: false
+                - rawData: null
+                - queryTriggerDelay: '0'
+                - watchedParams: []
+                - paginationDataField: ''
+                - timestamp: 0
+                - importedQueryDefaults:
+                    ordered: []
+                - enableTransformer: false
+                - runWhenPageLoads: false
+                - transformer: >-
+                    // type your code here
+
+                    // example: return formatDataAsArray(data).filter(row =>
+                    row.quantity > 20)
+
+                    return data
+                - queryTimeout: '10000'
+                - requireConfirmation: false
+                - type: GET
+                - enableCaching: false
+                - bodyType: json
+                - queryThrottleTime: '750'
+            createdAt: 2019-10-02T20:43:48.245Z
+            updatedAt: 2019-10-02T20:43:48.245Z
   createdAt: null
   version: 2.47.16
   responsiveLayoutDisabled: false
