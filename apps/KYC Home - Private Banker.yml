@@ -482,7 +482,7 @@ appTemplate:
                 - newWindow: false
                 - value: Submit
                 - exportQuery: ''
-                - action: ''
+                - action: query3
                 - internalUrlQuery: ''
                 - internalUrlPath: ''
                 - exportFileName: ''
@@ -501,7 +501,7 @@ appTemplate:
                 height: 1
                 width: 2
             createdAt: 2019-10-02T20:44:44.444Z
-            updatedAt: 2019-10-02T20:44:44.444Z
+            updatedAt: 2019-10-02T20:46:55.607Z
       - query3:
           pluginTemplate:
             id: query3
