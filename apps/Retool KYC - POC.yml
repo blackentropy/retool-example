@@ -883,7 +883,7 @@ appTemplate:
                       var cell1 = row.insertCell(0);
                       var cell2 = row.insertCell(1);
                       var cell2 = row.insertCell(2);
-                      var cell2 = row.insertCell(1);
+                      var cell2 = row.insertCell(3);
                 - actionButtons: []
                 - actionButtonSelectsRow: true
                 - selectRowByDefault: true
@@ -952,7 +952,7 @@ appTemplate:
                 height: 8
                 width: 8
             createdAt: 2019-09-16T13:29:56.144Z
-            updatedAt: 2019-10-02T20:10:26.333Z
+            updatedAt: 2019-10-02T20:10:28.716Z
       - textinput13:
           pluginTemplate:
             id: textinput13
