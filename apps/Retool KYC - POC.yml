@@ -1222,7 +1222,7 @@ appTemplate:
                 - searchValue: ''
                 - displayValue: ''
                 - tooltipText: ''
-                - value: 'The estimated net worth of the household is greater than '
+                - value: ''
                 - maxResults: 50
                 - placeholder: ''
                 - label: >-
@@ -1248,7 +1248,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-16T14:13:38.396Z
-            updatedAt: 2019-09-23T22:18:11.323Z
+            updatedAt: 2019-10-02T15:28:02.119Z
       - select8:
           pluginTemplate:
             id: select8
