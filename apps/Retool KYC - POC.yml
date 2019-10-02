@@ -88,7 +88,7 @@ appTemplate:
                 - disabled: ''
             position2:
               position2:
-                height: 105
+                height: 106
                 width: 12
             mobilePosition2:
               position2:
@@ -943,7 +943,7 @@ appTemplate:
             position2:
               position2:
                 container: container4
-                row: 1
+                row: 3
                 height: 5
                 width: 12
             mobilePosition2:
@@ -2562,7 +2562,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 33
+                row: 34
                 height: 25
                 width: 12
             mobilePosition2:
@@ -2586,7 +2586,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 23
+                row: 24
                 height: 10
                 width: 12
             mobilePosition2:
@@ -2611,7 +2611,7 @@ appTemplate:
               position2:
                 container: form1
                 row: 15
-                height: 8
+                height: 9
                 width: 12
             mobilePosition2:
               position2:
@@ -2706,7 +2706,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 58
+                row: 59
                 height: 25
                 width: 12
             mobilePosition2:
@@ -2730,7 +2730,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 83
+                row: 84
                 height: 20
                 width: 12
             mobilePosition2:
@@ -3731,7 +3731,7 @@ appTemplate:
             position2:
               position2:
                 container: form1
-                row: 103
+                row: 104
                 col: 9
                 height: 1
                 width: 1
@@ -3997,6 +3997,40 @@ appTemplate:
                 - queryThrottleTime: '750'
             createdAt: 2019-10-01T20:09:58.591Z
             updatedAt: 2019-10-02T13:26:58.196Z
+      - modal1:
+          pluginTemplate:
+            id: modal1
+            type: widget
+            subtype: ModalWidget
+            template:
+              ordered:
+                - buttonBackgroundColor: ''
+                - open: false
+                - onModalClose: ''
+                - buttonColor: ''
+                - modalHeight: ''
+                - onModalOpen: ''
+                - modalWidth: ''
+                - closeOnOutsideClick: false
+                - loading: ''
+                - disabled: ''
+                - buttonText: Open Modal
+            position2:
+              position2:
+                container: container4
+                row: 2
+                col: 5
+                height: 1
+                width: 3
+            mobilePosition2:
+              position2:
+                container: container4
+                row: 2
+                col: 5
+                height: 1
+                width: 3
+            createdAt: 2019-10-02T20:30:36.688Z
+            updatedAt: 2019-10-02T20:30:36.688Z
   createdAt: null
   version: 2.47.16
   responsiveLayoutDisabled: false
