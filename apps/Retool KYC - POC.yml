@@ -886,7 +886,7 @@ appTemplate:
                     }]
 
                     function addrows() {
-                      var table = document.getElementById("myTable")
+                      var table = document.getElementById("myTable");
                     }
                 - actionButtons: []
                 - actionButtonSelectsRow: true
@@ -956,7 +956,7 @@ appTemplate:
                 height: 8
                 width: 8
             createdAt: 2019-09-16T13:29:56.144Z
-            updatedAt: 2019-10-02T20:01:33.668Z
+            updatedAt: 2019-10-02T20:03:06.608Z
       - textinput13:
           pluginTemplate:
             id: textinput13
