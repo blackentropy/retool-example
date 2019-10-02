@@ -867,6 +867,8 @@ appTemplate:
                 - actionButtonColumnName: Actions
                 - serverPaginated: false
                 - data: |-
+
+
                     [{
                       "Last Name/Name of non-personal entity": ,
                       "First Name": ,
@@ -948,7 +950,7 @@ appTemplate:
                 height: 8
                 width: 8
             createdAt: 2019-09-16T13:29:56.144Z
-            updatedAt: 2019-10-02T20:08:26.782Z
+            updatedAt: 2019-10-02T20:09:47.960Z
       - textinput13:
           pluginTemplate:
             id: textinput13
