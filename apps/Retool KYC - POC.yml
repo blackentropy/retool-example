@@ -4012,7 +4012,7 @@ appTemplate:
             subtype: TextInputWidget
             template:
               ordered:
-                - readonly: ''
+                - readonly: '{{client}}'
                 - disabledKeyCodes: ''
                 - onBlur: ''
                 - docsSlug: textinput
@@ -4034,9 +4034,9 @@ appTemplate:
               position2:
                 container: form1
                 row: 2
-                col: 9
+                col: 10
                 height: 1
-                width: 3
+                width: 2
             mobilePosition2:
               position2:
                 container: form1
@@ -4045,7 +4045,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-10-03T21:24:57.489Z
-            updatedAt: 2019-10-03T21:39:25.358Z
+            updatedAt: 2019-10-03T21:41:42.881Z
   createdAt: null
   version: 2.48.4
   responsiveLayoutDisabled: false
