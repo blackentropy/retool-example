@@ -67,7 +67,7 @@ appTemplate:
             subtype: TextWidget
             template:
               ordered:
-                - value: '<h1> This is the home screen '
+                - value: '<h1> Private '
                 - html: false
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -80,7 +80,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-10-02T20:41:46.581Z
-            updatedAt: 2019-10-02T20:42:00.444Z
+            updatedAt: 2019-10-03T14:00:12.926Z
       - button1Trigger:
           pluginTemplate:
             id: button1Trigger
