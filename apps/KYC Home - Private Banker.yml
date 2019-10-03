@@ -456,7 +456,7 @@ appTemplate:
                 - disabled: ''
             position2:
               position2:
-                row: 5
+                row: 7
                 col: 9
                 height: 1
                 width: 2
@@ -554,7 +554,7 @@ appTemplate:
                 - disabled: ''
             position2:
               position2:
-                row: 7
+                row: 9
                 col: 9
                 height: 1
                 width: 2
