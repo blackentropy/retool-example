@@ -627,9 +627,9 @@ appTemplate:
                 width: 2
             createdAt: 2019-10-03T14:08:15.129Z
             updatedAt: 2019-10-03T14:09:42.930Z
-      - query4:
+      - number_households:
           pluginTemplate:
-            id: query4
+            id: number_households
             type: datasource
             subtype: SqlQuery
             resourceName: testdb (read)
