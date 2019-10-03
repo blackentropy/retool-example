@@ -607,7 +607,7 @@ appTemplate:
             subtype: StatisticWidget
             template:
               ordered:
-                - title: 'Total Number of '
+                - title: Total Number of Households
                 - value: 1234.5678
                 - prefix: $
                 - suffix: / lb.
@@ -626,7 +626,7 @@ appTemplate:
                 height: 2
                 width: 2
             createdAt: 2019-10-03T14:08:15.129Z
-            updatedAt: 2019-10-03T14:09:02.779Z
+            updatedAt: 2019-10-03T14:09:08.848Z
       - query4:
           pluginTemplate:
             id: query4
