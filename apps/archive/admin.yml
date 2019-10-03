@@ -1,0 +1,38 @@
+version: 43.0.9
+pageUuid: b6dcbe36-e60a-11e9-8bf3-f7df7afe8d0b
+appTemplate:
+  isFetching: false
+  plugins:
+    ordered:
+      - query1:
+          pluginTemplate:
+            id: query1
+            type: datasource
+            subtype: SqlQuery
+            resourceName: testdb (read)
+            template:
+              ordered:
+                - queryRefreshTime: ''
+                - queryDisabledMessage: ''
+                - successMessage: ''
+                - queryDisabled: ''
+                - resourceNameOverride: ''
+                - runWhenModelUpdates: true
+                - query: ''
+                - privateParams: []
+                - triggersOnSuccess: []
+                - data: null
+                - showSuccessToaster: true
+                - triggersOnFailure: []
+                - confirmationMessage: null
+                - watchedParams: []
+                - timestamp: 0
+                - runWhenPageLoads: false
+                - queryTimeout: '10001'
+                - requireConfirmation: false
+                - queryThrottleTime: '750'
+  createdAt: null
+  version: null
+  responsiveLayoutDisabled: false
+  urlFragmentDefinitions: []
+  pageLoadValueOverrides: []
