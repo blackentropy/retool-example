@@ -420,9 +420,8 @@ appTemplate:
             position2:
               position2:
                 row: 7
-                col: 1
                 height: 8
-                width: 11
+                width: 12
             mobilePosition2:
               position2:
                 row: 3
