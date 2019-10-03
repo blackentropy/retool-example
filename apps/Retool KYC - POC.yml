@@ -4062,7 +4062,7 @@ appTemplate:
                 - tooltipText: ''
                 - value: ''
                 - placeholder: Search here...
-                - label: Clien
+                - label: Client_ID
                 - formattedValue: ''
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
@@ -4085,7 +4085,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-10-03T21:24:57.489Z
-            updatedAt: 2019-10-03T21:25:10.687Z
+            updatedAt: 2019-10-03T21:25:12.970Z
   createdAt: null
   version: 2.48.4
   responsiveLayoutDisabled: false
