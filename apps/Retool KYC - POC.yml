@@ -4005,9 +4005,9 @@ appTemplate:
                 - queryThrottleTime: '750'
             createdAt: 2019-10-03T21:10:56.552Z
             updatedAt: 2019-10-03T21:10:56.552Z
-      - textinput37:
+      - client_id:
           pluginTemplate:
-            id: textinput37
+            id: client_id
             type: widget
             subtype: TextInputWidget
             template:
