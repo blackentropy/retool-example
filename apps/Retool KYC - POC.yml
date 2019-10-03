@@ -3499,46 +3499,6 @@ appTemplate:
                 width: 4
             createdAt: 2019-09-27T19:09:59.627Z
             updatedAt: 2019-09-27T19:11:26.116Z
-      - client_id:
-          pluginTemplate:
-            id: client_id
-            type: widget
-            subtype: SelectWidget
-            template:
-              ordered:
-                - values: '{{urlparams.'
-                - allowOutOfRangeValues: false
-                - enableFuzzyMatching: true
-                - searchValue: ''
-                - displayValue: ''
-                - tooltipText: ''
-                - value: '1'
-                - maxResults: 50
-                - placeholder: ''
-                - label: 'TEMPORARY: CLIENT_ID TO EDIT'
-                - labelMaxWidth: ''
-                - labelPlacedOnLeft: ''
-                - onSelect: ''
-                - disabled: ''
-                - hideClearButton: false
-                - required: false
-                - labels: ''
-            position2:
-              position2:
-                container: form1
-                row: 2
-                col: 8
-                height: 1
-                width: 4
-            mobilePosition2:
-              position2:
-                container: form1
-                row: 2
-                col: 8
-                height: 1
-                width: 4
-            createdAt: 2019-09-30T15:44:58.236Z
-            updatedAt: 2019-10-03T21:19:42.628Z
       - client_form_number:
           pluginTemplate:
             id: client_form_number
