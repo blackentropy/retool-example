@@ -419,7 +419,7 @@ appTemplate:
                 - useCompactMode: false
             position2:
               position2:
-                row: 5
+                row: 8
                 col: 1
                 height: 8
                 width: 8
@@ -456,7 +456,7 @@ appTemplate:
                 - disabled: ''
             position2:
               position2:
-                row: 7
+                row: 11
                 col: 9
                 height: 1
                 width: 2
@@ -554,7 +554,7 @@ appTemplate:
                 - disabled: ''
             position2:
               position2:
-                row: 9
+                row: 12
                 col: 9
                 height: 1
                 width: 2
