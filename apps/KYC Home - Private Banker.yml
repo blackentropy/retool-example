@@ -67,7 +67,7 @@ appTemplate:
             subtype: TextWidget
             template:
               ordered:
-                - value: '<h1> Private Banking Wealth '
+                - value: <h1> Private Banking -
                 - html: false
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -80,7 +80,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-10-02T20:41:46.581Z
-            updatedAt: 2019-10-03T14:00:15.972Z
+            updatedAt: 2019-10-03T14:00:22.400Z
       - button1Trigger:
           pluginTemplate:
             id: button1Trigger
