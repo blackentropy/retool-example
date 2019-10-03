@@ -608,7 +608,7 @@ appTemplate:
             template:
               ordered:
                 - title: Total Number of Households
-                - value: 1234.5678
+                - value: ''
                 - prefix: $
                 - suffix: / lb.
                 - precision: 2
@@ -626,7 +626,7 @@ appTemplate:
                 height: 2
                 width: 2
             createdAt: 2019-10-03T14:08:15.129Z
-            updatedAt: 2019-10-03T14:09:08.848Z
+            updatedAt: 2019-10-03T14:09:13.406Z
       - query4:
           pluginTemplate:
             id: query4
