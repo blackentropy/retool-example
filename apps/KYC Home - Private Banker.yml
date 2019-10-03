@@ -76,7 +76,7 @@ appTemplate:
             position2:
               position2:
                 height: 2
-                width: 12
+                width: 9
             mobilePosition2:
               position2:
                 height: 1
