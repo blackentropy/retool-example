@@ -608,7 +608,7 @@ appTemplate:
             template:
               ordered:
                 - title: Total Number of Households
-                - value: ''
+                - value: '{{query4.data}}'
                 - prefix: $
                 - suffix: / lb.
                 - precision: 2
@@ -626,7 +626,7 @@ appTemplate:
                 height: 2
                 width: 2
             createdAt: 2019-10-03T14:08:15.129Z
-            updatedAt: 2019-10-03T14:09:13.406Z
+            updatedAt: 2019-10-03T14:09:21.479Z
       - query4:
           pluginTemplate:
             id: query4
