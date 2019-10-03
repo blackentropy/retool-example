@@ -643,11 +643,12 @@ appTemplate:
                 - playgroundQuerySaveId: 0
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: true
-                - query: ''
+                - query: select count(*) from clients
                 - playgroundQueryId: 0
                 - privateParams: []
                 - triggersOnSuccess: []
                 - runWhenPageLoadsDelay: ''
+                - warningCodes: []
                 - data: null
                 - importedQueryInputs:
                     ordered: []
@@ -681,7 +682,7 @@ appTemplate:
                 - databaseUsernameOverride: ''
                 - queryThrottleTime: '750'
             createdAt: 2019-10-03T14:08:24.128Z
-            updatedAt: 2019-10-03T14:08:24.128Z
+            updatedAt: 2019-10-03T14:08:43.973Z
   createdAt: null
   version: 2.47.16
   responsiveLayoutDisabled: false
