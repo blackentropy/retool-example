@@ -151,7 +151,10 @@ appTemplate:
             subtype: TableWidget
             template:
               ordered:
-                - columnWidths: []
+                - columnWidths:
+                    - object:
+                        id: head_household_id
+                        value: 100
                 - columnWidthsMobile: []
                 - columnHeaderNames:
                     ordered: []
@@ -303,6 +306,7 @@ appTemplate:
                       - holding_companies: true
                 - selectedPageIndex: '0'
                 - actionButtonColumnName: Actions
+                - showFetchingIndicator: true
                 - serverPaginated: false
                 - data: '{{client_list.data}}'
                 - actionButtons: []
@@ -429,7 +433,7 @@ appTemplate:
                 height: 8
                 width: 8
             createdAt: 2019-10-02T20:43:59.662Z
-            updatedAt: 2019-10-02T21:31:55.463Z
+            updatedAt: 2019-10-03T19:25:59.219Z
       - button2:
           pluginTemplate:
             id: button2
@@ -683,7 +687,7 @@ appTemplate:
             createdAt: 2019-10-03T14:08:24.128Z
             updatedAt: 2019-10-03T14:08:43.973Z
   createdAt: null
-  version: 2.47.16
+  version: 2.48.4
   responsiveLayoutDisabled: false
   urlFragmentDefinitions: []
   pageLoadValueOverrides: []
