@@ -4058,7 +4058,7 @@ appTemplate:
                 - docsSlug: textinput
                 - currencyType: USD
                 - leftIconName: search
-                - initialValue: '{{urlparams}}'
+                - initialValue: '{{urlparams.id}}'
                 - tooltipText: ''
                 - value: ''
                 - placeholder: Search here...
@@ -4085,7 +4085,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-10-03T21:24:57.489Z
-            updatedAt: 2019-10-03T21:25:37.543Z
+            updatedAt: 2019-10-03T21:25:42.625Z
   createdAt: null
   version: 2.48.4
   responsiveLayoutDisabled: false
