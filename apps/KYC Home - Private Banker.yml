@@ -67,7 +67,9 @@ appTemplate:
             subtype: TextWidget
             template:
               ordered:
-                - value: '<h1> Private Banking - Wealth Management - KYC '
+                - value: >-
+                    <h1> Private Banking - Wealth Management - KYC Central
+                    Dashboard 
                 - html: false
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -80,7 +82,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-10-02T20:41:46.581Z
-            updatedAt: 2019-10-03T14:01:17.616Z
+            updatedAt: 2019-10-03T14:01:20.515Z
       - button1Trigger:
           pluginTemplate:
             id: button1Trigger
