@@ -3506,7 +3506,7 @@ appTemplate:
             subtype: SelectWidget
             template:
               ordered:
-                - values: '{{client_form_number.data.id[''0'']}}'
+                - values: ''
                 - allowOutOfRangeValues: false
                 - enableFuzzyMatching: true
                 - searchValue: ''
@@ -3538,7 +3538,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-30T15:44:58.236Z
-            updatedAt: 2019-10-03T21:07:32.386Z
+            updatedAt: 2019-10-03T21:10:55.004Z
       - client_form_number:
           pluginTemplate:
             id: client_form_number
@@ -3990,6 +3990,61 @@ appTemplate:
                 - queryThrottleTime: '750'
             createdAt: 2019-10-01T20:09:58.591Z
             updatedAt: 2019-10-02T13:26:58.196Z
+      - query12:
+          pluginTemplate:
+            id: query12
+            type: datasource
+            subtype: SqlQuery
+            resourceName: testdb (read)
+            template:
+              ordered:
+                - queryRefreshTime: ''
+                - databasePasswordOverride: ''
+                - queryDisabledMessage: ''
+                - successMessage: ''
+                - queryDisabled: ''
+                - playgroundQuerySaveId: 0
+                - resourceNameOverride: ''
+                - runWhenModelUpdates: true
+                - query: ''
+                - playgroundQueryId: 0
+                - privateParams: []
+                - triggersOnSuccess: []
+                - runWhenPageLoadsDelay: ''
+                - data: null
+                - importedQueryInputs:
+                    ordered: []
+                - showSuccessConfetti: false
+                - isImported: false
+                - showSuccessToaster: true
+                - dataArray: []
+                - cacheKeyTtl: ''
+                - triggersOnFailure: []
+                - databaseNameOverride: ''
+                - confirmationMessage: null
+                - isFetching: false
+                - rawData: null
+                - queryTriggerDelay: '0'
+                - watchedParams: []
+                - timestamp: 0
+                - importedQueryDefaults:
+                    ordered: []
+                - enableTransformer: false
+                - runWhenPageLoads: false
+                - transformer: >-
+                    // type your code here
+
+                    // example: return formatDataAsArray(data).filter(row =>
+                    row.quantity > 20)
+
+                    return data
+                - queryTimeout: '10000'
+                - requireConfirmation: false
+                - enableCaching: false
+                - databaseUsernameOverride: ''
+                - queryThrottleTime: '750'
+            createdAt: 2019-10-03T21:10:56.552Z
+            updatedAt: 2019-10-03T21:10:56.552Z
   createdAt: null
   version: 2.48.4
   responsiveLayoutDisabled: false
