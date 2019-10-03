@@ -551,7 +551,7 @@ appTemplate:
                 - action: ''
                 - internalUrlQuery: >-
                     "[{\"key\":\"id\",\"value\":\"{{table1.selectedRow.data.id}}\"}]"
-                - internalUrlPath: 05105754-e555-11e9-b98c-330e8cc9584b
+                - internalUrlPath: 3f9c4a52-d64d-11e9-962d-17fef13b4b65
                 - exportFileName: ''
                 - loading: ''
                 - disabled: ''
@@ -568,7 +568,7 @@ appTemplate:
                 height: 1
                 width: 2
             createdAt: 2019-10-02T20:48:01.651Z
-            updatedAt: 2019-10-03T21:11:46.653Z
+            updatedAt: 2019-10-03T21:12:40.419Z
       - image1:
           pluginTemplate:
             id: image1
