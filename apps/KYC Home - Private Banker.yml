@@ -592,7 +592,7 @@ appTemplate:
               position2:
                 col: 9
                 height: 3
-                width: 2
+                width: 3
             mobilePosition2:
               position2:
                 col: 9
