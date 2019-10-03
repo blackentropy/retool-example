@@ -609,7 +609,7 @@ appTemplate:
               ordered:
                 - title: Total Number of Households
                 - value: '{{query4.data.count}}'
-                - prefix: $
+                - prefix: ''
                 - suffix: / lb.
                 - precision: ''
                 - round: true
@@ -626,7 +626,7 @@ appTemplate:
                 height: 2
                 width: 2
             createdAt: 2019-10-03T14:08:15.129Z
-            updatedAt: 2019-10-03T14:09:33.624Z
+            updatedAt: 2019-10-03T14:09:36.912Z
       - query4:
           pluginTemplate:
             id: query4
