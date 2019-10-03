@@ -611,7 +611,7 @@ appTemplate:
                 - value: '{{query4.data.count}}'
                 - prefix: $
                 - suffix: / lb.
-                - precision: 2
+                - precision: ''
                 - round: true
             position2:
               position2:
@@ -626,7 +626,7 @@ appTemplate:
                 height: 2
                 width: 2
             createdAt: 2019-10-03T14:08:15.129Z
-            updatedAt: 2019-10-03T14:09:26.724Z
+            updatedAt: 2019-10-03T14:09:33.624Z
       - query4:
           pluginTemplate:
             id: query4
