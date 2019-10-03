@@ -607,7 +607,7 @@ appTemplate:
             subtype: StatisticWidget
             template:
               ordered:
-                - title: Total
+                - title: 'Total Number of '
                 - value: 1234.5678
                 - prefix: $
                 - suffix: / lb.
@@ -626,7 +626,7 @@ appTemplate:
                 height: 2
                 width: 2
             createdAt: 2019-10-03T14:08:15.129Z
-            updatedAt: 2019-10-03T14:09:00.560Z
+            updatedAt: 2019-10-03T14:09:02.779Z
       - query4:
           pluginTemplate:
             id: query4
