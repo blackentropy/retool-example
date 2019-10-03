@@ -3506,7 +3506,7 @@ appTemplate:
             subtype: SelectWidget
             template:
               ordered:
-                - values: '{{urlparams.href[''0'']}}'
+                - values: '{{urlparams.'
                 - allowOutOfRangeValues: false
                 - enableFuzzyMatching: true
                 - searchValue: ''
@@ -3538,7 +3538,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-30T15:44:58.236Z
-            updatedAt: 2019-10-03T21:19:31.381Z
+            updatedAt: 2019-10-03T21:19:42.628Z
       - client_form_number:
           pluginTemplate:
             id: client_form_number
