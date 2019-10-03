@@ -419,7 +419,7 @@ appTemplate:
                 - useCompactMode: false
             position2:
               position2:
-                row: 8
+                row: 7
                 col: 1
                 height: 8
                 width: 8
