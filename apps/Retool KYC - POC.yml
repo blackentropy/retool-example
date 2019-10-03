@@ -865,6 +865,7 @@ appTemplate:
                       - Age: true
                 - selectedPageIndex: '0'
                 - actionButtonColumnName: Actions
+                - showFetchingIndicator: true
                 - serverPaginated: false
                 - data: |+
                     {table id = "myTable"
@@ -2349,6 +2350,7 @@ appTemplate:
                       - Description: true
                 - selectedPageIndex: '0'
                 - actionButtonColumnName: Actions
+                - showFetchingIndicator: true
                 - serverPaginated: false
                 - data: |-
                     [{
@@ -3504,7 +3506,7 @@ appTemplate:
             subtype: SelectWidget
             template:
               ordered:
-                - values: '[1]'
+                - values: '{{}}'
                 - allowOutOfRangeValues: false
                 - enableFuzzyMatching: true
                 - searchValue: ''
@@ -3536,7 +3538,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-09-30T15:44:58.236Z
-            updatedAt: 2019-09-30T15:45:13.992Z
+            updatedAt: 2019-10-03T21:04:46.996Z
       - client_form_number:
           pluginTemplate:
             id: client_form_number
@@ -3989,7 +3991,7 @@ appTemplate:
             createdAt: 2019-10-01T20:09:58.591Z
             updatedAt: 2019-10-02T13:26:58.196Z
   createdAt: null
-  version: 2.47.16
+  version: 2.48.4
   responsiveLayoutDisabled: false
   urlFragmentDefinitions: []
   pageLoadValueOverrides: []
