@@ -75,6 +75,8 @@ appTemplate:
                 - truncateOverflow: false
             position2:
               position2:
+                row: 3
+                col: 3
                 height: 2
                 width: 9
             mobilePosition2:
