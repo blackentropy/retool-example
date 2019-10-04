@@ -970,7 +970,8 @@ appTemplate:
                 - runWhenModelUpdates: true
                 - query: >-
                     select hh_head_last_name as Last_Name, hh_head_first_name as
-                    First_name, hh_head_middle_name as Middle_name from clients
+                    First_name, hh_head_middle_name as Middle_name, hh_head_cri
+                    as cri, hh_head_age as age, hh_head_srf as srf from clients
                 - playgroundQueryId: 0
                 - privateParams: []
                 - triggersOnSuccess: []
@@ -1009,7 +1010,7 @@ appTemplate:
                 - databaseUsernameOverride: ''
                 - queryThrottleTime: '750'
             createdAt: 2019-10-04T13:48:21.465Z
-            updatedAt: 2019-10-04T13:50:23.074Z
+            updatedAt: 2019-10-04T13:51:28.435Z
   createdAt: null
   version: 2.48.4
   responsiveLayoutDisabled: false
