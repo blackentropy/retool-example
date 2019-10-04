@@ -769,7 +769,7 @@ appTemplate:
                 - formattedValue: ''
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
-                - onSubmit: ''
+                - onSubmit: search_last_name
                 - type: text
                 - allowedRegex: .*
                 - required: false
@@ -786,7 +786,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-10-04T13:52:38.681Z
-            updatedAt: 2019-10-04T13:54:41.356Z
+            updatedAt: 2019-10-04T14:03:21.707Z
       - search_last_name:
           pluginTemplate:
             id: search_last_name
