@@ -869,9 +869,9 @@ appTemplate:
                 width: 2
             createdAt: 2019-10-04T14:21:56.066Z
             updatedAt: 2019-10-04T14:22:44.472Z
-      - query7:
+      - delete_client:
           pluginTemplate:
-            id: query7
+            id: delete_client
             type: datasource
             subtype: RetoolTableQuery
             resourceName: testdb (write)
