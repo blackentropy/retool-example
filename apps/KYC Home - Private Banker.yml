@@ -893,7 +893,7 @@ appTemplate:
                 - recordId: ''
                 - importedQueryInputs:
                     ordered: []
-                - showSuccessConfetti: false
+                - showSuccessConfetti: true
                 - isImported: false
                 - showSuccessToaster: true
                 - cacheKeyTtl: ''
@@ -901,7 +901,7 @@ appTemplate:
                     [{"key":"id","value":"{{table1.selectedRow.data}}","operation":"="}]
                 - actionType: DELETE_BY
                 - triggersOnFailure: []
-                - confirmationMessage: null
+                - confirmationMessage: Are you sure you want to delete this household?
                 - isFetching: false
                 - changeset: ''
                 - rawData: null
@@ -923,12 +923,12 @@ appTemplate:
                     return data
                 - tableName: clients
                 - queryTimeout: '10000'
-                - requireConfirmation: false
+                - requireConfirmation: true
                 - enableCaching: false
                 - doNotThrowOnNoOp: false
                 - queryThrottleTime: '750'
             createdAt: 2019-10-04T14:22:56.007Z
-            updatedAt: 2019-10-04T14:26:02.868Z
+            updatedAt: 2019-10-04T16:02:55.652Z
       - textinput1:
           pluginTemplate:
             id: textinput1
