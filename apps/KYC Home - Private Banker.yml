@@ -843,7 +843,7 @@ appTemplate:
                 - color: ''
                 - internalUrlHashParams: ''
                 - exportFileType: csv
-                - buttonType: action
+                - buttonType: internal-url
                 - exportTemplate: null
                 - url: ''
                 - newWindow: false
@@ -868,7 +868,7 @@ appTemplate:
                 height: 1
                 width: 2
             createdAt: 2019-10-04T14:21:56.066Z
-            updatedAt: 2019-10-04T14:22:44.472Z
+            updatedAt: 2019-10-04T14:23:40.945Z
       - delete_client:
           pluginTemplate:
             id: delete_client
