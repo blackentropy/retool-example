@@ -897,7 +897,8 @@ appTemplate:
                 - isImported: false
                 - showSuccessToaster: true
                 - cacheKeyTtl: ''
-                - filterBy: ''
+                - filterBy: >-
+                    [{"key":"id","value":"{{table1.selectedRow.data}}","operation":"="}]
                 - actionType: DELETE_BY
                 - triggersOnFailure: []
                 - confirmationMessage: null
@@ -927,7 +928,7 @@ appTemplate:
                 - doNotThrowOnNoOp: false
                 - queryThrottleTime: '750'
             createdAt: 2019-10-04T14:22:56.007Z
-            updatedAt: 2019-10-04T14:23:18.118Z
+            updatedAt: 2019-10-04T14:26:02.868Z
   createdAt: null
   version: 2.48.4
   responsiveLayoutDisabled: false
