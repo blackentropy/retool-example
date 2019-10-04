@@ -873,42 +873,45 @@ appTemplate:
           pluginTemplate:
             id: query7
             type: datasource
-            subtype: SqlQuery
-            resourceName: testdb (read)
+            subtype: RetoolTableQuery
+            resourceName: testdb (write)
             template:
               ordered:
                 - queryRefreshTime: ''
-                - databasePasswordOverride: ''
+                - records: ''
                 - queryDisabledMessage: ''
                 - successMessage: ''
                 - queryDisabled: ''
                 - playgroundQuerySaveId: 0
                 - resourceNameOverride: ''
-                - runWhenModelUpdates: true
-                - query: ''
+                - runWhenModelUpdates: false
                 - playgroundQueryId: 0
                 - privateParams: []
                 - triggersOnSuccess: []
                 - runWhenPageLoadsDelay: ''
                 - data: null
+                - recordId: ''
                 - importedQueryInputs:
                     ordered: []
                 - showSuccessConfetti: false
                 - isImported: false
                 - showSuccessToaster: true
-                - dataArray: []
                 - cacheKeyTtl: ''
+                - filterBy: ''
+                - actionType: DELETE_BY
                 - triggersOnFailure: []
-                - databaseNameOverride: ''
                 - confirmationMessage: null
                 - isFetching: false
+                - changeset: ''
                 - rawData: null
                 - queryTriggerDelay: '0'
                 - watchedParams: []
+                - enableBulkUpdates: false
                 - timestamp: 0
                 - importedQueryDefaults:
                     ordered: []
                 - enableTransformer: false
+                - bulkUpdatePrimaryKey: ''
                 - runWhenPageLoads: false
                 - transformer: >-
                     // type your code here
@@ -917,13 +920,14 @@ appTemplate:
                     row.quantity > 20)
 
                     return data
+                - tableName: clients
                 - queryTimeout: '10000'
                 - requireConfirmation: false
                 - enableCaching: false
-                - databaseUsernameOverride: ''
+                - doNotThrowOnNoOp: false
                 - queryThrottleTime: '750'
             createdAt: 2019-10-04T14:22:56.007Z
-            updatedAt: 2019-10-04T14:22:56.007Z
+            updatedAt: 2019-10-04T14:23:18.118Z
   createdAt: null
   version: 2.48.4
   responsiveLayoutDisabled: false
