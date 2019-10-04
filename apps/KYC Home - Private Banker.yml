@@ -956,7 +956,7 @@ appTemplate:
                 - required: false
             position2:
               position2:
-                row: 9
+                row: 19
                 col: 3
                 height: 1
                 width: 4
