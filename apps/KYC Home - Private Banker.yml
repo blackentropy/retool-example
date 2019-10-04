@@ -852,7 +852,7 @@ appTemplate:
             subtype: TextWidget
             template:
               ordered:
-                - value: <h3>Master Client List
+                - value: <h2>Master Client List
                 - html: true
                 - scrollOverflow: false
                 - truncateOverflow: false
@@ -867,7 +867,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-10-04T14:04:26.766Z
-            updatedAt: 2019-10-04T14:05:08.374Z
+            updatedAt: 2019-10-04T14:05:11.040Z
   createdAt: null
   version: 2.48.4
   responsiveLayoutDisabled: false
