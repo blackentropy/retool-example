@@ -1289,37 +1289,6 @@ appTemplate:
                 - queryThrottleTime: '750'
             createdAt: 2019-10-04T14:33:48.112Z
             updatedAt: 2019-10-04T14:35:38.786Z
-      - buttongroup1:
-          pluginTemplate:
-            id: buttongroup1
-            type: widget
-            subtype: ButtonGroupWidget
-            template:
-              ordered:
-                - values: '[1,2,3]'
-                - onChange: ''
-                - tooltipText: ''
-                - value: ''
-                - renderAsHtml: false
-                - label: Grade
-                - labelMaxWidth: ''
-                - labelPlacedOnLeft: ''
-                - disabled: ''
-                - labels: ''
-            position2:
-              position2:
-                row: 4
-                col: 3
-                height: 2
-                width: 4
-            mobilePosition2:
-              position2:
-                row: 4
-                col: 3
-                height: 2
-                width: 4
-            createdAt: 2019-10-04T15:44:19.362Z
-            updatedAt: 2019-10-04T15:44:19.362Z
   createdAt: null
   version: 2.48.4
   responsiveLayoutDisabled: false
