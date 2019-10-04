@@ -1220,8 +1220,7 @@ appTemplate:
                 - useCompactMode: false
             position2:
               position2:
-                row: 19
-                col: 4
+                row: 20
                 height: 8
                 width: 8
             mobilePosition2:
