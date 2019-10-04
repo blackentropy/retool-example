@@ -849,7 +849,7 @@ appTemplate:
                 - newWindow: false
                 - value: Delete Client
                 - exportQuery: ''
-                - action: ''
+                - action: delete_client
                 - internalUrlQuery: ''
                 - internalUrlPath: ''
                 - exportFileName: ''
@@ -868,7 +868,7 @@ appTemplate:
                 height: 1
                 width: 2
             createdAt: 2019-10-04T14:21:56.066Z
-            updatedAt: 2019-10-04T14:23:54.069Z
+            updatedAt: 2019-10-04T14:24:00.741Z
       - delete_client:
           pluginTemplate:
             id: delete_client
