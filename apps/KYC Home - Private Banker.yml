@@ -1247,11 +1247,14 @@ appTemplate:
                 - playgroundQuerySaveId: 0
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: true
-                - query: ''
+                - query: >-
+                    select * from clients where hh_head_last_name ilike {{'%' +
+                    textinput1.value + '%'}}
                 - playgroundQueryId: 0
                 - privateParams: []
                 - triggersOnSuccess: []
                 - runWhenPageLoadsDelay: ''
+                - warningCodes: []
                 - data: null
                 - importedQueryInputs:
                     ordered: []
@@ -1285,7 +1288,7 @@ appTemplate:
                 - databaseUsernameOverride: ''
                 - queryThrottleTime: '750'
             createdAt: 2019-10-04T14:33:48.112Z
-            updatedAt: 2019-10-04T14:33:48.112Z
+            updatedAt: 2019-10-04T14:35:38.786Z
   createdAt: null
   version: 2.48.4
   responsiveLayoutDisabled: false
