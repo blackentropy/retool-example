@@ -890,7 +890,7 @@ appTemplate:
                 - tooltipText: ''
                 - value: ''
                 - placeholder: Search here...
-                - label: Name
+                - label: CRI
                 - formattedValue: ''
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
@@ -911,7 +911,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-10-04T14:15:27.298Z
-            updatedAt: 2019-10-04T14:15:27.298Z
+            updatedAt: 2019-10-04T14:15:32.335Z
   createdAt: null
   version: 2.48.4
   responsiveLayoutDisabled: false
