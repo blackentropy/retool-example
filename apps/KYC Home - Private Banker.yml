@@ -1222,7 +1222,7 @@ appTemplate:
               position2:
                 row: 20
                 height: 8
-                width: 8
+                width: 12
             mobilePosition2:
               position2:
                 row: 19
