@@ -804,8 +804,8 @@ appTemplate:
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: true
                 - query: >-
-                    select * from client_list where hh_head_last_name ILIKE
-                    {{'%' + textinput1.value + '%'}}
+                    select * from clients where hh_head_last_name ILIKE {{'%' +
+                    textinput1.value + '%'}}
                 - playgroundQueryId: 0
                 - privateParams: []
                 - triggersOnSuccess: []
@@ -844,7 +844,7 @@ appTemplate:
                 - databaseUsernameOverride: ''
                 - queryThrottleTime: '750'
             createdAt: 2019-10-04T13:56:26.411Z
-            updatedAt: 2019-10-04T14:02:14.733Z
+            updatedAt: 2019-10-04T14:02:41.643Z
   createdAt: null
   version: 2.48.4
   responsiveLayoutDisabled: false
