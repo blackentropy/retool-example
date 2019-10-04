@@ -20,7 +20,9 @@ appTemplate:
                 - playgroundQuerySaveId: 0
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: true
-                - query: select * from clients
+                - query: >-
+                    select * from clients where hh_head_last_name ilike {{'%' +
+                    textinput1.value + '%'}}
                 - playgroundQueryId: 0
                 - privateParams: []
                 - triggersOnSuccess: []
@@ -59,7 +61,7 @@ appTemplate:
                 - databaseUsernameOverride: ''
                 - queryThrottleTime: '750'
             createdAt: 2019-10-02T20:41:33.782Z
-            updatedAt: 2019-10-04T14:21:25.684Z
+            updatedAt: 2019-10-04T14:31:44.095Z
       - text1:
           pluginTemplate:
             id: text1
