@@ -3737,7 +3737,7 @@ appTemplate:
                 - confirmationMessage: null
                 - isFetching: false
                 - changeset: >-
-                    [{"key":"OLWI_internet_search_completed_by","value":"{{textinput17.value}}"},{"key":"OLWI_internet_search_completed_on","value":"{{textinput18.value}}"},{"key":"OLWI_derogatory_information","value":"{{select10.value}}"},{"key":"Internet_search_derogatory_information","value":"{{select11.value}}"},{"key":"net_worth_greater_30m","value":"{{select7.value}}"},{"key":"wealth_created_outside_canada","value":"{{select8.value}}"},{"key":"assets_created_outside_canada","value":"{{select9.value}}"},{"key":"special_exceptions","value":"{{checkboxgroup5.value}}"},{"key":"h1","value":"{{checkboxgroup1.value}}"},{"key":"h2","value":"{{checkboxgroup2.value}}"},{"key":"h3","value":"{{checkboxgroup3.value}}"},{"key":"restricted","value":"{{checkboxgroup4.value}}"},{"key":"additional_information","value":"{{textinput19.value}}"},{"key":"household_net_worth","value":"{{textinput24.value}}"},{"key":"household_investable_assets","value":"{{textinput16.value}}"},{"key":"household_risk_approval","value":"{{textinput22.value}}"},{"key":"household_risk_level","value":"{{textinput21.value}}"},{"key":"household_risk_additional_comments","value":"{{textinput26.value}}"}]
+                    [{"key":"OLWI_internet_search_completed_by","value":"{{textinput17.value}}"},{"key":"OLWI_internet_search_completed_on","value":"{{textinput18.value}}"},{"key":"OLWI_derogatory_information","value":"{{select10.value}}"},{"key":"Internet_search_derogatory_information","value":"{{select11.value}}"},{"key":"net_worth_greater_30m","value":"{{select7.value}}"},{"key":"wealth_created_outside_canada","value":"{{select8.value}}"},{"key":"assets_created_outside_canada","value":"{{select9.value}}"},{"key":"special_exceptions","value":"{{(checkboxgroup5.value)}}"},{"key":"h1","value":"{{checkboxgroup1.value}}"},{"key":"h2","value":"{{checkboxgroup2.value}}"},{"key":"h3","value":"{{checkboxgroup3.value}}"},{"key":"restricted","value":"{{checkboxgroup4.value}}"},{"key":"additional_information","value":"{{textinput19.value}}"},{"key":"household_net_worth","value":"{{textinput24.value}}"},{"key":"household_investable_assets","value":"{{textinput16.value}}"},{"key":"household_risk_approval","value":"{{textinput22.value}}"},{"key":"household_risk_level","value":"{{textinput21.value}}"},{"key":"household_risk_additional_comments","value":"{{textinput26.value}}"}]
                 - rawData: null
                 - queryTriggerDelay: '0'
                 - watchedParams: []
@@ -3762,7 +3762,7 @@ appTemplate:
                 - doNotThrowOnNoOp: false
                 - queryThrottleTime: '750'
             createdAt: 2019-09-30T21:40:16.565Z
-            updatedAt: 2019-10-02T13:26:32.372Z
+            updatedAt: 2019-10-04T02:47:29.038Z
       - save_hh_members:
           pluginTemplate:
             id: save_hh_members
