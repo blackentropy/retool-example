@@ -968,11 +968,12 @@ appTemplate:
                 - playgroundQuerySaveId: 0
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: true
-                - query: ''
+                - query: select hh_head_last_name as Last_Name from clients
                 - playgroundQueryId: 0
                 - privateParams: []
                 - triggersOnSuccess: []
                 - runWhenPageLoadsDelay: ''
+                - warningCodes: []
                 - data: null
                 - importedQueryInputs:
                     ordered: []
@@ -1006,7 +1007,7 @@ appTemplate:
                 - databaseUsernameOverride: ''
                 - queryThrottleTime: '750'
             createdAt: 2019-10-04T13:48:21.465Z
-            updatedAt: 2019-10-04T13:48:21.465Z
+            updatedAt: 2019-10-04T13:49:00.058Z
   createdAt: null
   version: 2.48.4
   responsiveLayoutDisabled: false
