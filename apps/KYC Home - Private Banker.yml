@@ -753,45 +753,6 @@ appTemplate:
                 - queryThrottleTime: '750'
             createdAt: 2019-10-04T13:48:21.465Z
             updatedAt: 2019-10-04T13:51:28.435Z
-      - textinput1:
-          pluginTemplate:
-            id: textinput1
-            type: widget
-            subtype: TextInputWidget
-            template:
-              ordered:
-                - readonly: ''
-                - disabledKeyCodes: ''
-                - onBlur: ''
-                - docsSlug: textinput
-                - currencyType: USD
-                - leftIconName: search
-                - initialValue: ''
-                - tooltipText: ''
-                - value: ''
-                - placeholder: Search here...
-                - label: Client Last Name
-                - formattedValue: ''
-                - labelMaxWidth: ''
-                - labelPlacedOnLeft: ''
-                - onSubmit: search_last_name
-                - type: text
-                - allowedRegex: .*
-                - required: false
-            position2:
-              position2:
-                row: 9
-                col: 3
-                height: 1
-                width: 3
-            mobilePosition2:
-              position2:
-                row: 8
-                col: 5
-                height: 1
-                width: 4
-            createdAt: 2019-10-04T13:52:38.681Z
-            updatedAt: 2019-10-04T14:03:21.707Z
       - search_last_name:
           pluginTemplate:
             id: search_last_name
