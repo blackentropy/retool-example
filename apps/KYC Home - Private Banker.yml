@@ -847,7 +847,7 @@ appTemplate:
                 - exportTemplate: null
                 - url: ''
                 - newWindow: false
-                - value: Submit
+                - value: Delete Client
                 - exportQuery: ''
                 - action: ''
                 - internalUrlQuery: ''
@@ -868,7 +868,7 @@ appTemplate:
                 height: 1
                 width: 2
             createdAt: 2019-10-04T14:21:56.066Z
-            updatedAt: 2019-10-04T14:21:56.066Z
+            updatedAt: 2019-10-04T14:22:33.473Z
   createdAt: null
   version: 2.48.4
   responsiveLayoutDisabled: false
