@@ -929,6 +929,45 @@ appTemplate:
                 - queryThrottleTime: '750'
             createdAt: 2019-10-04T14:22:56.007Z
             updatedAt: 2019-10-04T14:26:02.868Z
+      - textinput1:
+          pluginTemplate:
+            id: textinput1
+            type: widget
+            subtype: TextInputWidget
+            template:
+              ordered:
+                - readonly: ''
+                - disabledKeyCodes: ''
+                - onBlur: ''
+                - docsSlug: textinput
+                - currencyType: USD
+                - leftIconName: search
+                - initialValue: ''
+                - tooltipText: ''
+                - value: ''
+                - placeholder: Search here...
+                - label: Name
+                - formattedValue: ''
+                - labelMaxWidth: ''
+                - labelPlacedOnLeft: ''
+                - onSubmit: ''
+                - type: text
+                - allowedRegex: .*
+                - required: false
+            position2:
+              position2:
+                row: 9
+                col: 3
+                height: 1
+                width: 4
+            mobilePosition2:
+              position2:
+                row: 9
+                col: 3
+                height: 1
+                width: 4
+            createdAt: 2019-10-04T14:27:47.830Z
+            updatedAt: 2019-10-04T14:27:47.830Z
   createdAt: null
   version: 2.48.4
   responsiveLayoutDisabled: false
