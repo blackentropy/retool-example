@@ -124,6 +124,7 @@ appTemplate:
                       - Description: true
                 - selectedPageIndex: '0'
                 - actionButtonColumnName: Actions
+                - showFetchingIndicator: true
                 - serverPaginated: false
                 - data: '{{ filtered_clients.data }}'
                 - actionButtons: []
@@ -225,7 +226,7 @@ appTemplate:
             position2:
               position2:
                 row: 3
-                col: 4
+                col: 3
                 height: 1
                 width: 4
             mobilePosition2:
@@ -767,7 +768,7 @@ appTemplate:
             createdAt: 2019-09-11T20:37:19.154Z
             updatedAt: 2019-09-11T20:37:19.154Z
   createdAt: null
-  version: 2.47.8
+  version: 2.48.4
   responsiveLayoutDisabled: false
   urlFragmentDefinitions: []
   pageLoadValueOverrides: []
