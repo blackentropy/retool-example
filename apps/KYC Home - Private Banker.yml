@@ -946,7 +946,7 @@ appTemplate:
                 - tooltipText: ''
                 - value: ''
                 - placeholder: Search here...
-                - label: Last Name
+                - label: Client Last Name
                 - formattedValue: ''
                 - labelMaxWidth: ''
                 - labelPlacedOnLeft: ''
@@ -967,7 +967,7 @@ appTemplate:
                 height: 1
                 width: 4
             createdAt: 2019-10-04T14:27:47.830Z
-            updatedAt: 2019-10-04T14:28:06.443Z
+            updatedAt: 2019-10-04T14:28:13.368Z
   createdAt: null
   version: 2.48.4
   responsiveLayoutDisabled: false
