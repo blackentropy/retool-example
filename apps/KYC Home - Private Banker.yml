@@ -952,9 +952,9 @@ appTemplate:
                 width: 8
             createdAt: 2019-10-04T13:47:29.816Z
             updatedAt: 2019-10-04T13:47:35.283Z
-      - query5:
+      - formatted_client_list:
           pluginTemplate:
-            id: query5
+            id: formatted_client_list
             type: datasource
             subtype: SqlQuery
             resourceName: testdb (read)
