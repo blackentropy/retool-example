@@ -780,8 +780,8 @@ appTemplate:
                 - required: false
             position2:
               position2:
-                row: 8
-                col: 4
+                row: 9
+                col: 3
                 height: 1
                 width: 4
             mobilePosition2:
