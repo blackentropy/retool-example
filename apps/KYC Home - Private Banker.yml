@@ -853,7 +853,7 @@ appTemplate:
             template:
               ordered:
                 - value: "**Hello** <b>friend!</b> \U0001F603"
-                - html: false
+                - html: true
                 - scrollOverflow: false
                 - truncateOverflow: false
             position2:
@@ -867,7 +867,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-10-04T14:04:26.766Z
-            updatedAt: 2019-10-04T14:04:26.766Z
+            updatedAt: 2019-10-04T14:04:30.120Z
   createdAt: null
   version: 2.48.4
   responsiveLayoutDisabled: false
