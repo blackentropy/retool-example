@@ -787,6 +787,61 @@ appTemplate:
                 width: 4
             createdAt: 2019-10-04T13:52:38.681Z
             updatedAt: 2019-10-04T13:54:41.356Z
+      - query6:
+          pluginTemplate:
+            id: query6
+            type: datasource
+            subtype: SqlQuery
+            resourceName: testdb (read)
+            template:
+              ordered:
+                - queryRefreshTime: ''
+                - databasePasswordOverride: ''
+                - queryDisabledMessage: ''
+                - successMessage: ''
+                - queryDisabled: ''
+                - playgroundQuerySaveId: 0
+                - resourceNameOverride: ''
+                - runWhenModelUpdates: true
+                - query: ''
+                - playgroundQueryId: 0
+                - privateParams: []
+                - triggersOnSuccess: []
+                - runWhenPageLoadsDelay: ''
+                - data: null
+                - importedQueryInputs:
+                    ordered: []
+                - showSuccessConfetti: false
+                - isImported: false
+                - showSuccessToaster: true
+                - dataArray: []
+                - cacheKeyTtl: ''
+                - triggersOnFailure: []
+                - databaseNameOverride: ''
+                - confirmationMessage: null
+                - isFetching: false
+                - rawData: null
+                - queryTriggerDelay: '0'
+                - watchedParams: []
+                - timestamp: 0
+                - importedQueryDefaults:
+                    ordered: []
+                - enableTransformer: false
+                - runWhenPageLoads: false
+                - transformer: >-
+                    // type your code here
+
+                    // example: return formatDataAsArray(data).filter(row =>
+                    row.quantity > 20)
+
+                    return data
+                - queryTimeout: '10000'
+                - requireConfirmation: false
+                - enableCaching: false
+                - databaseUsernameOverride: ''
+                - queryThrottleTime: '750'
+            createdAt: 2019-10-04T13:56:26.411Z
+            updatedAt: 2019-10-04T13:56:26.411Z
   createdAt: null
   version: 2.48.4
   responsiveLayoutDisabled: false
