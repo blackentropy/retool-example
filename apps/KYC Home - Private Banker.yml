@@ -426,7 +426,7 @@ appTemplate:
                 - useCompactMode: false
             position2:
               position2:
-                row: 7
+                row: 10
                 height: 8
                 width: 12
             mobilePosition2:
