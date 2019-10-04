@@ -1231,9 +1231,9 @@ appTemplate:
                 width: 8
             createdAt: 2019-10-04T14:32:44.365Z
             updatedAt: 2019-10-04T14:32:45.003Z
-      - query8:
+      - client_list1:
           pluginTemplate:
-            id: query8
+            id: client_list1
             type: datasource
             subtype: SqlQuery
             resourceName: testdb (read)
