@@ -158,6 +158,9 @@ appTemplate:
                     - object:
                         id: hh_head_last_name
                         value: 226
+                    - object:
+                        id: type
+                        value: 100
                 - columnWidthsMobile: []
                 - columnHeaderNames:
                     ordered: []
@@ -436,7 +439,7 @@ appTemplate:
                 height: 8
                 width: 8
             createdAt: 2019-10-02T20:43:59.662Z
-            updatedAt: 2019-10-04T13:46:30.844Z
+            updatedAt: 2019-10-04T14:05:37.167Z
       - button2:
           pluginTemplate:
             id: button2
