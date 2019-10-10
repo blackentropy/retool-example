@@ -21,6 +21,7 @@ appTemplate:
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: true
                 - query: select * from clients
+                - playgroundQueryUuid: ''
                 - playgroundQueryId: 0
                 - privateParams: []
                 - triggersOnSuccess: []
@@ -68,7 +69,7 @@ appTemplate:
             template:
               ordered:
                 - value: >-
-                    <center> <h1> Private Banking - Wealth Management - KYC
+                    <center> <h1> Private Banking -- Wealth Management - KYC
                     Central Dashboard 
                 - html: true
                 - scrollOverflow: false
@@ -83,7 +84,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2019-10-02T20:41:46.581Z
-            updatedAt: 2019-10-03T14:03:18.585Z
+            updatedAt: 2019-10-10T09:14:34.894Z
       - button1Trigger:
           pluginTemplate:
             id: button1Trigger
@@ -105,6 +106,7 @@ appTemplate:
                 - headers: ''
                 - paginationEnabled: false
                 - query: ''
+                - playgroundQueryUuid: ''
                 - playgroundQueryId: 0
                 - privateParams: []
                 - triggersOnSuccess: []
@@ -493,6 +495,7 @@ appTemplate:
                 - playgroundQuerySaveId: 0
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: false
+                - playgroundQueryUuid: ''
                 - playgroundQueryId: 0
                 - privateParams: []
                 - triggersOnSuccess:
@@ -653,6 +656,7 @@ appTemplate:
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: true
                 - query: select count(*) from clients
+                - playgroundQueryUuid: ''
                 - playgroundQueryId: 0
                 - privateParams: []
                 - triggersOnSuccess: []
@@ -712,6 +716,7 @@ appTemplate:
                     select hh_head_last_name as Last_Name, hh_head_first_name as
                     First_name, hh_head_middle_name as Middle_name, hh_head_cri
                     as cri, hh_head_age as age, hh_head_srf as srf from clients
+                - playgroundQueryUuid: ''
                 - playgroundQueryId: 0
                 - privateParams: []
                 - triggersOnSuccess: []
@@ -770,6 +775,7 @@ appTemplate:
                 - query: >-
                     select * from clients where hh_head_last_name ILIKE {{'%' +
                     textinput1.value + '%'}}
+                - playgroundQueryUuid: ''
                 - playgroundQueryId: 0
                 - privateParams: []
                 - triggersOnSuccess: []
@@ -885,6 +891,7 @@ appTemplate:
                 - playgroundQuerySaveId: 0
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: false
+                - playgroundQueryUuid: ''
                 - playgroundQueryId: 0
                 - privateParams: []
                 - triggersOnSuccess: []
@@ -1250,6 +1257,7 @@ appTemplate:
                 - query: >-
                     select * from clients where hh_head_last_name ilike {{'%' +
                     textinput1.value + '%'}}
+                - playgroundQueryUuid: ''
                 - playgroundQueryId: 0
                 - privateParams: []
                 - triggersOnSuccess: []
@@ -1290,7 +1298,7 @@ appTemplate:
             createdAt: 2019-10-04T14:33:48.112Z
             updatedAt: 2019-10-04T14:35:38.786Z
   createdAt: null
-  version: 2.48.4
+  version: 2.49.1
   responsiveLayoutDisabled: false
   urlFragmentDefinitions: []
   pageLoadValueOverrides: []
