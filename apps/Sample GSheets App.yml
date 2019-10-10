@@ -66,8 +66,8 @@ appTemplate:
                 - enableCaching: false
                 - sheetRange: 'A3:Z'
                 - queryThrottleTime: '750'
-            createdAt: 2018-09-17T20:07:05.926Z
-            updatedAt: 2019-09-19T20:32:43.299Z
+            createdAt: '2018-09-17T20:07:05.926Z'
+            updatedAt: '2019-09-19T20:32:43.299Z'
       - companiesTable:
           pluginTemplate:
             id: companiesTable
@@ -176,7 +176,8 @@ appTemplate:
                 - defaultSortDescending: false
                 - totalRowCount: ''
                 - recordUpdates:
-                    array: []
+                    ordered:
+                      - array: []
                 - columnEditable:
                     ordered: []
                 - columnMappers:
@@ -225,8 +226,8 @@ appTemplate:
                 row: 3
                 height: 9
                 width: 12
-            createdAt: 2018-08-06T18:01:25.280Z
-            updatedAt: 2019-09-19T20:32:43.303Z
+            createdAt: '2018-08-06T18:01:25.280Z'
+            updatedAt: '2019-09-19T20:32:43.303Z'
       - toInput:
           pluginTemplate:
             id: toInput
@@ -263,8 +264,8 @@ appTemplate:
                 row: 12
                 height: 2
                 width: 12
-            createdAt: 2018-09-17T23:58:47.568Z
-            updatedAt: 2019-09-19T20:32:43.304Z
+            createdAt: '2018-09-17T23:58:47.568Z'
+            updatedAt: '2019-09-19T20:32:43.304Z'
       - bccInput:
           pluginTemplate:
             id: bccInput
@@ -301,8 +302,8 @@ appTemplate:
                 row: 14
                 height: 2
                 width: 12
-            createdAt: 2018-09-18T00:01:06.012Z
-            updatedAt: 2019-09-19T20:32:43.304Z
+            createdAt: '2018-09-18T00:01:06.012Z'
+            updatedAt: '2019-09-19T20:32:43.304Z'
       - personalizedInput:
           pluginTemplate:
             id: personalizedInput
@@ -339,8 +340,8 @@ appTemplate:
                 row: 16
                 height: 3
                 width: 12
-            createdAt: 2018-09-18T00:03:50.869Z
-            updatedAt: 2019-09-19T20:32:43.305Z
+            createdAt: '2018-09-18T00:03:50.869Z'
+            updatedAt: '2019-09-19T20:32:43.305Z'
       - sendEmailButton:
           pluginTemplate:
             id: sendEmailButton
@@ -375,8 +376,8 @@ appTemplate:
                 row: 23
                 height: 1
                 width: 12
-            createdAt: 2018-09-18T00:06:17.145Z
-            updatedAt: 2019-09-19T20:32:43.305Z
+            createdAt: '2018-09-18T00:06:17.145Z'
+            updatedAt: '2019-09-19T20:32:43.305Z'
       - text2:
           pluginTemplate:
             id: text2
@@ -407,8 +408,8 @@ appTemplate:
               position2:
                 height: 1
                 width: 12
-            createdAt: 2018-09-18T00:26:47.046Z
-            updatedAt: 2019-09-19T20:32:43.306Z
+            createdAt: '2018-09-18T00:26:47.046Z'
+            updatedAt: '2019-09-19T20:32:43.306Z'
       - emailPreview:
           pluginTemplate:
             id: emailPreview
@@ -453,8 +454,8 @@ appTemplate:
                 row: 19
                 height: 4
                 width: 12
-            createdAt: 2018-09-18T00:58:49.496Z
-            updatedAt: 2019-09-19T20:32:43.306Z
+            createdAt: '2018-09-18T00:58:49.496Z'
+            updatedAt: '2019-09-19T20:32:43.306Z'
       - sendEmail:
           pluginTemplate:
             id: sendEmail
@@ -516,8 +517,8 @@ appTemplate:
                 - enableCaching: false
                 - bodyType: json
                 - queryThrottleTime: '750'
-            createdAt: 2018-09-19T05:51:17.389Z
-            updatedAt: 2019-09-19T20:32:43.308Z
+            createdAt: '2018-09-19T05:51:17.389Z'
+            updatedAt: '2019-09-19T20:32:43.308Z'
       - multiselect1:
           pluginTemplate:
             id: multiselect1
@@ -555,8 +556,8 @@ appTemplate:
                 row: 1
                 height: 2
                 width: 12
-            createdAt: 2018-09-20T08:07:10.344Z
-            updatedAt: 2019-09-19T20:32:43.308Z
+            createdAt: '2018-09-20T08:07:10.344Z'
+            updatedAt: '2019-09-19T20:32:43.308Z'
       - filteredCompanies:
           pluginTemplate:
             id: filteredCompanies
@@ -609,8 +610,8 @@ appTemplate:
                 - requireConfirmation: false
                 - enableCaching: false
                 - queryThrottleTime: '750'
-            createdAt: 2018-09-20T08:08:33.866Z
-            updatedAt: 2019-09-19T20:32:43.309Z
+            createdAt: '2018-09-20T08:08:33.866Z'
+            updatedAt: '2019-09-19T20:32:43.309Z'
   createdAt: null
   version: 2.47.11
   responsiveLayoutDisabled: false
