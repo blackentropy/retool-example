@@ -914,6 +914,93 @@ appTemplate:
                 - queryThrottleTime: '750'
             createdAt: 2019-11-21T22:23:00.407Z
             updatedAt: 2019-11-21T22:23:05.283Z
+      - table5:
+          pluginTemplate:
+            id: table5
+            type: widget
+            subtype: TableWidget
+            template:
+              ordered:
+                - columnWidths: []
+                - columnWidthsMobile: []
+                - columnHeaderNames:
+                    ordered: []
+                - alwaysShowPaginator: false
+                - columnColors:
+                    ordered: []
+                - allowMultiRowSelect: false
+                - columnFormats:
+                    ordered: []
+                - nextBeforeCursor: ''
+                - columnVisibility:
+                    ordered:
+                      - Title: true
+                      - Description: true
+                      - Sales: true
+                - selectedPageIndex: '0'
+                - actionButtonColumnName: Actions
+                - showFetchingIndicator: true
+                - serverPaginated: false
+                - data: '{{ query5.data }}'
+                - actionButtons: []
+                - actionButtonSelectsRow: true
+                - selectRowByDefault: true
+                - defaultSortByColumn: ''
+                - paginationOffset: 0
+                - sortedDesc: false
+                - columnMappersRenderAsHTML:
+                    ordered: []
+                - pageSize: 6
+                - selectedColumn: null
+                - actionButtonPosition: left
+                - bulkUpdateAction: ''
+                - afterCursor: ''
+                - changeSet:
+                    object: {}
+                - sortedColumn: ''
+                - columnAllowOverflow:
+                    ordered: []
+                - beforeCursor: ''
+                - serverPaginationType: limitOffsetBased
+                - onRowSelect: ''
+                - showDownloadButton: true
+                - selectedIndex: ''
+                - defaultSortDescending: false
+                - totalRowCount: ''
+                - recordUpdates:
+                    array: []
+                - columnEditable:
+                    ordered: []
+                - columnMappers:
+                    ordered: []
+                - showClearSelection: false
+                - columns:
+                    - Title
+                    - Description
+                    - Sales
+                - sort: null
+                - calculatedColumns: []
+                - selectedRow:
+                    object:
+                      index: null
+                      data: null
+                - showPaginationOnTop: false
+                - nextAfterCursor: ''
+                - useCompactMode: false
+            position2:
+              position2:
+                row: 33
+                col: 4
+                height: 8
+                width: 8
+            mobilePosition2:
+              position2:
+                row: 33
+                col: 4
+                height: 8
+                width: 8
+            createdAt: 2019-11-21T22:23:11.292Z
+            updatedAt: 2019-11-21T22:23:11.606Z
   createdAt: null
   version: 2.49.1
   responsiveLayoutDisabled: false
