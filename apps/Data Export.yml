@@ -536,6 +536,160 @@ appTemplate:
                 - queryThrottleTime: '750'
             createdAt: 2019-11-21T22:21:19.255Z
             updatedAt: 2019-11-21T22:21:27.318Z
+      - table3:
+          pluginTemplate:
+            id: table3
+            type: widget
+            subtype: TableWidget
+            template:
+              ordered:
+                - columnWidths: []
+                - columnWidthsMobile: []
+                - columnHeaderNames:
+                    ordered: []
+                - alwaysShowPaginator: false
+                - columnColors:
+                    ordered:
+                      - Rollup_ID: ''
+                      - Reporting_Officer: ''
+                      - PBA2_Name: ''
+                      - Intern_ID: ''
+                      - PBA1_Name: ''
+                      - MCS_Name: ''
+                      - RTAM: ''
+                      - id (integer): ''
+                      - Cost_Tr: ''
+                      - Change _Month: ''
+                      - Status: ''
+                      - Rollup_Name: ''
+                      - Client_Tr: ''
+                      - PBA2_ID: ''
+                      - PBA1_ID: ''
+                      - Intern_Name: ''
+                      - PB_Unit_Name: ''
+                      - id: ''
+                      - Report to RDCS: ''
+                      - Sub_Market: ''
+                      - Market: ''
+                      - Rollup_Role: ''
+                      - MCS_ID: ''
+                - allowMultiRowSelect: false
+                - columnFormats:
+                    ordered: []
+                - nextBeforeCursor: ''
+                - columnVisibility:
+                    ordered:
+                      - Rollup_ID: true
+                      - Reporting_Officer: true
+                      - PBA2_Name: true
+                      - Intern_ID: true
+                      - PBA1_Name: true
+                      - Sales: true
+                      - MCS_Name: true
+                      - RTAM: true
+                      - id (integer): true
+                      - Cost_Tr: true
+                      - Change _Month: true
+                      - Status: true
+                      - Rollup_Name: true
+                      - Client_Tr: true
+                      - PBA2_ID: true
+                      - PBA1_ID: true
+                      - Title: true
+                      - Intern_Name: true
+                      - PB_Unit_Name: true
+                      - id: true
+                      - Report to RDCS: true
+                      - Sub_Market: true
+                      - Market: true
+                      - Description: true
+                      - Rollup_Role: true
+                      - MCS_ID: true
+                - selectedPageIndex: '0'
+                - actionButtonColumnName: Actions
+                - showFetchingIndicator: true
+                - serverPaginated: false
+                - data: '{{ query3.data }}'
+                - actionButtons: []
+                - actionButtonSelectsRow: true
+                - selectRowByDefault: true
+                - defaultSortByColumn: ''
+                - paginationOffset: 0
+                - sortedDesc: false
+                - columnMappersRenderAsHTML:
+                    ordered: []
+                - pageSize: 6
+                - selectedColumn: null
+                - actionButtonPosition: left
+                - bulkUpdateAction: ''
+                - afterCursor: ''
+                - changeSet:
+                    object: {}
+                - sortedColumn: ''
+                - columnAllowOverflow:
+                    ordered: []
+                - beforeCursor: ''
+                - serverPaginationType: limitOffsetBased
+                - onRowSelect: ''
+                - showDownloadButton: true
+                - selectedIndex: ''
+                - defaultSortDescending: false
+                - totalRowCount: ''
+                - recordUpdates:
+                    array: []
+                - columnEditable:
+                    ordered: []
+                - columnMappers:
+                    ordered: []
+                - showClearSelection: false
+                - columns:
+                    - Title
+                    - Description
+                    - Sales
+                    - id
+                    - id (integer)
+                    - RTAM
+                    - Rollup_ID
+                    - Rollup_Name
+                    - Rollup_Role
+                    - Reporting_Officer
+                    - Status
+                    - Change _Month
+                    - Market
+                    - Sub_Market
+                    - PB_Unit_Name
+                    - Cost_Tr
+                    - Client_Tr
+                    - Intern_ID
+                    - Intern_Name
+                    - PBA1_ID
+                    - PBA1_Name
+                    - PBA2_ID
+                    - PBA2_Name
+                    - MCS_ID
+                    - MCS_Name
+                    - Report to RDCS
+                - sort: null
+                - calculatedColumns: []
+                - selectedRow:
+                    object:
+                      index: null
+                      data: null
+                - showPaginationOnTop: false
+                - nextAfterCursor: ''
+                - useCompactMode: false
+            position2:
+              position2:
+                row: 17
+                height: 8
+                width: 8
+            mobilePosition2:
+              position2:
+                row: 17
+                height: 8
+                width: 8
+            createdAt: 2019-11-21T22:21:30.481Z
+            updatedAt: 2019-11-21T22:21:30.765Z
   createdAt: null
   version: 2.49.1
   responsiveLayoutDisabled: false
