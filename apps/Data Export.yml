@@ -873,12 +873,13 @@ appTemplate:
                 - playgroundQuerySaveId: 0
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: true
-                - query: ''
+                - query: select * from non_canadian_assets
                 - playgroundQueryUuid: ''
                 - playgroundQueryId: 0
                 - privateParams: []
                 - triggersOnSuccess: []
                 - runWhenPageLoadsDelay: ''
+                - warningCodes: []
                 - data: null
                 - importedQueryInputs:
                     ordered: []
@@ -912,7 +913,7 @@ appTemplate:
                 - databaseUsernameOverride: ''
                 - queryThrottleTime: '750'
             createdAt: 2019-11-21T22:23:00.407Z
-            updatedAt: 2019-11-21T22:23:00.407Z
+            updatedAt: 2019-11-21T22:23:05.283Z
   createdAt: null
   version: 2.49.1
   responsiveLayoutDisabled: false
