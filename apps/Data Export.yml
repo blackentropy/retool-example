@@ -873,7 +873,7 @@ appTemplate:
                 - playgroundQuerySaveId: 0
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: true
-                - query: select * from non_canadian_assets
+                - query: 'select * from non_canadian_assets '
                 - playgroundQueryUuid: ''
                 - playgroundQueryId: 0
                 - privateParams: []
@@ -913,7 +913,7 @@ appTemplate:
                 - databaseUsernameOverride: ''
                 - queryThrottleTime: '750'
             createdAt: 2019-11-21T22:23:00.407Z
-            updatedAt: 2019-11-21T22:23:05.283Z
+            updatedAt: 2019-11-21T22:23:16.922Z
       - table5:
           pluginTemplate:
             id: table5
