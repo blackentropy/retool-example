@@ -379,6 +379,106 @@ appTemplate:
                 - queryThrottleTime: '750'
             createdAt: 2019-11-21T22:20:00.147Z
             updatedAt: 2019-11-21T22:20:27.386Z
+      - table2:
+          pluginTemplate:
+            id: table2
+            type: widget
+            subtype: TableWidget
+            template:
+              ordered:
+                - columnWidths: []
+                - columnWidthsMobile: []
+                - columnHeaderNames:
+                    ordered: []
+                - alwaysShowPaginator: false
+                - columnColors:
+                    ordered:
+                      - id: ''
+                      - country: ''
+                      - latitude: ''
+                      - longitude: ''
+                      - name: ''
+                - allowMultiRowSelect: false
+                - columnFormats:
+                    ordered: []
+                - nextBeforeCursor: ''
+                - columnVisibility:
+                    ordered:
+                      - id: true
+                      - country: true
+                      - latitude: true
+                      - longitude: true
+                      - name: true
+                      - Title: true
+                      - Description: true
+                      - Sales: true
+                - selectedPageIndex: '0'
+                - actionButtonColumnName: Actions
+                - showFetchingIndicator: true
+                - serverPaginated: false
+                - data: '{{ query2.data }}'
+                - actionButtons: []
+                - actionButtonSelectsRow: true
+                - selectRowByDefault: true
+                - defaultSortByColumn: ''
+                - paginationOffset: 0
+                - sortedDesc: false
+                - columnMappersRenderAsHTML:
+                    ordered: []
+                - pageSize: 6
+                - selectedColumn: null
+                - actionButtonPosition: left
+                - bulkUpdateAction: ''
+                - afterCursor: ''
+                - changeSet:
+                    object: {}
+                - sortedColumn: ''
+                - columnAllowOverflow:
+                    ordered: []
+                - beforeCursor: ''
+                - serverPaginationType: limitOffsetBased
+                - onRowSelect: ''
+                - showDownloadButton: true
+                - selectedIndex: ''
+                - defaultSortDescending: false
+                - totalRowCount: ''
+                - recordUpdates:
+                    array: []
+                - columnEditable:
+                    ordered: []
+                - columnMappers:
+                    ordered: []
+                - showClearSelection: false
+                - columns:
+                    - Title
+                    - Description
+                    - Sales
+                    - id
+                    - country
+                    - latitude
+                    - longitude
+                    - name
+                - sort: null
+                - calculatedColumns: []
+                - selectedRow:
+                    object:
+                      index: null
+                      data: null
+                - showPaginationOnTop: false
+                - nextAfterCursor: ''
+                - useCompactMode: false
+            position2:
+              position2:
+                row: 8
+                height: 8
+                width: 8
+            mobilePosition2:
+              position2:
+                row: 8
+                height: 8
+                width: 8
+            createdAt: 2019-11-21T22:20:34.151Z
+            updatedAt: 2019-11-21T22:20:34.435Z
   createdAt: null
   version: 2.49.1
   responsiveLayoutDisabled: false
