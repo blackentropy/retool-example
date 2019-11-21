@@ -338,12 +338,13 @@ appTemplate:
                 - playgroundQuerySaveId: 0
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: true
-                - query: ''
+                - query: select * from countries_world
                 - playgroundQueryUuid: ''
                 - playgroundQueryId: 0
                 - privateParams: []
                 - triggersOnSuccess: []
                 - runWhenPageLoadsDelay: ''
+                - warningCodes: []
                 - data: null
                 - importedQueryInputs:
                     ordered: []
@@ -377,7 +378,7 @@ appTemplate:
                 - databaseUsernameOverride: ''
                 - queryThrottleTime: '750'
             createdAt: 2019-11-21T22:20:00.147Z
-            updatedAt: 2019-11-21T22:20:00.147Z
+            updatedAt: 2019-11-21T22:20:27.386Z
   createdAt: null
   version: 2.49.1
   responsiveLayoutDisabled: false
