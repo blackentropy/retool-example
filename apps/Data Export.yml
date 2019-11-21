@@ -13,26 +13,55 @@ appTemplate:
             template:
               ordered:
                 - queryRefreshTime: ''
+                - databasePasswordOverride: ''
                 - queryDisabledMessage: ''
                 - successMessage: ''
                 - queryDisabled: ''
+                - playgroundQuerySaveId: 0
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: true
                 - query: ''
+                - playgroundQueryUuid: ''
+                - playgroundQueryId: 0
                 - privateParams: []
                 - triggersOnSuccess: []
+                - runWhenPageLoadsDelay: ''
                 - data: null
+                - importedQueryInputs:
+                    ordered: []
+                - showSuccessConfetti: false
+                - isImported: false
                 - showSuccessToaster: true
+                - dataArray: []
+                - cacheKeyTtl: ''
                 - triggersOnFailure: []
+                - databaseNameOverride: ''
                 - confirmationMessage: null
+                - isFetching: false
+                - rawData: null
+                - queryTriggerDelay: '0'
                 - watchedParams: []
                 - timestamp: 0
+                - importedQueryDefaults:
+                    ordered: []
+                - enableTransformer: false
                 - runWhenPageLoads: false
+                - transformer: >-
+                    // type your code here
+
+                    // example: return formatDataAsArray(data).filter(row =>
+                    row.quantity > 20)
+
+                    return data
                 - queryTimeout: '10001'
                 - requireConfirmation: false
+                - enableCaching: false
+                - databaseUsernameOverride: ''
                 - queryThrottleTime: '750'
+            createdAt: 2019-11-21T22:19:45.975Z
+            updatedAt: 2019-11-21T22:19:45.975Z
   createdAt: null
-  version: null
+  version: 2.49.1
   responsiveLayoutDisabled: false
   urlFragmentDefinitions: []
   pageLoadValueOverrides: []
