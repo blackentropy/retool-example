@@ -990,7 +990,7 @@ appTemplate:
             position2:
               position2:
                 row: 33
-                col: 4
+                col: 1
                 height: 8
                 width: 8
             mobilePosition2:
