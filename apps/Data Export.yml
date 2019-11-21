@@ -927,13 +927,23 @@ appTemplate:
                     ordered: []
                 - alwaysShowPaginator: false
                 - columnColors:
-                    ordered: []
+                    ordered:
+                      - id: ''
+                      - client_id: ''
+                      - type: ''
+                      - description: ''
+                      - amount: ''
                 - allowMultiRowSelect: false
                 - columnFormats:
                     ordered: []
                 - nextBeforeCursor: ''
                 - columnVisibility:
                     ordered:
+                      - id: true
+                      - client_id: true
+                      - type: true
+                      - description: true
+                      - amount: true
                       - Title: true
                       - Description: true
                       - Sales: true
@@ -978,6 +988,11 @@ appTemplate:
                     - Title
                     - Description
                     - Sales
+                    - id
+                    - client_id
+                    - type
+                    - description
+                    - amount
                 - sort: null
                 - calculatedColumns: []
                 - selectedRow:
@@ -990,7 +1005,6 @@ appTemplate:
             position2:
               position2:
                 row: 33
-                col: 1
                 height: 8
                 width: 8
             mobilePosition2:
@@ -1000,7 +1014,7 @@ appTemplate:
                 height: 8
                 width: 8
             createdAt: 2019-11-21T22:23:11.292Z
-            updatedAt: 2019-11-21T22:23:11.606Z
+            updatedAt: 2019-11-21T22:23:17.561Z
   createdAt: null
   version: 2.49.1
   responsiveLayoutDisabled: false
