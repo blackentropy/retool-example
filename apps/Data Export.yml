@@ -495,12 +495,13 @@ appTemplate:
                 - playgroundQuerySaveId: 0
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: true
-                - query: ''
+                - query: select * from privatebanker_data
                 - playgroundQueryUuid: ''
                 - playgroundQueryId: 0
                 - privateParams: []
                 - triggersOnSuccess: []
                 - runWhenPageLoadsDelay: ''
+                - warningCodes: []
                 - data: null
                 - importedQueryInputs:
                     ordered: []
@@ -534,7 +535,7 @@ appTemplate:
                 - databaseUsernameOverride: ''
                 - queryThrottleTime: '750'
             createdAt: 2019-11-21T22:21:19.255Z
-            updatedAt: 2019-11-21T22:21:19.255Z
+            updatedAt: 2019-11-21T22:21:27.318Z
   createdAt: null
   version: 2.49.1
   responsiveLayoutDisabled: false
