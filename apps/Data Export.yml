@@ -747,6 +747,117 @@ appTemplate:
                 - queryThrottleTime: '750'
             createdAt: 2019-11-21T22:22:01.674Z
             updatedAt: 2019-11-21T22:22:08.319Z
+      - table4:
+          pluginTemplate:
+            id: table4
+            type: widget
+            subtype: TableWidget
+            template:
+              ordered:
+                - columnWidths: []
+                - columnWidthsMobile: []
+                - columnHeaderNames:
+                    ordered: []
+                - alwaysShowPaginator: false
+                - columnColors:
+                    ordered:
+                      - id: ''
+                      - client_id: ''
+                      - first_name: ''
+                      - middle_name: ''
+                      - last_name: ''
+                      - cri: ''
+                      - age: ''
+                      - srf: ''
+                - allowMultiRowSelect: false
+                - columnFormats:
+                    ordered: []
+                - nextBeforeCursor: ''
+                - columnVisibility:
+                    ordered:
+                      - srf: true
+                      - Sales: true
+                      - client_id: true
+                      - last_name: true
+                      - middle_name: true
+                      - Title: true
+                      - cri: true
+                      - first_name: true
+                      - id: true
+                      - Description: true
+                      - age: true
+                - selectedPageIndex: '0'
+                - actionButtonColumnName: Actions
+                - showFetchingIndicator: true
+                - serverPaginated: false
+                - data: '{{ query4.data }}'
+                - actionButtons: []
+                - actionButtonSelectsRow: true
+                - selectRowByDefault: true
+                - defaultSortByColumn: ''
+                - paginationOffset: 0
+                - sortedDesc: false
+                - columnMappersRenderAsHTML:
+                    ordered: []
+                - pageSize: 6
+                - selectedColumn: null
+                - actionButtonPosition: left
+                - bulkUpdateAction: ''
+                - afterCursor: ''
+                - changeSet:
+                    object: {}
+                - sortedColumn: ''
+                - columnAllowOverflow:
+                    ordered: []
+                - beforeCursor: ''
+                - serverPaginationType: limitOffsetBased
+                - onRowSelect: ''
+                - showDownloadButton: true
+                - selectedIndex: ''
+                - defaultSortDescending: false
+                - totalRowCount: ''
+                - recordUpdates:
+                    array: []
+                - columnEditable:
+                    ordered: []
+                - columnMappers:
+                    ordered: []
+                - showClearSelection: false
+                - columns:
+                    - Title
+                    - Description
+                    - Sales
+                    - id
+                    - client_id
+                    - first_name
+                    - middle_name
+                    - last_name
+                    - cri
+                    - age
+                    - srf
+                - sort: null
+                - calculatedColumns: []
+                - selectedRow:
+                    object:
+                      index: null
+                      data: null
+                - showPaginationOnTop: false
+                - nextAfterCursor: ''
+                - useCompactMode: false
+            position2:
+              position2:
+                row: 26
+                col: 4
+                height: 8
+                width: 8
+            mobilePosition2:
+              position2:
+                row: 26
+                col: 4
+                height: 8
+                width: 8
+            createdAt: 2019-11-21T22:22:12.208Z
+            updatedAt: 2019-11-21T22:22:12.560Z
   createdAt: null
   version: 2.49.1
   responsiveLayoutDisabled: false
