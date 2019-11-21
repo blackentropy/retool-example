@@ -74,16 +74,134 @@ appTemplate:
                     ordered: []
                 - alwaysShowPaginator: false
                 - columnColors:
-                    ordered: []
+                    ordered:
+                      - hh_members_foreign_resident: ''
+                      - household_needs_complexity: ''
+                      - Internet_search_derogatory_information: ''
+                      - tax_countries: ''
+                      - suggested_service_model: ''
+                      - provinces: ''
+                      - client_signature: ''
+                      - assets_under_management: ''
+                      - hh_head_srf: ''
+                      - business_income: ''
+                      - h1: ''
+                      - client_referral_source: ''
+                      - h2: ''
+                      - special_exceptions: ''
+                      - reason_pb_relationship: ''
+                      - h3: ''
+                      - occupation: ''
+                      - household_net_worth: ''
+                      - risk_evaluation_onboarding: ''
+                      - employment_company_owned: ''
+                      - wealth_created_outside_canada: ''
+                      - onboarding_date: ''
+                      - other_details: ''
+                      - properties: ''
+                      - household_risk_approval: ''
+                      - household_investable_assets: ''
+                      - meet_10m_revenue: ''
+                      - cash: ''
+                      - hh_head_last_name: ''
+                      - additional_information: ''
+                      - household_risk_level: ''
+                      - OLWI_internet_search_completed_by: ''
+                      - hh_head_middle_name: ''
+                      - private_banker_id: ''
+                      - OLWI_derogatory_information: ''
+                      - household_meets_minimum_revenue_req: ''
+                      - h2_delete_me: ''
+                      - other_income: ''
+                      - net_worth_greater_30m: ''
+                      - client_referral_name: ''
+                      - date_of_approval: ''
+                      - hh_head_first_name: ''
+                      - head_household_id: ''
+                      - type: ''
+                      - hh_head_cri: ''
+                      - restricted: ''
+                      - id: ''
+                      - trusts: ''
+                      - assets_created_outside_canada: ''
+                      - hh_members_canadian_tax_resident: ''
+                      - OLWI_internet_search_completed_on: ''
+                      - employment_income: ''
+                      - complexity_household_needs: ''
+                      - household_risk_additional_comments: ''
+                      - details_to_meet_10m: ''
+                      - hh_revenue: ''
+                      - private_banker_signature: ''
+                      - hh_head_age: ''
+                      - holding_companies: ''
                 - allowMultiRowSelect: false
                 - columnFormats:
                     ordered: []
                 - nextBeforeCursor: ''
                 - columnVisibility:
                     ordered:
-                      - Title: true
-                      - Description: true
+                      - hh_members_foreign_resident: true
+                      - household_needs_complexity: true
+                      - Internet_search_derogatory_information: true
+                      - tax_countries: true
+                      - suggested_service_model: true
+                      - provinces: true
+                      - client_signature: true
+                      - assets_under_management: true
+                      - hh_head_srf: true
+                      - business_income: true
+                      - h1: true
+                      - client_referral_source: true
+                      - h2: true
+                      - special_exceptions: true
+                      - reason_pb_relationship: true
+                      - h3: true
+                      - occupation: true
                       - Sales: true
+                      - household_net_worth: true
+                      - risk_evaluation_onboarding: true
+                      - employment_company_owned: true
+                      - wealth_created_outside_canada: true
+                      - onboarding_date: true
+                      - other_details: true
+                      - properties: true
+                      - household_risk_approval: true
+                      - household_investable_assets: true
+                      - meet_10m_revenue: true
+                      - cash: true
+                      - hh_head_last_name: true
+                      - additional_information: true
+                      - household_risk_level: true
+                      - OLWI_internet_search_completed_by: true
+                      - hh_head_middle_name: true
+                      - private_banker_id: true
+                      - OLWI_derogatory_information: true
+                      - household_meets_minimum_revenue_req: true
+                      - h2_delete_me: true
+                      - other_income: true
+                      - Title: true
+                      - net_worth_greater_30m: true
+                      - client_referral_name: true
+                      - date_of_approval: true
+                      - hh_head_first_name: true
+                      - head_household_id: true
+                      - type: true
+                      - hh_head_cri: true
+                      - restricted: true
+                      - id: true
+                      - trusts: true
+                      - assets_created_outside_canada: true
+                      - hh_members_canadian_tax_resident: true
+                      - OLWI_internet_search_completed_on: true
+                      - employment_income: true
+                      - complexity_household_needs: true
+                      - household_risk_additional_comments: true
+                      - Description: true
+                      - details_to_meet_10m: true
+                      - hh_revenue: true
+                      - private_banker_signature: true
+                      - hh_head_age: true
+                      - holding_companies: true
                 - selectedPageIndex: '0'
                 - actionButtonColumnName: Actions
                 - showFetchingIndicator: true
@@ -97,7 +215,7 @@ appTemplate:
                 - sortedDesc: false
                 - columnMappersRenderAsHTML:
                     ordered: []
-                - pageSize: '10'
+                - pageSize: 6
                 - selectedColumn: null
                 - actionButtonPosition: left
                 - bulkUpdateAction: ''
@@ -125,6 +243,65 @@ appTemplate:
                     - Title
                     - Description
                     - Sales
+                    - household_net_worth
+                    - household_investable_assets
+                    - private_banker_id
+                    - onboarding_date
+                    - client_referral_source
+                    - client_referral_name
+                    - type
+                    - head_household_id
+                    - household_needs_complexity
+                    - household_meets_minimum_revenue_req
+                    - household_risk_level
+                    - household_risk_approval
+                    - household_risk_additional_comments
+                    - cash
+                    - assets_under_management
+                    - properties
+                    - employment_income
+                    - business_income
+                    - other_income
+                    - employment_company_owned
+                    - reason_pb_relationship
+                    - complexity_household_needs
+                    - suggested_service_model
+                    - meet_10m_revenue
+                    - details_to_meet_10m
+                    - hh_members_canadian_tax_resident
+                    - provinces
+                    - hh_members_foreign_resident
+                    - OLWI_internet_search_completed_by
+                    - OLWI_internet_search_completed_on
+                    - OLWI_derogatory_information
+                    - Internet_search_derogatory_information
+                    - net_worth_greater_30m
+                    - wealth_created_outside_canada
+                    - assets_created_outside_canada
+                    - h2_delete_me
+                    - additional_information
+                    - risk_evaluation_onboarding
+                    - date_of_approval
+                    - client_signature
+                    - private_banker_signature
+                    - hh_head_last_name
+                    - hh_head_first_name
+                    - hh_head_middle_name
+                    - hh_head_cri
+                    - hh_head_age
+                    - hh_head_srf
+                    - occupation
+                    - hh_revenue
+                    - trusts
+                    - holding_companies
+                    - other_details
+                    - tax_countries
+                    - h1
+                    - h2
+                    - h3
+                    - special_exceptions
+                    - restricted
+                    - id
                 - sort: null
                 - calculatedColumns: []
                 - selectedRow:
@@ -145,7 +322,7 @@ appTemplate:
                 height: 8
                 width: 8
             createdAt: 2019-11-21T22:19:54.651Z
-            updatedAt: 2019-11-21T22:19:54.651Z
+            updatedAt: 2019-11-21T22:19:54.978Z
   createdAt: null
   version: 2.49.1
   responsiveLayoutDisabled: false
